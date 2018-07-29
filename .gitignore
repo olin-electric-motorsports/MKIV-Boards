@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+
+# Kicad Ignores
+*.log
+*.lib
+*.FCStd
+*.FCStd1
+*.ini
+*.schPreview
