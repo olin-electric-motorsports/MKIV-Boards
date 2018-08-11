@@ -33,9 +33,12 @@
 
 
 # Kicad Ignores
+*.bak
 *.log
 *.lib
 *.FCStd
 *.FCStd1
 *.ini
 *.schPreview
+rescue-backup/
+rescue-backup
