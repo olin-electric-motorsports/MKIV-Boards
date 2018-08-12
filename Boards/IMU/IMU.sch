@@ -774,189 +774,333 @@ NoConn ~ 6700 1900
 $Comp
 L ADXL335 U?
 U 1 1 5B6B549F
-P 5000 4500
-F 0 "U?" H 5150 5200 60  0000 C CNN
-F 1 "ADXL335" V 5100 4400 60  0000 C CNN
-F 2 "footprints:ADXL335" H 5000 5500 60  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf" H 5400 5650 60  0001 C CNN
-	1    5000 4500
+P 8500 5100
+F 0 "U?" H 8650 5800 60  0000 C CNN
+F 1 "ADXL335" V 8600 5000 60  0000 C CNN
+F 2 "footprints:ADXL335" H 8500 6100 60  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.pdf" H 8900 6250 60  0001 C CNN
+	1    8500 5100
 	-1   0    0    1   
 $EndComp
-Connection ~ 4250 4800
-Connection ~ 4250 4900
-Connection ~ 4250 5000
-Connection ~ 4250 5100
-Connection ~ 4250 5200
+Connection ~ 7750 5400
+Connection ~ 7750 5500
+Connection ~ 7750 5600
+Connection ~ 7750 5700
+Connection ~ 7750 5800
 $Comp
 L GND #PWR?
 U 1 1 5B6B61D2
-P 4250 5300
-F 0 "#PWR?" H 4250 5050 50  0001 C CNN
-F 1 "GND" H 4250 5150 50  0000 C CNN
-F 2 "" H 4250 5300 50  0001 C CNN
-F 3 "" H 4250 5300 50  0001 C CNN
-	1    4250 5300
+P 7750 5900
+F 0 "#PWR?" H 7750 5650 50  0001 C CNN
+F 1 "GND" H 7750 5750 50  0000 C CNN
+F 2 "" H 7750 5900 50  0001 C CNN
+F 3 "" H 7750 5900 50  0001 C CNN
+	1    7750 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 4200 4250 4400
-Connection ~ 4250 4300
+	7750 4800 7750 5000
+Connection ~ 7750 4900
 $Comp
 L VCC #PWR?
 U 1 1 5B6B6D39
-P 4250 4200
-F 0 "#PWR?" H 4250 4050 50  0001 C CNN
-F 1 "VCC" H 4250 4350 50  0000 C CNN
-F 2 "" H 4250 4200 50  0001 C CNN
-F 3 "" H 4250 4200 50  0001 C CNN
-	1    4250 4200
+P 7750 4800
+F 0 "#PWR?" H 7750 4650 50  0001 C CNN
+F 1 "VCC" H 7750 4950 50  0000 C CNN
+F 2 "" H 7750 4800 50  0001 C CNN
+F 3 "" H 7750 4800 50  0001 C CNN
+	1    7750 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4250 4800 4250 5300
+	7750 5400 7750 5900
 $Comp
 L C_0.33uF C?
 U 1 1 5B6B8BB3
-P 3800 5000
-F 0 "C?" H 3825 5100 50  0000 L CNN
-F 1 "C_0.33uF" H 3650 5000 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 3838 4850 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3825 5100 50  0001 C CNN
-F 4 "0805YC334J4T2A-ND" H 3800 5000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3800 5000 60  0001 C CNN "MFN"
-F 6 "Value" H 3800 5000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv405=108&FV=fffc01de%2C400006%2Cmu0.33%C2%B5F%7C2049%2Cffe0003c%2Cc0002&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25" H 4225 5500 60  0001 C CNN "PurchasingLink"
-	1    3800 5000
+P 7300 5600
+F 0 "C?" H 7325 5700 50  0000 L CNN
+F 1 "C_0.33uF" H 7150 5600 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 7338 5450 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7325 5700 50  0001 C CNN
+F 4 "0805YC334J4T2A-ND" H 7300 5600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7300 5600 60  0001 C CNN "MFN"
+F 6 "Value" H 7300 5600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv405=108&FV=fffc01de%2C400006%2Cmu0.33%C2%B5F%7C2049%2Cffe0003c%2Cc0002&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25" H 7725 6100 60  0001 C CNN "PurchasingLink"
+	1    7300 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_30.1k R?
 U 1 1 5B6B8D54
-P 3950 4350
-F 0 "R?" V 3900 4500 50  0000 C CNN
-F 1 "R_30.1k" V 3950 4300 50  0000 C CNN
-F 2 "" V 3880 4350 50  0001 C CNN
-F 3 "" H 3950 4350 50  0001 C CNN
-	1    3950 4350
+P 7450 4950
+F 0 "R?" V 7400 5100 50  0000 C CNN
+F 1 "R_30.1k" V 7450 4900 50  0000 C CNN
+F 2 "" V 7380 4950 50  0001 C CNN
+F 3 "" H 7450 4950 50  0001 C CNN
+	1    7450 4950
 	0    1    1    0   
 $EndComp
 $Comp
 L R_30.1k R?
 U 1 1 5B6B8ED6
-P 3950 4550
-F 0 "R?" V 3900 4700 50  0000 C CNN
-F 1 "R_30.1k" V 3950 4500 50  0000 C CNN
-F 2 "" V 3880 4550 50  0001 C CNN
-F 3 "" H 3950 4550 50  0001 C CNN
-	1    3950 4550
+P 7450 5150
+F 0 "R?" V 7400 5300 50  0000 C CNN
+F 1 "R_30.1k" V 7450 5100 50  0000 C CNN
+F 2 "" V 7380 5150 50  0001 C CNN
+F 3 "" H 7450 5150 50  0001 C CNN
+	1    7450 5150
 	0    1    1    0   
 $EndComp
 $Comp
 L R_30.1k R?
 U 1 1 5B6B8F62
-P 3950 4750
-F 0 "R?" V 3900 4900 50  0000 C CNN
-F 1 "R_30.1k" V 3950 4700 50  0000 C CNN
-F 2 "" V 3880 4750 50  0001 C CNN
-F 3 "" H 3950 4750 50  0001 C CNN
-	1    3950 4750
+P 7450 5350
+F 0 "R?" V 7400 5500 50  0000 C CNN
+F 1 "R_30.1k" V 7450 5300 50  0000 C CNN
+F 2 "" V 7380 5350 50  0001 C CNN
+F 3 "" H 7450 5350 50  0001 C CNN
+	1    7450 5350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4250 4700 4100 4700
+	7750 5300 7600 5300
 Wire Wire Line
-	4100 4700 4100 4750
+	7600 5300 7600 5350
 Wire Wire Line
-	3800 4750 3800 4850
+	7300 5350 7300 5450
 $Comp
 L GND #PWR?
 U 1 1 5B6B9858
-P 3800 5150
-F 0 "#PWR?" H 3800 4900 50  0001 C CNN
-F 1 "GND" H 3800 5000 50  0000 C CNN
-F 2 "" H 3800 5150 50  0001 C CNN
-F 3 "" H 3800 5150 50  0001 C CNN
-	1    3800 5150
+P 7300 5750
+F 0 "#PWR?" H 7300 5500 50  0001 C CNN
+F 1 "GND" H 7300 5600 50  0000 C CNN
+F 2 "" H 7300 5750 50  0001 C CNN
+F 3 "" H 7300 5750 50  0001 C CNN
+	1    7300 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_0.33uF C?
 U 1 1 5B6B9CE8
-P 3550 5000
-F 0 "C?" H 3575 5100 50  0000 L CNN
-F 1 "C_0.33uF" H 3400 5000 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 3588 4850 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3575 5100 50  0001 C CNN
-F 4 "0805YC334J4T2A-ND" H 3550 5000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3550 5000 60  0001 C CNN "MFN"
-F 6 "Value" H 3550 5000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv405=108&FV=fffc01de%2C400006%2Cmu0.33%C2%B5F%7C2049%2Cffe0003c%2Cc0002&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25" H 3975 5500 60  0001 C CNN "PurchasingLink"
-	1    3550 5000
+P 7050 5600
+F 0 "C?" H 7075 5700 50  0000 L CNN
+F 1 "C_0.33uF" H 6900 5600 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 7088 5450 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 7075 5700 50  0001 C CNN
+F 4 "0805YC334J4T2A-ND" H 7050 5600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 7050 5600 60  0001 C CNN "MFN"
+F 6 "Value" H 7050 5600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv405=108&FV=fffc01de%2C400006%2Cmu0.33%C2%B5F%7C2049%2Cffe0003c%2Cc0002&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25" H 7475 6100 60  0001 C CNN "PurchasingLink"
+	1    7050 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5B6B9D68
-P 3550 5150
-F 0 "#PWR?" H 3550 4900 50  0001 C CNN
-F 1 "GND" H 3550 5000 50  0000 C CNN
-F 2 "" H 3550 5150 50  0001 C CNN
-F 3 "" H 3550 5150 50  0001 C CNN
-	1    3550 5150
+P 7050 5750
+F 0 "#PWR?" H 7050 5500 50  0001 C CNN
+F 1 "GND" H 7050 5600 50  0000 C CNN
+F 2 "" H 7050 5750 50  0001 C CNN
+F 3 "" H 7050 5750 50  0001 C CNN
+	1    7050 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_0.33uF C?
 U 1 1 5B6B9F2B
-P 3250 5000
-F 0 "C?" H 3275 5100 50  0000 L CNN
-F 1 "C_0.33uF" H 3100 5000 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 3288 4850 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3275 5100 50  0001 C CNN
-F 4 "0805YC334J4T2A-ND" H 3250 5000 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 3250 5000 60  0001 C CNN "MFN"
-F 6 "Value" H 3250 5000 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv405=108&FV=fffc01de%2C400006%2Cmu0.33%C2%B5F%7C2049%2Cffe0003c%2Cc0002&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25" H 3675 5500 60  0001 C CNN "PurchasingLink"
-	1    3250 5000
+P 6750 5600
+F 0 "C?" H 6775 5700 50  0000 L CNN
+F 1 "C_0.33uF" H 6600 5600 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6788 5450 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6775 5700 50  0001 C CNN
+F 4 "0805YC334J4T2A-ND" H 6750 5600 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 6750 5600 60  0001 C CNN "MFN"
+F 6 "Value" H 6750 5600 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&pv405=108&FV=fffc01de%2C400006%2Cmu0.33%C2%B5F%7C2049%2Cffe0003c%2Cc0002&mnonly=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25" H 7175 6100 60  0001 C CNN "PurchasingLink"
+	1    6750 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5B6B9FB6
-P 3250 5150
-F 0 "#PWR?" H 3250 4900 50  0001 C CNN
-F 1 "GND" H 3250 5000 50  0000 C CNN
-F 2 "" H 3250 5150 50  0001 C CNN
-F 3 "" H 3250 5150 50  0001 C CNN
-	1    3250 5150
+P 6750 5750
+F 0 "#PWR?" H 6750 5500 50  0001 C CNN
+F 1 "GND" H 6750 5600 50  0000 C CNN
+F 2 "" H 6750 5750 50  0001 C CNN
+F 3 "" H 6750 5750 50  0001 C CNN
+	1    6750 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 4350 4200 4350
+	7600 4950 7700 4950
 Wire Wire Line
-	4200 4350 4200 4500
+	7700 4950 7700 5100
 Wire Wire Line
-	4200 4500 4250 4500
+	7700 5100 7750 5100
 Wire Wire Line
-	4100 4550 4100 4600
+	7600 5150 7600 5200
 Wire Wire Line
-	4100 4600 4250 4600
+	7600 5200 7750 5200
 Wire Wire Line
-	3500 4550 3800 4550
+	7000 5150 7300 5150
 Wire Wire Line
-	3550 4550 3550 4850
+	7050 5150 7050 5450
 Wire Wire Line
-	3200 4350 3800 4350
+	6700 4950 7300 4950
 Wire Wire Line
-	3250 4350 3250 4850
-Connection ~ 3250 4350
-Text Label 3200 4350 2    60   ~ 0
+	6750 4950 6750 5450
+Connection ~ 6750 4950
+Text Label 6700 4950 2    60   ~ 0
 XOUT
-Connection ~ 3550 4550
-Text Label 3500 4550 2    60   ~ 0
+Connection ~ 7050 5150
+Text Label 7000 5150 2    60   ~ 0
 YOUT
 Wire Wire Line
-	3800 4750 3750 4750
-Text Label 3750 4750 2    60   ~ 0
+	7300 5350 7250 5350
+Text Label 7250 5350 2    60   ~ 0
 ZOUT
+$Comp
+L CONN_02X03 P?
+U 1 1 5B6BC1E5
+P 1250 2450
+F 0 "P?" H 1250 2650 50  0000 C CNN
+F 1 "CONN_02X03" H 1250 2250 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 1250 1250 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 1250 1250 50  0001 C CNN
+F 4 "609-3234-ND" H 1250 2450 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 1250 2450 60  0001 C CNN "MFN"
+F 6 "Value" H 1250 2450 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 1650 3050 60  0001 C CNN "PurchasingLink"
+	1    1250 2450
+	1    0    0    -1  
+$EndComp
+Text Label 1000 2350 2    60   ~ 0
+MISO
+Text Label 1000 2450 2    60   ~ 0
+SCK
+Text Label 1000 2550 2    60   ~ 0
+RESET
+$Comp
+L VCC #PWR?
+U 1 1 5B6BC44B
+P 1500 2350
+F 0 "#PWR?" H 1500 2200 50  0001 C CNN
+F 1 "VCC" H 1500 2500 50  0000 C CNN
+F 2 "" H 1500 2350 50  0001 C CNN
+F 3 "" H 1500 2350 50  0001 C CNN
+	1    1500 2350
+	1    0    0    -1  
+$EndComp
+Text Label 1500 2450 0    60   ~ 0
+MOSI
+Wire Wire Line
+	1500 2550 1550 2550
+$Comp
+L GND #PWR?
+U 1 1 5B6BC5AD
+P 1550 2550
+F 0 "#PWR?" H 1550 2300 50  0001 C CNN
+F 1 "GND" H 1550 2400 50  0000 C CNN
+F 2 "" H 1550 2550 50  0001 C CNN
+F 3 "" H 1550 2550 50  0001 C CNN
+	1    1550 2550
+	1    0    0    -1  
+$EndComp
+Text Label 8900 3400 0    60   ~ 0
+SCK
+Text Label 8900 3200 0    60   ~ 0
+MISO
+Text Label 8900 3300 0    60   ~ 0
+MOSI
+$Comp
+L CAN_Transceiver U?
+U 1 1 5B6BD02A
+P 2900 4850
+F 0 "U?" H 2500 5200 50  0000 L CNN
+F 1 "CAN_Transceiver" H 3000 5200 50  0000 L CNN
+F 2 "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM" H 2900 4350 50  0001 C CIN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044" H 2500 5200 50  0001 C CNN
+F 4 "Digi-Key" H 2900 4850 60  0001 C CNN "MFN"
+F 5 "MCP2561-E/SN-ND" H 2900 4850 60  0001 C CNN "MPN"
+F 6 "Value" H 2900 4850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn" H 2900 5600 60  0001 C CNN "PurchasingLink"
+	1    2900 4850
+	1    0    0    -1  
+$EndComp
+Text Label 3400 4750 0    60   ~ 0
+CANH
+Text Label 3400 4950 0    60   ~ 0
+CANL
+NoConn ~ 3400 4850
+$Comp
+L GND #PWR?
+U 1 1 5B6BD8D0
+P 2900 5250
+F 0 "#PWR?" H 2900 5000 50  0001 C CNN
+F 1 "GND" H 2900 5100 50  0000 C CNN
+F 2 "" H 2900 5250 50  0001 C CNN
+F 3 "" H 2900 5250 50  0001 C CNN
+	1    2900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B6BD94B
+P 3350 4200
+F 0 "#PWR?" H 3350 3950 50  0001 C CNN
+F 1 "GND" H 3350 4050 50  0000 C CNN
+F 2 "" H 3350 4200 50  0001 C CNN
+F 3 "" H 3350 4200 50  0001 C CNN
+	1    3350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5B6BDA35
+P 2400 5050
+F 0 "#PWR?" H 2400 4800 50  0001 C CNN
+F 1 "GND" H 2400 4900 50  0000 C CNN
+F 2 "" H 2400 5050 50  0001 C CNN
+F 3 "" H 2400 5050 50  0001 C CNN
+	1    2400 5050
+	1    0    0    -1  
+$EndComp
+Text Label 2400 4650 2    60   ~ 0
+TXCAN
+Text Label 2400 4750 2    60   ~ 0
+RXCAN
+$Comp
+L VCC #PWR?
+U 1 1 5B6BDB16
+P 2900 4200
+F 0 "#PWR?" H 2900 4050 50  0001 C CNN
+F 1 "VCC" H 2900 4350 50  0000 C CNN
+F 2 "" H 2900 4200 50  0001 C CNN
+F 3 "" H 2900 4200 50  0001 C CNN
+	1    2900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4200 2900 4450
+Wire Wire Line
+	2900 4200 3050 4200
+$Comp
+L C_0.1uF C?
+U 1 1 5B6BDC9B
+P 3200 4200
+F 0 "C?" H 3225 4300 50  0000 L CNN
+F 1 "C_0.1uF" H 3225 4100 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3238 4050 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3225 4300 50  0001 C CNN
+F 4 "478-3352-1-ND" H 3200 4200 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 3200 4200 60  0001 C CNN "MFN"
+F 6 "Value" H 3200 4200 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3625 4700 60  0001 C CNN "PurchasingLink"
+	1    3200 4200
+	0    -1   -1   0   
+$EndComp
+Text Label 8900 2300 0    60   ~ 0
+TXCAN
+Text Label 8900 2400 0    60   ~ 0
+RXCAN
 $EndSCHEMATC
