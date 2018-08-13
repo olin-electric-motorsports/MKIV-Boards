@@ -35,7 +35,6 @@
 # Kicad Ignores
 *.bak
 *.log
-*.lib
 *.FCStd
 *.FCStd1
 *.ini

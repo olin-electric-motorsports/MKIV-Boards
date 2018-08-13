@@ -68,7 +68,11 @@ U 1 1 5B6A115E
 P 1300 1300
 F 0 "J1" H 1300 1600 60  0000 C CNN
 F 1 "mx150L_2" H 1300 1100 60  0000 C CNN
+<<<<<<< HEAD
 F 2 "footprints:mx150l_2" H 1200 1550 60  0001 C CNN
+=======
+F 2 "" H 1200 1550 60  0001 C CNN
+>>>>>>> f094498fdec5940d8e80ced3a773c922133db73b
 F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" H 1300 1650 60  0001 C CNN
 F 4 "Value" H 1300 1300 60  0001 C CNN "Package"
 F 5 " WM17505-ND" H 1600 1900 60  0001 C CNN "MPN"
@@ -76,9 +80,15 @@ F 6 "https://www.digikey.com/product-detail/en/molex-llc/0194270032/WM17505-ND/8
 	1    1300 1300
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
 Text Label 1650 1400 0    60   ~ 0
 CANH
 Text Label 1650 1300 0    60   ~ 0
+=======
+Text Label 1650 1300 0    60   ~ 0
+CANH
+Text Label 1650 1400 0    60   ~ 0
+>>>>>>> f094498fdec5940d8e80ced3a773c922133db73b
 CANL
 Text Label 1650 1100 0    60   ~ 0
 GND
@@ -744,7 +754,11 @@ U 1 1 5B6B8D54
 P 9500 5150
 F 0 "R13" V 9450 5300 50  0000 C CNN
 F 1 "R_30.1k" V 9500 5100 50  0000 C CNN
+<<<<<<< HEAD
 F 2 "footprints:R_0805_OEM" V 9430 5150 50  0001 C CNN
+=======
+F 2 "" V 9430 5150 50  0001 C CNN
+>>>>>>> f094498fdec5940d8e80ced3a773c922133db73b
 F 3 "" H 9500 5150 50  0001 C CNN
 	1    9500 5150
 	0    1    1    0   
@@ -755,7 +769,11 @@ U 1 1 5B6B8ED6
 P 9500 5350
 F 0 "R14" V 9450 5500 50  0000 C CNN
 F 1 "R_30.1k" V 9500 5300 50  0000 C CNN
+<<<<<<< HEAD
 F 2 "footprints:R_0805_OEM" V 9430 5350 50  0001 C CNN
+=======
+F 2 "" V 9430 5350 50  0001 C CNN
+>>>>>>> f094498fdec5940d8e80ced3a773c922133db73b
 F 3 "" H 9500 5350 50  0001 C CNN
 	1    9500 5350
 	0    1    1    0   
@@ -766,7 +784,11 @@ U 1 1 5B6B8F62
 P 9500 5550
 F 0 "R15" V 9450 5700 50  0000 C CNN
 F 1 "R_30.1k" V 9500 5500 50  0000 C CNN
+<<<<<<< HEAD
 F 2 "footprints:R_0805_OEM" V 9430 5550 50  0001 C CNN
+=======
+F 2 "" V 9430 5550 50  0001 C CNN
+>>>>>>> f094498fdec5940d8e80ced3a773c922133db73b
 F 3 "" H 9500 5550 50  0001 C CNN
 	1    9500 5550
 	0    1    1    0   
