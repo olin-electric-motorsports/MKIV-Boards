@@ -348,7 +348,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5B7DDCA6)
-    (at 142.875 88.9)
+    (at 172.085 131.445)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /59E048C8)
@@ -513,7 +513,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 59F250E7) (tstamp 5B7DDCC4)
-    (at 174.625 107.315)
+    (at 175.26 108.585)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A793845)
@@ -612,7 +612,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5B7DDCD6)
-    (at 128.27 81.28)
+    (at 155.575 114.3)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59E047E3)
@@ -654,7 +654,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5B7DDCDC)
-    (at 148.59 88.9)
+    (at 144.145 113.665)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59E0483A)
@@ -738,7 +738,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5B7DDCE8)
-    (at 123.825 113.665)
+    (at 135.255 111.76)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5B7E1479)
@@ -780,7 +780,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5B7DDCEE)
-    (at 123.825 118.11)
+    (at 155.575 109.855)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59EE63EF)
@@ -822,7 +822,7 @@
   )
 
   (module footprints:LED_0805_OEM (layer F.Cu) (tedit 5A5B129D) (tstamp 5B7DDCF4)
-    (at 123.19 121.92)
+    (at 140.335 109.22)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /59EE66CC)
@@ -864,7 +864,7 @@
   )
 
   (module footprints:DO-214AA (layer F.Cu) (tedit 5A59FDFB) (tstamp 5B7DDCFA)
-    (at 121.285 83.82)
+    (at 149.86 114.3)
     (descr "http://www.diodes.com/datasheets/ap02001.pdf p.144")
     (tags "Diode SOD523")
     (path /59F253C2)
@@ -902,7 +902,7 @@
   )
 
   (module footprints:Fuse_1210 (layer F.Cu) (tedit 59F24A11) (tstamp 5B7DDD00)
-    (at 122.555 89.535)
+    (at 137.16 102.87)
     (descr "Resistor SMD 1210, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 1210")
     (path /59E0A5CF)
@@ -935,7 +935,7 @@
   )
 
   (module footprints:TQFP-32_7x7mm_Pitch0.8mm (layer F.Cu) (tedit 59F24C0F) (tstamp 5B7DDD24)
-    (at 134.62 102.87)
+    (at 161.925 91.44)
     (descr "32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
     (path /59E10948)
@@ -1041,7 +1041,7 @@
   )
 
   (module footprints:micromatch_female_ra_20 (layer F.Cu) (tedit 59EE7AE1) (tstamp 5B7DDD3C)
-    (at 113.03 96.52)
+    (at 124.46 97.79)
     (path /59EE4DBB)
     (fp_text reference J1 (at 5.08 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1102,7 +1102,7 @@
   )
 
   (module footprints:Pin_Header_Straight_2x03 (layer F.Cu) (tedit 59F24A3E) (tstamp 5B7DDD46)
-    (at 160.02 113.665)
+    (at 160.655 113.665)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /59E10F9E)
@@ -1145,22 +1145,22 @@
   )
 
   (module footprints:4.7uH_Inductor_OEM (layer F.Cu) (tedit 59D2CA8F) (tstamp 5B7DDD4C)
-    (at 136.525 82.55 180)
+    (at 141.605 90.17)
     (path /59E04875)
-    (fp_text reference L1 (at 0 5.08 180) (layer F.SilkS)
+    (fp_text reference L1 (at 0 5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value L_4.7uH (at 0 -5.08 180) (layer F.Fab) hide
+    (fp_text value L_4.7uH (at 0 -5.08) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 smd rect (at -2.35 0 180) (size 3.3 8.2) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.35 0) (size 3.3 8.2) (layers F.Cu F.Paste F.Mask)
       (net 6 "Net-(C5-Pad2)"))
-    (pad 2 smd rect (at 2.35 0 180) (size 3.3 8.2) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 2.35 0) (size 3.3 8.2) (layers F.Cu F.Paste F.Mask)
       (net 8 "Net-(C11-Pad1)"))
   )
 
   (module footprints:SOT-23F (layer F.Cu) (tedit 59F24B04) (tstamp 5B7DDD53)
-    (at 175.895 97.79)
+    (at 176.53 97.155)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /59EEA499)
@@ -1307,7 +1307,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDD6D)
-    (at 128.905 87.63)
+    (at 146.05 120.65)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E0432B)
@@ -1340,7 +1340,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDD73)
-    (at 135.89 90.17)
+    (at 149.86 125.095)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E042A3)
@@ -1373,7 +1373,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDD79)
-    (at 127 91.44)
+    (at 141.605 125.095)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E042EA)
@@ -1406,7 +1406,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDD7F)
-    (at 132.715 90.805)
+    (at 138.43 118.11)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E0438C)
@@ -1637,7 +1637,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDDA9)
-    (at 153.035 89.535)
+    (at 137.795 130.175)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59E04401)
@@ -1736,7 +1736,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDDBB)
-    (at 149.86 120.65)
+    (at 149.86 121.285)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EE3DE6)
@@ -1802,7 +1802,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDDC7)
-    (at 128.27 113.665)
+    (at 139.065 134.62)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5B7E146F)
@@ -1868,7 +1868,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDDD3)
-    (at 128.27 118.11)
+    (at 154.305 128.905)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EE636A)
@@ -1934,7 +1934,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 59F25131) (tstamp 5B7DDDDF)
-    (at 128.905 121.92)
+    (at 155.575 125.095)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /59EE66C2)
@@ -2000,15 +2000,15 @@
   )
 
   (module footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM (layer F.Cu) (tedit 59F25ACD) (tstamp 5B7DDDF1)
-    (at 123.825 104.775 180)
+    (at 148.5011 105.0036)
     (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /59E1176B)
     (attr smd)
-    (fp_text reference U1 (at 0 -3.5 180) (layer F.SilkS)
+    (fp_text reference U1 (at 0 -3.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value CAN_Transceiver (at 0 3.5 180) (layer F.Fab) hide
+    (fp_text value CAN_Transceiver (at 0 3.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.95 -2.45) (end 1.95 -2.45) (layer F.Fab) (width 0.1))
@@ -2027,21 +2027,21 @@
     (fp_line (start -2.075 -2.575) (end 2.075 -2.575) (layer F.SilkS) (width 0.15))
     (fp_line (start -2.075 2.575) (end 2.075 2.575) (layer F.SilkS) (width 0.15))
     (fp_line (start -2.075 -2.525) (end -3.475 -2.525) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -2.7 -1.905 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 21 /TXCAN))
-    (pad 2 smd rect (at -2.7 -0.635 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -2.7 -0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (pad 3 smd rect (at -2.7 0.635 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at -2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 1 VCC))
-    (pad 4 smd rect (at -2.7 1.905 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at -2.7 1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 22 /RXCAN))
-    (pad 5 smd rect (at 2.7 1.905 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 2.7 1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 57 "Net-(U1-Pad5)"))
-    (pad 6 smd rect (at 2.7 0.635 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 44 /CANL))
-    (pad 7 smd rect (at 2.7 -0.635 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 7 smd rect (at 2.7 -0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 43 /CANH))
-    (pad 8 smd rect (at 2.7 -1.905 180) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 8 smd rect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model ${KISYS3DMOD}/Housings_SOIC.3dshapes/SOIC-8_3.9x4.9mm_Pitch1.27mm.wrl
       (at (xyz 0 0 0))
@@ -2051,7 +2051,7 @@
   )
 
   (module footprints:SOT-23-6_OEM (layer F.Cu) (tedit 59F2519B) (tstamp 5B7DDDFB)
-    (at 144.78 83.82)
+    (at 168.275 102.235)
     (descr "6-pin SOT-23 package")
     (tags SOT-23-6)
     (path /59E04993)
@@ -2093,7 +2093,7 @@
   )
 
   (module footprints:SOT-23-5_OEM (layer F.Cu) (tedit 59F25167) (tstamp 5B7DDE04)
-    (at 167.005 110.49)
+    (at 167.64 108.585)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
     (path /59EE6F4B)
@@ -2133,7 +2133,7 @@
   )
 
   (module footprints:Crystal_SMD_FA238 (layer F.Cu) (tedit 59F247A7) (tstamp 5B7DDE0C)
-    (at 158.75 101.6)
+    (at 161.925 101.6)
     (descr "crystal Epson Toyocom FA-238 series http://www.mouser.com/ds/2/137/1721499-465440.pdf, hand-soldering, 3.2x2.5mm^2 package")
     (tags "SMD SMT crystal hand-soldering")
     (path /59E10C38)
