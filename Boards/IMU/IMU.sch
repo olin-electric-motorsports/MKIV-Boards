@@ -62,20 +62,6 @@ F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU
 	1    9050 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L mx150L_2 J1
-U 1 1 5B6A115E
-P 1300 1300
-F 0 "J1" H 1300 1600 60  0000 C CNN
-F 1 "mx150L_2" H 1300 1100 60  0000 C CNN
-F 2 "footprints:mx150l_2" H 1200 1550 60  0001 C CNN
-F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987650-2181.pdf" H 1300 1650 60  0001 C CNN
-F 4 "Value" H 1300 1300 60  0001 C CNN "Package"
-F 5 " WM17505-ND" H 1600 1900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/0194270032/WM17505-ND/863309" H 1600 1900 60  0001 C CNN "Purchasing Link"
-	1    1300 1300
-	1    0    0    -1  
-$EndComp
 Text Label 1650 1400 0    60   ~ 0
 CANH
 Text Label 1650 1300 0    60   ~ 0
@@ -1609,6 +1595,22 @@ F 1 "VCC" H 7950 6000 50  0000 C CNN
 F 2 "" H 7950 5850 50  0001 C CNN
 F 3 "" H 7950 5850 50  0001 C CNN
 	1    7950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ultrafit_4_RA J1
+U 1 1 5B8AB21B
+P 1300 1300
+F 0 "J1" H 1300 1600 60  0000 C CNN
+F 1 "Ultrafit_4_RA" H 1300 1100 60  0000 C CNN
+F 2 "footprints:Ultrafit_4_RA" H 800 1950 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1723101104_sd.pdf" H 1750 2400 60  0001 C CNN
+F 4 "Digi-Key" H 600 2550 60  0001 C CNN "MFN"
+F 5 "Value" H 450 1700 60  0001 C CNN "Package"
+F 6 "WM11574-ND" H 650 1800 60  0001 C CNN "MPN"
+F 7 "WM11564-ND" H 1700 2050 60  0001 C CNN "MPN2"
+F 8 "https://www.digikey.com/products/en?keywords=1723101304" H 1800 2150 60  0001 C CNN "PurchasingLink"
+	1    1300 1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
