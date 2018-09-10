@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 117.095999 48.261999 187.196001 118.362001)
     (thickness 1.6)
-    (drawings 24)
+    (drawings 25)
     (tracks 474)
     (zones 0)
     (modules 53)
@@ -2177,6 +2177,9 @@
     )
   )
 
+  (gr_text "Corey Cochran-Lepiz" (at 135.382 116.078) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.1524)))
+  )
   (gr_text 16M1 (at 146.558 75.692 45) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.1524)))
   )

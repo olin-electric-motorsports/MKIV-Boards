@@ -756,9 +756,9 @@ Text Notes 7800 1000 0    60   ~ 0
 MICROCONTROLLER
 Text Notes 4400 7600 0    60   ~ 0
 PROGRAMMING HEADER
-Text Label 3450 7300 0    60   ~ 0
+Text Label 3775 7350 0    60   ~ 0
 CANL
-Text Label 3450 7100 0    60   ~ 0
+Text Label 3775 7050 0    60   ~ 0
 CANH
 Text Label 2450 7000 2    60   ~ 0
 TXCAN
@@ -894,21 +894,6 @@ Slave Select (SPI)
 Text Label 9300 2450 0    60   ~ 0
 SSO_1
 $Comp
-L micromatch_female_RA_20 J1
-U 1 1 59EE4DBB
-P 1100 2050
-F 0 "J1" H 1000 3250 60  0000 C CNN
-F 1 "micromatch_female_RA_20" H 1100 1100 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 900 3150 60  0001 C CNN
-F 3 "" H 1000 3250 60  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338070-0/A99490CT-ND/1955792" H 1100 3350 60  0001 C CNN "PurchasingLink"
-F 5 "Digi-Key" H 1200 3450 60  0001 C CNN "MFN"
-F 6 "A99490CT-ND" H 1300 3550 60  0001 C CNN "MPN"
-F 7 "Value" H 1400 3650 60  0001 C CNN "Package"
-	1    1100 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR032
 U 1 1 59EE5036
 P 1350 750
@@ -953,16 +938,8 @@ Text Label 1250 1650 0    60   ~ 0
 CANH
 Text Label 1250 1750 0    60   ~ 0
 CANL
-Text Label 1250 1850 0    60   ~ 0
-LED1
-Text Label 1250 1950 0    60   ~ 0
-LED2
 Text Label 1250 2750 0    60   ~ 0
 SS
-Text Label 1250 2250 0    60   ~ 0
-Sensor+
-Text Label 1250 2150 0    60   ~ 0
-Sensor-
 Text Label 1250 2050 0    60   ~ 0
 SensorOut
 Text Label 1250 2350 0    60   ~ 0
@@ -1068,62 +1045,6 @@ P_LED_2
 Text Notes 850  650  0    60   ~ 0
 CONNECTOR\n
 $Comp
-L R_200 R7
-U 1 1 59EE86E2
-P 9450 1750
-F 0 "R7" V 9350 1750 50  0000 C CNN
-F 1 "R_200" V 9450 1750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 9380 1750 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9530 1750 50  0001 C CNN
-F 4 "Digi-Key" H 9450 1750 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 9450 1750 60  0001 C CNN "MPN"
-F 6 "Value" H 9450 1750 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9930 2150 60  0001 C CNN "PurchasingLink"
-	1    9450 1750
-	0    1    1    0   
-$EndComp
-$Comp
-L R_200 R10
-U 1 1 59EE888F
-P 9450 1850
-F 0 "R10" V 9500 1650 50  0000 C CNN
-F 1 "R_200" V 9450 1850 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 9380 1850 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 9530 1850 50  0001 C CNN
-F 4 "Digi-Key" H 9450 1850 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 9450 1850 60  0001 C CNN "MPN"
-F 6 "Value" H 9450 1850 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 9930 2250 60  0001 C CNN "PurchasingLink"
-	1    9450 1850
-	0    1    1    0   
-$EndComp
-Text Label 9600 1750 0    60   ~ 0
-LED1
-Text Label 9600 1850 0    60   ~ 0
-LED2
-$Comp
-L GND #PWR037
-U 1 1 59EE9E03
-P 4825 6300
-F 0 "#PWR037" H 4825 6050 50  0001 C CNN
-F 1 "GND" H 4825 6150 50  0000 C CNN
-F 2 "" H 4825 6300 50  0001 C CNN
-F 3 "" H 4825 6300 50  0001 C CNN
-	1    4825 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR038
-U 1 1 59EEA657
-P 5375 6450
-F 0 "#PWR038" H 5375 6300 50  0001 C CNN
-F 1 "VCC" H 5375 6600 50  0000 C CNN
-F 2 "" H 5375 6450 50  0001 C CNN
-F 3 "" H 5375 6450 50  0001 C CNN
-	1    5375 6450
-	1    0    0    -1  
-$EndComp
-$Comp
 L SSM3K333R Q5
 U 1 1 59EEB161
 P 4900 3475
@@ -1169,10 +1090,10 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 548
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR039
+L VCC #PWR037
 U 1 1 59EEB18F
 P 5000 2975
-F 0 "#PWR039" H 5000 2825 50  0001 C CNN
+F 0 "#PWR037" H 5000 2825 50  0001 C CNN
 F 1 "VCC" H 5000 3125 50  0000 C CNN
 F 2 "" H 5000 2975 50  0001 C CNN
 F 3 "" H 5000 2975 50  0001 C CNN
@@ -1180,10 +1101,10 @@ F 3 "" H 5000 2975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L GND #PWR038
 U 1 1 59EEB195
 P 5000 3775
-F 0 "#PWR040" H 5000 3525 50  0001 C CNN
+F 0 "#PWR038" H 5000 3525 50  0001 C CNN
 F 1 "GND" H 5000 3625 50  0000 C CNN
 F 2 "" H 5000 3775 50  0001 C CNN
 F 3 "" H 5000 3775 50  0001 C CNN
@@ -1226,10 +1147,10 @@ F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001RT-I-
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR039
 U 1 1 59EE7943
 P 3100 3350
-F 0 "#PWR041" H 3100 3100 50  0001 C CNN
+F 0 "#PWR039" H 3100 3100 50  0001 C CNN
 F 1 "GND" H 3100 3200 50  0000 C CNN
 F 2 "" H 3100 3350 50  0001 C CNN
 F 3 "" H 3100 3350 50  0001 C CNN
@@ -1237,10 +1158,10 @@ F 3 "" H 3100 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR042
+L VCC #PWR040
 U 1 1 59EE79BD
 P 3100 2675
-F 0 "#PWR042" H 3100 2525 50  0001 C CNN
+F 0 "#PWR040" H 3100 2525 50  0001 C CNN
 F 1 "VCC" H 3100 2825 50  0000 C CNN
 F 2 "" H 3100 2675 50  0001 C CNN
 F 3 "" H 3100 2675 50  0001 C CNN
@@ -1263,10 +1184,10 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 4230 4
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L GND #PWR041
 U 1 1 59EE7E2D
 P 3750 3900
-F 0 "#PWR043" H 3750 3650 50  0001 C CNN
+F 0 "#PWR041" H 3750 3650 50  0001 C CNN
 F 1 "GND" H 3750 3750 50  0000 C CNN
 F 2 "" H 3750 3900 50  0001 C CNN
 F 3 "" H 3750 3900 50  0001 C CNN
@@ -1297,10 +1218,10 @@ $EndComp
 Text Label 4550 1350 1    60   ~ 0
 LSD_Gate
 $Comp
-L GND #PWR044
+L GND #PWR042
 U 1 1 59EEA72F
 P 4850 1750
-F 0 "#PWR044" H 4850 1500 50  0001 C CNN
+F 0 "#PWR042" H 4850 1500 50  0001 C CNN
 F 1 "GND" H 4850 1600 50  0000 C CNN
 F 2 "" H 4850 1750 50  0001 C CNN
 F 3 "" H 4850 1750 50  0001 C CNN
@@ -1313,8 +1234,6 @@ Text Notes 4600 1000 0    60   ~ 0
 High Current LSD
 Text Notes 2650 3950 0    60   ~ 0
 Voltage Amplifier\nGain: 2
-Text Notes 4600 6600 0    60   ~ 0
-SOURCES
 NoConn ~ 7100 1850
 NoConn ~ 9300 1650
 NoConn ~ 9300 3050
@@ -1336,10 +1255,10 @@ F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 6950 57
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR045
+L GND #PWR043
 U 1 1 59F255A7
 P 6550 5400
-F 0 "#PWR045" H 6550 5150 50  0001 C CNN
+F 0 "#PWR043" H 6550 5150 50  0001 C CNN
 F 1 "GND" H 6550 5250 50  0000 C CNN
 F 2 "" H 6550 5400 50  0001 C CNN
 F 3 "" H 6550 5400 50  0001 C CNN
@@ -1381,10 +1300,10 @@ F 8 "https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/47
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L GND #PWR044
 U 1 1 5A792902
 P 9200 5725
-F 0 "#PWR046" H 9200 5475 50  0001 C CNN
+F 0 "#PWR044" H 9200 5475 50  0001 C CNN
 F 1 "GND" H 9200 5575 50  0000 C CNN
 F 2 "" H 9200 5725 50  0001 C CNN
 F 3 "" H 9200 5725 50  0001 C CNN
@@ -1392,10 +1311,10 @@ F 3 "" H 9200 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L GND #PWR045
 U 1 1 5A7929C2
 P 9475 5725
-F 0 "#PWR047" H 9475 5475 50  0001 C CNN
+F 0 "#PWR045" H 9475 5475 50  0001 C CNN
 F 1 "GND" H 9475 5575 50  0000 C CNN
 F 2 "" H 9475 5725 50  0001 C CNN
 F 3 "" H 9475 5725 50  0001 C CNN
@@ -1418,10 +1337,10 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3725 3200 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR048
+L GND #PWR046
 U 1 1 5A793CD7
 P 3500 2775
-F 0 "#PWR048" H 3500 2525 50  0001 C CNN
+F 0 "#PWR046" H 3500 2525 50  0001 C CNN
 F 1 "GND" H 3500 2625 50  0000 C CNN
 F 2 "" H 3500 2775 50  0001 C CNN
 F 3 "" H 3500 2775 50  0001 C CNN
@@ -1569,14 +1488,6 @@ Wire Wire Line
 	3750 3600 3750 3350
 Wire Notes Line
 	3950 2350 3950 4100
-Wire Notes Line
-	4400 6150 5550 6150
-Wire Notes Line
-	5550 6150 5550 6650
-Wire Notes Line
-	5550 6650 4400 6650
-Wire Notes Line
-	4400 6650 4400 6150
 Wire Wire Line
 	7400 5100 7000 5100
 Wire Wire Line
@@ -1629,10 +1540,10 @@ Wire Notes Line
 Wire Notes Line
 	5450 900  5450 2000
 $Comp
-L VCC #PWR049
+L VCC #PWR047
 U 1 1 5B6DCB8B
 P 2750 2600
-F 0 "#PWR049" H 2750 2450 50  0001 C CNN
+F 0 "#PWR047" H 2750 2450 50  0001 C CNN
 F 1 "VCC" H 2750 2750 50  0000 C CNN
 F 2 "" H 2750 2600 50  0001 C CNN
 F 3 "" H 2750 2600 50  0001 C CNN
@@ -1665,10 +1576,6 @@ Wire Notes Line
 	2450 4100 2450 2350
 Wire Notes Line
 	2450 2350 3950 2350
-Text Label 4825 6300 2    60   ~ 0
-Sensor-
-Text Label 5375 6450 2    60   ~ 0
-Sensor+
 NoConn ~ 9300 2050
 NoConn ~ 9300 2550
 NoConn ~ 9300 2950
@@ -1707,10 +1614,10 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2400 6500 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR050
+L GND #PWR048
 U 1 1 5B7E147F
 P 2000 6150
-F 0 "#PWR050" H 2000 5900 50  0001 C CNN
+F 0 "#PWR048" H 2000 5900 50  0001 C CNN
 F 1 "GND" H 2000 6000 50  0000 C CNN
 F 2 "" H 2000 6150 50  0001 C CNN
 F 3 "" H 2000 6150 50  0001 C CNN
@@ -1722,11 +1629,89 @@ P_LED_3
 Wire Notes Line
 	2425 6500 2425 5300
 Wire Notes Line
-	2000 700  2000 3200
+	2000 700  2000 3600
 Wire Notes Line
-	2000 3200 500  3200
-Wire Notes Line
-	500  3200 500  700 
+	500  700  500  3600
 NoConn ~ 9300 2750
 Connection ~ 3750 3050
+$Comp
+L conn_generic_24pin J2
+U 1 1 5B8DE745
+P 1100 2050
+F 0 "J2" H 1000 3250 60  0000 C CNN
+F 1 "conn_generic_24pin" H 1050 750 60  0000 C CNN
+F 2 "" H 1100 2050 60  0001 C CNN
+F 3 "" H 1100 2050 60  0001 C CNN
+	1    1100 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1250 2950
+NoConn ~ 1250 3050
+NoConn ~ 1250 3150
+NoConn ~ 1250 3250
+Wire Notes Line
+	500  3600 2000 3600
+Text Label 9300 1750 0    60   ~ 0
+Pinout1
+Text Label 9300 1850 0    60   ~ 0
+Pinout2
+Text Label 1250 1950 0    60   ~ 0
+Pinout2
+Text Label 1250 1850 0    60   ~ 0
+Pinout1
+Text Label 1250 2250 0    60   ~ 0
+5V
+Text Label 1250 2150 0    60   ~ 0
+GND
+Text Label 4500 5100 0    60   ~ 0
+GND
+Text Label 4300 5075 0    60   ~ 0
+5V
+$Comp
+L GND #PWR049
+U 1 1 5B92100B
+P 4500 5100
+F 0 "#PWR049" H 4500 4850 50  0001 C CNN
+F 1 "GND" H 4500 4950 50  0000 C CNN
+F 2 "" H 4500 5100 50  0001 C CNN
+F 3 "" H 4500 5100 50  0001 C CNN
+	1    4500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR050
+U 1 1 5B9214B7
+P 4300 5075
+F 0 "#PWR050" H 4300 4925 50  0001 C CNN
+F 1 "VCC" H 4300 5225 50  0000 C CNN
+F 2 "" H 4300 5075 50  0001 C CNN
+F 3 "" H 4300 5075 50  0001 C CNN
+	1    4300 5075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_200 R7
+U 1 1 5B922239
+P 3650 7200
+F 0 "R7" V 3730 7200 50  0000 C CNN
+F 1 "R_200" V 3550 7200 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3580 7200 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3730 7200 50  0001 C CNN
+F 4 "Digi-Key" H 3650 7200 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3650 7200 60  0001 C CNN "MPN"
+F 6 "Value" H 3650 7200 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4130 7600 60  0001 C CNN "PurchasingLink"
+	1    3650 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7050 3775 7050
+Wire Wire Line
+	3450 7050 3450 7100
+Connection ~ 3650 7050
+Wire Wire Line
+	3450 7350 3775 7350
+Wire Wire Line
+	3450 7350 3450 7300
+Connection ~ 3650 7350
 $EndSCHEMATC
