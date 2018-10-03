@@ -1317,4 +1317,6 @@ Wire Notes Line
 	4650 7100 1050 7100
 Wire Notes Line
 	1050 5450 1050 7100
+Text Notes 6000 6250 0    50   ~ 0
+Additional items to purchase\n1. wall wart\n2. jumpers\n3. pocket avr programmer\n4. uart reader
 $EndSCHEMATC
