@@ -359,8 +359,6 @@ NoConn ~ 6100 3050
 NoConn ~ 6100 2950
 NoConn ~ 6100 2850
 NoConn ~ 6100 2450
-NoConn ~ 6100 2350
-NoConn ~ 6100 2250
 Text Label 6100 1750 0    50   ~ 0
 LED1
 Text Label 6100 1850 0    50   ~ 0
@@ -1206,7 +1204,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 6300 3000 6400
 Wire Wire Line
-	3000 6400 3600 6400
+	3000 6400 3300 6400
 Wire Notes Line
 	950  4200 2050 4200
 Wire Notes Line
@@ -1237,37 +1235,86 @@ Wire Notes Line
 	10400 5550 10400 3650
 Wire Notes Line
 	7650 3650 10400 3650
+Text Label 3200 6400 0    50   ~ 0
+cathode
 $Comp
-L formula:CONN_01X03 J6
-U 1 1 5BB58762
-P 4050 6400
-F 0 "J6" H 4078 6441 50  0000 L CNN
-F 1 "CONN_01X03" H 4078 6350 50  0000 L CNN
-F 2 "" H 4050 5200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1933192.pdf" H 4050 5200 50  0001 C CNN
-F 4 "DK" H 4050 6400 60  0001 C CNN "MFN"
-F 5 "277-1646-ND" H 4050 6400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/phoenix-contact/1933192/277-1646-ND/568683" H 4450 7000 60  0001 C CNN "PurchasingLink"
-	1    4050 6400
+L formula:SSM3K333R Q?
+U 1 1 5BB4740C
+P 3400 6600
+F 0 "Q?" H 3606 6554 50  0000 L CNN
+F 1 "SSM3K333R" H 3606 6645 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 3600 6525 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 3600 6675 50  0001 L CNN
+F 4 "DK" H 3900 6975 60  0001 C CNN "MFN"
+F 5 "SSM3K333RLFCT-ND" H 3800 6875 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 3700 6775 60  0001 C CNN "PurchasingLink"
+	1    3400 6600
+	-1   0    0    1   
+$EndComp
+Connection ~ 3300 6400
+Wire Wire Line
+	3300 6400 3600 6400
+$Comp
+L power:GND #PWR?
+U 1 1 5BB475CF
+P 3300 6800
+F 0 "#PWR?" H 3300 6550 50  0001 C CNN
+F 1 "GND" H 3305 6627 50  0000 C CNN
+F 2 "" H 3300 6800 50  0001 C CNN
+F 3 "" H 3300 6800 50  0001 C CNN
+	1    3300 6800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3800 6300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BB47AD6
+P 6500 2250
+F 0 "#PWR?" H 6500 2100 50  0001 C CNN
+F 1 "+3V3" H 6515 2423 50  0000 C CNN
+F 2 "" H 6500 2250 50  0001 C CNN
+F 3 "" H 6500 2250 50  0001 C CNN
+	1    6500 2250
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3600 6400 3800 6400
-Connection ~ 3600 6400
+	6100 2250 6500 2250
+Text Label 6100 2350 0    50   ~ 0
+LED_drive
+Text Label 3600 6600 0    50   ~ 0
+LED_drive
+$Comp
+L formula:R_10K R?
+U 1 1 5BB499BB
+P 4250 6450
+F 0 "R?" H 4320 6496 50  0000 L CNN
+F 1 "R_10K" H 4320 6405 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4180 6450 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4330 6450 50  0001 C CNN
+F 4 "DK" H 4250 6450 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4250 6450 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4730 6850 60  0001 C CNN "PurchasingLink"
+	1    4250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BB49AA4
+P 4250 6300
+F 0 "#PWR?" H 4250 6150 50  0001 C CNN
+F 1 "+5V" H 4265 6473 50  0000 C CNN
+F 2 "" H 4250 6300 50  0001 C CNN
+F 3 "" H 4250 6300 50  0001 C CNN
+	1    4250 6300
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3800 6500 2400 6500
-Wire Wire Line
-	2400 6500 2400 6400
-Connection ~ 2400 6400
-Text Notes 4100 6650 0    50   ~ 0
-Use jumper to select\nS9341-ND
+	3600 6600 4250 6600
 Wire Notes Line
-	5000 5450 5000 6700
+	1050 5450 4650 5450
 Wire Notes Line
-	5000 6700 1050 6700
+	4650 5450 4650 7100
 Wire Notes Line
-	1050 5450 5000 5450
+	4650 7100 1050 7100
 Wire Notes Line
-	1050 5450 1050 6700
+	1050 5450 1050 7100
 $EndSCHEMATC
