@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/lucky/Desktop/Formula/MKIV-Boards/Boards/SD_card_dev/SD_card_dev.sch)
-    (date "Wed 03 Oct 2018 10:41:25 PM PDT")
+    (date "Wed 03 Oct 2018 11:49:57 PM PDT")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
