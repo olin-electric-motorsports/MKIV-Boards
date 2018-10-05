@@ -852,6 +852,86 @@ Wire Notes Line
 	2000 2850 2000 2650
 Wire Notes Line
 	2800 2650 2000 2650
+$Comp
+L formula:Crystal_32kHz768 Y?
+U 1 1 5BB8F052
+P 1300 2600
+F 0 "Y?" H 1300 2868 50  0000 C CNN
+F 1 "Crystal_32kHz768" H 1300 2777 50  0000 C CNN
+F 2 "footprints:FC-135_3.2x1.5mm" H 1250 2675 50  0001 C CNN
+F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en" H 1350 2775 50  0001 C CNN
+F 4 "DK" H 1250 2800 60  0001 C CNN "MFN"
+F 5 "SER4084CT-ND" H 1300 2850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/epson/FC-135-32.7680KA-AC0/SER4084CT-ND/6132704" H 1750 3175 60  0001 C CNN "PurchasingLink"
+	1    1300 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_9pF C?
+U 1 1 5BB8F180
+P 1750 2950
+F 0 "C?" H 1865 2996 50  0000 L CNN
+F 1 "C_9pF" H 1865 2905 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 1788 2800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 1775 3050 50  0001 C CNN
+F 4 "DK" H 1750 2950 60  0001 C CNN "MFN"
+F 5 "1276-6553-1-ND" H 1750 2950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C090DB81PNC/1276-6553-1-ND/5961412" H 2175 3450 60  0001 C CNN "PurchasingLink"
+	1    1750 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_9pF C?
+U 1 1 5BB8F203
+P 800 2900
+F 0 "C?" H 915 2946 50  0000 L CNN
+F 1 "C_9pF" H 915 2855 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 838 2750 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 825 3000 50  0001 C CNN
+F 4 "DK" H 800 2900 60  0001 C CNN "MFN"
+F 5 "1276-6553-1-ND" H 800 2900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10C090DB81PNC/1276-6553-1-ND/5961412" H 1225 3400 60  0001 C CNN "PurchasingLink"
+	1    800  2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2600 1750 2600
+Wire Wire Line
+	1750 2600 1750 2800
+Wire Wire Line
+	800  2750 800  2600
+$Comp
+L power:GND #PWR?
+U 1 1 5BBA2949
+P 800 3200
+F 0 "#PWR?" H 800 2950 50  0001 C CNN
+F 1 "GND" H 805 3027 50  0000 C CNN
+F 2 "" H 800 3200 50  0001 C CNN
+F 3 "" H 800 3200 50  0001 C CNN
+	1    800  3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BBA2980
+P 1750 3200
+F 0 "#PWR?" H 1750 2950 50  0001 C CNN
+F 1 "GND" H 1755 3027 50  0000 C CNN
+F 2 "" H 1750 3200 50  0001 C CNN
+F 3 "" H 1750 3200 50  0001 C CNN
+	1    1750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3100 1750 3200
+Wire Wire Line
+	800  3200 800  3050
+Text Label 800  2600 0    50   ~ 0
+PC14
+Text Label 1550 2600 0    50   ~ 0
+PC15
+Wire Wire Line
+	800  2600 1150 2600
 Wire Bus Line
 	6300 3700 6300 5200
 Wire Bus Line
