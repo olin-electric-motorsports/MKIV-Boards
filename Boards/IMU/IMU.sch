@@ -1,39 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:formula
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:IMU-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA16M1 IC1
+L formula:ATMEGA16M1 IC1
 U 1 1 5B6A0EAF
 P 9050 2650
 F 0 "IC1" H 8100 4480 50  0000 L BNN
@@ -71,7 +37,7 @@ GND
 Text Label 1650 1200 0    60   ~ 0
 12V
 $Comp
-L TPS561201 U2
+L formula:TPS561201 U2
 U 1 1 5B6A12CB
 P 4600 1450
 F 0 "U2" H 4400 1150 60  0000 C CNN
@@ -86,7 +52,7 @@ F 7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 4800 2200 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_10k R6
+L formula:R_10K R6
 U 1 1 5B6A1427
 P 4150 1400
 F 0 "R6" V 4150 1400 50  0000 C CNN
@@ -101,7 +67,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 463
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_1k R3
+L formula:R_1K R3
 U 1 1 5B6A1597
 P 3200 1400
 F 0 "R3" V 3200 1400 50  0000 C CNN
@@ -116,7 +82,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 3680 1
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_0805 D2
+L formula:LED_0805 D2
 U 1 1 5B6A15FE
 P 3200 1700
 F 0 "D2" V 3300 1650 50  0000 C CNN
@@ -131,7 +97,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3600 2200 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5B6A1984
 P 3200 1850
 F 0 "#PWR01" H 3200 1600 50  0001 C CNN
@@ -142,7 +108,7 @@ F 3 "" H 3200 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5B6A1A0E
 P 4000 1900
 F 0 "#PWR02" H 4000 1650 50  0001 C CNN
@@ -153,7 +119,7 @@ F 3 "" H 4000 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L F_500mA_16V F1
+L formula:F_500mA_16V F1
 U 1 1 5B6A1A2B
 P 3050 1250
 F 0 "F1" V 2950 1250 50  0000 C CNN
@@ -170,7 +136,7 @@ $EndComp
 Text Label 2900 1250 2    60   ~ 0
 12V
 $Comp
-L D_Zener_18V D1
+L formula:D_Zener_18V D1
 U 1 1 5B6A1B44
 P 2900 1450
 F 0 "D1" V 2800 1500 50  0000 C CNN
@@ -185,7 +151,7 @@ F 7 "https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND" H 3300 19
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5B6A1CCA
 P 2900 1600
 F 0 "#PWR03" H 2900 1350 50  0001 C CNN
@@ -196,7 +162,7 @@ F 3 "" H 2900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5B6A1D54
 P 4600 1900
 F 0 "#PWR04" H 4600 1650 50  0001 C CNN
@@ -207,7 +173,7 @@ F 3 "" H 4600 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_10k R8
+L formula:R_10K R8
 U 1 1 5B6A1D75
 P 5050 1700
 F 0 "R8" V 5050 1700 50  0000 C CNN
@@ -222,7 +188,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 553
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5B6A1DBA
 P 5050 1850
 F 0 "#PWR05" H 5050 1600 50  0001 C CNN
@@ -233,11 +199,11 @@ F 3 "" H 5050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_55.1k R9
+L formula:R_51.1K R9
 U 1 1 5B6A1E7D
 P 5200 1550
 F 0 "R9" V 5200 1550 50  0000 C CNN
-F 1 "R_55.1k" V 5100 1550 50  0000 C CNN
+F 1 "R_51.1k" V 5100 1550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 5130 1550 50  0001 C CNN
 F 3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" H 5280 1550 50  0001 C CNN
 F 4 "311-51.1KCRCT-ND" H 5200 1550 60  0001 C CNN "MPN"
@@ -248,7 +214,7 @@ F 7 "https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND" H 5680 1950 
 	0    1    1    0   
 $EndComp
 $Comp
-L L_4.7uH L1
+L formula:L_4.7uH L1
 U 1 1 5B6A1FCE
 P 5450 1350
 F 0 "L1" V 5500 1300 50  0000 L CNN
@@ -263,7 +229,7 @@ F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5B6A216B
 P 5350 1850
 F 0 "#PWR06" H 5350 1600 50  0001 C CNN
@@ -274,7 +240,7 @@ F 3 "" H 5350 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5B6A21CB
 P 5650 1850
 F 0 "#PWR07" H 5650 1600 50  0001 C CNN
@@ -285,7 +251,7 @@ F 3 "" H 5650 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5B6A2206
 P 5950 1850
 F 0 "#PWR08" H 5950 1600 50  0001 C CNN
@@ -296,7 +262,7 @@ F 3 "" H 5950 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0.1uF C6
+L formula:C_0.1uF C6
 U 1 1 5B6A2245
 P 5150 1200
 F 0 "C6" H 5175 1300 50  0000 L CNN
@@ -311,7 +277,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5575 1700 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_0_Jumper R10
+L formula:R_0 R10
 U 1 1 5B6A2311
 P 5900 1350
 F 0 "R10" V 5980 1350 50  0000 C CNN
@@ -326,7 +292,7 @@ F 7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 6380 1750 60  
 	0    1    1    0   
 $EndComp
 $Comp
-L VCC #PWR09
+L power:VCC #PWR09
 U 1 1 5B6A2470
 P 6250 1350
 F 0 "#PWR09" H 6250 1200 50  0001 C CNN
@@ -337,7 +303,7 @@ F 3 "" H 6250 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR010
+L power:VCC #PWR010
 U 1 1 5B6A2538
 P 2050 5100
 F 0 "#PWR010" H 2050 4950 50  0001 C CNN
@@ -350,7 +316,7 @@ $EndComp
 Text Label 2050 5100 1    60   ~ 0
 5V
 $Comp
-L VCC #PWR011
+L power:VCC #PWR011
 U 1 1 5B6A25DB
 P 1800 5100
 F 0 "#PWR011" H 1800 4950 50  0001 C CNN
@@ -361,7 +327,7 @@ F 3 "" H 1800 5100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L PWR_FLAG #FLG012
+L power:PWR_FLAG #FLG012
 U 1 1 5B6A260C
 P 1800 5100
 F 0 "#FLG012" H 1800 5175 50  0001 C CNN
@@ -372,7 +338,7 @@ F 3 "" H 1800 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_200 R11
+L formula:R_200 R11
 U 1 1 5B6A269E
 P 6250 1500
 F 0 "R11" V 6250 1500 50  0000 C CNN
@@ -387,7 +353,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6730 19
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_0805 D6
+L formula:LED_0805 D6
 U 1 1 5B6A2739
 P 6250 1800
 F 0 "D6" V 6350 1700 50  0000 C CNN
@@ -402,7 +368,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6650 2300 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5B6A27BC
 P 6250 1950
 F 0 "#PWR013" H 6250 1700 50  0001 C CNN
@@ -413,7 +379,7 @@ F 3 "" H 6250 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5B6A2853
 P 2350 5100
 F 0 "#PWR014" H 2350 4850 50  0001 C CNN
@@ -426,7 +392,7 @@ $EndComp
 Text Label 2350 5100 1    60   ~ 0
 GND
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5B6A28EB
 P 2550 5100
 F 0 "#PWR015" H 2550 4850 50  0001 C CNN
@@ -437,7 +403,7 @@ F 3 "" H 2550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG016
+L power:PWR_FLAG #FLG016
 U 1 1 5B6A2920
 P 2550 5100
 F 0 "#FLG016" H 2550 5175 50  0001 C CNN
@@ -448,7 +414,7 @@ F 3 "" H 2550 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_100 R12
+L formula:R_100 R12
 U 1 1 5B6A460E
 P 7750 1100
 F 0 "R12" V 7830 1100 50  0000 C CNN
@@ -469,14 +435,14 @@ Wire Wire Line
 Wire Wire Line
 	5050 1050 5150 1050
 Wire Wire Line
-	5050 1350 5350 1350
+	5050 1350 5150 1350
 Connection ~ 5150 1350
 Wire Wire Line
 	5550 1350 5750 1350
 Wire Wire Line
 	5750 1350 5750 1550
 $Comp
-L VCC #PWR017
+L power:VCC #PWR017
 U 1 1 5B6A47AE
 P 7550 950
 F 0 "#PWR017" H 7550 800 50  0001 C CNN
@@ -487,7 +453,7 @@ F 3 "" H 7550 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0.1uF C11
+L formula:C_0.1uF C11
 U 1 1 5B6A47E5
 P 7550 1150
 F 0 "C11" H 7400 1250 50  0000 L CNN
@@ -502,7 +468,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7975 1650 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5B6A4926
 P 7550 1300
 F 0 "#PWR018" H 7550 1050 50  0001 C CNN
@@ -513,7 +479,7 @@ F 3 "" H 7550 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_100pF C12
+L formula:C_100pF C12
 U 1 1 5B6A49AB
 P 7750 1450
 F 0 "C12" H 7775 1550 50  0000 L CNN
@@ -528,10 +494,10 @@ F 7 "https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 950  7950 950 
+	7550 950  7750 950 
 Connection ~ 7750 950 
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5B6A4E94
 P 7750 1600
 F 0 "#PWR019" H 7750 1350 50  0001 C CNN
@@ -542,10 +508,10 @@ F 3 "" H 7750 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 3450 7950 3950
+	7950 3450 7950 3850
 Connection ~ 7950 3850
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 5B6A517A
 P 7950 3950
 F 0 "#PWR020" H 7950 3700 50  0001 C CNN
@@ -556,7 +522,7 @@ F 3 "" H 7950 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal_SMD Y1
+L formula:Crystal_SMD Y1
 U 1 1 5B6A55A9
 P 10350 4000
 F 0 "Y1" H 10400 4175 50  0000 L CNN
@@ -571,7 +537,7 @@ F 7 "https://www.digikey.com/products/en?keywords=SER3686CT-ND" H 10800 4575 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_30pF C16
+L formula:C_30pF C16
 U 1 1 5B6A5676
 P 10150 4150
 F 0 "C16" H 10175 4250 50  0000 L CNN
@@ -586,7 +552,7 @@ F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_30pF C17
+L formula:C_30pF C17
 U 1 1 5B6A56F2
 P 10550 4150
 F 0 "C17" H 10575 4250 50  0000 L CNN
@@ -604,7 +570,7 @@ Wire Wire Line
 	10350 4150 10350 4300
 Connection ~ 10350 4300
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 5B6A58AC
 P 10350 4300
 F 0 "#PWR021" H 10350 4050 50  0001 C CNN
@@ -619,7 +585,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 3850 10900 3950
 $Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 5B6A593B
 P 10900 3950
 F 0 "#PWR022" H 10900 3700 50  0001 C CNN
@@ -634,11 +600,11 @@ Wire Wire Line
 Wire Wire Line
 	10150 4000 10250 4000
 Wire Wire Line
-	10150 4300 10550 4300
+	10150 4300 10350 4300
 Wire Wire Line
 	10450 4000 10550 4000
 Wire Wire Line
-	10150 3650 10400 3650
+	10150 3650 10250 3650
 Text Label 10400 3650 0    60   ~ 0
 RESET
 Wire Wire Line
@@ -647,7 +613,7 @@ Wire Wire Line
 	10250 3500 10400 3500
 Connection ~ 10250 3650
 $Comp
-L R_10k R16
+L formula:R_10K R16
 U 1 1 5B6A621A
 P 10550 3500
 F 0 "R16" V 10630 3500 50  0000 C CNN
@@ -666,7 +632,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 3500 10800 3450
 $Comp
-L VCC #PWR023
+L power:VCC #PWR023
 U 1 1 5B6A6314
 P 10800 3450
 F 0 "#PWR023" H 10800 3300 50  0001 C CNN
@@ -678,7 +644,7 @@ F 3 "" H 10800 3450 50  0001 C CNN
 $EndComp
 NoConn ~ 7950 1650
 $Comp
-L ADXL335 U5
+L formula:ADXL335 U5
 U 1 1 5B6B549F
 P 10550 5300
 F 0 "U5" H 10700 6000 60  0000 C CNN
@@ -688,13 +654,12 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL335.
 	1    10550 5300
 	-1   0    0    1   
 $EndComp
-Connection ~ 9800 5600
 Connection ~ 9800 5700
 Connection ~ 9800 5800
 Connection ~ 9800 5900
 Connection ~ 9800 6000
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 5B6B61D2
 P 9800 6100
 F 0 "#PWR024" H 9800 5850 50  0001 C CNN
@@ -705,12 +670,12 @@ F 3 "" H 9800 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 5000 9800 5200
+	9800 5000 9800 5100
 Connection ~ 9800 5100
 Wire Wire Line
-	9800 5600 9800 6100
+	9800 5600 9800 5700
 $Comp
-L C_0.33uF C15
+L formula:C_0.33uF C15
 U 1 1 5B6B8BB3
 P 9350 5800
 F 0 "C15" H 9375 5900 50  0000 L CNN
@@ -764,7 +729,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 5550 9350 5650
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 5B6B9858
 P 9350 5950
 F 0 "#PWR025" H 9350 5700 50  0001 C CNN
@@ -775,7 +740,7 @@ F 3 "" H 9350 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0.33uF C14
+L formula:C_0.33uF C14
 U 1 1 5B6B9CE8
 P 9100 5800
 F 0 "C14" H 9125 5900 50  0000 L CNN
@@ -790,7 +755,7 @@ F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L power:GND #PWR026
 U 1 1 5B6B9D68
 P 9100 5950
 F 0 "#PWR026" H 9100 5700 50  0001 C CNN
@@ -801,7 +766,7 @@ F 3 "" H 9100 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0.33uF C13
+L formula:C_0.33uF C13
 U 1 1 5B6B9F2B
 P 8800 5800
 F 0 "C13" H 8825 5900 50  0000 L CNN
@@ -816,7 +781,7 @@ F 7 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pke
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 5B6B9FB6
 P 8800 5950
 F 0 "#PWR027" H 8800 5700 50  0001 C CNN
@@ -837,11 +802,11 @@ Wire Wire Line
 Wire Wire Line
 	9650 5400 9800 5400
 Wire Wire Line
-	9050 5350 9350 5350
+	9050 5350 9100 5350
 Wire Wire Line
 	9100 5350 9100 5650
 Wire Wire Line
-	8750 5150 9350 5150
+	8750 5150 8800 5150
 Wire Wire Line
 	8800 5150 8800 5650
 Connection ~ 8800 5150
@@ -855,7 +820,7 @@ Wire Wire Line
 Text Label 9300 5550 2    60   ~ 0
 ZOUT
 $Comp
-L CONN_02X03 P1
+L formula:CONN_02X03 P1
 U 1 1 5B6BC1E5
 P 1250 1900
 F 0 "P1" H 1250 2100 50  0000 C CNN
@@ -872,7 +837,7 @@ $EndComp
 Text Label 1000 2000 2    60   ~ 0
 RESET
 $Comp
-L VCC #PWR028
+L power:VCC #PWR028
 U 1 1 5B6BC44B
 P 1500 1800
 F 0 "#PWR028" H 1500 1650 50  0001 C CNN
@@ -885,7 +850,7 @@ $EndComp
 Wire Wire Line
 	1500 2000 1550 2000
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 5B6BC5AD
 P 1550 2000
 F 0 "#PWR029" H 1550 1750 50  0001 C CNN
@@ -902,7 +867,7 @@ MISO
 Text Label 10150 1050 0    60   ~ 0
 MOSI
 $Comp
-L CAN_Transceiver U3
+L formula:MCP2561-E_SN U3
 U 1 1 5B6BD02A
 P 5700 3600
 F 0 "U3" H 5300 3950 50  0000 L CNN
@@ -922,7 +887,7 @@ Text Label 6200 3700 0    60   ~ 0
 CANL
 NoConn ~ 6200 3600
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 5B6BD8D0
 P 5700 4000
 F 0 "#PWR030" H 5700 3750 50  0001 C CNN
@@ -933,7 +898,7 @@ F 3 "" H 5700 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 5B6BD94B
 P 6150 2950
 F 0 "#PWR031" H 6150 2700 50  0001 C CNN
@@ -944,7 +909,7 @@ F 3 "" H 6150 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 5B6BDA35
 P 5200 3800
 F 0 "#PWR032" H 5200 3550 50  0001 C CNN
@@ -959,7 +924,7 @@ TXCAN
 Text Label 5200 3500 2    60   ~ 0
 RXCAN
 $Comp
-L VCC #PWR033
+L power:VCC #PWR033
 U 1 1 5B6BDB16
 P 5700 2950
 F 0 "#PWR033" H 5700 2800 50  0001 C CNN
@@ -974,7 +939,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2950 5850 2950
 $Comp
-L C_0.1uF C10
+L formula:C_0.1uF C10
 U 1 1 5B6BDC9B
 P 6000 2950
 F 0 "C10" H 6025 3050 50  0000 L CNN
@@ -993,7 +958,7 @@ TXCAN
 Text Label 10150 2150 0    60   ~ 0
 RXCAN
 $Comp
-L L693D1 U1
+L formula:L693D1 U1
 U 1 1 5B706FD5
 P 2750 3000
 F 0 "U1" H 2550 3150 60  0000 C CNN
@@ -1005,12 +970,12 @@ F 4 "https://www.digikey.com/product-detail/en/stmicroelectronics/L6932D1.2TR/49
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2100 3000 2100 3400
+	2100 3000 2100 3100
 Connection ~ 2100 3100
 Connection ~ 2100 3200
 Connection ~ 2100 3300
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 5B7072CD
 P 2100 3400
 F 0 "#PWR034" H 2100 3150 50  0001 C CNN
@@ -1021,10 +986,10 @@ F 3 "" H 2100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 2900 2950 3100
+	2950 2900 2950 3000
 Connection ~ 2950 3000
 $Comp
-L VCC #PWR035
+L power:VCC #PWR035
 U 1 1 5B7074DC
 P 2950 2900
 F 0 "#PWR035" H 2950 2750 50  0001 C CNN
@@ -1035,7 +1000,7 @@ F 3 "" H 2950 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_178k R1
+L formula:R_178K R1
 U 1 1 5B7083BC
 P 3150 3450
 F 0 "R1" V 3230 3450 50  0000 C CNN
@@ -1049,7 +1014,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_120k R2
+L formula:R_120K R2
 U 1 1 5B708434
 P 3150 3850
 F 0 "R2" V 3230 3850 50  0000 C CNN
@@ -1064,9 +1029,9 @@ F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 3600 3150 3700
+	3150 3600 3150 3650
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 5B708725
 P 3150 4000
 F 0 "#PWR036" H 3150 3750 50  0001 C CNN
@@ -1077,14 +1042,14 @@ F 3 "" H 3150 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3300 3300 3300
+	2950 3300 3150 3300
 Connection ~ 3150 3300
 Text Label 3300 3300 0    60   ~ 0
 2.98V
 Wire Wire Line
 	2950 3300 2950 3500
 $Comp
-L C_10uF C1
+L formula:C_10uF C1
 U 1 1 5B709105
 P 2950 3650
 F 0 "C1" H 2850 3750 50  0000 L CNN
@@ -1101,7 +1066,7 @@ $EndComp
 Wire Wire Line
 	2950 3800 2950 4000
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 5B7093C8
 P 2950 4000
 F 0 "#PWR037" H 2950 3750 50  0001 C CNN
@@ -1121,7 +1086,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3100 3250 3100
 $Comp
-L C_10uF C2
+L formula:C_10uF C2
 U 1 1 5B70962E
 P 3400 3100
 F 0 "C2" V 3300 2950 50  0000 L CNN
@@ -1140,7 +1105,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3100 3700 3150
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 5B709870
 P 3700 3150
 F 0 "#PWR038" H 3700 2900 50  0001 C CNN
@@ -1151,7 +1116,7 @@ F 3 "" H 3700 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADXL345 U4
+L formula:ADXL345 U4
 U 1 1 5B70D5C8
 P 6250 5450
 F 0 "U4" H 6800 5800 60  0000 C CNN
@@ -1162,11 +1127,11 @@ F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 5550 5800 5850
+	5800 5550 5800 5650
 Connection ~ 5800 5650
 Connection ~ 5800 5750
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 5B70DE9C
 P 5800 5850
 F 0 "#PWR039" H 5800 5600 50  0001 C CNN
@@ -1177,7 +1142,7 @@ F 3 "" H 5800 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 5250 5800 5450
+	5800 5250 5800 5350
 Connection ~ 5800 5350
 Text Label 5800 5250 1    60   ~ 0
 2.98V
@@ -1211,11 +1176,10 @@ Wire Wire Line
 	6050 1350 6250 1350
 Connection ~ 5750 1550
 Wire Wire Line
-	5350 1550 5950 1550
+	5350 1550 5650 1550
 Connection ~ 5650 1550
-Connection ~ 2900 1250
 $Comp
-L C_10uF C5
+L formula:C_10uF C5
 U 1 1 5B71C1B7
 P 4000 1750
 F 0 "C5" H 4025 1850 50  0000 L CNN
@@ -1230,7 +1194,7 @@ F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/47
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_10uF C4
+L formula:C_10uF C4
 U 1 1 5B71C29A
 P 3750 1750
 F 0 "C4" H 3775 1850 50  0000 L CNN
@@ -1245,7 +1209,7 @@ F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/47
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L power:GND #PWR040
 U 1 1 5B71C339
 P 3750 1900
 F 0 "#PWR040" H 3750 1650 50  0001 C CNN
@@ -1256,7 +1220,7 @@ F 3 "" H 3750 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_0.1uF C3
+L formula:C_0.1uF C3
 U 1 1 5B71C3DB
 P 3500 1750
 F 0 "C3" H 3525 1850 50  0000 L CNN
@@ -1271,7 +1235,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3925 2250 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 5B71C9E2
 P 3500 1900
 F 0 "#PWR041" H 3500 1650 50  0001 C CNN
@@ -1282,7 +1246,7 @@ F 3 "" H 3500 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 1250 4150 1250
+	3200 1250 3500 1250
 Wire Wire Line
 	4000 1250 4000 1600
 Wire Wire Line
@@ -1293,7 +1257,7 @@ Connection ~ 3500 1250
 Wire Wire Line
 	3500 1250 3500 1600
 $Comp
-L C_22uF C7
+L formula:C_22uF C7
 U 1 1 5B71D310
 P 5350 1700
 F 0 "C7" H 5375 1800 50  0000 L CNN
@@ -1308,7 +1272,7 @@ F 7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" H 5775 2200 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_22uF C8
+L formula:C_22uF C8
 U 1 1 5B71D3C1
 P 5650 1700
 F 0 "C8" H 5675 1800 50  0000 L CNN
@@ -1323,7 +1287,7 @@ F 7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" H 6075 2200 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_22uF C9
+L formula:C_22uF C9
 U 1 1 5B71D466
 P 5950 1700
 F 0 "C9" H 5975 1800 50  0000 L CNN
@@ -1338,15 +1302,9 @@ F 7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" H 6375 2200 60
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	7000 500  7000 2250
-Wire Notes Line
-	7000 2250 2550 2250
-Wire Notes Line
 	2550 2250 2550 500 
 Text Notes 4150 800  0    79   ~ 0
 BUCK CONVERTER
-Wire Notes Line
-	2600 2250 500  2250
 Wire Notes Line
 	500  2250 500  2200
 Text Notes 900  800  0    79   ~ 0
@@ -1354,19 +1312,13 @@ CONNECTORS\n
 Wire Notes Line
 	1400 2250 1400 6200
 Wire Notes Line
-	1400 4350 4250 4350
-Wire Notes Line
 	4250 4350 4250 2250
 Text Notes 2300 2500 0    79   ~ 0
 LINEAR REGULATOR\n
-Wire Notes Line
-	4200 4350 7000 4350
-Wire Notes Line
-	7000 4350 7000 2200
 Text Notes 5100 2500 0    79   ~ 0
 CAN TRANSCEIVER\n
 $Comp
-L R_200 R4
+L formula:R_200 R4
 U 1 1 5B71FC93
 P 3450 5650
 F 0 "R4" V 3530 5650 50  0000 C CNN
@@ -1381,7 +1333,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 3930 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_200 R5
+L formula:R_200 R5
 U 1 1 5B71FDA6
 P 3800 5650
 F 0 "R5" V 3880 5650 50  0000 C CNN
@@ -1396,7 +1348,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4280 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_200 R7
+L formula:R_200 R7
 U 1 1 5B71FE60
 P 4150 5650
 F 0 "R7" V 4230 5650 50  0000 C CNN
@@ -1411,7 +1363,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4630 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L power:GND #PWR042
 U 1 1 5B71FEDE
 P 3450 5800
 F 0 "#PWR042" H 3450 5550 50  0001 C CNN
@@ -1422,7 +1374,7 @@ F 3 "" H 3450 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
+L power:GND #PWR043
 U 1 1 5B72012E
 P 3800 5800
 F 0 "#PWR043" H 3800 5550 50  0001 C CNN
@@ -1433,7 +1385,7 @@ F 3 "" H 3800 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR044
+L power:GND #PWR044
 U 1 1 5B7201C6
 P 4150 5800
 F 0 "#PWR044" H 4150 5550 50  0001 C CNN
@@ -1444,7 +1396,7 @@ F 3 "" H 4150 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED_0805 D3
+L formula:LED_0805 D3
 U 1 1 5B720231
 P 3450 5350
 F 0 "D3" H 3450 5250 50  0000 C CNN
@@ -1459,7 +1411,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 3850 5850 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_0805 D4
+L formula:LED_0805 D4
 U 1 1 5B72030E
 P 3800 5350
 F 0 "D4" H 3800 5250 50  0000 C CNN
@@ -1474,7 +1426,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4200 5850 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_0805 D5
+L formula:LED_0805 D5
 U 1 1 5B7203C7
 P 4150 5350
 F 0 "D5" H 4150 5250 50  0000 C CNN
@@ -1505,8 +1457,6 @@ Wire Notes Line
 Wire Notes Line
 	8050 6200 8050 4350
 Wire Notes Line
-	8050 4350 6900 4350
-Wire Notes Line
 	4900 4350 4900 6200
 Wire Notes Line
 	2950 4350 2950 6200
@@ -1516,8 +1466,6 @@ Text Notes 3400 4600 0    79   ~ 0
 PROGRAMMING LEDS
 Text Notes 5950 4600 0    79   ~ 0
 DIGITAL ACCELEROMETER
-Wire Notes Line
-	7950 4350 9950 4350
 Wire Notes Line
 	9950 4350 9950 4550
 Wire Notes Line
@@ -1568,7 +1516,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 5950 7350 5950
 $Comp
-L R_10k R17
+L formula:R_10K R17
 U 1 1 5B7D0FD2
 P 7500 5950
 F 0 "R17" V 7580 5950 50  0000 C CNN
@@ -1587,7 +1535,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 5950 7950 5850
 $Comp
-L VCC #PWR045
+L power:VCC #PWR045
 U 1 1 5B7D1118
 P 7950 5850
 F 0 "#PWR045" H 7950 5700 50  0001 C CNN
@@ -1598,7 +1546,7 @@ F 3 "" H 7950 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ultrafit_4_RA J1
+L formula:UF_4_VT J1
 U 1 1 5B8AB21B
 P 1300 1300
 F 0 "J1" H 1300 1600 60  0000 C CNN
@@ -1613,4 +1561,62 @@ F 8 "https://www.digikey.com/products/en?keywords=1723101304" H 1800 2150 60  00
 	1    1300 1300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5150 1350 5350 1350
+Wire Wire Line
+	7750 950  7950 950 
+Wire Wire Line
+	7950 3850 7950 3950
+Wire Wire Line
+	10350 4300 10550 4300
+Wire Wire Line
+	10250 3650 10400 3650
+Wire Wire Line
+	9800 5700 9800 5800
+Wire Wire Line
+	9800 5800 9800 5900
+Wire Wire Line
+	9800 5900 9800 6000
+Wire Wire Line
+	9800 6000 9800 6100
+Wire Wire Line
+	9800 5100 9800 5200
+Wire Wire Line
+	8800 5150 9350 5150
+Wire Wire Line
+	9100 5350 9350 5350
+Wire Wire Line
+	2100 3100 2100 3200
+Wire Wire Line
+	2100 3200 2100 3300
+Wire Wire Line
+	2100 3300 2100 3400
+Wire Wire Line
+	2950 3000 2950 3100
+Wire Wire Line
+	3150 3300 3300 3300
+Wire Wire Line
+	3150 3650 3150 3700
+Wire Wire Line
+	5800 5650 5800 5750
+Wire Wire Line
+	5800 5750 5800 5850
+Wire Wire Line
+	5800 5350 5800 5450
+Wire Wire Line
+	5750 1550 5950 1550
+Wire Wire Line
+	5650 1550 5750 1550
+Wire Wire Line
+	4000 1250 4150 1250
+Wire Wire Line
+	3750 1250 4000 1250
+Wire Wire Line
+	3500 1250 3750 1250
+Wire Notes Line
+	7000 500  7000 4350
+Wire Notes Line
+	500  2250 7000 2250
+Wire Notes Line
+	1400 4350 9950 4350
 $EndSCHEMATC
