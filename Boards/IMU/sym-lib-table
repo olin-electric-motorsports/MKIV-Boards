@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name IMU-rescue)(type Legacy)(uri ${LOCAL_DIR}/MKIV-Boards/Boards/IMU/IMU-rescue.lib)(options "")(descr ""))
+)
