@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 17000 11000
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -843,7 +843,7 @@ F 3 "" H 3550 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 2000 2850 0    39   ~ 0
-Crystal, load caps, MCU\nshould be placed as close\ntogether as possible\n
+Crystal, bypass/load caps,\nMCU should be placed as\nclose together as possible\n
 Wire Notes Line
 	2800 2650 2800 2850
 Wire Notes Line
@@ -932,6 +932,69 @@ Text Label 1550 2600 0    50   ~ 0
 PC15
 Wire Wire Line
 	800  2600 1150 2600
+$Comp
+L formula:C_0.1uF_0603 C?
+U 1 1 5BCB7A85
+P 3050 1950
+F 0 "C?" H 2850 2000 50  0000 L CNN
+F 1 "C_0.1uF_0603" H 2850 1900 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 3088 1800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 3075 2050 50  0001 C CNN
+F 4 "DK" H 3050 1950 60  0001 C CNN "MFN"
+F 5 "1276-6582-1-ND" H 3050 1950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8WPNC/1276-6582-1-ND/5961441" H 3475 2450 60  0001 C CNN "PurchasingLink"
+	1    3050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BCB7C2F
+P 2550 2300
+F 0 "#PWR?" H 2550 2050 50  0001 C CNN
+F 1 "GND" H 2555 2127 50  0000 C CNN
+F 2 "" H 2550 2300 50  0001 C CNN
+F 3 "" H 2550 2300 50  0001 C CNN
+	1    2550 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2100 3650 2100
+Wire Wire Line
+	3650 2100 3650 1800
+Text Label 3050 1800 0    50   ~ 0
+NRST
+Text HLabel 3300 1650 0    50   BiDi ~ 0
+NRST
+Text Label 3300 1650 0    50   ~ 0
+NRST
+$Comp
+L formula:SW_Push_SPST_NO SW?
+U 1 1 5BCC343C
+P 2550 2000
+F 0 "SW?" V 2500 1800 50  0000 L CNN
+F 1 "SW_Push_SPST_NO" H 2250 1750 50  0000 L CNN
+F 2 "footprints:SW_B3U-1000P_4.2x1.7mm" H 2550 2050 50  0001 C CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 2550 2050 50  0001 C CNN
+F 4 "SW1020CT-ND" H 2750 2250 50  0001 C CNN "MPN"
+F 5 "DK" H 2850 2350 50  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3U-1000P/SW1020CT-ND/1534357A" H 2950 2450 50  0001 C CNN "PurchasingLink"
+	1    2550 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 1800 2550 1800
+Connection ~ 3050 1800
+Wire Wire Line
+	2550 2200 2550 2250
+Wire Wire Line
+	2550 2250 3050 2250
+Wire Wire Line
+	3050 2250 3050 2100
+Connection ~ 2550 2250
+Wire Wire Line
+	2550 2250 2550 2300
+Wire Wire Line
+	3050 1800 3650 1800
 Wire Bus Line
 	6300 3700 6300 5200
 Wire Bus Line

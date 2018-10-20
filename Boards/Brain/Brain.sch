@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr User 17000 11000
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Brain"
 Date ""
 Rev "Rve1"
@@ -60,5 +60,31 @@ F5 "PE[0..15]" B L 6450 2500 50
 F6 "PD[0..15]" B L 6450 2300 50 
 F7 "PG[0..15]" B R 7850 1900 50 
 F8 "PC[0..15]" B L 6450 2100 50 
+F9 "NRST" B R 7850 2100 50 
 $EndSheet
+$Sheet
+S 9200 1500 1350 1300
+U 5BB6C0E9
+F0 "jtag_usb" 50
+F1 "jtag_usb.sch" 50
+F2 "PA[0..15]" B L 9200 1650 50 
+F3 "PB[0..15]" B L 9200 1850 50 
+F4 "NRST" B L 9200 2000 50 
+$EndSheet
+Wire Wire Line
+	8750 1650 9200 1650
+Text Label 8750 1650 0    50   ~ 0
+PA[0..15]
+Wire Wire Line
+	9200 1850 8750 1850
+Text Label 8750 1850 0    50   ~ 0
+PB[0..15]
+Text Label 8300 2100 2    50   ~ 0
+NRST
+Wire Wire Line
+	7850 2100 8300 2100
+Text Label 8750 2000 0    50   ~ 0
+NRST
+Wire Wire Line
+	9200 2000 8750 2000
 $EndSCHEMATC
