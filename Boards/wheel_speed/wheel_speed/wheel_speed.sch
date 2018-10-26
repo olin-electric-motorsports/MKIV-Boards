@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:template-cache
+LIBS:wheel_speed-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -964,4 +964,141 @@ Wire Wire Line
 	3650 7350 3775 7350
 Text Label 9300 2250 0    60   ~ 0
 TXCAN
+$Comp
+L formula:UF_4_VT J1
+U 1 1 5BCEA0C7
+P 1050 1850
+F 0 "J1" H 1156 2287 60  0000 C CNN
+F 1 "UF_4_VT" H 1156 2181 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 950 2100 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1050 2200 60  0001 C CNN
+F 4 "DK" H 1050 1850 60  0001 C CNN "MFN"
+F 5 "WM11574-ND" H 1050 1850 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 1550 2700 60  0001 C CNN "PurchasingLink"
+	1    1050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:UF_4_VT J2
+U 1 1 5BCEA35A
+P 1050 2600
+F 0 "J2" H 1156 3037 60  0000 C CNN
+F 1 "UF_4_VT" H 1156 2931 60  0000 C CNN
+F 2 "footprints:Ultrafit_4" H 950 2850 60  0001 C CNN
+F 3 "http://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1008.pdf" H 1050 2950 60  0001 C CNN
+F 4 "DK" H 1050 2600 60  0001 C CNN "MFN"
+F 5 "WM11574-ND" H 1050 2600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=WM11574-ND" H 1550 3450 60  0001 C CNN "PurchasingLink"
+	1    1050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 5BCEA746
+P 1500 1650
+F 0 "#PWR0101" H 1500 1500 50  0001 C CNN
+F 1 "+12V" H 1515 1823 50  0000 C CNN
+F 2 "" H 1500 1650 50  0001 C CNN
+F 3 "" H 1500 1650 50  0001 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1650 1500 1650
+$Comp
+L power:GND #PWR0102
+U 1 1 5BCEB2F1
+P 1850 1750
+F 0 "#PWR0102" H 1850 1500 50  0001 C CNN
+F 1 "GND" H 1855 1577 50  0000 C CNN
+F 2 "" H 1850 1750 50  0001 C CNN
+F 3 "" H 1850 1750 50  0001 C CNN
+	1    1850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1750 1850 1750
+Text Label 1400 1850 0    50   ~ 0
+CANH
+Text Label 1400 1950 0    50   ~ 0
+CANL
+$Comp
+L power:VCC #PWR0103
+U 1 1 5BCEF2DC
+P 1500 2400
+F 0 "#PWR0103" H 1500 2250 50  0001 C CNN
+F 1 "VCC" H 1517 2573 50  0000 C CNN
+F 2 "" H 1500 2400 50  0001 C CNN
+F 3 "" H 1500 2400 50  0001 C CNN
+	1    1500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2400 1500 2400
+Wire Wire Line
+	1400 2600 1500 2600
+$Comp
+L power:GND #PWR0104
+U 1 1 5BCF0D33
+P 1500 2600
+F 0 "#PWR0104" H 1500 2350 50  0001 C CNN
+F 1 "GND" H 1505 2427 50  0000 C CNN
+F 2 "" H 1500 2600 50  0001 C CNN
+F 3 "" H 1500 2600 50  0001 C CNN
+	1    1500 2600
+	1    0    0    -1  
+$EndComp
+Text Label 1400 2500 0    50   ~ 0
+HSENSOR
+Text Label 9300 1150 0    50   ~ 0
+HSENSOR
+$Comp
+L formula:LED_0805 D3
+U 1 1 5BCF1382
+P 1000 3750
+F 0 "D3" V 1038 3633 50  0000 R CNN
+F 1 "LED_0805" V 947 3633 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 900 3750 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1000 3850 50  0001 C CNN
+F 4 "DK" H 1000 3750 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 1000 3750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1400 4250 60  0001 C CNN "PurchasingLink"
+	1    1000 3750
+	0    -1   -1   0   
+$EndComp
+Text Label 1000 3600 2    50   ~ 0
+P_LED_1
+$Comp
+L formula:R_200 R6
+U 1 1 5BCF2507
+P 1000 4050
+F 0 "R6" H 1070 4096 50  0000 L CNN
+F 1 "R_200" H 1070 4005 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 930 4050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1080 4050 50  0001 C CNN
+F 4 "DK" H 1000 4050 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 1000 4050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1480 4450 60  0001 C CNN "PurchasingLink"
+	1    1000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5BCF25C0
+P 1000 4200
+F 0 "#PWR0105" H 1000 3950 50  0001 C CNN
+F 1 "GND" H 1005 4027 50  0000 C CNN
+F 2 "" H 1000 4200 50  0001 C CNN
+F 3 "" H 1000 4200 50  0001 C CNN
+	1    1000 4200
+	1    0    0    -1  
+$EndComp
+Text Label 9300 1250 0    50   ~ 0
+P_LED_1
+Text Notes 6650 7750 0    79   ~ 0
+Wheel Speed Sensor
+Text Notes 7450 7850 0    39   ~ 0
+Thursday, October 25, 2018
+Text Notes 9900 7900 0    75   ~ 0
+A
 $EndSCHEMATC
