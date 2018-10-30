@@ -1021,7 +1021,7 @@ ProgramingLED1
 Text GLabel 14600 2800 2    50   Input ~ 0
 ReadyToDrive_LowDrive
 Text Label 14600 3500 0    50   ~ 0
-DriveModeSense
+Drive_Mode_Out
 Wire Wire Line
 	14600 3900 15150 3900
 Connection ~ 15150 3900
@@ -1610,7 +1610,7 @@ GND
 Text Label 2800 3900 0    59   ~ 0
 12V
 Text Label 2800 4000 0    59   ~ 0
-5V_DriveMode_Out
+5V_DriveModeSwitch
 Text Label 2800 4100 0    59   ~ 0
 MOSI
 Text Label 2800 4200 0    59   ~ 0
@@ -2177,4 +2177,256 @@ Wire Notes Line
 	6950 6100 9800 6100
 Text Notes 7100 4350 0    118  ~ 0
 Drive Sense \nCircuit
+Wire Notes Line
+	24300 5700 24300 3450
+Wire Notes Line
+	20850 3450 20850 5700
+Text Notes 20950 3850 0    118  ~ 0
+Drive Sense \nCircuit
+Text Label 19450 3500 0    59   ~ 0
+GND
+Text Label 19450 3600 0    59   ~ 0
+12V
+Text Label 19450 3700 0    59   ~ 0
+5V_DriveModeSwitch
+Text Label 19450 3800 0    59   ~ 0
+MOSI
+Text Label 19450 3900 0    59   ~ 0
+MISO
+Text Label 19450 4000 0    59   ~ 0
+SCK
+Text Label 19450 4100 0    59   ~ 0
+RESET
+Text Label 19450 4200 0    59   ~ 0
+CANH
+Text Label 19450 4300 0    59   ~ 0
+CANL
+Text Label 19450 4400 0    59   ~ 0
+LED1
+Text Label 19450 4500 0    59   ~ 0
+LED2
+Text Label 19450 4600 0    59   ~ 0
+5V
+Text Label 19450 4700 0    59   ~ 0
+Throttle_Left_Sense
+Text Label 19450 4800 0    59   ~ 0
+GND
+Text Label 19450 4900 0    59   ~ 0
+5V
+Text Label 19450 5000 0    59   ~ 0
+Throttle_Right_Sense
+Text Label 19450 5100 0    59   ~ 0
+GND
+Text Label 19450 5200 0    59   ~ 0
+5V
+Text Label 19450 5300 0    59   ~ 0
+Drive_Mode_Sense
+Text Label 19450 5400 0    59   ~ 0
+GND
+$Comp
+L formula:MM_F_VT_20 J?
+U 1 1 5BD98220
+P 19300 4600
+F 0 "J?" H 19200 5800 60  0000 C CNN
+F 1 "micromatch_female_TOP_ENTRY_locking_20" H 19300 3650 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_20" H 19100 5700 60  0001 C CNN
+F 3 "" H 19200 5800 60  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338068-0/A99499CT-ND/1955732" H 19300 5900 60  0001 C CNN "PurchasingLink"
+F 5 "Digi-Key" H 19400 6000 60  0001 C CNN "MFN"
+F 6 "A99499CT-ND" H 19500 6100 60  0001 C CNN "MPN"
+F 7 "Value" H 19600 6200 60  0001 C CNN "Package"
+	1    19300 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 19700 2550 0    197  ~ 0
+Alternate Drive Mode Setup
+$Comp
+L power:VCC #PWR?
+U 1 1 5BDB2868
+P 21950 4300
+F 0 "#PWR?" H 21950 4150 50  0001 C CNN
+F 1 "VCC" H 21967 4473 50  0000 C CNN
+F 2 "" H 21950 4300 50  0001 C CNN
+F 3 "" H 21950 4300 50  0001 C CNN
+	1    21950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5BDB295F
+P 22200 4300
+F 0 "#PWR?" H 22200 4150 50  0001 C CNN
+F 1 "VCC" H 22217 4473 50  0000 C CNN
+F 2 "" H 22200 4300 50  0001 C CNN
+F 3 "" H 22200 4300 50  0001 C CNN
+	1    22200 4300
+	1    0    0    -1  
+$EndComp
+Text Label 21850 4550 2    50   ~ 0
+Rotary_Switch_1_(5V)
+Wire Wire Line
+	21950 4300 21950 4550
+Wire Wire Line
+	21950 4550 21850 4550
+$Comp
+L formula:R_10K R?
+U 1 1 5BDEEC42
+P 22200 4500
+F 0 "R?" H 22270 4546 50  0000 L CNN
+F 1 "R_10K" H 22270 4455 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 22130 4500 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 22280 4500 50  0001 C CNN
+F 4 "DK" H 22200 4500 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 22200 4500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 22680 4900 60  0001 C CNN "PurchasingLink"
+	1    22200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_22K R?
+U 1 1 5BDEED72
+P 22200 4900
+F 0 "R?" H 22270 4946 50  0000 L CNN
+F 1 "R_22K" H 22270 4855 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 22130 4900 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 22280 4900 50  0001 C CNN
+F 4 "DK" H 22200 4900 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 22200 4900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 22680 5300 60  0001 C CNN "PurchasingLink"
+	1    22200 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BDFDB16
+P 22200 5150
+F 0 "#PWR?" H 22200 4900 50  0001 C CNN
+F 1 "GND" H 22205 4977 50  0000 C CNN
+F 2 "" H 22200 5150 50  0001 C CNN
+F 3 "" H 22200 5150 50  0001 C CNN
+	1    22200 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22200 4300 22200 4350
+Wire Wire Line
+	22200 4650 22200 4700
+Wire Wire Line
+	22200 4700 21850 4700
+Wire Wire Line
+	22200 4700 22200 4750
+Connection ~ 22200 4700
+Text Notes 21250 5650 0    50   ~ 0
+Note: I looked into doing this with an indexing \npotentiometer, as it would require less pins, \nbut those are really hard to find, and are more expensive.
+Text Label 23600 3650 0    50   ~ 0
+Rotary_Switch_A
+Text Label 23600 4350 0    50   ~ 0
+Drive_Mode_Out
+Wire Wire Line
+	23600 3650 23500 3650
+Wire Wire Line
+	23500 3650 23500 4000
+Wire Wire Line
+	23500 4350 23600 4350
+$Comp
+L formula:C_0.1uF C?
+U 1 1 5BE2329F
+P 23800 4000
+F 0 "C?" V 23548 4000 50  0000 C CNN
+F 1 "C_0.1uF" V 23639 4000 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 23838 3850 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 23825 4100 50  0001 C CNN
+F 4 "DK" H 23800 4000 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 23800 4000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 24225 4500 60  0001 C CNN "PurchasingLink"
+	1    23800 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BE23456
+P 23950 4000
+F 0 "#PWR?" H 23950 3750 50  0001 C CNN
+F 1 "GND" V 23955 3872 50  0000 R CNN
+F 2 "" H 23950 4000 50  0001 C CNN
+F 3 "" H 23950 4000 50  0001 C CNN
+	1    23950 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23650 4000 23500 4000
+Connection ~ 23500 4000
+Wire Wire Line
+	23500 4000 23500 4350
+$Comp
+L power:VCC #PWR?
+U 1 1 5BE456BA
+P 22650 4300
+F 0 "#PWR?" H 22650 4150 50  0001 C CNN
+F 1 "VCC" H 22667 4473 50  0000 C CNN
+F 2 "" H 22650 4300 50  0001 C CNN
+F 3 "" H 22650 4300 50  0001 C CNN
+	1    22650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_22K R?
+U 1 1 5BE456C3
+P 22650 4500
+F 0 "R?" H 22720 4546 50  0000 L CNN
+F 1 "R_22K" H 22720 4455 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 22580 4500 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 22730 4500 50  0001 C CNN
+F 4 "DK" H 22650 4500 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 22650 4500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 23130 4900 60  0001 C CNN "PurchasingLink"
+	1    22650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_22K R?
+U 1 1 5BE456CD
+P 22650 4900
+F 0 "R?" H 22720 4946 50  0000 L CNN
+F 1 "R_22K" H 22720 4855 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 22580 4900 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 22730 4900 50  0001 C CNN
+F 4 "DK" H 22650 4900 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 22650 4900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 23130 5300 60  0001 C CNN "PurchasingLink"
+	1    22650 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BE456D4
+P 22650 5150
+F 0 "#PWR?" H 22650 4900 50  0001 C CNN
+F 1 "GND" H 22655 4977 50  0000 C CNN
+F 2 "" H 22650 5150 50  0001 C CNN
+F 3 "" H 22650 5150 50  0001 C CNN
+	1    22650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22650 4300 22650 4350
+Wire Wire Line
+	22650 5050 22650 5150
+Text Label 21850 4700 2    50   ~ 0
+Rotary_Switch_2_(3.44V)
+Wire Wire Line
+	22200 5050 22200 5150
+Text Label 22900 4700 0    50   ~ 0
+Rotary_Switch_3_(1.56V)
+Wire Wire Line
+	22650 4650 22650 4700
+Wire Wire Line
+	22900 4700 22650 4700
+Connection ~ 22650 4700
+Wire Wire Line
+	22650 4700 22650 4750
+Wire Notes Line
+	20850 5700 24300 5700
+Wire Notes Line
+	20850 3450 24300 3450
 $EndSCHEMATC
