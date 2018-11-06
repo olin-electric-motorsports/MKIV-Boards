@@ -1,10 +1,6 @@
-update=Thu 01 Nov 2018 02:00:09 PM EDT
+update=Wed 31 Oct 2018 09:20:54 PM EDT
 version=1
-last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -27,10 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
