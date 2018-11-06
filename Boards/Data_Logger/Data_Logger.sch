@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:template-cache
+LIBS:Data_Logger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -977,74 +977,74 @@ F 3 "" H 5900 1450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 1350 5900 1450
-Text Label 4900 5550 3    50   ~ 0
+Text Label 4900 5600 3    50   ~ 0
 31_Reset
-Text Label 4650 5850 3    50   ~ 0
+Text Label 4650 5900 3    50   ~ 0
 pin_28
-Text Label 4650 5700 2    50   ~ 0
+Text Label 4650 5750 2    50   ~ 0
 SPI_Clock
 Wire Wire Line
-	4650 5550 4650 5850
-Text Label 4650 4850 1    50   ~ 0
+	4650 5600 4650 5900
+Text Label 4650 4900 1    50   ~ 0
 SS_Pin_3
 Wire Wire Line
-	5150 4850 5450 4850
+	5150 4900 5450 4900
 $Comp
 L power:GND #PWR?
 U 1 1 5BDAB941
-P 5450 4850
-F 0 "#PWR?" H 5450 4600 50  0001 C CNN
-F 1 "GND" H 5455 4677 50  0000 C CNN
-F 2 "" H 5450 4850 50  0001 C CNN
-F 3 "" H 5450 4850 50  0001 C CNN
-	1    5450 4850
+P 5450 4900
+F 0 "#PWR?" H 5450 4650 50  0001 C CNN
+F 1 "GND" H 5455 4727 50  0000 C CNN
+F 2 "" H 5450 4900 50  0001 C CNN
+F 3 "" H 5450 4900 50  0001 C CNN
+	1    5450 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5BDAAAAD
-P 4900 4850
-F 0 "#PWR?" H 4900 4700 50  0001 C CNN
-F 1 "+5V" H 4915 5023 50  0000 C CNN
-F 2 "" H 4900 4850 50  0001 C CNN
-F 3 "" H 4900 4850 50  0001 C CNN
-	1    4900 4850
+P 4900 4900
+F 0 "#PWR?" H 4900 4750 50  0001 C CNN
+F 1 "+5V" H 4915 5073 50  0000 C CNN
+F 2 "" H 4900 4900 50  0001 C CNN
+F 3 "" H 4900 4900 50  0001 C CNN
+	1    4900 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5BDA8783
-P 5150 5550
-F 0 "#PWR?" H 5150 5400 50  0001 C CNN
-F 1 "+5V" H 5165 5723 50  0000 C CNN
-F 2 "" H 5150 5550 50  0001 C CNN
-F 3 "" H 5150 5550 50  0001 C CNN
-	1    5150 5550
+P 5150 5600
+F 0 "#PWR?" H 5150 5450 50  0001 C CNN
+F 1 "+5V" H 5165 5773 50  0000 C CNN
+F 2 "" H 5150 5600 50  0001 C CNN
+F 3 "" H 5150 5600 50  0001 C CNN
+	1    5150 5600
 	-1   0    0    1   
 $EndComp
 $Comp
 L New_Library:SD_Socket D?
 U 1 1 5BDA44EB
-P 4900 5300
-F 0 "D?" H 4900 5450 50  0001 C CNN
-F 1 "SD_Socket" H 5278 5400 50  0000 L CNN
-F 2 "" H 4900 5450 50  0001 C CNN
-F 3 "" H 4900 5450 50  0001 C CNN
-	1    4900 5300
+P 4900 5350
+F 0 "D?" H 4900 5500 50  0001 C CNN
+F 1 "SD_Socket" H 5278 5450 50  0000 L CNN
+F 2 "" H 4900 5500 50  0001 C CNN
+F 3 "" H 4900 5500 50  0001 C CNN
+	1    4900 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:SD_socket J?
 U 1 1 5BE10C7B
-P 5250 3200
-F 0 "J?" H 5677 2646 50  0000 L CNN
-F 1 "SD_socket" H 5677 2555 50  0000 L CNN
-F 2 "footprints:sd_socket_molex_5009980900" H 5150 3100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/5009980900_sd.pdf" H 5250 3200 50  0001 C CNN
-F 4 "DK" H 5350 3300 50  0001 C CNN "MFN"
-F 5 "WM24032CT-ND" H 5450 3400 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/5009980900/WM24032CT-ND/1135941" H 5550 3500 50  0001 C CNN "PurchasingLink"
-	1    5250 3200
+P 5400 2550
+F 0 "J?" H 5827 1996 50  0000 L CNN
+F 1 "SD_socket" H 5827 1905 50  0000 L CNN
+F 2 "footprints:sd_socket_molex_5009980900" H 5300 2450 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5009980900_sd.pdf" H 5400 2550 50  0001 C CNN
+F 4 "DK" H 5500 2650 50  0001 C CNN "MFN"
+F 5 "WM24032CT-ND" H 5600 2750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex-llc/5009980900/WM24032CT-ND/1135941" H 5700 2850 50  0001 C CNN "PurchasingLink"
+	1    5400 2550
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
