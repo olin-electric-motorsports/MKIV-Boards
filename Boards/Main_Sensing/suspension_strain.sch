@@ -1,45 +1,371 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 4
 LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
 LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 25 0
+LIBS:Main_Sensing-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 4 4
+Title "Suspension Strain"
+Date "2018-11-01"
+Rev "1.0"
+Comp "Olin Electric Motorsports"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L formula:R R5
+U 1 1 5BDB7F26
+P 2400 2100
+F 0 "R5" V 2500 2100 50  0000 C CNN
+F 1 "R" V 2500 2200 50  0000 C CNN
+F 2 "" V 2330 2100 50  0001 C CNN
+F 3 "" H 2400 2100 50  0001 C CNN
+	1    2400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R R4
+U 1 1 5BDB9067
+P 2400 1800
+F 0 "R4" V 2193 1800 50  0000 C CNN
+F 1 "R" V 2284 1800 50  0000 C CNN
+F 2 "" V 2330 1800 50  0001 C CNN
+F 3 "" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R R3
+U 1 1 5BDB906D
+P 1950 1800
+F 0 "R3" V 2150 1800 50  0000 C CNN
+F 1 "R" V 2050 1800 50  0000 C CNN
+F 2 "" V 1880 1800 50  0001 C CNN
+F 3 "" H 1950 1800 50  0001 C CNN
+	1    1950 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:AD623 U1
+U 1 1 5BDB912C
+P 3950 2100
+F 0 "U1" H 4100 2200 50  0000 L CNN
+F 1 "AD623" H 4100 2000 50  0000 L CNN
+F 2 "" H 3950 2100 50  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD623.pdf" H 4100 2400 50  0001 C CNN
+F 4 "Digi Key" H 4200 2500 60  0001 C CNN "MFN"
+F 5 "AD623ARMZ-REELCT-ND" H 4300 2600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/analog-devices-inc/AD623ARMZ-REEL/AD623ARMZ-REELCT-ND/4141851" H 4400 2700 60  0001 C CNN "PurchasingLink"
+	1    3950 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5BDB948A
+P 1700 1750
+F 0 "#PWR05" H 1700 1600 50  0001 C CNN
+F 1 "VCC" H 1717 1923 50  0000 C CNN
+F 2 "" H 1700 1750 50  0001 C CNN
+F 3 "" H 1700 1750 50  0001 C CNN
+	1    1700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5BDB94FA
+P 2750 1650
+F 0 "#PWR08" H 2750 1400 50  0001 C CNN
+F 1 "GND" H 2755 1477 50  0000 C CNN
+F 2 "" H 2750 1650 50  0001 C CNN
+F 3 "" H 2750 1650 50  0001 C CNN
+	1    2750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1800 2200 1800
+Connection ~ 2200 1800
+Wire Wire Line
+	2200 1800 2250 1800
+Wire Wire Line
+	2200 1900 3550 1900
+Wire Wire Line
+	2200 1800 2200 1900
+Wire Wire Line
+	2550 1800 2600 1800
+Wire Wire Line
+	2600 1800 2600 1650
+Wire Wire Line
+	2600 1650 2750 1650
+Wire Wire Line
+	1700 1750 1700 1800
+Wire Wire Line
+	2550 2100 2600 2100
+Wire Wire Line
+	2600 2100 2600 2000
+Wire Wire Line
+	2600 2000 2750 2000
+$Comp
+L power:GND #PWR09
+U 1 1 5BDB9B33
+P 2750 2000
+F 0 "#PWR09" H 2750 1750 50  0001 C CNN
+F 1 "GND" H 2755 1827 50  0000 C CNN
+F 2 "" H 2750 2000 50  0001 C CNN
+F 3 "" H 2750 2000 50  0001 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2100 2200 2100
+Wire Wire Line
+	2200 2100 2200 2300
+Wire Wire Line
+	2200 2300 3550 2300
+Text GLabel 2150 2100 0    50   Input ~ 0
+gauge1.1in
+Wire Wire Line
+	2200 2100 2150 2100
+Connection ~ 2200 2100
+$Comp
+L formula:R R6
+U 1 1 5BDB9DBA
+P 3400 2100
+F 0 "R6" H 3300 2150 50  0000 C CNN
+F 1 "R" H 3300 2050 50  0000 C CNN
+F 2 "" V 3330 2100 50  0001 C CNN
+F 3 "" H 3400 2100 50  0001 C CNN
+	1    3400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2000 3550 1950
+Wire Wire Line
+	3550 1950 3400 1950
+Wire Wire Line
+	3550 2200 3550 2250
+Wire Wire Line
+	3550 2250 3400 2250
+$Comp
+L power:GND #PWR011
+U 1 1 5BDBA13A
+P 3850 2450
+F 0 "#PWR011" H 3850 2200 50  0001 C CNN
+F 1 "GND" H 3855 2277 50  0000 C CNN
+F 2 "" H 3850 2450 50  0001 C CNN
+F 3 "" H 3850 2450 50  0001 C CNN
+	1    3850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 5BDBA173
+P 3850 1300
+F 0 "#PWR010" H 3850 1150 50  0001 C CNN
+F 1 "VCC" H 3867 1473 50  0000 C CNN
+F 2 "" H 3850 1300 50  0001 C CNN
+F 3 "" H 3850 1300 50  0001 C CNN
+	1    3850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5BDBA1F0
+P 800 1100
+F 0 "#PWR01" H 800 950 50  0001 C CNN
+F 1 "VCC" H 817 1273 50  0000 C CNN
+F 2 "" H 800 1100 50  0001 C CNN
+F 3 "" H 800 1100 50  0001 C CNN
+	1    800  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5BDBA329
+P 800 2000
+F 0 "#PWR02" H 800 1750 50  0001 C CNN
+F 1 "GND" H 805 1827 50  0000 C CNN
+F 2 "" H 800 2000 50  0001 C CNN
+F 3 "" H 800 2000 50  0001 C CNN
+	1    800  2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  1100 800  1200
+Wire Wire Line
+	800  1500 800  1550
+Wire Wire Line
+	800  1900 800  2000
+Text Label 900  1550 0    50   ~ 0
+2.5V
+Wire Wire Line
+	800  1550 900  1550
+Connection ~ 800  1550
+Wire Wire Line
+	800  1550 800  1600
+$Comp
+L formula:C_10uF C1
+U 1 1 5BDBAD61
+P 4050 1400
+F 0 "C1" V 3800 1500 50  0000 C CNN
+F 1 "C_10uF" V 3900 1550 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 4088 1250 50  0001 C CNN
+F 3 "http://datasheets.avx.com/cx5r.pdf" H 4075 1500 50  0001 C CNN
+F 4 "478-5167-1-ND" H 4050 1400 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4050 1400 60  0001 C CNN "MFN"
+F 6 "Value" H 4050 1400 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/avx-corporation/0805ZD106KAT2A/478-5167-1-ND/1913257" H 4475 1900 60  0001 C CNN "PurchasingLink"
+	1    4050 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:C_0.1uF C2
+U 1 1 5BDBAED8
+P 4050 1650
+F 0 "C2" V 4150 1750 50  0000 C CNN
+F 1 "C_0.1uF" V 4250 1700 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 4088 1500 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 4075 1750 50  0001 C CNN
+F 4 "478-3352-1-ND" H 4050 1650 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 4050 1650 60  0001 C CNN "MFN"
+F 6 "Value" H 4050 1650 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 4475 2150 60  0001 C CNN "PurchasingLink"
+	1    4050 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 1300 3850 1400
+Connection ~ 3850 1400
+Wire Wire Line
+	3850 1400 3900 1400
+Wire Wire Line
+	3850 1400 3850 1650
+Wire Wire Line
+	3850 1650 3900 1650
+Connection ~ 3850 1650
+Wire Wire Line
+	3850 1650 3850 1800
+Wire Wire Line
+	4200 1650 4350 1650
+Wire Wire Line
+	4350 1650 4350 1400
+Wire Wire Line
+	4350 1400 4200 1400
+$Comp
+L power:GND #PWR012
+U 1 1 5BDBCF1B
+P 4350 1700
+F 0 "#PWR012" H 4350 1450 50  0001 C CNN
+F 1 "GND" H 4355 1527 50  0000 C CNN
+F 2 "" H 4350 1700 50  0001 C CNN
+F 3 "" H 4350 1700 50  0001 C CNN
+	1    4350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1650 4350 1700
+Connection ~ 4350 1650
+Wire Wire Line
+	4050 2400 4150 2400
+Text Label 4150 2400 0    50   ~ 0
+2.5V
+Wire Wire Line
+	4350 2100 4400 2100
+Text GLabel 4400 2100 2    50   Input ~ 0
+gauge1.1out
+$Comp
+L formula:R_10k R1
+U 1 1 5BDBEF0F
+P 800 1350
+F 0 "R1" H 870 1396 50  0000 L CNN
+F 1 "R_10k" H 870 1305 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 730 1350 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 880 1350 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 800 1350 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 800 1350 60  0001 C CNN "MFN"
+F 6 "Value" H 800 1350 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 1280 1750 60  0001 C CNN "PurchasingLink"
+	1    800  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_10k R2
+U 1 1 5BDBEFCD
+P 800 1750
+F 0 "R2" H 870 1796 50  0000 L CNN
+F 1 "R_10k" H 870 1705 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 730 1750 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 880 1750 50  0001 C CNN
+F 4 "CRS0805-FX-1002ELFCT-ND" H 800 1750 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 800 1750 60  0001 C CNN "MFN"
+F 6 "Value" H 800 1750 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 1280 2150 60  0001 C CNN "PurchasingLink"
+	1    800  1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1800 1800 1800
+$Comp
+L power:VCC #PWR03
+U 1 1 5BDC04E4
+P 1200 750
+F 0 "#PWR03" H 1200 600 50  0001 C CNN
+F 1 "VCC" H 1217 923 50  0000 C CNN
+F 2 "" H 1200 750 50  0001 C CNN
+F 3 "" H 1200 750 50  0001 C CNN
+	1    1200 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5BDC0537
+P 1200 1000
+F 0 "#PWR04" H 1200 750 50  0001 C CNN
+F 1 "GND" H 1205 827 50  0000 C CNN
+F 2 "" H 1200 1000 50  0001 C CNN
+F 3 "" H 1200 1000 50  0001 C CNN
+	1    1200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 750  1350 750 
+Text GLabel 1350 750  2    50   Input ~ 0
+gauge1+
+Wire Wire Line
+	1200 1000 1350 1000
+Text GLabel 1350 1000 2    50   Input ~ 0
+gauge1-
+$Comp
+L power:VCC #PWR06
+U 1 1 5BDC16A7
+P 1900 750
+F 0 "#PWR06" H 1900 600 50  0001 C CNN
+F 1 "VCC" H 1917 923 50  0000 C CNN
+F 2 "" H 1900 750 50  0001 C CNN
+F 3 "" H 1900 750 50  0001 C CNN
+	1    1900 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5BDC16AD
+P 1900 1000
+F 0 "#PWR07" H 1900 750 50  0001 C CNN
+F 1 "GND" H 1905 827 50  0000 C CNN
+F 2 "" H 1900 1000 50  0001 C CNN
+F 3 "" H 1900 1000 50  0001 C CNN
+	1    1900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 750  2050 750 
+Text GLabel 2050 750  2    50   Input ~ 0
+gauge2+
+Wire Wire Line
+	1900 1000 2050 1000
+Text GLabel 2050 1000 2    50   Input ~ 0
+gauge2-
 $EndSCHEMATC
