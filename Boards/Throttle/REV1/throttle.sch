@@ -20,7 +20,7 @@ U 1 1 59E042A3
 P 7900 4500
 F 0 "R28" V 7980 4500 50  0000 C CNN
 F 1 "R_10k" V 7800 4500 50  0000 C CNN
-F 2 "footprints:R_1K_HV" H 7830 4500 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 7830 4500 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 7980 4500 50  0001 C CNN
 F 4 "PPC5D10.0KCT-ND " H 7900 4500 60  0001 C CNN "MPN"
 F 5 "DK" H 7900 4500 60  0001 C CNN "MFN"
@@ -35,7 +35,7 @@ U 1 1 5BC9A052
 P 8950 4650
 F 0 "R29" V 9030 4650 50  0000 C CNN
 F 1 "R_10k" V 8850 4650 50  0000 C CNN
-F 2 "footprints:R_1K_HV" H 8880 4650 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 8880 4650 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/28731/pacserie.pdf" H 9030 4650 50  0001 C CNN
 F 4 "PPC5D10.0KCT-ND " H 8950 4650 60  0001 C CNN "MPN"
 F 5 "DK" H 8950 4650 60  0001 C CNN "MFN"
@@ -650,7 +650,7 @@ F 3 "" H 6700 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:ATMEGA16M1 IC1
+L throttle-rescue:ATMEGA16M1-formula IC1
 U 1 1 59E10948
 P 13500 2900
 F 0 "IC1" H 12550 4730 50  0000 L BNN
@@ -739,8 +739,6 @@ Text Label 6150 6800 2    60   ~ 0
 RESET
 Text Label 6650 6700 0    60   ~ 0
 MOSI
-Text Label 14600 2200 0    60   ~ 0
-SS
 NoConn ~ 12400 1900
 $Comp
 L formula:D_Zener_18V D7
@@ -964,7 +962,7 @@ L formula:R_200 R_1
 U 1 1 5BC5715E
 P 15050 950
 F 0 "R_1" V 14843 950 50  0000 C CNN
-F 1 "R" V 14934 950 50  0000 C CNN
+F 1 "R_200" V 14934 950 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 14980 950 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 15050 950 50  0001 C CNN
 F 4 "DK" H 0   0   50  0001 C CNN "MFN"
@@ -978,7 +976,7 @@ L formula:R_200 R_2
 U 1 1 5BC57239
 P 15050 1300
 F 0 "R_2" V 14843 1300 50  0000 C CNN
-F 1 "R" V 14934 1300 50  0000 C CNN
+F 1 "R_200" V 14934 1300 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" V 14980 1300 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 15050 1300 50  0001 C CNN
 F 4 "DK" H 0   0   50  0001 C CNN "MFN"
@@ -2067,64 +2065,6 @@ Wire Notes Line
 	10900 550  10900 2700
 Wire Notes Line
 	6100 550  6100 2500
-Wire Notes Line
-	750  7450 11850 7450
-Wire Notes Line
-	11850 7450 11850 10400
-Wire Notes Line
-	11850 10400 750  10400
-Wire Notes Line
-	750  10400 750  7450
-Text Notes 800  7700 0    197  ~ 0
-Off Board Circuits
-Text Label 1200 8400 0    59   ~ 0
-GND_Throttle1
-Text Label 1350 8150 0    59   ~ 0
-Throttle1_Right_Sense
-Text Label 1200 8000 0    59   ~ 0
-5V_Throttle1
-$Comp
-L Device:R_POT RV1
-U 1 1 5BEE87AB
-P 1200 8150
-F 0 "RV1" H 1130 8196 50  0000 R CNN
-F 1 "R_POT" H 1130 8105 50  0000 R CNN
-F 2 "" H 1200 8150 50  0001 C CNN
-F 3 "~" H 1200 8150 50  0001 C CNN
-	1    1200 8150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 8300 1200 8400
-Text Label 1200 9050 0    59   ~ 0
-GND_Throttle2
-Text Label 1350 8800 0    59   ~ 0
-Throttle2_Left_Sense
-Text Label 1200 8650 0    59   ~ 0
-5V_Throttle2
-$Comp
-L Device:R_POT RV2
-U 1 1 5BF205D4
-P 1200 8800
-F 0 "RV2" H 1130 8846 50  0000 R CNN
-F 1 "R_POT" H 1130 8755 50  0000 R CNN
-F 2 "" H 1200 8800 50  0001 C CNN
-F 3 "~" H 1200 8800 50  0001 C CNN
-	1    1200 8800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1200 8950 1200 9050
-Wire Notes Line
-	850  7850 850  9250
-Wire Notes Line
-	850  9250 3800 9250
-Wire Notes Line
-	3800 9250 3800 7850
-Wire Notes Line
-	3800 7850 850  7850
-Text Notes 2050 8450 0    63   ~ 0
-Accelerator Petal Position Sensor\n
 Text Label 3500 6950 0    59   ~ 0
 5V_Throttle2
 Text Label 4150 6950 0    59   ~ 0
@@ -2140,110 +2080,6 @@ F 3 "" H 4150 6950 50  0001 C CNN
 	1    4150 6950
 	-1   0    0    1   
 $EndComp
-Text Label 5150 8250 2    59   ~ 0
-5V_DriveMode
-Text Label 5150 7850 2    59   ~ 0
-Drive_Mode_Sense
-Text Label 5150 8650 2    59   ~ 0
-GND_DriveMode
-$Comp
-L formula:R_10K R36
-U 1 1 5BEC1385
-P 5850 7850
-F 0 "R36" V 5643 7850 50  0000 C CNN
-F 1 "R_10K" V 5734 7850 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 7850 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5930 7850 50  0001 C CNN
-F 4 "DK" H 5850 7850 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 5850 7850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6330 8250 60  0001 C CNN "PurchasingLink"
-	1    5850 7850
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_10K R37
-U 1 1 5BEC178F
-P 5850 8650
-F 0 "R37" V 5643 8650 50  0000 C CNN
-F 1 "R_10K" V 5734 8650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5780 8650 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5930 8650 50  0001 C CNN
-F 4 "DK" H 5850 8650 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 5850 8650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6330 9050 60  0001 C CNN "PurchasingLink"
-	1    5850 8650
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_10K R39
-U 1 1 5BEC18BA
-P 6400 8450
-F 0 "R39" H 6470 8496 50  0000 L CNN
-F 1 "R_10K" H 6470 8405 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 6330 8450 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6480 8450 50  0001 C CNN
-F 4 "DK" H 6400 8450 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 6400 8450 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6880 8850 60  0001 C CNN "PurchasingLink"
-	1    6400 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R38
-U 1 1 5BEC1A4B
-P 6400 8050
-F 0 "R38" H 6470 8096 50  0000 L CNN
-F 1 "R_10K" H 6470 8005 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 6330 8050 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 6480 8050 50  0001 C CNN
-F 4 "DK" H 6400 8050 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 6400 8050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6880 8450 60  0001 C CNN "PurchasingLink"
-	1    6400 8050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5150 7850 5650 7850
-Wire Wire Line
-	6400 7850 6400 7900
-Wire Wire Line
-	6400 8200 6400 8250
-Wire Wire Line
-	6400 8600 6400 8650
-Wire Wire Line
-	6400 8650 6150 8650
-Wire Wire Line
-	5700 8650 5650 8650
-Text Label 5650 8200 0    50   ~ 0
-RotarySwith
-Wire Wire Line
-	5650 8250 5150 8250
-Connection ~ 5650 8650
-Wire Wire Line
-	5650 8650 5150 8650
-Connection ~ 5650 8250
-Wire Wire Line
-	5650 8250 5650 8650
-Wire Wire Line
-	6150 8250 6150 8650
-Connection ~ 6150 8650
-Wire Wire Line
-	6150 8650 6000 8650
-Connection ~ 6400 8250
-Wire Wire Line
-	6400 8250 6400 8300
-Wire Wire Line
-	6150 8250 6150 7850
-Wire Wire Line
-	6000 7850 6150 7850
-Connection ~ 6150 7850
-Wire Wire Line
-	6150 7850 6400 7850
-Connection ~ 5650 7850
-Wire Wire Line
-	5650 7850 5700 7850
-Wire Wire Line
-	5650 7850 5650 8250
 Text Label 5800 4900 0    59   ~ 0
 Drive_Mode_Sense
 Text Label 5500 4900 2    59   ~ 0
@@ -2322,16 +2158,6 @@ Wire Wire Line
 Connection ~ 5800 5100
 Wire Wire Line
 	5800 5100 5800 5300
-Wire Notes Line
-	4200 7550 4200 9250
-Wire Notes Line
-	4200 9250 6800 9250
-Wire Notes Line
-	6800 9250 6800 7550
-Wire Notes Line
-	6800 7550 4200 7550
-Text Notes 4600 9000 0    63   ~ 0
-Drive Mode Select Circuit\n
 Text Notes 5050 4650 0    63   ~ 0
 Drive Mode Sense Circuit
 Wire Notes Line
@@ -2342,11 +2168,6 @@ Wire Notes Line
 	6700 4450 4650 4450
 Wire Notes Line
 	4650 4450 4650 5900
-Wire Wire Line
-	5650 8250 6150 8250
-Connection ~ 6150 8250
-Wire Wire Line
-	6150 8250 6400 8250
 Connection ~ 7050 1650
 Wire Wire Line
 	7050 1650 7300 1650
@@ -2387,10 +2208,10 @@ NoConn ~ 14600 1400
 NoConn ~ 1000 -1300
 NoConn ~ 8200 6650
 $Comp
-L power:VCC #PWR0152
+L power:VCC #PWR06
 U 1 1 5BE8858D
 P 4700 6650
-F 0 "#PWR0152" H 4700 6500 50  0001 C CNN
+F 0 "#PWR06" H 4700 6500 50  0001 C CNN
 F 1 "VCC" H 4717 6823 50  0000 C CNN
 F 2 "" H 4700 6650 50  0001 C CNN
 F 3 "" H 4700 6650 50  0001 C CNN
@@ -2400,10 +2221,10 @@ $EndComp
 Text Label 4700 6650 0    50   ~ 0
 5V_Out
 $Comp
-L power:VCC #PWR0153
+L power:VCC #PWR03
 U 1 1 5BEC65C8
 P 3500 6950
-F 0 "#PWR0153" H 3500 6800 50  0001 C CNN
+F 0 "#PWR03" H 3500 6800 50  0001 C CNN
 F 1 "VCC" H 3518 7123 50  0000 C CNN
 F 2 "" H 3500 6950 50  0001 C CNN
 F 3 "" H 3500 6950 50  0001 C CNN
@@ -2413,13 +2234,47 @@ $EndComp
 Text Notes 4050 6300 0    79   ~ 0
 Power Flags\n
 Wire Notes Line
-	3200 7250 5650 7250
-Wire Notes Line
-	5650 7250 5650 6100
+	3200 7750 5650 7750
 Wire Notes Line
 	5650 6100 3200 6100
-Wire Notes Line
-	3200 6100 3200 7250
 Connection ~ 8900 6750
 Connection ~ 8900 6450
+$Comp
+L power:GND #PWR0152
+U 1 1 5BE83518
+P 3700 7450
+F 0 "#PWR0152" H 3700 7200 50  0001 C CNN
+F 1 "GND" H 3705 7277 50  0000 C CNN
+F 2 "" H 3700 7450 50  0001 C CNN
+F 3 "" H 3700 7450 50  0001 C CNN
+	1    3700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 5BE83606
+P 4550 7450
+F 0 "#PWR0153" H 4550 7200 50  0001 C CNN
+F 1 "GND" H 4555 7277 50  0000 C CNN
+F 2 "" H 4550 7450 50  0001 C CNN
+F 3 "" H 4550 7450 50  0001 C CNN
+	1    4550 7450
+	1    0    0    -1  
+$EndComp
+Text Label 3700 7450 0    59   ~ 0
+GND_Throttle2
+Text Label 4550 7450 0    59   ~ 0
+GND_Throttle1
+Wire Notes Line
+	5650 6100 5650 7750
+Wire Notes Line
+	3200 6100 3200 7750
+NoConn ~ 14600 2200
+NoConn ~ 13550 7000
+NoConn ~ 9050 4950
+NoConn ~ 9550 5150
+NoConn ~ 9300 3800
+NoConn ~ 9350 3600
+NoConn ~ 9700 5050
+NoConn ~ 4150 1350
 $EndSCHEMATC
