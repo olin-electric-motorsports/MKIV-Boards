@@ -938,19 +938,6 @@ Wire Wire Line
 	5150 4000 5275 4000
 Text Label 9350 2300 0    60   ~ 0
 TXCAN
-Wire Wire Line
-	2300 2250 2400 2250
-$Comp
-L power:GND #PWR0104
-U 1 1 5BCF0D33
-P 2400 2250
-F 0 "#PWR0104" H 2400 2000 50  0001 C CNN
-F 1 "GND" H 2405 2077 50  0000 C CNN
-F 2 "" H 2400 2250 50  0001 C CNN
-F 3 "" H 2400 2250 50  0001 C CNN
-	1    2400 2250
-	1    0    0    -1  
-$EndComp
 Text Label 9350 1700 0    50   ~ 0
 HSENSOR
 $Comp
@@ -1024,8 +1011,6 @@ F 3 "" H 2650 1150 50  0001 C CNN
 	1    2650 1150
 	1    0    0    -1  
 $EndComp
-Text Notes 650  1450 0    50   ~ 0
-5, 6, & 7:\nPower, ground, and \ninput for Potentiometer\n(MCP6001)
 $Comp
 L formula:LMV341 U3
 U 1 1 5BD823FC
@@ -1147,8 +1132,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 1000 4700 1300
 Connection ~ 4700 1000
-Text Notes 650  1900 0    50   ~ 0
-8, 9, & 10:\nPower, ground, and \noutput for Brake disc\nTemperature Sensor\n(MLX90614ESF-AAA-000-TU)
 Text Label 9350 1800 0    50   ~ 0
 BRAKETEMP
 $Comp
@@ -1298,111 +1281,52 @@ Text Label 2300 1250 0    50   ~ 0
 CANH
 Text Label 2300 1350 0    50   ~ 0
 CANL
-$Comp
-L power:VCC #PWR09
-U 1 1 5BE0B268
-P 2300 1450
-F 0 "#PWR09" H 2300 1300 50  0001 C CNN
-F 1 "VCC" V 2317 1578 50  0000 L CNN
-F 2 "" H 2300 1450 50  0001 C CNN
-F 3 "" H 2300 1450 50  0001 C CNN
-	1    2300 1450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR031
-U 1 1 5BE0B2CD
-P 2600 1550
-F 0 "#PWR031" H 2600 1300 50  0001 C CNN
-F 1 "GND" H 2600 1400 50  0000 C CNN
-F 2 "" H 2600 1550 50  0001 C CNN
-F 3 "" H 2600 1550 50  0001 C CNN
-	1    2600 1550
-	1    0    0    -1  
-$EndComp
 Text Label 2300 1650 0    50   ~ 0
 POT
 $Comp
 L power:VCC #PWR033
 U 1 1 5BE0CBE7
-P 3000 1750
-F 0 "#PWR033" H 3000 1600 50  0001 C CNN
-F 1 "VCC" H 3017 1923 50  0000 C CNN
-F 2 "" H 3000 1750 50  0001 C CNN
-F 3 "" H 3000 1750 50  0001 C CNN
-	1    3000 1750
+P 3150 1450
+F 0 "#PWR033" H 3150 1300 50  0001 C CNN
+F 1 "VCC" H 3167 1623 50  0000 C CNN
+F 2 "" H 3150 1450 50  0001 C CNN
+F 3 "" H 3150 1450 50  0001 C CNN
+	1    3150 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:C_0.1uF C10
 U 1 1 5BE0CBF0
-P 3000 1900
-F 0 "C10" V 2748 1900 50  0000 C CNN
-F 1 "C_0.1uF" V 2839 1900 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 3038 1750 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3025 2000 50  0001 C CNN
-F 4 "DK" H 3000 1900 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 3000 1900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3425 2400 60  0001 C CNN "PurchasingLink"
-	1    3000 1900
+P 3150 1650
+F 0 "C10" V 2898 1650 50  0000 C CNN
+F 1 "C_0.1uF" V 2989 1650 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 3188 1500 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3175 1750 50  0001 C CNN
+F 4 "DK" H 3150 1650 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 3150 1650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3575 2150 60  0001 C CNN "PurchasingLink"
+	1    3150 1650
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR034
 U 1 1 5BE0CBF6
-P 3000 2050
-F 0 "#PWR034" H 3000 1800 50  0001 C CNN
-F 1 "GND" H 3005 1877 50  0000 C CNN
-F 2 "" H 3000 2050 50  0001 C CNN
-F 3 "" H 3000 2050 50  0001 C CNN
-	1    3000 2050
+P 3150 1800
+F 0 "#PWR034" H 3150 1550 50  0001 C CNN
+F 1 "GND" H 3155 1627 50  0000 C CNN
+F 2 "" H 3150 1800 50  0001 C CNN
+F 3 "" H 3150 1800 50  0001 C CNN
+	1    3150 1800
 	1    0    0    -1  
 $EndComp
-Text Label 2300 1950 0    50   ~ 0
+Text Label 2300 1750 0    50   ~ 0
 BRAKETEMP
-$Comp
-L power:GND #PWR032
-U 1 1 5BE11F35
-P 2800 1900
-F 0 "#PWR032" H 2800 1650 50  0001 C CNN
-F 1 "GND" H 2805 1727 50  0000 C CNN
-F 2 "" H 2800 1900 50  0001 C CNN
-F 3 "" H 2800 1900 50  0001 C CNN
-	1    2800 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 1900 2800 1850
-Wire Wire Line
-	2800 1850 2300 1850
-$Comp
-L power:VCC #PWR010
-U 1 1 5BE13D0A
-P 2300 2050
-F 0 "#PWR010" H 2300 1900 50  0001 C CNN
-F 1 "VCC" V 2317 2178 50  0000 L CNN
-F 2 "" H 2300 2050 50  0001 C CNN
-F 3 "" H 2300 2050 50  0001 C CNN
-	1    2300 2050
-	0    1    1    0   
-$EndComp
-Text Label 2350 2200 0    50   ~ 0
+Text Label 2300 1850 0    50   ~ 0
 HSENSOR
-Wire Wire Line
-	2350 2200 2300 2200
-Wire Wire Line
-	2300 2200 2300 2150
-Text Notes 650  2350 0    50   ~ 0
-11, 12, &13:\nPower, output, and \nGround for Hall Effect\nSensor \n(55505-00-02-A)
 Wire Wire Line
 	2300 1150 2650 1150
 Wire Wire Line
 	2550 1050 2300 1050
-Wire Wire Line
-	2300 1550 2600 1550
-Wire Wire Line
-	2300 1750 3000 1750
-Connection ~ 3000 1750
 Text Notes 1250 3750 0    79   ~ 0
 PROGRAMMING LED'S
 Text Notes 3700 1300 0    50   ~ 0
@@ -1440,4 +1364,24 @@ Wire Notes Line
 	5700 4900 10500 4900
 Text Notes 8000 700  0    79   ~ 0
 ATMEGA
+Wire Wire Line
+	3150 1450 2300 1450
+Wire Wire Line
+	3150 1450 3150 1500
+Connection ~ 3150 1450
+Text Notes 600  1650 0    50   ~ 0
+5&6:\nPower and ground for\nPotentiometer (MCP6001), \nBrake Disc Temp Sensor \n(MLX90614ESF-AAA-000-TU), \nand Hall Effect Sensor\n(55505-00-02-A)
+$Comp
+L power:GND #PWR?
+U 1 1 5BE42BA9
+P 2850 1550
+F 0 "#PWR?" H 2850 1300 50  0001 C CNN
+F 1 "GND" H 2855 1377 50  0000 C CNN
+F 2 "" H 2850 1550 50  0001 C CNN
+F 3 "" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1550 2300 1550
 $EndSCHEMATC
