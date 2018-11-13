@@ -1607,46 +1607,46 @@ GND
 Text Label 1900 2900 0    59   ~ 0
 12V
 Text Label 1900 3000 0    59   ~ 0
-5V_Out
-Text Label 1900 3100 0    59   ~ 0
-MOSI
-Text Label 1900 3200 0    59   ~ 0
-MISO
-Text Label 1900 3300 0    59   ~ 0
-SCK
-Text Label 1900 3400 0    59   ~ 0
-RESET
-Text Label 1900 3500 0    59   ~ 0
-CANH
-Text Label 1900 3600 0    59   ~ 0
-CANL
-Text Label 1900 3700 0    59   ~ 0
-LED1
-Text Label 1900 3800 0    59   ~ 0
-LED2
-Text Label 1900 3900 0    59   ~ 0
-5V_Throttle2
-Text Label 1900 4000 0    59   ~ 0
-Throttle2_Left_Sense
-Text Label 1900 4100 0    59   ~ 0
-GND_Throttle2
-Text Label 1900 4200 0    59   ~ 0
-5V_Throttle1
-Text Label 1900 4300 0    59   ~ 0
-Throttle1_Right_Sense
-Text Label 1900 4400 0    59   ~ 0
-GND_Throttle1
-Text Label 1900 4500 0    59   ~ 0
 5V_DriveMode
-Text Label 1900 4600 0    59   ~ 0
+Text Label 1900 3100 0    59   ~ 0
 Drive_Mode_Sense
-Text Label 1900 4700 0    59   ~ 0
+Text Label 1900 3200 0    59   ~ 0
 GND_DriveMode
+Text Label 1900 3300 0    59   ~ 0
+5V
+Text Label 1900 3400 0    59   ~ 0
+MOSI
+Text Label 1900 3500 0    59   ~ 0
+MISO
+Text Label 1900 3600 0    59   ~ 0
+SCK
+Text Label 1900 3700 0    59   ~ 0
+RESET
+Text Label 1900 3800 0    59   ~ 0
+CANH
+Text Label 1900 3900 0    59   ~ 0
+CANL
+Text Label 1900 4000 0    59   ~ 0
+5V_Throttle1
+Text Label 1900 4100 0    59   ~ 0
+Throttle1_Right_Sense
+Text Label 1900 4200 0    59   ~ 0
+GND_Throttle1
+Text Label 1900 4300 0    59   ~ 0
+5V_Throttle2
+Text Label 1900 4400 0    59   ~ 0
+Throttle2_Left_Sense
+Text Label 1900 4500 0    59   ~ 0
+GND_Throttle2
+Text Label 1900 4600 0    59   ~ 0
+LED1
+Text Label 1900 4700 0    59   ~ 0
+LED2
 Text Label 1900 5100 0    59   ~ 0
 SS_BOTS
-Text Label 1900 5200 0    59   ~ 0
-SS_Cockpit_EStop
 Text Label 1900 5300 0    59   ~ 0
+SS_Cockpit_EStop
+Text Label 1900 5200 0    59   ~ 0
 SS_Inertia_Switch
 Text Label 6900 1650 2    59   ~ 0
 SS_Inertia_Switch
@@ -1725,10 +1725,10 @@ U 1 1 59F32DF5
 P 4800 1500
 F 0 "U2" H 4800 1700 50  0000 L CNN
 F 1 "MCP6001" H 4800 1400 50  0000 L CNN
-F 2 "" H 4700 1600 50  0001 C CNN
+F 2 "footprints:SOT-23-5_OEM" H 4700 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 4800 1700 50  0001 C CNN
 F 4 "Value" H 4800 1500 60  0001 C CNN "Package"
-F 5 "DK" H 4900 1800 60  0001 C CNN "MFN"
+F 5 "N/A" H 4900 1800 60  0001 C CNN "MFN"
 F 6 "MCP6001T-I/OTCT-ND" H 5000 1900 60  0001 C CNN "MPN"
 F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" H 5100 2000 60  0001 C CNN "PurchasingLink"
 	1    4800 1500
@@ -1785,10 +1785,10 @@ U 1 1 59F35584
 P 2400 1500
 F 0 "U1" H 2400 1700 50  0000 L CNN
 F 1 "MCP6001" H 2450 1400 50  0000 L CNN
-F 2 "" H 2300 1600 50  0001 C CNN
+F 2 "footprints:SOT-23-5_OEM" H 2300 1600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2400 1700 50  0001 C CNN
 F 4 "Value" H 2400 1500 60  0001 C CNN "Package"
-F 5 "DK" H 2500 1800 60  0001 C CNN "MFN"
+F 5 "N/A" H 2500 1800 60  0001 C CNN "MFN"
 F 6 "MCP6001T-I/OTCT-ND" H 2600 1900 60  0001 C CNN "MPN"
 F 7 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" H 2700 2000 60  0001 C CNN "PurchasingLink"
 	1    2400 1500
@@ -2272,9 +2272,14 @@ Wire Notes Line
 NoConn ~ 14600 2200
 NoConn ~ 13550 7000
 NoConn ~ 9050 4950
-NoConn ~ 9550 5150
-NoConn ~ 9300 3800
-NoConn ~ 9350 3600
-NoConn ~ 9700 5050
-NoConn ~ 4150 1350
+Text Notes 12900 900  0    118  ~ 0
+ATMega16M1\n
+Wire Notes Line
+	11650 700  11650 4800
+Wire Notes Line
+	11650 4800 15700 4800
+Wire Notes Line
+	15700 4800 15700 700 
+Wire Notes Line
+	15700 700  11650 700 
 $EndSCHEMATC
