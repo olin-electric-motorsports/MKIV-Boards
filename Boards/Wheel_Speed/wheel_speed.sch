@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -1384,4 +1384,22 @@ F 3 "" H 2850 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2850 1550 2300 1550
+$Sheet
+S 7100 5650 900  800 
+U 5BEA6C51
+F0 "Suspension Strain Testing" 50
+F1 "strain_testing.sch" 50
+$EndSheet
+Text GLabel 2300 2050 2    50   Input ~ 0
+gauge1.1in
+Text GLabel 2300 2150 2    50   Input ~ 0
+gauge1.2in
+Text GLabel 2300 2250 2    50   Input ~ 0
+gauge1.3in
+Text GLabel 9350 1900 2    50   Input ~ 0
+gauge1.1out
+Text GLabel 9350 3500 2    50   Input ~ 0
+gauge1.2out
+Text GLabel 9350 3600 2    50   Input ~ 0
+gauge1.3out
 $EndSCHEMATC
