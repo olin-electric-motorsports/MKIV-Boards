@@ -947,36 +947,8 @@ Wire Wire Line
 	7050 1150 7100 1150
 Text Notes 6850 800  0    50   ~ 0
 To SD Card Socket
-$Comp
-L Device:Battery_Cell BT?
-U 1 1 5BDB2F97
-P 1550 6750
-F 0 "BT?" V 1805 6800 50  0000 C CNN
-F 1 "Battery_Cell" V 1714 6800 50  0000 C CNN
-F 2 "" V 1550 6810 50  0001 C CNN
-F 3 "~" V 1550 6810 50  0001 C CNN
-	1    1550 6750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1350 6750 1200 6750
-Text Label 1200 6750 3    50   ~ 0
-VCC_From_Buck
 Text Label 9300 1850 0    50   ~ 0
 SPI_Clock
-$Comp
-L power:GND #PWR?
-U 1 1 5BDC2D26
-P 1650 6850
-F 0 "#PWR?" H 1650 6600 50  0001 C CNN
-F 1 "GND" H 1655 6677 50  0000 C CNN
-F 2 "" H 1650 6850 50  0001 C CNN
-F 3 "" H 1650 6850 50  0001 C CNN
-	1    1650 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 6750 1650 6850
 $Comp
 L formula:SD_socket J?
 U 1 1 5BE10C7B
@@ -1008,8 +980,6 @@ Text Notes 4650 6600 0    87   ~ 0
 Programming Header
 Text Notes 3300 7950 0    87   ~ 0
 CAN Transceiver
-Wire Notes Line
-	2100 6400 6300 6400
 $Comp
 L power:GND #PWR?
 U 1 1 5BE52D7A
@@ -1393,8 +1363,6 @@ Connection ~ 6750 5200
 Connection ~ 6750 5500
 Connection ~ 8300 5500
 Connection ~ 9975 5300
-Wire Notes Line
-	2100 2700 2100 8050
 $Comp
 L formula:TP TP?
 U 1 1 5BEC50A9
@@ -1551,4 +1519,130 @@ Wire Wire Line
 	9300 3250 9950 3250
 Wire Wire Line
 	9300 3350 10250 3350
+Text Label 9300 1250 0    50   ~ 0
+LED2
+Text Label 9300 1150 0    50   ~ 0
+LED1
+$Comp
+L formula:R_200 R?
+U 1 1 5BEB4A90
+P 600 7000
+F 0 "R?" H 670 7046 50  0000 L CNN
+F 1 "R_200" H 670 6955 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 530 7000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 680 7000 50  0001 C CNN
+F 4 "DK" H 600 7000 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 600 7000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1080 7400 60  0001 C CNN "PurchasingLink"
+	1    600  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_200 R?
+U 1 1 5BEB6E12
+P 1150 7050
+F 0 "R?" H 1220 7096 50  0000 L CNN
+F 1 "R_200" H 1220 7005 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1080 7050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1230 7050 50  0001 C CNN
+F 4 "DK" H 1150 7050 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 1150 7050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1630 7450 60  0001 C CNN "PurchasingLink"
+	1    1150 7050
+	1    0    0    -1  
+$EndComp
+Text Label 600  6850 0    50   ~ 0
+LED1
+Text Label 1150 6900 0    50   ~ 0
+LED2
+$Comp
+L formula:LED_0805 D?
+U 1 1 5BEB9C70
+P 600 7300
+F 0 "D?" V 638 7183 50  0000 R CNN
+F 1 "LED_0805" V 547 7183 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 500 7300 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 600 7400 50  0001 C CNN
+F 4 "DK" H 600 7300 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 600 7300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1000 7800 60  0001 C CNN "PurchasingLink"
+	1    600  7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:LED_0805 D?
+U 1 1 5BEC6604
+P 1150 7350
+F 0 "D?" V 1188 7233 50  0000 R CNN
+F 1 "LED_0805" V 1097 7233 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 1050 7350 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1150 7450 50  0001 C CNN
+F 4 "DK" H 1150 7350 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 1150 7350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1550 7850 60  0001 C CNN "PurchasingLink"
+	1    1150 7350
+	0    -1   -1   0   
+$EndComp
+Text Notes 800  6600 0    87   ~ 0
+Programming LEDs
+Wire Notes Line
+	450  6400 6300 6400
+Text Label 9300 1350 0    50   ~ 0
+LED3
+$Comp
+L formula:R_200 R?
+U 1 1 5BEEBF7F
+P 1700 7050
+F 0 "R?" H 1770 7096 50  0000 L CNN
+F 1 "R_200" H 1770 7005 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1630 7050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1780 7050 50  0001 C CNN
+F 4 "DK" H 1700 7050 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 1700 7050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2180 7450 60  0001 C CNN "PurchasingLink"
+	1    1700 7050
+	1    0    0    -1  
+$EndComp
+Text Label 1700 6900 0    50   ~ 0
+LED2
+$Comp
+L formula:LED_0805 D?
+U 1 1 5BEEBF8A
+P 1700 7350
+F 0 "D?" V 1738 7233 50  0000 R CNN
+F 1 "LED_0805" V 1647 7233 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 1600 7350 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1700 7450 50  0001 C CNN
+F 4 "DK" H 1700 7350 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 1700 7350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2100 7850 60  0001 C CNN "PurchasingLink"
+	1    1700 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BECA8EE
+P 1150 7700
+F 0 "#PWR?" H 1150 7450 50  0001 C CNN
+F 1 "GND" H 1155 7527 50  0000 C CNN
+F 2 "" H 1150 7700 50  0001 C CNN
+F 3 "" H 1150 7700 50  0001 C CNN
+	1    1150 7700
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	2250 6400 2250 8050
+Wire Notes Line
+	2100 6400 2100 2700
+Wire Wire Line
+	600  7450 600  7700
+Wire Wire Line
+	600  7700 1150 7700
+Wire Wire Line
+	1150 7500 1150 7700
+Connection ~ 1150 7700
+Wire Wire Line
+	1150 7700 1700 7700
+Wire Wire Line
+	1700 7700 1700 7500
 $EndSCHEMATC
