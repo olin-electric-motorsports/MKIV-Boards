@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/awenstrup/Documents/Formula/MKIV-Boards/Boards/Throttle/throttle.sch)
-    (date "Fri 16 Nov 2018 01:54:22 AM EST")
+    (source /home/awenstrup/Documents/Formula/MKIV-Boards/Boards/Throttle/REV2/throttle.sch)
+    (date "Mon 19 Nov 2018 05:07:10 PM EST")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
