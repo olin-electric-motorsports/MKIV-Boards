@@ -1003,11 +1003,11 @@ Text Label 14600 1500 0    50   ~ 0
 ProgrammingLED2
 Text Label 14600 1600 0    50   ~ 0
 ProgrammingLED3
-Text Label 14600 1700 0    50   ~ 0
-SS_Inertia_Out_n
-Text Label 14600 1900 0    50   ~ 0
-SS_EStop_Out_n
 Text Label 14600 1800 0    50   ~ 0
+SS_Inertia_Out_n
+Text Label 14600 1700 0    50   ~ 0
+SS_EStop_Out_n
+Text Label 14600 1900 0    50   ~ 0
 SS_BOTS_Out_n
 Connection ~ 12000 1200
 Connection ~ 12200 1500
