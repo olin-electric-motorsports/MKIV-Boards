@@ -560,21 +560,6 @@ F 3 "" H 5850 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:ATMEGA16M1 IC1
-U 1 1 59E10948
-P 8200 2850
-F 0 "IC1" H 7250 4680 50  0000 L BNN
-F 1 "ATMEGA16M1" H 8700 1450 50  0000 L BNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 8200 2850 50  0001 C CIN
-F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 7250 4680 50  0001 C CNN
-F 4 "ATMEGA16M1-AU-ND" H 8200 2850 60  0001 C CNN "MPN"
-F 5 "Digi-Key" H 8200 2850 60  0001 C CNN "MFN"
-F 6 "Value" H 8200 2850 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 7650 5080 60  0001 C CNN "PurchasingLink"
-	1    8200 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:Crystal_SMD Y1
 U 1 1 59E10C38
 P 9450 4150
@@ -734,9 +719,9 @@ F 3 "" H 1550 7550 50  0001 C CNN
 $EndComp
 Text Label 1550 6950 0    60   ~ 0
 P_LED_2
-Text Label 9300 1150 0    60   ~ 0
+Text Label 9300 3550 0    60   ~ 0
 P_LED_1
-Text Label 9300 1250 0    60   ~ 0
+Text Label 9300 3650 0    60   ~ 0
 P_LED_2
 NoConn ~ 7100 1850
 NoConn ~ 9300 3050
@@ -766,9 +751,6 @@ F 3 "" H 6550 5400 50  0001 C CNN
 	1    6550 5400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9300 3450
-NoConn ~ 9300 3550
-NoConn ~ 9300 3650
 $Comp
 L formula:C_0.1uF C12
 U 1 1 5A79252F
@@ -840,8 +822,6 @@ Wire Wire Line
 	9975 5200 9975 5100
 Wire Wire Line
 	7100 3650 7100 4050
-Wire Wire Line
-	7100 1450 6900 1450
 Wire Wire Line
 	3900 6800 3900 6850
 Wire Wire Line
@@ -4096,44 +4076,33 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2980 15
 	1    2500 1100
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Conn_01x14_Female J2
-U 1 1 5BEE569A
-P 1100 2500
-F 0 "J2" H 994 1575 50  0000 C CNN
-F 1 "Conn_01x14_Female" H 994 1666 50  0000 C CNN
-F 2 "" H 1100 2500 50  0001 C CNN
-F 3 "~" H 1100 2500 50  0001 C CNN
-	1    1100 2500
-	-1   0    0    1   
-$EndComp
-Text Label 1300 1900 0    50   ~ 0
+Text Label 1450 3100 0    50   ~ 0
 B1_In
-Text Label 1300 1800 0    50   ~ 0
+Text Label 1450 3000 0    50   ~ 0
 B1_Out
-Text Label 1300 2000 0    50   ~ 0
+Text Label 1450 2800 0    50   ~ 0
 B2_Out
-Text Label 1300 2100 0    50   ~ 0
+Text Label 1450 2900 0    50   ~ 0
 B2_In
-Text Label 1300 2200 0    50   ~ 0
+Text Label 1450 2600 0    50   ~ 0
 B3_Out
-Text Label 1300 2300 0    50   ~ 0
+Text Label 1450 2700 0    50   ~ 0
 B3_In
-Text Label 1300 2400 0    50   ~ 0
+Text Label 1450 2400 0    50   ~ 0
 B4_Out
-Text Label 1300 2500 0    50   ~ 0
+Text Label 1450 2500 0    50   ~ 0
 B4_In
-Text Label 2500 1300 0    50   ~ 0
-LED1_In
-Text Label 3100 1300 0    50   ~ 0
-LED2_In
-Text Label 3700 1300 0    50   ~ 0
-LED3_in
 Text Label 2500 1600 0    50   ~ 0
-LED1_Out
+LED1_In
 Text Label 3100 1600 0    50   ~ 0
-LED2_Out
+LED2_In
 Text Label 3700 1600 0    50   ~ 0
+LED3_In
+Text Label 2500 1300 0    50   ~ 0
+LED1_Out
+Text Label 3100 1300 0    50   ~ 0
+LED2_Out
+Text Label 3700 1300 0    50   ~ 0
 LED3_Out
 Wire Wire Line
 	2500 1250 2500 1300
@@ -4154,7 +4123,7 @@ LED out\n
 Text Label 1450 1150 0    50   ~ 0
 GND
 Text Label 1450 1250 0    50   ~ 0
-12V
++12V
 Text Label 1450 1350 0    50   ~ 0
 CANH
 Text Label 1450 1450 0    50   ~ 0
@@ -4369,9 +4338,9 @@ $EndComp
 Text Label 3550 2800 0    50   ~ 0
 Button_Readout1
 Text Label 3550 3950 0    50   ~ 0
-Button_Readout2
-Text Label 5350 2800 0    50   ~ 0
 Button_Readout3
+Text Label 5350 2800 0    50   ~ 0
+Button_Readout2
 Text Label 5350 3950 0    50   ~ 0
 Button_Readout4
 Text Label 9300 1650 0    50   ~ 0
@@ -4385,9 +4354,9 @@ Text Label 9300 2950 0    50   ~ 0
 Button_Readout4
 Text Label 9300 1450 0    50   ~ 0
 LED_Driver2
-Text Label 9300 1550 0    50   ~ 0
-LED_Driver3
 Text Label 9300 2650 0    50   ~ 0
+LED_Driver3
+Text Label 9300 1550 0    50   ~ 0
 LED_Driver1
 Text Label 9300 1350 0    60   ~ 0
 P_LED_3
@@ -4431,18 +4400,18 @@ Text Notes 3800 3700 0    50   ~ 0
 Button 3\n
 Text Notes 5600 3700 0    50   ~ 0
 Button 4\n
-Text Label 1300 2600 0    50   ~ 0
+Text Label 1450 2300 0    50   ~ 0
 LED1_Out
-Text Label 1300 2800 0    50   ~ 0
+Text Label 1450 2100 0    50   ~ 0
 LED2_Out
-Text Label 1300 3000 0    50   ~ 0
+Text Label 1450 1900 0    50   ~ 0
 LED3_Out
-Text Label 1300 2700 0    50   ~ 0
+Text Label 1450 2200 0    50   ~ 0
 LED1_In
-Text Label 1300 2900 0    50   ~ 0
+Text Label 1450 2000 0    50   ~ 0
 LED2_In
-Text Label 1300 3100 0    50   ~ 0
-LED3_in
+Text Label 1450 1800 0    50   ~ 0
+LED3_In
 Connection ~ 6900 1150
 Wire Wire Line
 	6900 1150 7100 1150
@@ -4450,10 +4419,10 @@ Connection ~ 8450 5200
 Wire Wire Line
 	8450 5200 8750 5200
 $Comp
-L formula:MM_F_VT_04 J?
+L formula:MM_F_VT_04 J2
 U 1 1 5BF45C9A
 P 1200 1350
-F 0 "J?" H 1256 1797 60  0000 C CNN
+F 0 "J2" H 1256 1797 60  0000 C CNN
 F 1 "MM_F_VT_04" H 1256 1691 60  0000 C CNN
 F 2 "footprints:micromatch_female_vert_4" H 1000 2450 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-4" H 1100 2550 60  0001 C CNN
@@ -4463,4 +4432,40 @@ F 6 "http://www.te.com/global-en/product-338068-4.html" H 1200 2650 60  0001 C C
 	1    1200 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L formula:MM_F_VT_14 J1
+U 1 1 5BF46B01
+P 1150 2450
+F 0 "J1" H 1256 3347 60  0000 C CNN
+F 1 "MM_F_VT_14" H 1256 3241 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_14" H 1100 3100 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-4" H 1050 3650 60  0001 C CNN
+F 4 "TE" H 1250 3850 60  0001 C CNN "MFN"
+F 5 "1-338068-4" H 1350 3950 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-4.html" H 1150 3750 60  0001 C CNN "PurchasingLink"
+	1    1150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 1450 7100 1450
+Connection ~ 6900 1450
+$Comp
+L formula:ATMEGA16M1 IC1
+U 1 1 59E10948
+P 8200 2850
+F 0 "IC1" H 7250 4680 50  0000 L BNN
+F 1 "ATMEGA16M1" H 8700 1450 50  0000 L BNN
+F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 8200 2850 50  0001 C CIN
+F 3 "http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf" H 7250 4680 50  0001 C CNN
+F 4 "ATMEGA16M1-AU-ND" H 8200 2850 60  0001 C CNN "MPN"
+F 5 "Digi-Key" H 8200 2850 60  0001 C CNN "MFN"
+F 6 "Value" H 8200 2850 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208" H 7650 5080 60  0001 C CNN "PurchasingLink"
+	1    8200 2850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9350 3350
+NoConn ~ 9300 3450
+NoConn ~ 9300 1150
+NoConn ~ 9300 1250
 $EndSCHEMATC
