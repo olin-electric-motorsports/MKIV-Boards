@@ -220,7 +220,7 @@
   )
 
   (module footprints:LMT85-Q1 (layer F.Cu) (tedit 5BF9D163) (tstamp 5C03667E)
-    (at 67.6875 78.74)
+    (at 67.73 80.01)
     (path /5BF714AF)
     (fp_text reference Q1 (at 2.93 -2.23) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
