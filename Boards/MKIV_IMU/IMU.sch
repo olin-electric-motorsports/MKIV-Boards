@@ -210,17 +210,6 @@ F 7 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 8250 6400 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR01
-U 1 1 59E04C1A
-P 6950 5450
-F 0 "#PWR01" H 6950 5300 50  0001 C CNN
-F 1 "+12V" H 6950 5590 50  0000 C CNN
-F 2 "" H 6950 5450 50  0001 C CNN
-F 3 "" H 6950 5450 50  0001 C CNN
-	1    6950 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 59E0588D
 P 6950 6350
@@ -452,12 +441,12 @@ $EndComp
 $Comp
 L power:GND #PWR029
 U 1 1 59E0C704
-P 3450 1250
-F 0 "#PWR029" H 3450 1000 50  0001 C CNN
-F 1 "GND" H 3450 1100 50  0000 C CNN
-F 2 "" H 3450 1250 50  0001 C CNN
-F 3 "" H 3450 1250 50  0001 C CNN
-	1    3450 1250
+P 3750 1250
+F 0 "#PWR029" H 3750 1000 50  0001 C CNN
+F 1 "GND" H 3750 1100 50  0000 C CNN
+F 2 "" H 3750 1250 50  0001 C CNN
+F 3 "" H 3750 1250 50  0001 C CNN
+	1    3750 1250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -506,7 +495,7 @@ Text Label 3200 1150 2    60   ~ 0
 SCK
 Text Label 3200 1250 2    60   ~ 0
 RESET
-Text Label 3400 1150 0    60   ~ 0
+Text Label 3700 1150 0    60   ~ 0
 MOSI
 $Comp
 L formula:D_Zener_18V D7
@@ -736,7 +725,6 @@ Wire Wire Line
 Text Notes 2450 1850 0    50   ~ 0
 Linear Regulator
 Connection ~ 5050 1000
-Connection ~ 6950 5450
 Connection ~ 6950 5750
 Connection ~ 8500 5750
 Connection ~ 10175 5550
@@ -875,7 +863,7 @@ F 3 "" H 5600 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5600 5650 5600 5450
-Text Label 5100 6200 0    50   ~ 0
+Text Label 5000 5450 0    50   ~ 0
 PLED2
 Text Label 5600 5450 0    50   ~ 0
 PLED3
@@ -918,9 +906,9 @@ F 4 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1
 	1    0    0    -1  
 $EndComp
 Text Label 4500 3250 2    50   ~ 0
-MOSI
+MOSI2
 Text Label 4500 3150 2    50   ~ 0
-SCK
+SCK2
 $Comp
 L power:GND #PWR010
 U 1 1 5BDFACC3
@@ -937,51 +925,46 @@ Wire Wire Line
 $Comp
 L power:GND #PWR031
 U 1 1 5BDFBA15
-P 5300 3900
-F 0 "#PWR031" H 5300 3650 50  0001 C CNN
-F 1 "GND" H 5305 3727 50  0000 C CNN
-F 2 "" H 5300 3900 50  0001 C CNN
-F 3 "" H 5300 3900 50  0001 C CNN
-	1    5300 3900
+P 5000 4200
+F 0 "#PWR031" H 5000 3950 50  0001 C CNN
+F 1 "GND" H 5005 4027 50  0000 C CNN
+F 2 "" H 5000 4200 50  0001 C CNN
+F 3 "" H 5000 4200 50  0001 C CNN
+	1    5000 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 3900 5300 3900
 Text Label 4500 3350 2    50   ~ 0
-CSB1
-Text Label 4500 3450 2    50   ~ 0
-CSB2
+CS_ACCEL
 $Comp
 L formula:C_100nF C13
 U 1 1 5BE03BAD
 P 5000 4050
-F 0 "C13" V 5115 4096 50  0000 L CNN
-F 1 "C_100nF" V 5115 4005 50  0000 L CNN
+F 0 "C13" H 5115 4096 50  0000 L CNN
+F 1 "C_100nF" H 5115 4005 50  0000 L CNN
 F 2 "footprints:C_0603_1608Metric" H 5038 3900 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 5025 4150 50  0001 C CNN
 F 4 "DK" H 5000 4050 60  0001 C CNN "MFN"
 F 5 "1276-6717-1-ND" H 5000 4050 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8WPNC/1276-6717-1-ND/5961576" H 5425 4550 60  0001 C CNN "PurchasingLink"
 	1    5000 4050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Notes Line
 	4000 6750 10500 6750
 Wire Notes Line
 	4000 4800 10550 4800
-Connection ~ 5300 3900
 $Comp
 L formula:C_100nF C14
 U 1 1 5BE0DEBB
-P 5100 4050
-F 0 "C14" H 5215 4096 50  0000 L CNN
-F 1 "C_100nF" V 5215 4005 50  0000 L CNN
-F 2 "footprints:C_0603_1608Metric" H 5138 3900 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 5125 4150 50  0001 C CNN
-F 4 "DK" H 5100 4050 60  0001 C CNN "MFN"
-F 5 "1276-6717-1-ND" H 5100 4050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8WPNC/1276-6717-1-ND/5961576" H 5525 4550 60  0001 C CNN "PurchasingLink"
-	1    5100 4050
+P 5100 4200
+F 0 "C14" H 5215 4246 50  0000 L CNN
+F 1 "C_100nF" H 5215 4155 50  0000 L CNN
+F 2 "footprints:C_0603_1608Metric" H 5138 4050 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475KQ8NNNC.jsp" H 5125 4300 50  0001 C CNN
+F 4 "DK" H 5100 4200 60  0001 C CNN "MFN"
+F 5 "1276-6717-1-ND" H 5100 4200 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8WPNC/1276-6717-1-ND/5961576" H 5525 4700 60  0001 C CNN "PurchasingLink"
+	1    5100 4200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1076,13 +1059,11 @@ NoConn ~ 7400 1800
 Wire Wire Line
 	7400 1400 7200 1400
 Text Label 9600 1800 0    50   ~ 0
-SCK
-Text Label 9600 2100 0    50   ~ 0
-SlaveSelect
+SCK2
 Text Label 9600 1200 0    50   ~ 0
-MOSIB
+MOSI2
 Text Label 9600 1100 0    50   ~ 0
-MISOB
+MISO2
 Text Label 9600 2200 0    60   ~ 0
 TXCAN
 Wire Wire Line
@@ -1324,4 +1305,93 @@ Wire Notes Line
 	1450 500  10500 500 
 Wire Notes Line
 	10500 500  10500 6750
+Text Label 4500 3450 2    50   ~ 0
+CS_GYRO
+Wire Wire Line
+	5950 3500 6000 3500
+Text Label 6000 3500 0    50   ~ 0
+MISO2
+$Comp
+L power:GND #PWR0101
+U 1 1 5BE6BE6B
+P 5100 4350
+F 0 "#PWR0101" H 5100 4100 50  0001 C CNN
+F 1 "GND" H 5105 4177 50  0000 C CNN
+F 2 "" H 5100 4350 50  0001 C CNN
+F 3 "" H 5100 4350 50  0001 C CNN
+	1    5100 4350
+	1    0    0    -1  
+$EndComp
+Text Label 5200 4050 0    50   ~ 0
+3.3V
+Text Label 4900 3900 2    50   ~ 0
+3.3V
+Text Label 9600 1300 0    50   ~ 0
+CS_ACCEL
+Text Label 9600 1400 0    50   ~ 0
+CS_GYRO
+$Comp
+L power:GND #PWR0102
+U 1 1 5BE8AF7F
+P 5700 3900
+F 0 "#PWR0102" H 5700 3650 50  0001 C CNN
+F 1 "GND" H 5705 3727 50  0000 C CNN
+F 2 "" H 5700 3900 50  0001 C CNN
+F 3 "" H 5700 3900 50  0001 C CNN
+	1    5700 3900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9600 2000
+NoConn ~ 9600 2900
+NoConn ~ 9600 3000
+NoConn ~ 9600 3400
+NoConn ~ 9600 3500
+NoConn ~ 9600 3600
+Wire Wire Line
+	6950 5450 6950 5350
+Connection ~ 6950 5450
+Text Label 6950 5350 0    50   ~ 0
+12V
+NoConn ~ 9600 2100
+NoConn ~ 9600 3900
+Connection ~ 5400 3900
+Wire Wire Line
+	5400 3900 5700 3900
+Wire Wire Line
+	5300 3900 5400 3900
+Wire Wire Line
+	5950 3600 5950 3500
+Connection ~ 5950 3500
+Wire Wire Line
+	5100 3900 5100 4050
+Wire Wire Line
+	5100 4050 5200 4050
+Connection ~ 5100 4050
+Wire Wire Line
+	5000 3900 4900 3900
+Connection ~ 5000 3900
+Text Label 9600 1500 0    50   ~ 0
+PLED1
+Text Label 9600 1600 0    50   ~ 0
+PLED2
+Text Label 9600 1700 0    50   ~ 0
+PLED3
+Text Notes 5550 1700 0    50   ~ 0
+DNP 120 ohms
+Text Label 9600 2400 0    50   ~ 0
+INT1
+Text Label 9600 2500 0    50   ~ 0
+INT2
+Text Label 9600 2600 0    50   ~ 0
+INT3
+Text Label 9600 2700 0    50   ~ 0
+INT4
+Text Label 5950 3100 0    50   ~ 0
+INT1
+Text Label 5950 3200 0    50   ~ 0
+INT2
+Text Label 5950 3300 0    50   ~ 0
+INT3
+Text Label 5950 3400 0    50   ~ 0
+INT4
 $EndSCHEMATC
