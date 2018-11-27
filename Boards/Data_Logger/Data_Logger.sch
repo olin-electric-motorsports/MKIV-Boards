@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Data_Logger-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -822,12 +821,9 @@ F 3 "" H 9475 5825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 5300 8450 5300
-Wire Wire Line
 	8300 5200 8300 5000
 Wire Wire Line
 	8300 5000 8450 5000
-Connection ~ 8450 5300
 Wire Wire Line
 	8950 5300 9050 5300
 Wire Wire Line
@@ -862,9 +858,6 @@ Wire Wire Line
 	9450 4000 9800 4000
 Wire Wire Line
 	9800 4000 9800 4100
-Wire Wire Line
-	6700 1150 6900 1150
-Connection ~ 6900 1150
 Wire Wire Line
 	6750 5500 7000 5500
 Connection ~ 7000 5500
@@ -907,19 +900,9 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4280 76
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 7050 3800 7050
-Wire Wire Line
 	3600 7050 3600 7100
-Connection ~ 3800 7050
-Wire Wire Line
-	3600 7350 3800 7350
 Wire Wire Line
 	3600 7350 3600 7300
-Connection ~ 3800 7350
-Wire Wire Line
-	8450 5300 8750 5300
-Wire Wire Line
-	6900 1150 7050 1150
 Wire Wire Line
 	7000 5500 7100 5500
 Wire Wire Line
@@ -932,10 +915,6 @@ Wire Wire Line
 	9050 5500 9200 5500
 Wire Wire Line
 	9200 5500 9475 5500
-Wire Wire Line
-	3800 7050 3925 7050
-Wire Wire Line
-	3800 7350 3925 7350
 Text Label 9300 2250 0    60   ~ 0
 TXCAN
 Wire Wire Line
@@ -973,7 +952,6 @@ Text Notes 9450 650  0    87   ~ 0
 Microcontroller
 Text Notes 9450 6600 0    87   ~ 0
 Buck Converter
-Connection ~ 3100 6750
 Wire Notes Line
 	6300 6750 6300 450 
 Text Notes 4650 6600 0    87   ~ 0
@@ -1331,14 +1309,6 @@ F 3 "" H 5650 5150 50  0001 C CNN
 	1    5650 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 4800 5350 4800
-Wire Wire Line
-	5900 4800 5650 4800
-Wire Wire Line
-	5650 4800 5350 4800
-Connection ~ 5650 4800
-Connection ~ 5350 4800
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5BE916DA
@@ -1350,7 +1320,6 @@ F 3 "" H 5050 4800 50  0001 C CNN
 	1    5050 4800
 	1    0    0    -1  
 $EndComp
-Connection ~ 5050 4800
 Wire Notes Line
 	2100 4350 6300 4350
 Wire Notes Line
@@ -1359,10 +1328,6 @@ Text Notes 2200 4250 0    87   ~ 0
 SPI Level Shifter
 Text Notes 2200 6300 0    87   ~ 0
 SD Card Socket
-Connection ~ 6750 5200
-Connection ~ 6750 5500
-Connection ~ 8300 5500
-Connection ~ 9975 5300
 $Comp
 L formula:TP TP?
 U 1 1 5BEC50A9
@@ -1425,8 +1390,6 @@ Wire Wire Line
 	3300 5150 4450 5150
 Wire Wire Line
 	3000 5250 4450 5250
-Wire Wire Line
-	2700 5350 4450 5350
 $Comp
 L formula:R_10K R?
 U 1 1 5BEFBA94
@@ -1441,9 +1404,6 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 298
 	1    2500 5200
 	1    0    0    -1  
 $EndComp
-Connection ~ 2700 5350
-Wire Wire Line
-	2500 5350 2700 5350
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5BF0D01D
@@ -1457,8 +1417,6 @@ F 3 "" H 2500 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9300 2150 9650 2150
-Wire Wire Line
-	9300 3150 9650 3150
 $Comp
 L formula:TP TP?
 U 1 1 5BF1877B
@@ -1476,49 +1434,45 @@ $EndComp
 $Comp
 L formula:TP TP?
 U 1 1 5BF18A8A
-P 9650 2950
-F 0 "TP?" H 9728 2890 50  0000 L CNN
-F 1 "TP" H 9728 2799 50  0000 L CNN
-F 2 "footprints:tp_1.6mm" H 9550 2850 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 9650 2950 50  0001 C CNN
-F 4 "DK" H 9750 3050 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 9850 3150 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 9950 3250 50  0001 C CNN "PurchasingLink"
-	1    9650 2950
+P 9550 2950
+F 0 "TP?" H 9628 2890 50  0000 L CNN
+F 1 "TP" H 9628 2799 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 9450 2850 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 9550 2950 50  0001 C CNN
+F 4 "DK" H 9650 3050 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 9750 3150 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 9850 3250 50  0001 C CNN "PurchasingLink"
+	1    9550 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:TP TP?
 U 1 1 5BF18BC8
-P 9950 3050
-F 0 "TP?" H 10028 2990 50  0000 L CNN
-F 1 "TP" H 10028 2899 50  0000 L CNN
-F 2 "footprints:tp_1.6mm" H 9850 2950 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 9950 3050 50  0001 C CNN
-F 4 "DK" H 10050 3150 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 10150 3250 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 10250 3350 50  0001 C CNN "PurchasingLink"
-	1    9950 3050
+P 9800 3050
+F 0 "TP?" H 9878 2990 50  0000 L CNN
+F 1 "TP" H 9878 2899 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 9700 2950 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 9800 3050 50  0001 C CNN
+F 4 "DK" H 9900 3150 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 10000 3250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 10100 3350 50  0001 C CNN "PurchasingLink"
+	1    9800 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:TP TP?
 U 1 1 5BF18D1B
-P 10250 3150
-F 0 "TP?" H 10328 3090 50  0000 L CNN
-F 1 "TP" H 10328 2999 50  0000 L CNN
-F 2 "footprints:tp_1.6mm" H 10150 3050 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 10250 3150 50  0001 C CNN
-F 4 "DK" H 10350 3250 50  0001 C CNN "MFN"
-F 5 "36-5006-ND" H 10450 3350 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 10550 3450 50  0001 C CNN "PurchasingLink"
-	1    10250 3150
+P 10050 3150
+F 0 "TP?" H 10128 3090 50  0000 L CNN
+F 1 "TP" H 10128 2999 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 9950 3050 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 10050 3150 50  0001 C CNN
+F 4 "DK" H 10150 3250 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 10250 3350 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 10350 3450 50  0001 C CNN "PurchasingLink"
+	1    10050 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9300 3250 9950 3250
-Wire Wire Line
-	9300 3350 10250 3350
 Text Label 9300 1250 0    50   ~ 0
 LED2
 Text Label 9300 1150 0    50   ~ 0
@@ -1540,20 +1494,20 @@ $EndComp
 $Comp
 L formula:R_200 R?
 U 1 1 5BEB6E12
-P 1150 7050
-F 0 "R?" H 1220 7096 50  0000 L CNN
-F 1 "R_200" H 1220 7005 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1080 7050 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1230 7050 50  0001 C CNN
-F 4 "DK" H 1150 7050 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1150 7050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1630 7450 60  0001 C CNN "PurchasingLink"
-	1    1150 7050
+P 1150 7000
+F 0 "R?" H 1220 7046 50  0000 L CNN
+F 1 "R_200" H 1220 6955 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1080 7000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1230 7000 50  0001 C CNN
+F 4 "DK" H 1150 7000 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 1150 7000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1630 7400 60  0001 C CNN "PurchasingLink"
+	1    1150 7000
 	1    0    0    -1  
 $EndComp
 Text Label 600  6850 0    50   ~ 0
 LED1
-Text Label 1150 6900 0    50   ~ 0
+Text Label 1150 6850 0    50   ~ 0
 LED2
 $Comp
 L formula:LED_0805 D?
@@ -1572,15 +1526,15 @@ $EndComp
 $Comp
 L formula:LED_0805 D?
 U 1 1 5BEC6604
-P 1150 7350
-F 0 "D?" V 1188 7233 50  0000 R CNN
-F 1 "LED_0805" V 1097 7233 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 1050 7350 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1150 7450 50  0001 C CNN
-F 4 "DK" H 1150 7350 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 1150 7350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1550 7850 60  0001 C CNN "PurchasingLink"
-	1    1150 7350
+P 1150 7300
+F 0 "D?" V 1188 7183 50  0000 R CNN
+F 1 "LED_0805" V 1097 7183 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 1050 7300 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1150 7400 50  0001 C CNN
+F 4 "DK" H 1150 7300 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 1150 7300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 1550 7800 60  0001 C CNN "PurchasingLink"
+	1    1150 7300
 	0    -1   -1   0   
 $EndComp
 Text Notes 800  6600 0    87   ~ 0
@@ -1592,31 +1546,31 @@ LED3
 $Comp
 L formula:R_200 R?
 U 1 1 5BEEBF7F
-P 1700 7050
-F 0 "R?" H 1770 7096 50  0000 L CNN
-F 1 "R_200" H 1770 7005 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 1630 7050 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1780 7050 50  0001 C CNN
-F 4 "DK" H 1700 7050 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 1700 7050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2180 7450 60  0001 C CNN "PurchasingLink"
-	1    1700 7050
+P 1700 7000
+F 0 "R?" H 1770 7046 50  0000 L CNN
+F 1 "R_200" H 1770 6955 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 1630 7000 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 1780 7000 50  0001 C CNN
+F 4 "DK" H 1700 7000 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 1700 7000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2180 7400 60  0001 C CNN "PurchasingLink"
+	1    1700 7000
 	1    0    0    -1  
 $EndComp
-Text Label 1700 6900 0    50   ~ 0
+Text Label 1700 6850 0    50   ~ 0
 LED2
 $Comp
 L formula:LED_0805 D?
 U 1 1 5BEEBF8A
-P 1700 7350
-F 0 "D?" V 1738 7233 50  0000 R CNN
-F 1 "LED_0805" V 1647 7233 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 1600 7350 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1700 7450 50  0001 C CNN
-F 4 "DK" H 1700 7350 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 1700 7350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2100 7850 60  0001 C CNN "PurchasingLink"
-	1    1700 7350
+P 1700 7300
+F 0 "D?" V 1738 7183 50  0000 R CNN
+F 1 "LED_0805" V 1647 7183 50  0000 R CNN
+F 2 "footprints:LED_0805_OEM" H 1600 7300 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 1700 7400 50  0001 C CNN
+F 4 "DK" H 1700 7300 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 1700 7300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2100 7800 60  0001 C CNN "PurchasingLink"
+	1    1700 7300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1638,11 +1592,114 @@ Wire Wire Line
 	600  7450 600  7700
 Wire Wire Line
 	600  7700 1150 7700
-Wire Wire Line
-	1150 7500 1150 7700
 Connection ~ 1150 7700
 Wire Wire Line
 	1150 7700 1700 7700
 Wire Wire Line
-	1700 7700 1700 7500
+	8300 5300 8750 5300
+Wire Wire Line
+	6700 1150 7050 1150
+Wire Wire Line
+	3600 7050 3925 7050
+Wire Wire Line
+	3600 7350 3925 7350
+Wire Wire Line
+	5050 4800 5900 4800
+Wire Wire Line
+	2500 5350 4450 5350
+Wire Wire Line
+	1150 7450 1150 7700
+Wire Wire Line
+	1700 7450 1700 7700
+$Comp
+L formula:MHSS1105 S?
+U 1 1 5BFE0CF3
+P 1300 5700
+F 0 "S?" H 1250 6000 50  0000 L CNN
+F 1 "MHSS1105" H 1100 5900 50  0000 L CNN
+F 2 "" H 1300 5900 50  0001 C CNN
+F 3 "" H 1300 5900 50  0001 C CNN
+	1    1300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BFE606C
+P 1450 6000
+F 0 "#PWR?" H 1450 5750 50  0001 C CNN
+F 1 "GND" H 1455 5827 50  0000 C CNN
+F 2 "" H 1450 6000 50  0001 C CNN
+F 3 "" H 1450 6000 50  0001 C CNN
+	1    1450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5BFE6178
+P 950 5700
+F 0 "#PWR?" H 950 5550 50  0001 C CNN
+F 1 "VCC" H 967 5873 50  0000 C CNN
+F 2 "" H 950 5700 50  0001 C CNN
+F 3 "" H 950 5700 50  0001 C CNN
+	1    950  5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:TP TP?
+U 1 1 5C001A70
+P 10300 3250
+F 0 "TP?" H 10378 3190 50  0000 L CNN
+F 1 "TP" H 10378 3099 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 10200 3150 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 10300 3250 50  0001 C CNN
+F 4 "DK" H 10400 3350 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 10500 3450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 10600 3550 50  0001 C CNN "PurchasingLink"
+	1    10300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 3150 9300 3150
+Wire Wire Line
+	9800 3250 9300 3250
+Wire Wire Line
+	10050 3350 9300 3350
+Wire Wire Line
+	10300 3450 9300 3450
+Text Notes 750  5250 0    87   ~ 0
+Toggle Switch
+$Comp
+L formula:TP TP?
+U 1 1 5C010671
+P 650 5700
+F 0 "TP?" H 728 5640 50  0000 L CNN
+F 1 "TP" H 728 5549 50  0000 L CNN
+F 2 "footprints:tp_1.6mm" H 550 5600 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1314" H 650 5700 50  0001 C CNN
+F 4 "DK" H 750 5800 50  0001 C CNN "MFN"
+F 5 "36-5006-ND" H 850 5900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5006/36-5006-ND/255330" H 950 6000 50  0001 C CNN "PurchasingLink"
+	1    650  5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5700 950  5850
+Wire Wire Line
+	1450 6000 1450 5800
+Wire Wire Line
+	1300 5800 1300 6000
+Wire Wire Line
+	650  6000 650  5900
+Wire Wire Line
+	1150 5800 1150 5850
+Wire Wire Line
+	1150 5850 950  5850
+Wire Wire Line
+	650  6000 1300 6000
+Text Label 900  6000 0    60   ~ 0
+S
+Text Label 9350 3450 0    60   ~ 0
+S
+Wire Notes Line
+	450  5000 2100 5000
 $EndSCHEMATC
