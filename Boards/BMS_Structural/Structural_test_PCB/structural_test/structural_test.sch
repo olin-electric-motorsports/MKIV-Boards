@@ -30,11 +30,11 @@ Text Label 2400 1950 2    50   ~ 0
 temp1
 Text Label 2400 2500 2    50   ~ 0
 temp2
-Text Label 1350 2600 2    50   ~ 0
+Text Label 750  2600 2    50   ~ 0
 volt
-Text Label 1350 2950 2    50   ~ 0
+Text Label 750  2950 2    50   ~ 0
 v-
-Text Label 1350 3300 2    50   ~ 0
+Text Label 750  3300 2    50   ~ 0
 v+
 Text Label 1800 2000 0    50   ~ 0
 v+
@@ -64,17 +64,6 @@ Text Label 1800 1900 0    50   ~ 0
 5V
 Text Label 1800 2200 0    50   ~ 0
 gnd
-$Comp
-L formula:Bolt_connect_4-40 B1
-U 1 1 5BF7752C
-P 1550 2600
-F 0 "B1" H 1769 2646 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 1769 2555 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1450 2650 50  0001 C CNN
-F 3 "" H 1550 2750 50  0001 C CNN
-	1    1550 2600
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:Bolt_connect_4-40 B2
 U 1 1 5BF77560
@@ -120,4 +109,48 @@ F 3 "" H 2850 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1800 1800
+$Comp
+L formula:Bolt_connect_4-40 B1
+U 1 1 5BF7752C
+P 1550 2600
+F 0 "B1" H 1769 2646 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 1769 2555 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1450 2650 50  0001 C CNN
+F 3 "" H 1550 2750 50  0001 C CNN
+	1    1550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F1
+U 1 1 5BFDE3E6
+P 1050 2600
+F 0 "F1" H 1050 2825 50  0000 C CNN
+F 1 "200mA_Fuse" H 1050 2734 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1000 2600 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1000 2600 50  0001 C CNN
+	1    1050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F2
+U 1 1 5BFDE4B5
+P 1050 2950
+F 0 "F2" H 1050 3175 50  0000 C CNN
+F 1 "200mA_Fuse" H 1050 3084 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1000 2950 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1000 2950 50  0001 C CNN
+	1    1050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F3
+U 1 1 5BFDE4E1
+P 1050 3300
+F 0 "F3" H 1050 3525 50  0000 C CNN
+F 1 "200mA_Fuse" H 1050 3434 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1000 3300 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1000 3300 50  0001 C CNN
+	1    1050 3300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

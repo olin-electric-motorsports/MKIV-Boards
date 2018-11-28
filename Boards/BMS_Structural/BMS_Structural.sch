@@ -870,63 +870,8 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    1350 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:Bolt_connect B?
-U 1 1 5BEEB514
-P 1900 3350
-F 0 "B?" H 1850 3500 50  0000 L CNN
-F 1 "Bolt_connect" H 1650 3200 50  0000 L CNN
-F 2 "" H 1900 3350 50  0001 C CNN
-F 3 "" H 1900 3350 50  0001 C CNN
-	1    1900 3350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1650 3350 1700 3350
-$Comp
-L formula:Bolt_connect B?
-U 1 1 5BEEB51B
-P 1900 4950
-F 0 "B?" H 1850 5100 50  0000 L CNN
-F 1 "Bolt_connect" H 1650 4800 50  0000 L CNN
-F 2 "" H 1900 4950 50  0001 C CNN
-F 3 "" H 1900 4950 50  0001 C CNN
-	1    1900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Bolt_connect B?
-U 1 1 5BEEB521
-P 1900 4550
-F 0 "B?" H 1850 4700 50  0000 L CNN
-F 1 "Bolt_connect" H 1650 4400 50  0000 L CNN
-F 2 "" H 1900 4550 50  0001 C CNN
-F 3 "" H 1900 4550 50  0001 C CNN
-	1    1900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Bolt_connect B?
-U 1 1 5BEEB527
-P 1900 4150
-F 0 "B?" H 1850 4300 50  0000 L CNN
-F 1 "Bolt_connect" H 1650 4000 50  0000 L CNN
-F 2 "" H 1900 4150 50  0001 C CNN
-F 3 "" H 1900 4150 50  0001 C CNN
-	1    1900 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:Bolt_connect B?
-U 1 1 5BEEB52D
-P 1900 3750
-F 0 "B?" H 1850 3900 50  0000 L CNN
-F 1 "Bolt_connect" H 1650 3600 50  0000 L CNN
-F 2 "" H 1900 3750 50  0001 C CNN
-F 3 "" H 1900 3750 50  0001 C CNN
-	1    1900 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:200mA_Fuse F?
 U 1 1 5BEEB533
@@ -1008,4 +953,37 @@ Wire Notes Line
 	650  500  650  6400
 Wire Notes Line
 	3900 500  3900 6400
+$Comp
+L formula:Bolt_connect_4-40 B?
+U 1 1 5BFCD364
+P 1900 3350
+F 0 "B?" H 1900 3500 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 1550 3200 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 3400 50  0001 C CNN
+F 3 "" H 1900 3500 50  0001 C CNN
+	1    1900 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Bolt_connect_4-40 B?
+U 1 1 5BFCD4C3
+P 1900 3750
+F 0 "B?" H 1900 3900 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2119 3705 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 3800 50  0001 C CNN
+F 3 "" H 1900 3900 50  0001 C CNN
+	1    1900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:Bolt_connect_4-40 B?
+U 1 1 5BFCD529
+P 1900 4150
+F 0 "B?" H 1900 4300 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 1600 4000 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 4200 50  0001 C CNN
+F 3 "" H 1900 4300 50  0001 C CNN
+	1    1900 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
