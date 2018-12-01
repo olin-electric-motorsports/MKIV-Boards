@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 352)
     (zones 0)
     (modules 44)
@@ -1897,6 +1897,7 @@
     )
   )
 
+  (gr_circle (center 32.258 22.0726) (end 33.8836 22.0218) (layer Edge.Cuts) (width 0.15))
   (gr_text PB2 (at 30.5816 38.608) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.127)))
   )
