@@ -742,8 +742,6 @@ Text Label 15700 6050 0    50   ~ 0
 TEMP_SENSE
 Wire Notes Line
 	16300 2750 10200 2750
-Wire Notes Line
-	10200 2750 10200 9000
 Wire Wire Line
 	13700 5050 13700 5350
 Connection ~ 13700 5050
@@ -768,154 +766,6 @@ Text Label 10300 5050 0    50   ~ 0
 MODULE5_TEMP1
 Text Label 10300 5450 0    50   ~ 0
 MODULE7_TEMP1
-$Comp
-L formula:LTC1380 U4
-U 1 1 5BE09996
-P 12950 8300
-F 0 "U4" H 12925 8875 50  0000 C CNN
-F 1 "LTC1380" H 12925 8784 50  0000 C CNN
-F 2 "footprints:SSOP-16_LTC1380" H 12350 8750 50  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" H 12350 8750 50  0001 C CNN
-	1    12950 8300
-	1    0    0    -1  
-$EndComp
-Text Label 13450 8050 0    50   ~ 0
-SCL
-Text Label 13450 8150 0    50   ~ 0
-SDA
-Wire Wire Line
-	13450 8150 13350 8150
-Wire Wire Line
-	13350 8050 13450 8050
-$Comp
-L formula:C_1uF C20
-U 1 1 5BE099A4
-P 13750 8100
-F 0 "C20" H 13865 8146 50  0000 L CNN
-F 1 "C_1uF" H 13865 8055 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 13788 7950 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL21A105KAFNNNE.pdf" H 13775 8200 50  0001 C CNN
-F 4 "DK" H 13750 8100 60  0001 C CNN "MFN"
-F 5 "1276-2887-1-ND" H 13750 8100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A105KAFNNNE/1276-2887-1-ND/3890973" H 14175 8600 60  0001 C CNN "PurchasingLink"
-	1    13750 8100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13750 8250 13350 8250
-Text Label 13750 7850 0    50   ~ 0
-VREG
-Wire Wire Line
-	13750 7850 13750 7950
-Wire Wire Line
-	13350 7950 13650 7950
-Connection ~ 13750 7950
-$Comp
-L power:GND #PWR05
-U 1 1 5BE099B0
-P 13750 8750
-F 0 "#PWR05" H 13750 8500 50  0001 C CNN
-F 1 "GND" H 13755 8577 50  0000 C CNN
-F 2 "" H 13750 8750 50  0001 C CNN
-F 3 "" H 13750 8750 50  0001 C CNN
-	1    13750 8750
-	1    0    0    -1  
-$EndComp
-Connection ~ 13750 8250
-Wire Wire Line
-	13350 8350 13650 8350
-Wire Wire Line
-	13350 8450 13750 8450
-Connection ~ 13750 8450
-Wire Wire Line
-	13750 8450 13750 8550
-Wire Wire Line
-	13350 8550 13750 8550
-Connection ~ 13750 8550
-Wire Wire Line
-	13750 8550 13750 8750
-Wire Wire Line
-	10250 7950 10950 7950
-Wire Wire Line
-	10250 8050 11150 8050
-Wire Wire Line
-	12500 8150 11350 8150
-Wire Wire Line
-	10250 8250 11550 8250
-Wire Wire Line
-	10250 8450 11950 8450
-Wire Wire Line
-	10950 7850 10950 7950
-Connection ~ 10950 7950
-Wire Wire Line
-	10950 7950 12500 7950
-Wire Wire Line
-	11150 7850 11150 8050
-Connection ~ 11150 8050
-Wire Wire Line
-	11150 8050 12500 8050
-Wire Wire Line
-	11350 7850 11350 8150
-Connection ~ 11350 8150
-Wire Wire Line
-	11350 8150 10250 8150
-Wire Wire Line
-	11550 7850 11550 8250
-Wire Wire Line
-	11750 7850 11750 8350
-Connection ~ 11750 8350
-Wire Wire Line
-	11750 8350 10250 8350
-Wire Wire Line
-	11550 8250 12500 8250
-Connection ~ 11550 8250
-Wire Wire Line
-	11750 8350 12500 8350
-Wire Wire Line
-	11950 7850 11950 8450
-Connection ~ 11950 8450
-Wire Wire Line
-	11950 8450 12500 8450
-Wire Wire Line
-	10950 7450 10950 7550
-Wire Wire Line
-	11150 7450 11150 7550
-Connection ~ 11150 7450
-Wire Wire Line
-	11150 7450 10950 7450
-Wire Wire Line
-	11350 7450 11350 7550
-Connection ~ 11350 7450
-Wire Wire Line
-	11350 7450 11150 7450
-Wire Wire Line
-	11550 7450 11550 7550
-Connection ~ 11550 7450
-Wire Wire Line
-	11550 7450 11350 7450
-Wire Wire Line
-	11750 7450 11750 7550
-Connection ~ 11750 7450
-Wire Wire Line
-	11750 7450 11550 7450
-Wire Wire Line
-	11950 7450 11950 7550
-Wire Wire Line
-	11950 7450 11750 7450
-Wire Wire Line
-	10950 7350 10950 7450
-Connection ~ 10950 7450
-Text Label 10950 7350 0    50   ~ 0
-VREF2
-Wire Wire Line
-	13650 8350 13650 7950
-Connection ~ 13650 7950
-Wire Wire Line
-	13650 7950 13750 7950
-Wire Wire Line
-	13750 8250 13750 8450
-Text Notes 14050 8350 0    50   ~ 0
-A0 = 1, A1 = 1  Address 0x96
 Wire Wire Line
 	13800 6800 13800 7000
 Wire Wire Line
@@ -923,18 +773,7 @@ Wire Wire Line
 Connection ~ 13800 7000
 Wire Wire Line
 	13400 7000 13800 7000
-NoConn ~ 12500 8550
-NoConn ~ 12500 8650
-Wire Wire Line
-	13350 8650 14250 8650
-Wire Wire Line
-	14250 8650 14250 7200
-Connection ~ 14250 7200
-Wire Notes Line
-	10200 9000 16300 9000
-Wire Notes Line
-	16300 2750 16300 9000
-Text Notes 10250 8950 0    50   ~ 0
+Text Notes 10300 7500 0    50   ~ 0
 Temperature Sensing
 Wire Wire Line
 	6600 3850 6350 3850
@@ -3480,90 +3319,6 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    12400 6250
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:R_100K R48
-U 1 1 5D0461FF
-P 10950 7700
-F 0 "R48" V 11030 7700 50  0000 C CNN
-F 1 "R_100K" V 10950 7650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 10880 7700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 11030 7700 50  0001 C CNN
-F 4 "DK" H 10950 7700 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 10950 7700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 11430 8100 60  0001 C CNN "PurchasingLink"
-	1    10950 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_100K R52
-U 1 1 5D046209
-P 11150 7700
-F 0 "R52" V 11230 7700 50  0000 C CNN
-F 1 "R_100K" V 11150 7650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11080 7700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 11230 7700 50  0001 C CNN
-F 4 "DK" H 11150 7700 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 11150 7700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 11630 8100 60  0001 C CNN "PurchasingLink"
-	1    11150 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_100K R56
-U 1 1 5D046213
-P 11350 7700
-F 0 "R56" V 11430 7700 50  0000 C CNN
-F 1 "R_100K" V 11350 7650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11280 7700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 11430 7700 50  0001 C CNN
-F 4 "DK" H 11350 7700 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 11350 7700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 11830 8100 60  0001 C CNN "PurchasingLink"
-	1    11350 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_100K R60
-U 1 1 5D04621D
-P 11550 7700
-F 0 "R60" V 11630 7700 50  0000 C CNN
-F 1 "R_100K" V 11550 7650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11480 7700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 11630 7700 50  0001 C CNN
-F 4 "DK" H 11550 7700 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 11550 7700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 12030 8100 60  0001 C CNN "PurchasingLink"
-	1    11550 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_100K R68
-U 1 1 5D046227
-P 11750 7700
-F 0 "R68" V 11830 7700 50  0000 C CNN
-F 1 "R_100K" V 11750 7650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11680 7700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 11830 7700 50  0001 C CNN
-F 4 "DK" H 11750 7700 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 11750 7700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 12230 8100 60  0001 C CNN "PurchasingLink"
-	1    11750 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_100K R72
-U 1 1 5D046231
-P 11950 7700
-F 0 "R72" V 12030 7700 50  0000 C CNN
-F 1 "R_100K" V 11950 7650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11880 7700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 12030 7700 50  0001 C CNN
-F 4 "DK" H 11950 7700 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 11950 7700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 12430 8100 60  0001 C CNN "PurchasingLink"
-	1    11950 7700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13400 5750 14250 5750
 Connection ~ 14250 5950
@@ -3680,20 +3435,6 @@ Wire Wire Line
 	14050 1200 14050 1300
 Wire Wire Line
 	14050 1300 13800 1300
-$Comp
-L formula:MM_F_VT_12 J3
-U 1 1 5C21AD59
-P 700 5200
-F 0 "J3" H 756 5997 60  0000 C CNN
-F 1 "MM_F_VT_12" H 756 5891 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_12" H 600 5750 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-2" H 600 6400 60  0001 C CNN
-F 4 "TE" H 800 6600 60  0001 C CNN "MFN"
-F 5 "1-338068-2" H 900 6700 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-338068-2.html" H 700 6500 60  0001 C CNN "PurchasingLink"
-	1    700  5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14700 5550 14700 5750
 Wire Wire Line
@@ -3703,28 +3444,140 @@ Wire Wire Line
 Wire Wire Line
 	8050 4750 7500 4750
 NoConn ~ 7500 5450
-Text Label 1750 9500 2    50   ~ 0
-volt1
-Text Label 1750 8650 2    50   ~ 0
-volt2
-Text Label 1750 7800 2    50   ~ 0
-volt3
-Text Label 1750 6950 2    50   ~ 0
-volt4
-Text Label 1750 6100 2    50   ~ 0
-volt5
-Text Label 950  4650 0    50   ~ 0
-volt1
-Text Label 950  4750 0    50   ~ 0
-volt2
-Text Label 950  4850 0    50   ~ 0
-volt3
-Text Label 950  4950 0    50   ~ 0
-volt4
-Text Label 950  5050 0    50   ~ 0
-volt5
+Text Label 6500 1000 0    50   ~ 0
+CELL0_VOLT
+Text Label 6500 1100 0    50   ~ 0
+CELL1_VOLT
+Text Label 6500 1200 0    50   ~ 0
+CELL2_VOLT
+Text Label 6500 1300 0    50   ~ 0
+CELL3_VOLT
+Text Label 6500 1400 0    50   ~ 0
+CELL4_VOLT
 Wire Wire Line
 	2350 1000 3250 1000
-Text Notes 550  4300 0    50   ~ 0
-v+ needs to be in the \nconnector from structural PCB
+Wire Notes Line
+	10200 7600 16300 7600
+NoConn ~ 10300 6900
+NoConn ~ 10300 7000
+NoConn ~ 10300 7100
+NoConn ~ 10300 7200
+Wire Notes Line
+	16300 2750 16300 7600
+Wire Notes Line
+	10200 7600 10200 2750
+$Comp
+L formula:MM_F_VT_16 J3
+U 1 1 5C694FD9
+P 6250 1800
+F 0 "J3" H 6306 2847 60  0000 C CNN
+F 1 "MM_F_VT_16" H 6306 2741 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_16" H 6150 2600 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 6150 3000 60  0001 C CNN
+F 4 "TE" H 6350 3200 60  0001 C CNN "MFN"
+F 5 "1-338068-6" H 6450 3300 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 6250 3100 60  0001 C CNN "PurchasingLink"
+	1    6250 1800
+	1    0    0    -1  
+$EndComp
+Text Label 6500 1500 0    50   ~ 0
+MODULE1_TEMP1
+Text Label 6500 1600 0    50   ~ 0
+MODULE1_TEMP2
+Text Label 6500 1700 0    50   ~ 0
+MODULE2_TEMP1
+Text Label 6500 1800 0    50   ~ 0
+MODULE2_TEMP2
+Text Label 6500 1900 0    50   ~ 0
+MODULE3_TEMP1
+Text Label 6500 2000 0    50   ~ 0
+MODULE3_TEMP2
+Text Label 6500 2100 0    50   ~ 0
+MODULE4_TEMP1
+Text Label 6500 2200 0    50   ~ 0
+MODULE4_TEMP2
+Text Label 6500 2300 0    50   ~ 0
+MODULE5_TEMP1
+Text Label 6500 2400 0    50   ~ 0
+MODULE5_TEMP2
+Text Label 6500 2500 0    50   ~ 0
+V-
+Text Label 8600 800  0    50   ~ 0
+CELL5_VOLT
+Text Label 8600 900  0    50   ~ 0
+CELL6_VOLT
+Text Label 8600 1000 0    50   ~ 0
+CELL7_VOLT
+Text Label 8600 1100 0    50   ~ 0
+CELL8_VOLT
+Text Label 8600 1400 0    50   ~ 0
+MODULE10_VOLT
+Text Label 8600 1500 0    50   ~ 0
+MODULE6_TEMP1
+Text Label 8600 1600 0    50   ~ 0
+MODULE6_TEMP2
+Text Label 8600 1700 0    50   ~ 0
+MODULE7_TEMP1
+Text Label 8600 1800 0    50   ~ 0
+MODULE7_TEMP2
+Text Label 8600 1900 0    50   ~ 0
+MODULE8_TEMP1
+Text Label 8600 2000 0    50   ~ 0
+MODULE8_TEMP2
+Text Label 8600 2100 0    50   ~ 0
+MODULE9_TEMP1
+Text Label 8600 2200 0    50   ~ 0
+MODULE9_TEMP2
+Text Label 8600 2300 0    50   ~ 0
+MODULE10_TEMP1
+Text Label 8600 2400 0    50   ~ 0
+MODULE10_TEMP2
+Text Label 8600 2500 0    50   ~ 0
+V+
+$Comp
+L formula:MM_F_VT_18 J4
+U 1 1 5C6A60F0
+P 8450 1900
+F 0 "J4" H 8406 3247 60  0000 C CNN
+F 1 "MM_F_VT_18" H 8406 3141 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_18" H 8250 3000 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-8" H 8350 3100 60  0001 C CNN
+F 4 "TE" H 8550 3300 60  0001 C CNN "MFN"
+F 5 "1-338068-8" H 8650 3400 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-8.html" H 8450 3200 60  0001 C CNN "PurchasingLink"
+	1    8450 1900
+	1    0    0    -1  
+$EndComp
+Text Label 8600 1200 0    50   ~ 0
+CELL9_VOLT
+Text Label 8600 1300 0    50   ~ 0
+CELL10_VOLT
+Text Notes 7400 3150 0    50   ~ 0
+Where do v+ and v- go?
+Text Label 1750 1000 2    50   ~ 0
+CELL0_VOLT
+Text Label 1750 1850 2    50   ~ 0
+CELL1_VOLT
+Text Label 1750 2700 2    50   ~ 0
+CELL2_VOLT
+Text Label 1750 3550 2    50   ~ 0
+CELL3_VOLT
+Text Label 1750 4400 2    50   ~ 0
+CELL4_VOLT
+Text Label 1750 5250 2    50   ~ 0
+CELL5_VOLT
+Text Label 1750 6100 2    50   ~ 0
+CELL6_VOLT
+Text Label 1750 6950 2    50   ~ 0
+CELL7_VOLT
+Text Label 1750 7800 2    50   ~ 0
+CELL8_VOLT
+Text Label 1750 8650 2    50   ~ 0
+CELL9_VOLT
+Text Label 1750 9500 2    50   ~ 0
+CELL10_VOLT
+Text Notes 8000 2650 2    50   ~ 0
+Traces from Structural PCB under Peripheral PCB
+Text Notes 9800 2650 2    50   ~ 0
+Ribbon cable from far side Structural PCB
 $EndSCHEMATC
