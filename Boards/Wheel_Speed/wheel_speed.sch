@@ -630,23 +630,23 @@ $EndComp
 $Comp
 L power:VCC #PWR08
 U 1 1 59E0C6BE
-P 2350 2850
-F 0 "#PWR08" H 2350 2700 50  0001 C CNN
-F 1 "VCC" H 2350 3000 50  0000 C CNN
-F 2 "" H 2350 2850 50  0001 C CNN
-F 3 "" H 2350 2850 50  0001 C CNN
-	1    2350 2850
+P 2950 2900
+F 0 "#PWR08" H 2950 2750 50  0001 C CNN
+F 1 "VCC" H 2950 3050 50  0000 C CNN
+F 2 "" H 2950 2900 50  0001 C CNN
+F 3 "" H 2950 2900 50  0001 C CNN
+	1    2950 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 59E0C704
-P 2400 3050
-F 0 "#PWR09" H 2400 2800 50  0001 C CNN
-F 1 "GND" H 2400 2900 50  0000 C CNN
-F 2 "" H 2400 3050 50  0001 C CNN
-F 3 "" H 2400 3050 50  0001 C CNN
-	1    2400 3050
+P 3000 3100
+F 0 "#PWR09" H 3000 2850 50  0001 C CNN
+F 1 "GND" H 3000 2950 50  0000 C CNN
+F 2 "" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0001 C CNN
+	1    3000 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -682,16 +682,16 @@ $EndComp
 $Comp
 L formula:CONN_02X03 J2
 U 1 1 59E10F9E
-P 2100 2950
-F 0 "J2" H 2100 3150 50  0000 C CNN
-F 1 "CONN_02X03" H 2100 2750 50  0000 C CNN
-F 2 "footprints:Pin_Header_Straight_2x03" H 2100 1750 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 2100 1750 50  0001 C CNN
-F 4 "Digi-Key" H 2100 2950 60  0001 C CNN "MFN"
-F 5 "609-3234-ND" H 2100 2950 60  0001 C CNN "MPN"
-F 6 "Value" H 2100 2950 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 2500 3550 60  0001 C CNN "PurchasingLink"
-	1    2100 2950
+P 2700 3000
+F 0 "J2" H 2700 3200 50  0000 C CNN
+F 1 "CONN_02X03" H 2700 2800 50  0000 C CNN
+F 2 "footprints:Pin_Header_Straight_2x03" H 2700 1800 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf" H 2700 1800 50  0001 C CNN
+F 4 "Digi-Key" H 2700 3000 60  0001 C CNN "MFN"
+F 5 "609-3234-ND" H 2700 3000 60  0001 C CNN "MPN"
+F 6 "Value" H 2700 3000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491" H 3100 3600 60  0001 C CNN "PurchasingLink"
+	1    2700 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -731,13 +731,13 @@ Text Label 9350 3400 0    60   ~ 0
 SCK
 Text Label 9800 3900 0    60   ~ 0
 RESET
-Text Label 1850 2850 2    60   ~ 0
+Text Label 2450 2900 2    60   ~ 0
 MISO
-Text Label 1850 2950 2    60   ~ 0
+Text Label 2450 3000 2    60   ~ 0
 SCK
-Text Label 1850 3050 2    60   ~ 0
+Text Label 2450 3100 2    60   ~ 0
 RESET
-Text Label 2350 2950 0    60   ~ 0
+Text Label 2950 3000 0    60   ~ 0
 MOSI
 Text Label 9350 2200 0    60   ~ 0
 SS
@@ -874,7 +874,7 @@ Wire Wire Line
 	9600 3750 9600 3900
 Connection ~ 9600 3900
 Wire Wire Line
-	2350 3050 2400 3050
+	2950 3100 3000 3100
 Wire Wire Line
 	2100 6050 1700 6050
 Wire Wire Line
@@ -981,7 +981,7 @@ F 3 "" H 950 4700 50  0001 C CNN
 	1    950  4700
 	1    0    0    -1  
 $EndComp
-Text Label 9350 2500 0    50   ~ 0
+Text Label 9350 3700 0    50   ~ 0
 P_LED_1
 Text Notes 6650 7750 0    79   ~ 0
 Wheel Speed Sensor
@@ -992,23 +992,23 @@ A
 $Comp
 L power:+12V #PWR010
 U 1 1 5BD7C343
-P 2550 1050
-F 0 "#PWR010" H 2550 900 50  0001 C CNN
-F 1 "+12V" H 2565 1223 50  0000 C CNN
-F 2 "" H 2550 1050 50  0001 C CNN
-F 3 "" H 2550 1050 50  0001 C CNN
-	1    2550 1050
+P 1550 900
+F 0 "#PWR010" H 1550 750 50  0001 C CNN
+F 1 "+12V" H 1565 1073 50  0000 C CNN
+F 2 "" H 1550 900 50  0001 C CNN
+F 3 "" H 1550 900 50  0001 C CNN
+	1    1550 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5BD7C3F5
-P 2650 1150
-F 0 "#PWR012" H 2650 900 50  0001 C CNN
-F 1 "GND" H 2655 977 50  0000 C CNN
-F 2 "" H 2650 1150 50  0001 C CNN
-F 3 "" H 2650 1150 50  0001 C CNN
-	1    2650 1150
+P 1650 1000
+F 0 "#PWR012" H 1650 750 50  0001 C CNN
+F 1 "GND" H 1655 827 50  0000 C CNN
+F 2 "" H 1650 1000 50  0001 C CNN
+F 3 "" H 1650 1000 50  0001 C CNN
+	1    1650 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1049,20 +1049,6 @@ F 3 "" H 4700 1900 50  0001 C CNN
 	1    4700 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:R_100 R11
-U 1 1 5BD82C72
-P 5100 1950
-F 0 "R11" H 5170 1996 50  0000 L CNN
-F 1 "R_100" H 5170 1905 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5030 1950 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5180 1950 50  0001 C CNN
-F 4 "DK" H 5100 1950 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD100RCT-ND" H 5100 1950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 5580 2350 60  0001 C CNN "PurchasingLink"
-	1    5100 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 1800 5100 1600
 Wire Wire Line
@@ -1071,21 +1057,6 @@ Wire Wire Line
 	5100 2150 4500 2150
 Wire Wire Line
 	4500 2150 4500 1700
-$Comp
-L formula:R_100K R12
-U 1 1 5BD84B46
-P 5100 2300
-F 0 "R12" H 5170 2346 50  0000 L CNN
-F 1 "R_100K" H 5170 2255 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5030 2300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5180 2300 50  0001 C CNN
-F 4 "DK" H 5100 2300 60  0001 C CNN "MFN"
-F 5 "P100KCCT-ND" H 5100 2300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 5580 2700 60  0001 C CNN "PurchasingLink"
-	1    5100 2300
-	1    0    0    -1  
-$EndComp
-Connection ~ 5100 2150
 $Comp
 L power:GND #PWR030
 U 1 1 5BD84CA4
@@ -1099,7 +1070,7 @@ F 3 "" H 5100 2450 50  0001 C CNN
 $EndComp
 Text Label 5100 2150 0    50   ~ 0
 POT_SIGNAL
-Text Label 9350 1400 0    50   ~ 0
+Text Label 9350 2700 0    50   ~ 0
 POT_SIGNAL
 Connection ~ 4450 3400
 $Comp
@@ -1257,76 +1228,62 @@ F 3 "" H 2900 4700 50  0001 C CNN
 	1    2900 4700
 	1    0    0    -1  
 $EndComp
-Text Label 9350 2600 0    50   ~ 0
+Text Label 9350 1400 0    50   ~ 0
 P_LED_2
-Text Label 9350 2700 0    50   ~ 0
+Text Label 9350 2500 0    50   ~ 0
 P_LED_3
-Text Label 9350 2800 0    50   ~ 0
+Text Label 9350 2600 0    50   ~ 0
 P_LED_4
-$Comp
-L formula:Ampseal_14_RA J1
-U 1 1 5BE06AA4
-P 2100 1700
-F 0 "J1" H 2056 2597 60  0000 C CNN
-F 1 "Ampseal_14_RA" H 2056 2491 60  0000 C CNN
-F 2 "footprints:Ampseal_14" H 1900 2000 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776266%7FB7%7Fpdf%7FEnglish%7FENG_CD_776266_B7.pdf%7F1-776266-1" H 1900 2000 60  0001 C CNN
-F 4 "TE" H 1950 2550 60  0001 C CNN "MFN"
-F 5 "1-776266-1" H 2050 2650 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-1-776266-1.html" H 2150 2750 60  0001 C CNN "PurchasingLink"
-	1    2100 1700
-	1    0    0    -1  
-$EndComp
-Text Label 2300 1250 0    50   ~ 0
+Text Label 1300 1100 0    50   ~ 0
 CANH
-Text Label 2300 1350 0    50   ~ 0
+Text Label 1300 1200 0    50   ~ 0
 CANL
-Text Label 2300 1650 0    50   ~ 0
+Text Label 1300 1900 0    50   ~ 0
 POT
 $Comp
 L power:VCC #PWR016
 U 1 1 5BE0CBE7
-P 3150 1450
-F 0 "#PWR016" H 3150 1300 50  0001 C CNN
-F 1 "VCC" H 3167 1623 50  0000 C CNN
-F 2 "" H 3150 1450 50  0001 C CNN
-F 3 "" H 3150 1450 50  0001 C CNN
-	1    3150 1450
+P 2150 1300
+F 0 "#PWR016" H 2150 1150 50  0001 C CNN
+F 1 "VCC" H 2167 1473 50  0000 C CNN
+F 2 "" H 2150 1300 50  0001 C CNN
+F 3 "" H 2150 1300 50  0001 C CNN
+	1    2150 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:C_0.1uF C2
 U 1 1 5BE0CBF0
-P 3150 1650
-F 0 "C2" V 2898 1650 50  0000 C CNN
-F 1 "C_0.1uF" V 2989 1650 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 3188 1500 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 3175 1750 50  0001 C CNN
-F 4 "DK" H 3150 1650 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 3150 1650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 3575 2150 60  0001 C CNN "PurchasingLink"
-	1    3150 1650
+P 2150 1500
+F 0 "C2" V 1898 1500 50  0000 C CNN
+F 1 "C_0.1uF" V 1989 1500 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 2188 1350 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2175 1600 50  0001 C CNN
+F 4 "DK" H 2150 1500 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 2150 1500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2575 2000 60  0001 C CNN "PurchasingLink"
+	1    2150 1500
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5BE0CBF6
-P 3150 1800
-F 0 "#PWR017" H 3150 1550 50  0001 C CNN
-F 1 "GND" H 3155 1627 50  0000 C CNN
-F 2 "" H 3150 1800 50  0001 C CNN
-F 3 "" H 3150 1800 50  0001 C CNN
-	1    3150 1800
+P 2150 1650
+F 0 "#PWR017" H 2150 1400 50  0001 C CNN
+F 1 "GND" H 2155 1477 50  0000 C CNN
+F 2 "" H 2150 1650 50  0001 C CNN
+F 3 "" H 2150 1650 50  0001 C CNN
+	1    2150 1650
 	1    0    0    -1  
 $EndComp
-Text Label 2300 1750 0    50   ~ 0
+Text Label 1300 2000 0    50   ~ 0
 BRAKETEMP
-Text Label 2300 1850 0    50   ~ 0
+Text Label 1300 2100 0    50   ~ 0
 HSENSOR
 Wire Wire Line
-	2300 1150 2650 1150
+	1300 1000 1650 1000
 Wire Wire Line
-	2550 1050 2300 1050
+	1550 900  1300 900 
 Text Notes 1250 3750 0    79   ~ 0
 PROGRAMMING LED'S
 Text Notes 3700 1300 0    50   ~ 0
@@ -1341,12 +1298,12 @@ Wire Notes Line
 	3400 2750 5700 2750
 Text Notes 4250 700  0    79   ~ 0
 AMPLIFIER
-Text Notes 700  2950 0    50   ~ 0
+Text Notes 2350 3400 0    50   ~ 0
 Programming Header
 Wire Notes Line
 	3400 500  3400 5050
 Text Notes 3900 3000 0    79   ~ 0
-CAN TRANCEIVER
+CAN TRANSCEIVER
 Wire Notes Line
 	500  5050 5700 5050
 Connection ~ 1450 6050
@@ -1365,36 +1322,36 @@ Wire Notes Line
 Text Notes 8000 700  0    79   ~ 0
 ATMEGA
 Wire Wire Line
-	3150 1450 2300 1450
+	2150 1300 1300 1300
 Wire Wire Line
-	3150 1450 3150 1500
-Connection ~ 3150 1450
-Text Notes 600  1650 0    50   ~ 0
+	2150 1300 2150 1350
+Connection ~ 2150 1300
+Text Notes 1450 350  0    50   ~ 0
 5&6:\nPower and ground for\nPotentiometer (MCP6001), \nBrake Disc Temp Sensor \n(MLX90614ESF-AAA-000-TU), \nand Hall Effect Sensor\n(55505-00-02-A)
 $Comp
 L power:GND #PWR013
 U 1 1 5BE42BA9
-P 2850 1550
-F 0 "#PWR013" H 2850 1300 50  0001 C CNN
-F 1 "GND" H 2855 1377 50  0000 C CNN
-F 2 "" H 2850 1550 50  0001 C CNN
-F 3 "" H 2850 1550 50  0001 C CNN
-	1    2850 1550
+P 1850 1400
+F 0 "#PWR013" H 1850 1150 50  0001 C CNN
+F 1 "GND" H 1855 1227 50  0000 C CNN
+F 2 "" H 1850 1400 50  0001 C CNN
+F 3 "" H 1850 1400 50  0001 C CNN
+	1    1850 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 1550 2300 1550
+	1850 1400 1300 1400
 $Sheet
 S 7100 5650 900  800 
 U 5BEA6C51
 F0 "Suspension Strain Testing" 50
 F1 "strain_testing.sch" 50
 $EndSheet
-Text GLabel 2300 2050 2    50   Input ~ 0
+Text GLabel 1300 2200 2    50   Input ~ 0
 gauge1.1in
-Text GLabel 2300 2150 2    50   Input ~ 0
+Text GLabel 1300 2300 2    50   Input ~ 0
 gauge1.2in
-Text GLabel 2300 2250 2    50   Input ~ 0
+Text GLabel 1300 2400 2    50   Input ~ 0
 gauge1.3in
 Text GLabel 9350 1900 2    50   Input ~ 0
 gauge1.1out
@@ -1402,4 +1359,61 @@ Text GLabel 9350 3500 2    50   Input ~ 0
 gauge1.2out
 Text GLabel 9350 3600 2    50   Input ~ 0
 gauge1.3out
+NoConn ~ 9350 1200
+NoConn ~ 9350 1300
+NoConn ~ 9350 1500
+NoConn ~ 9350 1600
+NoConn ~ 9350 2100
+NoConn ~ 9350 2800
+NoConn ~ 9350 3000
+NoConn ~ 9350 3100
+$Comp
+L formula:R_0 R11
+U 1 1 5BFD8D5A
+P 5100 1950
+F 0 "R11" H 5170 1996 50  0000 L CNN
+F 1 "R_0" H 5170 1905 50  0000 L CNN
+F 2 "footprints:R_0603_1608Metric" H 5030 1950 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 5180 1950 50  0001 C CNN
+F 4 "DK" H 5100 1950 60  0001 C CNN "MFN"
+F 5 "P0.0GCT-ND" H 5100 1950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 5580 2350 60  0001 C CNN "PurchasingLink"
+	1    5100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_0 R12
+U 1 1 5BFD8DE4
+P 5100 2300
+F 0 "R12" H 5170 2346 50  0000 L CNN
+F 1 "R_0" H 5170 2255 50  0000 L CNN
+F 2 "footprints:R_0603_1608Metric" H 5030 2300 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 5180 2300 50  0001 C CNN
+F 4 "DK" H 5100 2300 60  0001 C CNN "MFN"
+F 5 "P0.0GCT-ND" H 5100 2300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 5580 2700 60  0001 C CNN "PurchasingLink"
+	1    5100 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 2150
+Text Notes 4900 2350 0    50   ~ 0
+DNP
+Text Label 1300 2500 0    50   ~ 0
+CANH
+Text Label 1300 2600 0    50   ~ 0
+CANL
+$Comp
+L formula:Ampseal_23_RA J1
+U 1 1 5BFDCA66
+P 1100 2000
+F 0 "J1" H 1056 3347 60  0000 C CNN
+F 1 "Ampseal_23_RA" H 1056 3241 60  0000 C CNN
+F 2 "footprints:Ampseal_23" H 900 2750 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776087%7FE11%7Fpdf%7FEnglish%7FENG_CD_776087_E11.pdf%7F776087-1" H 900 2750 60  0001 C CNN
+F 4 "TE" H 950 3300 60  0001 C CNN "MFN"
+F 5 "776087-1" H 1050 3400 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-776087-1.html" H 1150 3500 60  0001 C CNN "PurchasingLink"
+	1    1100 2000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
