@@ -1,0 +1,630 @@
+Info: Checking netlist symbol footprint "R30:/5BC9A062:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R19:/5BFC3846:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R20:/59F330D0:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R21:/59E970F9:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "J2:/5A77724E:footprints:micromatch_female_vert_20".
+
+Info: Checking netlist symbol footprint "R22:/59E970CE:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "J1:/5A77B3F7:footprints:micromatch_female_vert_4".
+
+Info: Checking netlist symbol footprint "R23:/59F358A6:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R24:/59E96CC7:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R25:/59E96C9C:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R26:/5B922239:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R27:/59F359D4:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R28:/59E93DFF:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R29:/59E93294:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R18:/5BF97A30:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "IC1:/59E10948:footprints:TQFP-32_7x7mm_Pitch0.8mm".
+
+Info: Changing component path "F1:/59E0A5CF" to "/5BC9A077".
+
+Info: Checking netlist symbol footprint "F1:/5BC9A077:footprints:Fuse_1210".
+
+Info: Checking netlist symbol footprint "R31:/59E087A5:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "D10:/59E93543:footprints:LED_0805_OEM".
+
+Info: Checking netlist symbol footprint "R_1:/5BC5715E:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "D9:/59E96CB1:footprints:LED_0805_OEM".
+
+Info: Checking netlist symbol footprint "D8:/59E970E3:footprints:LED_0805_OEM".
+
+Info: Checking netlist symbol footprint "D7:/59F253C2:footprints:DO-214AA".
+
+Info: Checking netlist symbol footprint "R_2:/5BC57239:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "D6:/5BF471DD:footprints:LED_0805_OEM".
+
+Info: Checking netlist symbol footprint "U1:/59F35584:footprints:SOT-23-5_OEM".
+
+Info: Checking netlist symbol footprint "R11:/59E8D708:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R7:/59F32C4C:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R8:/59E8D631:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R6:/59F32B71:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R5:/59E0438C:footprints:R_0805_OEM".
+
+Info: Changing component path "R4:/59E042EA" to "/5BC9A052".
+
+Info: Checking netlist symbol footprint "R4:/5BC9A052:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R3:/59E042A3:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R2:/59E0432B:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R9:/5BC9A056:footprints:R_0603_1608Metric".
+
+Info: Checking netlist symbol footprint "R1:/59F2A9E3:footprints:R_0805_OEM".
+
+Info: Changing component path "R9:/59E0444E" to "/5BC9A056".
+
+Info: Checking netlist symbol footprint "R10:/59E8D8D1:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "Q4:/59E9335E:footprints:SOT-23F".
+
+Info: Checking netlist symbol footprint "C1:/5A79032C:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "Q3:/59E96CA6:footprints:SOT-23F".
+
+Info: Checking netlist symbol footprint "R12:/5BC9A055:footprints:R_0805_OEM".
+
+Info: Changing component path "R12:/59E04401" to "/5BC9A055".
+
+Info: Checking netlist symbol footprint "R13:/59F3542B:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "Q2:/59E970D8:footprints:SOT-23F".
+
+Info: Checking netlist symbol footprint "R14:/5A799A2F:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "Q1:/5A7550D0:footprints:SOT-23F".
+
+Info: Checking netlist symbol footprint "L1:/59E04875:footprints:4.7uH_Inductor_OEM".
+
+Info: Checking netlist symbol footprint "R15:/5BFC36CE:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "J3:/59E10F9E:footprints:Pin_Header_Straight_2x03".
+
+Info: Checking netlist symbol footprint "R16:/59F34AD6:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "R17:/5A7B4ECB:footprints:R_0805_OEM".
+
+Info: Checking netlist symbol footprint "C3:/5BC9A05B:footprints:C_1206_OEM".
+
+Info: Changing component path "C12:/5A79252F" to "/5BC9A05C".
+
+Info: Changing component path "C7:/59E0494E" to "/5A79252F".
+
+Info: Checking netlist symbol footprint "C5:/5BC9A05A:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "D1:/5BC9A057:footprints:LED_0805_OEM".
+
+Info: Checking netlist symbol footprint "C10:/5BC9A067:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "C8:/59E06E67:footprints:C_0805_OEM".
+
+Info: Changing component path "D1:/59E047E3" to "/5BC9A057".
+
+Info: Changing component path "U2:/59E04993" to "/5BC9A05D".
+
+Info: Checking netlist symbol footprint "C4:/5BC9A063:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "D2:/5BC9A058:footprints:LED_0805_OEM".
+
+Info: Changing component path "D2:/59E0483A" to "/5BC9A058".
+
+Info: Checking netlist symbol footprint "D3:/59E8D627:footprints:LED_0805_OEM".
+
+Info: Changing component path "C3:/59E04907" to "/5BC9A05B".
+
+Info: Checking netlist symbol footprint "U2:/5BC9A05D:footprints:SOT-23-6_OEM".
+
+Info: Checking netlist symbol footprint "C9:/5BC9A068:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "C6:/59E06957:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "D5:/59E8D6FE:footprints:LED_0805_OEM".
+
+Info: Checking netlist symbol footprint "Y1:/59E10C38:footprints:Crystal_SMD_FA238".
+
+Info: Checking netlist symbol footprint "D4:/59E8D8C7:footprints:LED_0805_OEM".
+
+Info: Checking netlist symbol footprint "U4:/5BC9A086:footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM".
+
+Info: Checking netlist symbol footprint "C2:/5A790AC2:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "C12:/5BC9A05C:footprints:C_0805_OEM".
+
+Info: Changing component path "C5:/59E048C8" to "/5BC9A05A".
+
+Info: Checking netlist symbol footprint "U3:/59F32DF5:footprints:SOT-23-5_OEM".
+
+Info: Checking netlist symbol footprint "C7:/5A79252F:footprints:C_0805_OEM".
+
+Info: Checking netlist symbol footprint "C11:/5A79269E:footprints:C_0805_OEM".
+
+Changing footprint "U4:/5BC9A086" pad "1" net name from "" to "/TXCAN".
+
+Changing footprint "R14:/5A799A2F" pad "2" net name from "" to "Net-(D6-Pad2)".
+
+Changing footprint "R11:/59E8D708" pad "1" net name from "" to "Net-(D5-Pad1)".
+
+Changing footprint "R14:/5A799A2F" pad "1" net name from "" to "/ReadyToDrive_LowDrive".
+
+Adding new symbol "R14:/5A799A2F" footprint "footprints:R_0805_OEM".
+
+Changing footprint "U4:/5BC9A086" pad "2" net name from "" to "GND".
+
+Adding new symbol "R15:/5BFC36CE" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R15:/5BFC36CE" pad "1" net name from "" to "GND".
+
+Changing footprint "R15:/5BFC36CE" pad "2" net name from "" to "/GND_DriveMode".
+
+Adding new symbol "U4:/5BC9A086" footprint "footprints:SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM".
+
+Adding new symbol "R16:/59F34AD6" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R16:/59F34AD6" pad "1" net name from "" to "/Throttle1Adjusted".
+
+Changing footprint "R16:/59F34AD6" pad "2" net name from "" to "Net-(R16-Pad2)".
+
+Adding new symbol "R17:/5A7B4ECB" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R17:/5A7B4ECB" pad "2" net name from "" to "GND".
+
+Changing footprint "R17:/5A7B4ECB" pad "1" net name from "" to "Net-(R16-Pad2)".
+
+Changing footprint "U3:/59F32DF5" pad "5" net name from "" to "VCC".
+
+Adding new symbol "R18:/5BF97A30" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R18:/5BF97A30" pad "1" net name from "" to "/ReadyToDrive_LowDrive".
+
+Adding new symbol "R10:/59E8D8D1" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R7:/59F32C4C" pad "1" net name from "" to "Net-(R6-Pad2)".
+
+Changing footprint "Y1:/59E10C38" pad "4" net name from "" to "GND".
+
+Changing footprint "R7:/59F32C4C" pad "2" net name from "" to "GND".
+
+Changing footprint "Y1:/59E10C38" pad "3" net name from "" to "Net-(C10-Pad1)".
+
+Adding new symbol "R8:/59E8D631" footprint "footprints:R_0805_OEM".
+
+Changing footprint "Y1:/59E10C38" pad "2" net name from "" to "GND".
+
+Changing footprint "Y1:/59E10C38" pad "1" net name from "" to "Net-(C9-Pad1)".
+
+Adding new symbol "Y1:/59E10C38" footprint "footprints:Crystal_SMD_FA238".
+
+Changing footprint "U4:/5BC9A086" pad "8" net name from "" to "GND".
+
+Changing footprint "R8:/59E8D631" pad "2" net name from "" to "GND".
+
+Changing footprint "R8:/59E8D631" pad "1" net name from "" to "Net-(D3-Pad1)".
+
+Changing footprint "U4:/5BC9A086" pad "7" net name from "" to "/CANH".
+
+Changing footprint "R13:/59F3542B" pad "1" net name from "" to "VCC".
+
+Changing footprint "R10:/59E8D8D1" pad "2" net name from "" to "GND".
+
+Changing footprint "U4:/5BC9A086" pad "6" net name from "" to "/CANL".
+
+Changing footprint "R10:/59E8D8D1" pad "1" net name from "" to "Net-(D4-Pad1)".
+
+Changing footprint "U4:/5BC9A086" pad "5" net name from "" to "Net-(U4-Pad5)".
+
+Adding new symbol "R11:/59E8D708" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R11:/59E8D708" pad "2" net name from "" to "GND".
+
+Changing footprint "R20:/59F330D0" pad "1" net name from "" to "/SS_Inertia_Switch".
+
+Changing footprint "U4:/5BC9A086" pad "4" net name from "" to "/RXCAN".
+
+Changing footprint "U4:/5BC9A086" pad "3" net name from "" to "VCC".
+
+Adding new symbol "R13:/59F3542B" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R13:/59F3542B" pad "2" net name from "" to "/Throttle2_Left_Sense".
+
+Adding new symbol "R31:/59E087A5" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R26:/5B922239" pad "1" net name from "" to "/CANH".
+
+Adding new symbol "R27:/59F359D4" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R27:/59F359D4" pad "2" net name from "" to "Net-(D10-Pad2)".
+
+Changing footprint "R27:/59F359D4" pad "1" net name from "" to "/SS_BOTS".
+
+Adding new symbol "R28:/59E93DFF" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R28:/59E93DFF" pad "2" net name from "" to "GND".
+
+Changing footprint "R28:/59E93DFF" pad "1" net name from "" to "/SS_BOTS".
+
+Adding new symbol "R29:/59E93294" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R29:/59E93294" pad "1" net name from "" to "VCC".
+
+Changing footprint "R29:/59E93294" pad "2" net name from "" to "/SS_BOTS_Out_n".
+
+Adding new symbol "R30:/5BC9A062" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R30:/5BC9A062" pad "1" net name from "" to "VCC".
+
+Changing footprint "R30:/5BC9A062" pad "2" net name from "" to "Net-(C8-Pad1)".
+
+Changing footprint "R26:/5B922239" pad "2" net name from "" to "/CANL".
+
+Changing footprint "U1:/59F35584" pad "1" net name from "" to "/Throttle2Adjusted".
+
+Changing footprint "R31:/59E087A5" pad "2" net name from "" to "/RESET".
+
+Changing footprint "R31:/59E087A5" pad "1" net name from "" to "VCC".
+
+Changing footprint "U1:/59F35584" pad "2" net name from "" to "GND".
+
+Adding new symbol "R_1:/5BC5715E" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R_1:/5BC5715E" pad "1" net name from "" to "/LED1".
+
+Changing footprint "R_1:/5BC5715E" pad "2" net name from "" to "Net-(IC1-Pad8)".
+
+Changing footprint "U1:/59F35584" pad "3" net name from "" to "/Throttle1_Right_Sense".
+
+Changing footprint "U1:/59F35584" pad "4" net name from "" to "Net-(R6-Pad2)".
+
+Changing footprint "U1:/59F35584" pad "5" net name from "" to "VCC".
+
+Adding new symbol "R_2:/5BC57239" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R_2:/5BC57239" pad "1" net name from "" to "/LED2".
+
+Changing footprint "R_2:/5BC57239" pad "2" net name from "" to "Net-(IC1-Pad9)".
+
+Changing footprint "U3:/59F32DF5" pad "1" net name from "" to "/Throttle1Adjusted".
+
+Adding new symbol "R19:/5BFC3846" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R19:/5BFC3846" pad "2" net name from "" to "GND".
+
+Changing footprint "R19:/5BFC3846" pad "1" net name from "" to "/Drive_Mode_Out".
+
+Changing footprint "U3:/59F32DF5" pad "4" net name from "" to "Net-(R16-Pad2)".
+
+Adding new symbol "R20:/59F330D0" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R20:/59F330D0" pad "2" net name from "" to "Net-(D8-Pad2)".
+
+Adding new symbol "U1:/59F35584" footprint "footprints:SOT-23-5_OEM".
+
+Changing footprint "U3:/59F32DF5" pad "3" net name from "" to "/Throttle2_Left_Sense".
+
+Changing footprint "U3:/59F32DF5" pad "2" net name from "" to "GND".
+
+Adding new symbol "R21:/59E970F9" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R21:/59E970F9" pad "1" net name from "" to "/SS_Inertia_Switch".
+
+Changing footprint "R21:/59E970F9" pad "2" net name from "" to "GND".
+
+Adding new symbol "R22:/59E970CE" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R18:/5BF97A30" pad "2" net name from "" to "GND".
+
+Changing footprint "R22:/59E970CE" pad "1" net name from "" to "VCC".
+
+Changing footprint "R22:/59E970CE" pad "2" net name from "" to "/SS_Inertia_Out_n".
+
+Adding new symbol "U3:/59F32DF5" footprint "footprints:SOT-23-5_OEM".
+
+Adding new symbol "R23:/59F358A6" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R23:/59F358A6" pad "1" net name from "" to "/SS_Cockpit_EStop".
+
+Changing footprint "R23:/59F358A6" pad "2" net name from "" to "Net-(D9-Pad2)".
+
+Adding new symbol "R24:/59E96CC7" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R24:/59E96CC7" pad "2" net name from "" to "GND".
+
+Changing footprint "R24:/59E96CC7" pad "1" net name from "" to "/SS_Cockpit_EStop".
+
+Adding new symbol "R25:/59E96C9C" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R25:/59E96C9C" pad "1" net name from "" to "VCC".
+
+Changing footprint "R25:/59E96C9C" pad "2" net name from "" to "/SS_EStop_Out_n".
+
+Adding new symbol "R26:/5B922239" footprint "footprints:R_0805_OEM".
+
+Changing footprint "D9:/59E96CB1" pad "1" net name from "" to "GND".
+
+Changing footprint "IC1:/59E10948" pad "4" net name from "" to "VCC".
+
+Changing footprint "IC1:/59E10948" pad "3" net name from "" to "Net-(IC1-Pad3)".
+
+Changing footprint "IC1:/59E10948" pad "2" net name from "" to "/MOSI".
+
+Changing footprint "IC1:/59E10948" pad "1" net name from "" to "/MISO".
+
+Adding new symbol "IC1:/59E10948" footprint "footprints:TQFP-32_7x7mm_Pitch0.8mm".
+
+Changing footprint "D10:/59E93543" pad "1" net name from "" to "GND".
+
+Changing footprint "D10:/59E93543" pad "2" net name from "" to "Net-(D10-Pad2)".
+
+Adding new symbol "D10:/59E93543" footprint "footprints:LED_0805_OEM".
+
+Changing footprint "IC1:/59E10948" pad "5" net name from "" to "GND".
+
+Changing footprint "D9:/59E96CB1" pad "2" net name from "" to "Net-(D9-Pad2)".
+
+Adding new symbol "D9:/59E96CB1" footprint "footprints:LED_0805_OEM".
+
+Changing footprint "D8:/59E970E3" pad "2" net name from "" to "Net-(D8-Pad2)".
+
+Changing footprint "D8:/59E970E3" pad "1" net name from "" to "GND".
+
+Adding new symbol "D8:/59E970E3" footprint "footprints:LED_0805_OEM".
+
+Changing footprint "D6:/5BF471DD" pad "2" net name from "" to "Net-(D6-Pad2)".
+
+Changing footprint "D6:/5BF471DD" pad "1" net name from "" to "GND".
+
+Changing footprint "IC1:/59E10948" pad "13" net name from "" to "/Drive_Mode_Out".
+
+Changing footprint "IC1:/59E10948" pad "21" net name from "" to "Net-(IC1-Pad21)".
+
+Changing footprint "IC1:/59E10948" pad "20" net name from "" to "GND".
+
+Changing footprint "IC1:/59E10948" pad "19" net name from "" to "Net-(C8-Pad1)".
+
+Changing footprint "IC1:/59E10948" pad "18" net name from "" to "/Throttle2Adjusted".
+
+Changing footprint "IC1:/59E10948" pad "17" net name from "" to "/Throttle1Adjusted".
+
+Changing footprint "IC1:/59E10948" pad "16" net name from "" to "Net-(IC1-Pad16)".
+
+Changing footprint "IC1:/59E10948" pad "15" net name from "" to "Net-(IC1-Pad15)".
+
+Changing footprint "IC1:/59E10948" pad "14" net name from "" to "Net-(IC1-Pad14)".
+
+Adding new symbol "D6:/5BF471DD" footprint "footprints:LED_0805_OEM".
+
+Changing footprint "IC1:/59E10948" pad "12" net name from "" to "/SCK".
+
+Changing footprint "IC1:/59E10948" pad "11" net name from "" to "Net-(C9-Pad1)".
+
+Changing footprint "IC1:/59E10948" pad "10" net name from "" to "Net-(C10-Pad1)".
+
+Changing footprint "IC1:/59E10948" pad "9" net name from "" to "Net-(IC1-Pad9)".
+
+Changing footprint "IC1:/59E10948" pad "8" net name from "" to "Net-(IC1-Pad8)".
+
+Changing footprint "IC1:/59E10948" pad "7" net name from "" to "/RXCAN".
+
+Changing footprint "IC1:/59E10948" pad "6" net name from "" to "/TXCAN".
+
+Changing footprint "C4:/5BC9A063" pad "1" net name from "" to "VCC".
+
+Changing footprint "C8:/59E06E67" pad "2" net name from "" to "GND".
+
+Changing footprint "C8:/59E06E67" pad "1" net name from "" to "Net-(C8-Pad1)".
+
+Adding new symbol "C8:/59E06E67" footprint "footprints:C_0805_OEM".
+
+Changing footprint "C7:/59E0494E" value from "C_47uF" to "C_0.1uF".
+
+Changing footprint "C6:/59E06957" pad "1" net name from "" to "VCC".
+
+Changing footprint "C6:/59E06957" pad "2" net name from "" to "GND".
+
+Adding new symbol "C6:/59E06957" footprint "footprints:C_0805_OEM".
+
+Changing footprint "C4:/5BC9A063" pad "2" net name from "" to "GND".
+
+Adding new symbol "C9:/5BC9A068" footprint "footprints:C_0805_OEM".
+
+Adding new symbol "C4:/5BC9A063" footprint "footprints:C_0805_OEM".
+
+Changing footprint "C2:/5A790AC2" pad "2" net name from "" to "VCC".
+
+Changing footprint "C2:/5A790AC2" pad "1" net name from "" to "GND".
+
+Adding new symbol "C2:/5A790AC2" footprint "footprints:C_0805_OEM".
+
+Changing footprint "C1:/5A79032C" pad "1" net name from "" to "GND".
+
+Changing footprint "C1:/5A79032C" pad "2" net name from "" to "VCC".
+
+Adding new symbol "C1:/5A79032C" footprint "footprints:C_0805_OEM".
+
+Changing footprint "R6:/59F32B71" pad "1" net name from "" to "/Throttle2Adjusted".
+
+Changing footprint "C9:/5BC9A068" pad "1" net name from "" to "Net-(C9-Pad1)".
+
+Changing footprint "C9:/5BC9A068" pad "2" net name from "" to "GND".
+
+Adding new symbol "C10:/5BC9A067" footprint "footprints:C_0805_OEM".
+
+Changing footprint "C10:/5BC9A067" pad "2" net name from "" to "GND".
+
+Changing footprint "C10:/5BC9A067" pad "1" net name from "" to "Net-(C10-Pad1)".
+
+Changing footprint "C12:/5A79252F" value from "C_0.1uF" to "C_47uF".
+
+Adding new symbol "D3:/59E8D627" footprint "footprints:LED_0805_OEM".
+
+Changing footprint "D3:/59E8D627" pad "2" net name from "" to "/ProgrammingLED1".
+
+Changing footprint "D3:/59E8D627" pad "1" net name from "" to "Net-(D3-Pad1)".
+
+Adding new symbol "D4:/59E8D8C7" footprint "footprints:LED_0805_OEM".
+
+Changing footprint "D4:/59E8D8C7" pad "1" net name from "" to "Net-(D4-Pad1)".
+
+Changing footprint "D4:/59E8D8C7" pad "2" net name from "" to "/ProgrammingLED2".
+
+Adding new symbol "D5:/59E8D6FE" footprint "footprints:LED_0805_OEM".
+
+Changing footprint "D5:/59E8D6FE" pad "2" net name from "" to "/ProgrammingLED3".
+
+Changing footprint "D5:/59E8D6FE" pad "1" net name from "" to "Net-(D5-Pad1)".
+
+Changing footprint "J3:/59E10F9E" pad "4" net name from "" to "/MOSI".
+
+Changing footprint "Q2:/59E970D8" pad "1" net name from "" to "/SS_Inertia_Switch".
+
+Adding new symbol "Q2:/59E970D8" footprint "footprints:SOT-23F".
+
+Changing footprint "Q1:/5A7550D0" pad "3" net name from "" to "/RTD".
+
+Changing footprint "Q1:/5A7550D0" pad "2" net name from "" to "GND".
+
+Changing footprint "Q1:/5A7550D0" pad "1" net name from "" to "/ReadyToDrive_LowDrive".
+
+Adding new symbol "Q1:/5A7550D0" footprint "footprints:SOT-23F".
+
+Changing footprint "J3:/59E10F9E" pad "6" net name from "" to "GND".
+
+Changing footprint "J3:/59E10F9E" pad "5" net name from "" to "/RESET".
+
+Changing footprint "Q2:/59E970D8" pad "2" net name from "" to "GND".
+
+Changing footprint "J3:/59E10F9E" pad "3" net name from "" to "/SCK".
+
+Changing footprint "J3:/59E10F9E" pad "2" net name from "" to "VCC".
+
+Changing footprint "J3:/59E10F9E" pad "1" net name from "" to "/MISO".
+
+Adding new symbol "J3:/59E10F9E" footprint "footprints:Pin_Header_Straight_2x03".
+
+Changing footprint "J2:/5A77724E" pad "20" net name from "" to "/LED2".
+
+Changing footprint "J2:/5A77724E" pad "19" net name from "" to "/LED1".
+
+Changing footprint "J2:/5A77724E" pad "18" net name from "" to "GND".
+
+Changing footprint "IC1:/59E10948" pad "23" net name from "" to "/ProgrammingLED2".
+
+Changing footprint "Q2:/59E970D8" pad "3" net name from "" to "/SS_Inertia_Out_n".
+
+Adding new symbol "Q3:/59E96CA6" footprint "footprints:SOT-23F".
+
+Changing footprint "Q3:/59E96CA6" pad "3" net name from "" to "/SS_EStop_Out_n".
+
+Changing footprint "Q3:/59E96CA6" pad "2" net name from "" to "GND".
+
+Changing footprint "Q3:/59E96CA6" pad "1" net name from "" to "/SS_Cockpit_EStop".
+
+Adding new symbol "Q4:/59E9335E" footprint "footprints:SOT-23F".
+
+Changing footprint "Q4:/59E9335E" pad "3" net name from "" to "/SS_BOTS_Out_n".
+
+Changing footprint "Q4:/59E9335E" pad "2" net name from "" to "GND".
+
+Changing footprint "Q4:/59E9335E" pad "1" net name from "" to "/SS_BOTS".
+
+Adding new symbol "R1:/59F2A9E3" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R1:/59F2A9E3" pad "1" net name from "" to "VCC".
+
+Changing footprint "R1:/59F2A9E3" pad "2" net name from "" to "/Throttle1_Right_Sense".
+
+Adding new symbol "R6:/59F32B71" footprint "footprints:R_0805_OEM".
+
+Changing footprint "R6:/59F32B71" pad "2" net name from "" to "Net-(R6-Pad2)".
+
+Adding new symbol "R7:/59F32C4C" footprint "footprints:R_0805_OEM".
+
+Changing footprint "IC1:/59E10948" pad "30" net name from "" to "Net-(IC1-Pad30)".
+
+Adding new symbol "J2:/5A77724E" footprint "footprints:micromatch_female_vert_20".
+
+Changing footprint "J1:/5A77B3F7" pad "4" net name from "" to "/RTD".
+
+Changing footprint "J1:/5A77B3F7" pad "2" net name from "" to "/SS_Inertia_Switch".
+
+Changing footprint "J1:/5A77B3F7" pad "1" net name from "" to "/SS_BOTS".
+
+Changing footprint "J1:/5A77B3F7" pad "3" net name from "" to "/SS_Cockpit_EStop".
+
+Adding new symbol "J1:/5A77B3F7" footprint "footprints:micromatch_female_vert_4".
+
+Changing footprint "IC1:/59E10948" pad "32" net name from "" to "Net-(IC1-Pad32)".
+
+Changing footprint "IC1:/59E10948" pad "31" net name from "" to "/RESET".
+
+Changing footprint "J2:/5A77724E" pad "16" net name from "" to "VCC".
+
+Changing footprint "IC1:/59E10948" pad "29" net name from "" to "Net-(IC1-Pad29)".
+
+Changing footprint "IC1:/59E10948" pad "28" net name from "" to "/SS_BOTS_Out_n".
+
+Changing footprint "IC1:/59E10948" pad "27" net name from "" to "/SS_EStop_Out_n".
+
+Changing footprint "IC1:/59E10948" pad "26" net name from "" to "/SS_Inertia_Out_n".
+
+Changing footprint "IC1:/59E10948" pad "25" net name from "" to "/ReadyToDrive_LowDrive".
+
+Changing footprint "IC1:/59E10948" pad "24" net name from "" to "/ProgrammingLED3".
+
+Changing footprint "IC1:/59E10948" pad "22" net name from "" to "/ProgrammingLED1".
+
+Changing footprint "J2:/5A77724E" pad "3" net name from "" to "VCC".
+
+Changing footprint "J2:/5A77724E" pad "17" net name from "" to "/Throttle2_Left_Sense".
+
+Changing footprint "J2:/5A77724E" pad "15" net name from "" to "GND".
+
+Changing footprint "J2:/5A77724E" pad "14" net name from "" to "/Throttle1_Right_Sense".
+
+Changing footprint "J2:/5A77724E" pad "13" net name from "" to "VCC".
+
+Changing footprint "J2:/5A77724E" pad "12" net name from "" to "/CANL".
+
+Changing footprint "J2:/5A77724E" pad "11" net name from "" to "/CANH".
+
+Changing footprint "J2:/5A77724E" pad "10" net name from "" to "/RESET".
+
+Changing footprint "J2:/5A77724E" pad "9" net name from "" to "/SCK".
+
+Changing footprint "J2:/5A77724E" pad "8" net name from "" to "/MISO".
+
+Changing footprint "J2:/5A77724E" pad "6" net name from "" to "VCC".
+
+Changing footprint "J2:/5A77724E" pad "4" net name from "" to "/Drive_Mode_Out".
+
+Changing footprint "J2:/5A77724E" pad "2" net name from "" to "+12V".
+
+Changing footprint "J2:/5A77724E" pad "7" net name from "" to "/MOSI".
+
+Changing footprint "J2:/5A77724E" pad "1" net name from "" to "GND".
+
+Changing footprint "J2:/5A77724E" pad "5" net name from "" to "/GND_DriveMode".
+
+Warning: Footprint of symbol "R9" changed: board footprint "footprints:R_2512_OEM", netlist footprint "footprints:R_0603_1608Metric"
+
