@@ -699,7 +699,7 @@ U 1 1 5BD86FC8
 P 2800 2250
 F 0 "U3" H 2800 2492 50  0000 C CNN
 F 1 "LM3480" H 2800 2401 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2" H 2750 2450 50  0001 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 2750 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" H 2900 2000 50  0001 C CNN
 F 4 "DK" H 2850 2575 60  0001 C CNN "MFN"
 F 5 "LM3480IM3-3.3CT-ND" H 2950 2675 60  0001 C CNN "MPN"
@@ -1371,7 +1371,7 @@ Wire Wire Line
 	5000 3900 4900 3900
 Connection ~ 5000 3900
 Text Label 9600 1500 0    50   ~ 0
-PLED1
+INT4
 Text Label 9600 1600 0    50   ~ 0
 PLED2
 Text Label 9600 1700 0    50   ~ 0
@@ -1385,7 +1385,7 @@ INT2
 Text Label 9600 2600 0    50   ~ 0
 INT3
 Text Label 9600 2700 0    50   ~ 0
-INT4
+PLED1
 Text Label 5950 3100 0    50   ~ 0
 INT1
 Text Label 5950 3200 0    50   ~ 0
