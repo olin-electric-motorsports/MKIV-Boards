@@ -1281,9 +1281,9 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 298
 	1    0    0    -1  
 $EndComp
 Text Label 9300 1750 0    50   ~ 0
-LED2
+PLED2
 Text Label 9300 1650 0    50   ~ 0
-LED1
+PLED1
 $Comp
 L formula:R_200 R6
 U 1 1 5BEB4A90
@@ -1313,9 +1313,9 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 1630 74
 	1    0    0    -1  
 $EndComp
 Text Label 600  6850 0    50   ~ 0
-LED1
+PLED1
 Text Label 1150 6850 0    50   ~ 0
-LED2
+PLED2
 $Comp
 L formula:LED_0805 D3
 U 1 1 5BEB9C70
@@ -1349,7 +1349,7 @@ Programming LEDs
 Wire Notes Line
 	450  6400 6300 6400
 Text Label 9300 1850 0    50   ~ 0
-LED3
+PLED3
 $Comp
 L formula:R_200 R11
 U 1 1 5BEEBF7F
@@ -1365,7 +1365,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 2180 74
 	1    0    0    -1  
 $EndComp
 Text Label 1700 6850 0    50   ~ 0
-LED3
+PLED3
 $Comp
 L formula:LED_0805 D5
 U 1 1 5BEEBF8A
@@ -1416,7 +1416,7 @@ U 1 1 5BFE0CF3
 P 1300 5700
 F 0 "S1" H 1250 6000 50  0000 L CNN
 F 1 "MHSS1105" H 1100 5900 50  0000 L CNN
-F 2 "Formula:MHSS1105" H 1300 5900 50  0001 C CNN
+F 2 "footprints:MHSS1105" H 1300 5900 50  0001 C CNN
 F 3 "https://www.apem.com/us/index.php?controller=attachment&id_attachment=916" H 1300 5900 50  0001 C CNN
 F 4 "APEM Inc." H 1300 5700 50  0001 C CNN "MFN"
 F 5 "679-1849-ND" H 1300 5700 50  0001 C CNN "MPN"
@@ -2417,4 +2417,6 @@ NoConn ~ 9300 1350
 NoConn ~ 9300 1450
 NoConn ~ 9300 1550
 NoConn ~ 9300 2450
+Text Notes 4150 7200 0    50   ~ 0
+DNP
 $EndSCHEMATC
