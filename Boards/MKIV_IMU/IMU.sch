@@ -293,56 +293,56 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG08
 U 1 1 59E0A741
-P 1750 7550
-F 0 "#FLG08" H 1750 7625 50  0001 C CNN
-F 1 "PWR_FLAG" H 1750 7700 50  0000 C CNN
-F 2 "" H 1750 7550 50  0001 C CNN
-F 3 "" H 1750 7550 50  0001 C CNN
-	1    1750 7550
+P 2350 3650
+F 0 "#FLG08" H 2350 3725 50  0001 C CNN
+F 1 "PWR_FLAG" H 2350 3800 50  0000 C CNN
+F 2 "" H 2350 3650 50  0001 C CNN
+F 3 "" H 2350 3650 50  0001 C CNN
+	1    2350 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG09
 U 1 1 59E0A773
-P 2150 7550
-F 0 "#FLG09" H 2150 7625 50  0001 C CNN
-F 1 "PWR_FLAG" H 2150 7700 50  0000 C CNN
-F 2 "" H 2150 7550 50  0001 C CNN
-F 3 "" H 2150 7550 50  0001 C CNN
-	1    2150 7550
+P 2750 3650
+F 0 "#FLG09" H 2750 3725 50  0001 C CNN
+F 1 "PWR_FLAG" H 2750 3800 50  0000 C CNN
+F 2 "" H 2750 3650 50  0001 C CNN
+F 3 "" H 2750 3650 50  0001 C CNN
+	1    2750 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG010
 U 1 1 59E0A7A5
-P 2550 7550
-F 0 "#FLG010" H 2550 7625 50  0001 C CNN
-F 1 "PWR_FLAG" H 2550 7700 50  0000 C CNN
-F 2 "" H 2550 7550 50  0001 C CNN
-F 3 "" H 2550 7550 50  0001 C CNN
-	1    2550 7550
+P 3150 3650
+F 0 "#FLG010" H 3150 3725 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 3800 50  0000 C CNN
+F 2 "" H 3150 3650 50  0001 C CNN
+F 3 "" H 3150 3650 50  0001 C CNN
+	1    3150 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR011
 U 1 1 59E0A7D7
-P 1750 7550
-F 0 "#PWR011" H 1750 7400 50  0001 C CNN
-F 1 "+12V" H 1750 7690 50  0000 C CNN
-F 2 "" H 1750 7550 50  0001 C CNN
-F 3 "" H 1750 7550 50  0001 C CNN
-	1    1750 7550
+P 2350 3650
+F 0 "#PWR011" H 2350 3500 50  0001 C CNN
+F 1 "+12V" H 2350 3790 50  0000 C CNN
+F 2 "" H 2350 3650 50  0001 C CNN
+F 3 "" H 2350 3650 50  0001 C CNN
+	1    2350 3650
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 59E0A859
-P 2550 7550
-F 0 "#PWR012" H 2550 7300 50  0001 C CNN
-F 1 "GND" H 2550 7400 50  0000 C CNN
-F 2 "" H 2550 7550 50  0001 C CNN
-F 3 "" H 2550 7550 50  0001 C CNN
-	1    2550 7550
+P 3150 3650
+F 0 "#PWR012" H 3150 3400 50  0001 C CNN
+F 1 "GND" H 3150 3500 50  0000 C CNN
+F 2 "" H 3150 3650 50  0001 C CNN
+F 3 "" H 3150 3650 50  0001 C CNN
+	1    3150 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -397,12 +397,12 @@ $EndComp
 $Comp
 L power:VCC #PWR019
 U 1 1 59E09A8F
-P 2150 7550
-F 0 "#PWR019" H 2150 7400 50  0001 C CNN
-F 1 "VCC" H 2150 7700 50  0000 C CNN
-F 2 "" H 2150 7550 50  0001 C CNN
-F 3 "" H 2150 7550 50  0001 C CNN
-	1    2150 7550
+P 2750 3650
+F 0 "#PWR019" H 2750 3500 50  0001 C CNN
+F 1 "VCC" H 2750 3800 50  0000 C CNN
+F 2 "" H 2750 3650 50  0001 C CNN
+F 3 "" H 2750 3650 50  0001 C CNN
+	1    2750 3650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -620,57 +620,36 @@ Connection ~ 9250 5750
 Wire Wire Line
 	9400 5775 9400 5750
 Connection ~ 9400 5750
-Text Label 1125 7500 0    60   ~ 0
+Text Label 2775 4400 0    60   ~ 0
 GND
-Text Label 900  7650 2    60   ~ 0
+Text Label 2550 4550 2    60   ~ 0
 5V
 $Comp
 L power:GND #PWR049
 U 1 1 5B92100B
-P 1125 7500
-F 0 "#PWR049" H 1125 7250 50  0001 C CNN
-F 1 "GND" H 1125 7350 50  0000 C CNN
-F 2 "" H 1125 7500 50  0001 C CNN
-F 3 "" H 1125 7500 50  0001 C CNN
-	1    1125 7500
+P 2775 4400
+F 0 "#PWR049" H 2775 4150 50  0001 C CNN
+F 1 "GND" H 2775 4250 50  0000 C CNN
+F 2 "" H 2775 4400 50  0001 C CNN
+F 3 "" H 2775 4400 50  0001 C CNN
+	1    2775 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR050
 U 1 1 5B9214B7
-P 900 7650
-F 0 "#PWR050" H 900 7500 50  0001 C CNN
-F 1 "VCC" H 900 7800 50  0000 C CNN
-F 2 "" H 900 7650 50  0001 C CNN
-F 3 "" H 900 7650 50  0001 C CNN
-	1    900  7650
+P 2550 4550
+F 0 "#PWR050" H 2550 4400 50  0001 C CNN
+F 1 "VCC" H 2550 4700 50  0000 C CNN
+F 2 "" H 2550 4550 50  0001 C CNN
+F 3 "" H 2550 4550 50  0001 C CNN
+	1    2550 4550
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:R_200 R7
-U 1 1 5B922239
-P 5750 1450
-F 0 "R7" V 5830 1450 50  0000 C CNN
-F 1 "R_200" V 5650 1450 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5680 1450 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5830 1450 50  0001 C CNN
-F 4 "Digi-Key" H 5750 1450 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 5750 1450 60  0001 C CNN "MPN"
-F 6 "Value" H 5750 1450 60  0001 C CNN "Package"
-F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 6230 1850 60  0001 C CNN "PurchasingLink"
-	1    5750 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 1300 5750 1300
 Wire Wire Line
 	5550 1300 5550 1350
-Connection ~ 5750 1300
-Wire Wire Line
-	5550 1600 5750 1600
 Wire Wire Line
 	5550 1600 5550 1550
-Connection ~ 5750 1600
 Wire Wire Line
 	8650 5550 8950 5550
 Wire Wire Line
@@ -683,15 +662,11 @@ Wire Wire Line
 	9250 5750 9400 5750
 Wire Wire Line
 	9400 5750 9675 5750
-Wire Wire Line
-	5750 1300 5875 1300
-Wire Wire Line
-	5750 1600 5875 1600
-Text Notes 2900 750  0    50   ~ 0
+Text Notes 2750 650  0    71   ~ 0
 Programming Header
-Text Notes 4200 750  0    50   ~ 0
+Text Notes 4050 650  0    71   ~ 0
 CAN Transceiver
-Text Notes 6550 5100 0    50   ~ 0
+Text Notes 6450 5050 0    71   ~ 0
 Buck Converter
 $Comp
 L formula:LM3480 U3
@@ -722,7 +697,7 @@ F 3 "" H 2500 2200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2500 2250 2500 2200
-Text Notes 2450 1850 0    50   ~ 0
+Text Notes 2300 1800 0    71   ~ 0
 Linear Regulator
 Connection ~ 5050 1000
 Connection ~ 6950 5750
@@ -736,7 +711,7 @@ Wire Notes Line
 	4000 2350 6300 2350
 Wire Notes Line
 	6300 500  6300 6750
-Text Notes 4250 2650 0    50   ~ 0
+Text Notes 4100 2550 0    71   ~ 0
 Digital Accelerometer
 $Comp
 L formula:LED_0805 D3
@@ -867,7 +842,7 @@ Text Label 5000 5450 0    50   ~ 0
 PLED2
 Text Label 5600 5450 0    50   ~ 0
 PLED3
-Text Notes 4250 5200 0    50   ~ 0
+Text Notes 4100 5050 0    71   ~ 0
 Programming LEDS
 $Comp
 L formula:UF_4_VT J1
@@ -887,11 +862,11 @@ Text Label 2250 1050 0    50   ~ 0
 GND
 Text Label 2250 1150 0    50   ~ 0
 12V
-Text Label 2250 1250 0    50   ~ 0
-CANL
 Text Label 2250 1350 0    50   ~ 0
+CANL
+Text Label 2250 1250 0    50   ~ 0
 CANH
-Text Notes 1650 750  0    50   ~ 0
+Text Notes 1500 650  0    71   ~ 0
 Connector
 $Comp
 L formula:BMI088 U4
@@ -899,7 +874,7 @@ U 1 1 5BDF6F28
 P 5800 3250
 F 0 "U4" H 5225 3625 50  0000 C CNN
 F 1 "BMI088" H 5225 3534 50  0000 C CNN
-F 2 "" H 5700 3150 50  0001 C CNN
+F 2 "footprints:bmi088" H 5700 3150 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/product_flyer/Bosch_Sensortec_Product_flyer_BMI088.pdf" H 5250 3900 50  0001 C CNN
 F 4 "https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1-ND/8634942" H 5200 4050 50  0001 C CNN "Purchasing Link"
 	1    5800 3250
@@ -951,8 +926,6 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B10
 $EndComp
 Wire Notes Line
 	4000 6750 10500 6750
-Wire Notes Line
-	4000 4800 10550 4800
 $Comp
 L formula:C_100nF C14
 U 1 1 5BE0DEBB
@@ -969,7 +942,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B10
 $EndComp
 Wire Notes Line
 	4000 500  4000 6750
-Text Notes 6600 750  0    50   ~ 0
+Text Notes 6400 650  0    71   ~ 0
 Microcontroller
 $Comp
 L formula:R_100 R1
@@ -1300,8 +1273,6 @@ Wire Notes Line
 Wire Notes Line
 	1450 3150 4000 3150
 Wire Notes Line
-	1450 500  1450 3150
-Wire Notes Line
 	1450 500  10500 500 
 Wire Notes Line
 	10500 500  10500 6750
@@ -1394,4 +1365,36 @@ Text Label 5950 3300 0    50   ~ 0
 INT3
 Text Label 5950 3400 0    50   ~ 0
 INT4
+Wire Notes Line
+	1450 4800 10550 4800
+Wire Notes Line
+	1450 500  1450 4800
+Text Notes 2450 3350 0    71   ~ 0
+Power Flags
+Wire Notes Line
+	1450 4100 4000 4100
+Wire Wire Line
+	5550 1300 5750 1300
+Wire Wire Line
+	5550 1600 5750 1600
+$Comp
+L formula:R_120 R?
+U 1 1 5C0AA605
+P 5750 1450
+F 0 "R?" H 5820 1496 50  0000 L CNN
+F 1 "R_120" H 5820 1405 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4550 1600 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 4550 1900 50  0001 L CNN
+F 4 "DK" H 5750 1450 60  0001 C CNN "MFN"
+F 5 "667-ERJ-6ENF1200V" H 4550 1700 60  0001 L CNN "MPN"
+F 6 "https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d" H 4550 1800 60  0001 L CNN "PurchasingLink"
+	1    5750 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 1300
+Wire Wire Line
+	5750 1300 5875 1300
+Connection ~ 5750 1600
+Wire Wire Line
+	5750 1600 5875 1600
 $EndSCHEMATC
