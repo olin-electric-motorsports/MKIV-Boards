@@ -1378,10 +1378,10 @@ Wire Wire Line
 Wire Wire Line
 	5550 1600 5750 1600
 $Comp
-L formula:R_120 R?
+L formula:R_120 R7
 U 1 1 5C0AA605
 P 5750 1450
-F 0 "R?" H 5820 1496 50  0000 L CNN
+F 0 "R7" H 5820 1496 50  0000 L CNN
 F 1 "R_120" H 5820 1405 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 4550 1600 50  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 4550 1900 50  0001 L CNN
