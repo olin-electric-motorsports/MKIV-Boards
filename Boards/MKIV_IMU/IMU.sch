@@ -1324,7 +1324,6 @@ Connection ~ 6950 5450
 Text Label 6950 5350 0    50   ~ 0
 12V
 NoConn ~ 9600 2100
-NoConn ~ 9600 3900
 Connection ~ 5400 3900
 Wire Wire Line
 	5400 3900 5700 3900
@@ -1397,4 +1396,6 @@ Wire Wire Line
 Connection ~ 5750 1600
 Wire Wire Line
 	5750 1600 5875 1600
+Wire Wire Line
+	9600 3900 9900 3900
 $EndSCHEMATC
