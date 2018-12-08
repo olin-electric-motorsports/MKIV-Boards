@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/william/Desktop/MKIV-Boards/Boards/Layout_Practice/layout.sch)
-    (date "Mon 05 Nov 2018 05:05:55 PM EST")
+    (date "Mon 05 Nov 2018 08:39:32 PM EST")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
