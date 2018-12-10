@@ -1,7 +1,5 @@
 EESchema Schematic File Version 4
 LIBS:Brakelight_Shutdown_BSPD-cache
-LIBS:BSPD_1-cache
-LIBS:BrakeLightShutdown-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -17,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L formula:R_10K_HV R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K_HV-formula R?
 U 1 1 5C00B3BB
 P 5630 9080
 F 0 "R?" V 5710 9080 50  0000 C CNN
@@ -32,7 +30,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 611
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_10K_HV R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K_HV-formula R?
 U 1 1 5C00B3BC
 P 6680 9230
 F 0 "R?" V 6760 9230 50  0000 C CNN
@@ -47,7 +45,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 716
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R?
+L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R?
 U 1 1 5C00B3BD
 P 5130 9230
 F 0 "R?" V 5210 9230 50  0000 C CNN
@@ -62,7 +60,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5610 9
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_51.1K R?
+L Brakelight_Shutdown_BSPD-rescue:R_51.1K-formula R?
 U 1 1 5C00B3BE
 P 6880 9080
 F 0 "R?" V 6780 9080 50  0000 C CNN
@@ -77,7 +75,7 @@ F 7 "https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND" H 7360 9480 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R?
+L Brakelight_Shutdown_BSPD-rescue:R_200-formula R?
 U 1 1 5C00B3BF
 P 8355 9030
 F 0 "R?" V 8255 9030 50  0000 C CNN
@@ -92,7 +90,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 8835 94
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_0 R?
+L Brakelight_Shutdown_BSPD-rescue:R_0-formula R?
 U 1 1 5C00B3C0
 P 8005 8880
 F 0 "R?" V 8085 8880 50  0000 C CNN
@@ -197,7 +195,7 @@ F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:TPS561201 U?
+L Brakelight_Shutdown_BSPD-rescue:TPS561201-formula U?
 U 1 1 59E04993
 P 6230 8980
 F 0 "U?" H 6030 8680 60  0000 C CNN
@@ -463,7 +461,7 @@ F 3 "" H 11860 9680 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:CONN_02X03 J?
+L Brakelight_Shutdown_BSPD-rescue:CONN_02X03-formula J?
 U 1 1 5C00B3DE
 P 11560 9580
 F 0 "J?" H 11560 9780 50  0000 C CNN
@@ -662,7 +660,7 @@ F 3 "" H 10760 8980 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_200 R?
+L Brakelight_Shutdown_BSPD-rescue:R_200-formula R?
 U 1 1 5C031BE3
 P 10360 9630
 F 0 "R?" V 10440 9630 50  0000 C CNN
@@ -707,52 +705,30 @@ Connection ~ 5130 8780
 Connection ~ 5130 9080
 Connection ~ 6680 9080
 Connection ~ 8355 8880
-$Comp
-L formula:MM_F_RA_20 J?
-U 1 1 5BFF9755
-P 3230 4280
-F 0 "J?" H 3186 5627 60  0000 C CNN
-F 1 "MM_F_RA_20" H 3186 5521 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 3030 5380 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 3130 5480 60  0001 C CNN
-F 4 "TE" H 3330 5680 60  0001 C CNN "MFN"
-F 5 "2-338070-0" H 3430 5780 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 3230 5580 60  0001 C CNN "PurchasingLink"
-	1    3230 4280
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3380 3180 3530 3180
-Wire Wire Line
-	3530 3180 3530 2830
-Wire Wire Line
-	3530 2830 3630 2830
+	1930 2570 2080 2570
 $Comp
 L power:GND #PWR?
 U 1 1 5BFFA62E
-P 3630 2830
-F 0 "#PWR?" H 3630 2580 50  0001 C CNN
-F 1 "GND" H 3635 2657 50  0000 C CNN
-F 2 "" H 3630 2830 50  0001 C CNN
-F 3 "" H 3630 2830 50  0001 C CNN
-	1    3630 2830
+P 2410 2210
+F 0 "#PWR?" H 2410 1960 50  0001 C CNN
+F 1 "GND" H 2415 2037 50  0000 C CNN
+F 2 "" H 2410 2210 50  0001 C CNN
+F 3 "" H 2410 2210 50  0001 C CNN
+	1    2410 2210
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5BFFA71A
-P 3830 3230
-F 0 "#PWR?" H 3830 3080 50  0001 C CNN
-F 1 "+12V" H 3845 3403 50  0000 C CNN
-F 2 "" H 3830 3230 50  0001 C CNN
-F 3 "" H 3830 3230 50  0001 C CNN
-	1    3830 3230
+P 2630 2620
+F 0 "#PWR?" H 2630 2470 50  0001 C CNN
+F 1 "+12V" H 2645 2793 50  0000 C CNN
+F 2 "" H 2630 2620 50  0001 C CNN
+F 3 "" H 2630 2620 50  0001 C CNN
+	1    2630 2620
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3380 3280 3830 3280
-Wire Wire Line
-	3830 3280 3830 3230
 Wire Wire Line
 	3380 3380 4030 3380
 Wire Wire Line
@@ -762,7 +738,7 @@ Wire Wire Line
 Wire Wire Line
 	4330 2880 4330 3380
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5BFFCA13
 P 4180 3030
 F 0 "R?" V 4280 2980 50  0000 L CNN
@@ -809,18 +785,12 @@ $EndComp
 Wire Wire Line
 	3630 3680 3780 3680
 Wire Wire Line
-	3580 3680 3580 3780
-Wire Wire Line
-	3580 3780 4180 3780
-Wire Wire Line
 	4180 3780 4180 3480
-Wire Wire Line
-	3380 3680 3580 3680
 Wire Wire Line
 	4180 3780 4230 3780
 Connection ~ 4180 3780
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5C008673
 P 4380 3780
 F 0 "R?" V 4480 3780 50  0000 C CNN
@@ -846,67 +816,8 @@ F 3 "" H 4680 3780 50  0001 C CNN
 	1    4680 3780
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3380 3780 3480 3780
-Wire Wire Line
-	3480 3780 3480 3880
-Wire Wire Line
-	3480 4280 3380 4280
-Wire Wire Line
-	3480 4180 3380 4180
-Connection ~ 3480 4180
-Wire Wire Line
-	3480 4180 3480 4280
-Wire Wire Line
-	3480 4080 3380 4080
-Connection ~ 3480 4080
-Wire Wire Line
-	3480 4080 3480 4180
-Wire Wire Line
-	3480 3980 3380 3980
-Connection ~ 3480 3980
-Wire Wire Line
-	3480 3980 3480 4080
-Wire Wire Line
-	3480 3880 3380 3880
-Connection ~ 3480 3880
-Wire Wire Line
-	3480 3880 3480 3980
-Wire Wire Line
-	3380 4380 3480 4380
-Wire Wire Line
-	3480 4380 3480 4480
-Wire Wire Line
-	3460 4790 3360 4790
-Wire Wire Line
-	3460 4690 3360 4690
-Connection ~ 3460 4690
-Wire Wire Line
-	3460 4690 3460 4790
-Wire Wire Line
-	3460 4590 3360 4590
-Connection ~ 3460 4590
-Wire Wire Line
-	3460 4590 3460 4690
-Wire Wire Line
-	3460 4490 3360 4490
-Wire Wire Line
-	3460 4490 3460 4590
-Wire Wire Line
-	3460 4790 3460 4890
-Wire Wire Line
-	3460 4890 3360 4890
-Connection ~ 3460 4790
-Text Label 3480 4180 0    50   ~ 0
-Shutdown_In
-Text Label 3460 4790 0    50   ~ 0
-Shutdown_Out
-Wire Wire Line
-	3360 4990 3510 4990
-Text Label 3510 4990 0    50   ~ 0
-BSPD_Relay_Sense
 $Comp
-L formula:SN74LVC1G08 U?
+L Brakelight_Shutdown_BSPD-rescue:SN74LVC1G08-formula U?
 U 1 1 5C023975
 P 4930 3430
 F 0 "U?" H 5080 3930 60  0000 L CNN
@@ -936,7 +847,7 @@ F 3 "" H 4930 3080 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_200 R?
+L Brakelight_Shutdown_BSPD-rescue:R_200-formula R?
 U 1 1 5C02C4F0
 P 5280 3580
 F 0 "R?" V 5380 3530 50  0000 L CNN
@@ -1025,7 +936,7 @@ Wire Wire Line
 	6180 4330 6380 4330
 Connection ~ 6180 4330
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5C03C74C
 P 5830 4330
 F 0 "R?" V 5930 4330 50  0000 C CNN
@@ -1052,7 +963,7 @@ $EndComp
 Wire Wire Line
 	5680 4330 5630 4330
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5C0433E7
 P 6530 4330
 F 0 "R?" V 6630 4330 50  0000 C CNN
@@ -1079,7 +990,7 @@ F 3 "" H 6830 4330 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5C04D53E
 P 6930 3530
 F 0 "R?" V 7030 3580 50  0000 C CNN
@@ -1183,7 +1094,7 @@ Connection ~ 7180 3530
 Wire Wire Line
 	7180 3530 7630 3530
 $Comp
-L formula:SN74LVC1G02 U?
+L Brakelight_Shutdown_BSPD-rescue:SN74LVC1G02-formula U?
 U 1 1 5C0875CE
 P 7810 4700
 F 0 "U?" H 7840 4840 60  0000 L CNN
@@ -1227,7 +1138,7 @@ Wire Wire Line
 Wire Wire Line
 	5910 4760 5360 4760
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5C0ABE7D
 P 6060 4760
 F 0 "R?" V 6160 4760 50  0000 C CNN
@@ -1241,7 +1152,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5C0AC30A
 P 5360 5040
 F 0 "R?" H 5430 5086 50  0000 L CNN
@@ -1255,7 +1166,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 584
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5C0AC646
 P 6410 5240
 F 0 "Q?" H 6616 5286 50  0000 L CNN
@@ -1324,7 +1235,7 @@ Wire Wire Line
 	8560 3590 8560 3740
 Connection ~ 8560 3590
 $Comp
-L formula:R_200 R?
+L Brakelight_Shutdown_BSPD-rescue:R_200-formula R?
 U 1 1 5C0E3A7E
 P 8560 3890
 F 0 "R?" V 8660 3890 50  0000 L CNN
@@ -1368,13 +1279,13 @@ Wire Wire Line
 Wire Wire Line
 	8560 3590 8760 3590
 Text Label 8760 5390 0    50   ~ 0
-BSPDRelaySense
+BSPD_Relay
 Wire Wire Line
 	8760 3590 8760 5390
 Wire Wire Line
 	8960 3590 8960 3790
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5C0F4327
 P 8960 3940
 F 0 "R?" V 9060 3890 50  0000 L CNN
@@ -1399,7 +1310,7 @@ F 3 "" H 8960 4090 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5C0F4B67
 P 9160 3590
 F 0 "Q?" H 9366 3636 50  0000 L CNN
@@ -1495,7 +1406,7 @@ Wire Wire Line
 Wire Wire Line
 	8140 4700 8160 4700
 $Comp
-L formula:R_1.07K R?
+L Brakelight_Shutdown_BSPD-rescue:R_1.07K-formula R?
 U 1 1 5C081446
 P 5580 3430
 F 0 "R?" V 5787 3430 50  0000 C CNN
@@ -1519,7 +1430,7 @@ Wire Wire Line
 	8410 3590 8560 3590
 Connection ~ 8410 3590
 $Comp
-L formula:SN74LVC1G02 U?
+L Brakelight_Shutdown_BSPD-rescue:SN74LVC1G02-formula U?
 U 1 1 5C0740FC
 P 8060 3590
 F 0 "U?" H 8110 3740 60  0000 L CNN
@@ -1541,12 +1452,10 @@ Wire Wire Line
 Connection ~ 7380 4760
 Text Notes 3830 2850 0    50   ~ 0
 Brake Sensor Input\n
-Text Notes 3370 3470 0    50   ~ 0
-Current Sensor Input\n
 Wire Wire Line
 	5280 3730 5280 3890
 $Comp
-L formula:PMEG10010 D?
+L Brakelight_Shutdown_BSPD-rescue:PMEG10010-formula D?
 U 1 1 5C012B72
 P 8710 3090
 F 0 "D?" H 8710 3306 50  0000 C CNN
@@ -1564,7 +1473,7 @@ Wire Wire Line
 Wire Wire Line
 	11190 1240 11190 1640
 $Comp
-L formula:R_1K R?
+L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R?
 U 1 1 5BE6C00D
 P 11190 1790
 F 0 "R?" V 11290 1740 50  0000 L CNN
@@ -1608,7 +1517,7 @@ F 3 "" H 11190 2540 50  0001 C CNN
 $EndComp
 Connection ~ 11190 1640
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5BE70637
 P 11490 1790
 F 0 "R?" V 11590 1740 50  0000 L CNN
@@ -1624,7 +1533,7 @@ $EndComp
 Wire Wire Line
 	11490 1940 11490 2040
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5BE85DF8
 P 11790 1640
 F 0 "Q?" H 11996 1686 50  0000 L CNN
@@ -1653,7 +1562,7 @@ $EndComp
 Wire Wire Line
 	11890 1440 11890 1340
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BE90937
 P 11890 1190
 F 0 "R?" V 11990 1190 50  0000 L CNN
@@ -1680,7 +1589,7 @@ $EndComp
 Text Label 11190 1240 2    50   ~ 0
 Shutdown_Sense_GLVMS
 $Comp
-L formula:R_1K R?
+L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R?
 U 1 1 5BE94BAF
 P 12890 1740
 F 0 "R?" V 12990 1690 50  0000 L CNN
@@ -1724,7 +1633,7 @@ F 3 "" H 12890 2490 50  0001 C CNN
 $EndComp
 Connection ~ 12890 1590
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5BE94BCC
 P 13190 1740
 F 0 "R?" V 13290 1690 50  0000 L CNN
@@ -1742,7 +1651,7 @@ Wire Wire Line
 Wire Wire Line
 	13190 1890 13190 1990
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5BE94BD8
 P 13490 1590
 F 0 "Q?" H 13696 1636 50  0000 L CNN
@@ -1781,7 +1690,7 @@ Wire Wire Line
 Wire Wire Line
 	13440 1290 13590 1290
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BE94BF0
 P 13590 1140
 F 0 "R?" V 13690 1140 50  0000 L CNN
@@ -1808,7 +1717,7 @@ $EndComp
 Text Label 12890 990  2    50   ~ 0
 Shutdown_Sense_Estop
 $Comp
-L formula:R_1K R?
+L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R?
 U 1 1 5BE970E3
 P 14640 1740
 F 0 "R?" V 14740 1690 50  0000 L CNN
@@ -1851,7 +1760,7 @@ F 3 "" H 14640 2490 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5BE97100
 P 14940 1740
 F 0 "R?" V 15040 1690 50  0000 L CNN
@@ -1869,7 +1778,7 @@ Wire Wire Line
 Wire Wire Line
 	14940 1890 14940 1990
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5BE9710C
 P 15290 1590
 F 0 "Q?" H 15496 1636 50  0000 L CNN
@@ -1904,7 +1813,7 @@ Wire Wire Line
 Wire Wire Line
 	15390 1340 15240 1340
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BE97124
 P 15390 1140
 F 0 "R?" V 15490 1140 50  0000 L CNN
@@ -1933,7 +1842,7 @@ Shutdown_Sense_TSMS
 Wire Wire Line
 	13090 3190 13090 3590
 $Comp
-L formula:R_1K R?
+L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R?
 U 1 1 5BE9B0B2
 P 13090 3740
 F 0 "R?" V 13190 3690 50  0000 L CNN
@@ -1977,7 +1886,7 @@ F 3 "" H 13090 4490 50  0001 C CNN
 $EndComp
 Connection ~ 13090 3590
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5BE9B0CF
 P 13390 3740
 F 0 "R?" V 13490 3690 50  0000 L CNN
@@ -1995,7 +1904,7 @@ Wire Wire Line
 Wire Wire Line
 	13390 3890 13390 3990
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5BE9B0DB
 P 13690 3590
 F 0 "Q?" H 13896 3636 50  0000 L CNN
@@ -2034,7 +1943,7 @@ Wire Wire Line
 Wire Wire Line
 	13790 3290 13940 3290
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BE9B0F3
 P 13790 3140
 F 0 "R?" V 13890 3140 50  0000 L CNN
@@ -2074,7 +1983,7 @@ Wire Wire Line
 Wire Wire Line
 	14690 3190 14690 3590
 $Comp
-L formula:R_1K R?
+L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R?
 U 1 1 5BEC16C1
 P 14690 3740
 F 0 "R?" V 14790 3690 50  0000 L CNN
@@ -2118,7 +2027,7 @@ F 3 "" H 14690 4490 50  0001 C CNN
 $EndComp
 Connection ~ 14690 3590
 $Comp
-L formula:R_100K R?
+L Brakelight_Shutdown_BSPD-rescue:R_100K-formula R?
 U 1 1 5BEC16DE
 P 14990 3740
 F 0 "R?" V 15090 3690 50  0000 L CNN
@@ -2136,7 +2045,7 @@ Wire Wire Line
 Wire Wire Line
 	14990 3890 14990 3990
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5BEC16EA
 P 15290 3590
 F 0 "Q?" H 15496 3636 50  0000 L CNN
@@ -2175,7 +2084,7 @@ Wire Wire Line
 Wire Wire Line
 	15390 3290 15540 3290
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BEC1702
 P 15390 3140
 F 0 "R?" V 15490 3140 50  0000 L CNN
@@ -2213,7 +2122,7 @@ BSPD_Pin
 Text Label 15540 3290 0    50   ~ 0
 HVD_Pin
 $Comp
-L formula:R_100 R?
+L Brakelight_Shutdown_BSPD-rescue:R_100-formula R?
 U 1 1 5BEE980E
 P 980 6960
 F 0 "R?" V 880 7060 50  0000 C CNN
@@ -2321,7 +2230,7 @@ F 3 "" H 780 7110 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BEE9857
 P 3780 9360
 F 0 "R?" V 3860 9360 50  0000 C CNN
@@ -2463,10 +2372,6 @@ Text Label 3380 7910 0    60   ~ 0
 TXCAN
 Text Label 3380 6810 0    50   ~ 0
 Main_Shut_Fuse
-Text Label 3380 6910 0    50   ~ 0
-Shutdown_Sense_TSMS
-Text Label 3380 7010 0    50   ~ 0
-Shutdown_Sense_TSMS
 Text Label 3380 7110 0    50   ~ 0
 data3
 Text Label 3380 7210 0    50   ~ 0
@@ -2478,7 +2383,7 @@ BSPD_Out
 Text Label 3380 7510 0    50   ~ 0
 Analog_Brake_Sense
 $Comp
-L formula:ATMEGA16M1 IC?
+L Brakelight_Shutdown_BSPD-rescue:ATMEGA16M1-formula IC?
 U 1 1 5BEE9886
 P 2280 8510
 F 0 "IC?" H 1330 10340 50  0000 L BNN
@@ -2513,7 +2418,7 @@ Wire Wire Line
 	12670 6200 13120 6200
 Connection ~ 13120 6200
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BF9EE16
 P 13120 6050
 F 0 "R?" H 13190 6096 50  0000 L CNN
@@ -2555,7 +2460,7 @@ F 3 "" H 13520 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BF9EE3C
 P 13270 6750
 F 0 "R?" V 13063 6750 50  0000 C CNN
@@ -2569,7 +2474,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 137
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5BF9EE49
 P 12920 6750
 F 0 "R?" V 12713 6750 50  0000 C CNN
@@ -2612,7 +2517,7 @@ Text Notes 14320 6300 0    30   ~ 0
 Wire Wire Line
 	14270 6300 14620 6300
 $Comp
-L formula:R_0 R?
+L Brakelight_Shutdown_BSPD-rescue:R_0-formula R?
 U 1 1 5BFFEC6F
 P 14770 6300
 F 0 "R?" V 14563 6300 50  0000 C CNN
@@ -2631,7 +2536,7 @@ Wire Wire Line
 	14920 6300 15020 6300
 Connection ~ 14920 6300
 $Comp
-L formula:R_10K R?
+L Brakelight_Shutdown_BSPD-rescue:R_10K-formula R?
 U 1 1 5C0080C5
 P 14920 6550
 F 0 "R?" H 14990 6596 50  0000 L CNN
@@ -2663,7 +2568,7 @@ Wire Wire Line
 Text Label 15020 6200 1    50   ~ 0
 Brake_Light_Gate
 $Comp
-L formula:SSM3K333R Q?
+L Brakelight_Shutdown_BSPD-rescue:SSM3K333R-formula Q?
 U 1 1 5C00D6C3
 P 15270 6300
 F 0 "Q?" H 15476 6346 50  0000 L CNN
@@ -2698,26 +2603,26 @@ Wire Notes Line
 $Comp
 L formula:MM_F_RA_06 J?
 U 1 1 5C05573C
-P 1060 3480
-F 0 "J?" H 1116 3977 60  0000 C CNN
-F 1 "MM_F_RA_06" H 1116 3871 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_6" H 960 3730 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6" H 1060 3830 60  0001 C CNN
-F 4 "TE" H 1160 4880 60  0001 C CNN "MFN"
-F 5 "338070-6" H 1260 4980 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-338070-6.html" H 1060 4780 60  0001 C CNN "PurchasingLink"
-	1    1060 3480
+P 880 1380
+F 0 "J?" H 936 1877 60  0000 C CNN
+F 1 "MM_F_RA_06" H 936 1771 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_6" H 780 1630 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6" H 880 1730 60  0001 C CNN
+F 4 "TE" H 980 2780 60  0001 C CNN "MFN"
+F 5 "338070-6" H 1080 2880 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-338070-6.html" H 880 2680 60  0001 C CNN "PurchasingLink"
+	1    880  1380
 	1    0    0    -1  
 $EndComp
-Text Label 1310 3230 0    50   ~ 0
+Text Label 1130 1130 0    50   ~ 0
 Shutdown_Sense_GLVMS
-Text Label 1310 3330 0    50   ~ 0
+Text Label 1130 1230 0    50   ~ 0
 Shutdown_Sense_Estop
-Text Label 1310 3430 0    50   ~ 0
+Text Label 1130 1330 0    50   ~ 0
 Shutdown_Sense_BSPD
-Text Label 1310 3530 0    50   ~ 0
+Text Label 1130 1430 0    50   ~ 0
 Shutdown_Sense_HVD
-Text Label 1310 3630 0    50   ~ 0
+Text Label 1130 1530 0    50   ~ 0
 Shutdown_Sense_TSMS
 Wire Notes Line
 	11770 7000 16120 7000
@@ -2768,58 +2673,54 @@ Text Label 3380 8110 0    50   ~ 0
 Shutdown_Sense_BSPD
 Text Label 3380 8210 0    50   ~ 0
 HVD_Sense
-Text Label 1340 2790 0    50   ~ 0
+Text Label 1930 4470 0    50   ~ 0
 RJ45_LED2
-Text Label 1340 2690 0    50   ~ 0
+Text Label 1930 4370 0    50   ~ 0
 RJ45_LED1
-Text Label 1340 2590 0    50   ~ 0
+Text Label 1930 4270 0    50   ~ 0
 BSPD_Test_Switch
-Text Label 1340 2490 0    50   ~ 0
+Text Label 1930 4170 0    50   ~ 0
 Brake_Pressure-
-Text Label 1340 2390 0    50   ~ 0
+Text Label 1930 4070 0    50   ~ 0
 Brake_Pressure_Sense
-Text Label 1340 2290 0    50   ~ 0
+Text Label 1930 3970 0    50   ~ 0
 Brake_Pressure+
-Text Label 1340 2190 0    50   ~ 0
+Text Label 1930 3870 0    50   ~ 0
 Brakelight_LSD
-Text Label 1340 2090 0    50   ~ 0
+Text Label 1930 3770 0    50   ~ 0
 Cooling_Pump
-Text Label 1340 1990 0    50   ~ 0
+Text Label 1930 3670 0    50   ~ 0
 RESET
-Text Label 1340 1890 0    50   ~ 0
+Text Label 1930 3570 0    50   ~ 0
 SCK
-Text Label 1340 1790 0    50   ~ 0
+Text Label 1930 3470 0    50   ~ 0
 MOSI
-Text Label 1340 1690 0    50   ~ 0
+Text Label 1930 3370 0    50   ~ 0
 MISO
-Text Label 1340 1490 0    50   ~ 0
+Text Label 1930 3170 0    50   ~ 0
 CAN_low
-Text Label 1340 1390 0    50   ~ 0
+Text Label 1930 3070 0    50   ~ 0
 CAN_high
-Text Label 1340 1590 0    50   ~ 0
+Text Label 1930 3270 0    50   ~ 0
 5V
-Text Label 1340 1190 0    50   ~ 0
+Text Label 1930 2870 0    50   ~ 0
 Brake_Switch+
-Text Label 1340 1090 0    50   ~ 0
+Text Label 1930 2770 0    50   ~ 0
 BSPD_Relay
-Text Label 1340 990  0    50   ~ 0
-12V
-Text Label 1340 890  0    50   ~ 0
-GND
-Text Label 1340 1290 0    50   ~ 0
+Text Label 1930 2970 0    50   ~ 0
 Brake_Switch-
 $Comp
 L formula:MM_F_RA_20 J?
 U 1 1 5BEA89C8
-P 1190 1990
-F 0 "J?" H 1146 3337 60  0000 C CNN
-F 1 "MM_F_RA_20" H 1146 3231 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 990 3090 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 1090 3190 60  0001 C CNN
-F 4 "TE" H 1290 3390 60  0001 C CNN "MFN"
-F 5 "2-338070-0" H 1390 3490 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 1190 3290 60  0001 C CNN "PurchasingLink"
-	1    1190 1990
+P 1780 3670
+F 0 "J?" H 1736 5017 60  0000 C CNN
+F 1 "MM_F_RA_20" H 1736 4911 60  0000 C CNN
+F 2 "footprints:micromatch_female_ra_20" H 1580 4770 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 1680 4870 60  0001 C CNN
+F 4 "TE" H 1880 5070 60  0001 C CNN "MFN"
+F 5 "2-338070-0" H 1980 5170 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-2-338070-0.html" H 1780 4970 60  0001 C CNN "PurchasingLink"
+	1    1780 3670
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -2829,11 +2730,40 @@ Wire Notes Line
 Wire Notes Line
 	9890 6070 2820 6070
 Wire Notes Line
-	2820 6070 2820 1530
-Wire Notes Line
 	10220 470  10220 4830
 Wire Notes Line
 	10220 4830 16530 4830
 Wire Notes Line
 	16530 4830 16530 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5C20CC65
+P 4930 3780
+F 0 "#PWR?" H 4930 3530 50  0001 C CNN
+F 1 "GND" H 4935 3607 50  0000 C CNN
+F 2 "" H 4930 3780 50  0001 C CNN
+F 3 "" H 4930 3780 50  0001 C CNN
+	1    4930 3780
+	1    0    0    -1  
+$EndComp
+Text Label 3380 3380 2    50   ~ 0
+BSPD_Out
+Text Label 3380 6910 0    50   ~ 0
+Shutdown_Sense_TSMS
+Text Label 3380 8410 0    50   ~ 0
+Current_Sense
+Text Label 3380 3780 2    50   ~ 0
+BSPD_Test_Switch
+Wire Wire Line
+	2080 2210 2080 2570
+Wire Wire Line
+	2080 2210 2410 2210
+Wire Wire Line
+	1930 2670 2630 2670
+Wire Wire Line
+	2630 2670 2630 2620
+Wire Wire Line
+	3380 3780 4180 3780
+Text Label 3380 3480 2    50   ~ 0
+Current_Sense
 $EndSCHEMATC
