@@ -1,8 +1,7 @@
 EESchema Schematic File Version 4
-LIBS:AIR_Control_Board-cache
 EELAYER 26 0
 EELAYER END
-$Descr A 11000 8500
+$Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "AIR Control Board 2018 MK 4"
@@ -359,12 +358,12 @@ $EndComp
 $Comp
 L power:GND #PWR023
 U 1 1 59E0A262
-P 9650 5700
-F 0 "#PWR023" H 9650 5450 50  0001 C CNN
-F 1 "GND" H 9650 5550 50  0000 C CNN
-F 2 "" H 9650 5700 50  0001 C CNN
-F 3 "" H 9650 5700 50  0001 C CNN
-	1    9650 5700
+P 9650 5900
+F 0 "#PWR023" H 9650 5650 50  0001 C CNN
+F 1 "GND" H 9650 5750 50  0000 C CNN
+F 2 "" H 9650 5900 50  0001 C CNN
+F 3 "" H 9650 5900 50  0001 C CNN
+	1    9650 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -646,7 +645,6 @@ Text Label 9500 2650 0    60   ~ 0
 P_LED_2
 Text Label 9500 2950 0    60   ~ 0
 LSD_Gate
-NoConn ~ 7300 3250
 NoConn ~ 9500 3050
 NoConn ~ 9500 4450
 Text Label 9500 4050 0    60   ~ 0
@@ -794,8 +792,6 @@ Wire Wire Line
 Connection ~ 3650 2000
 Wire Wire Line
 	3950 1200 4150 1200
-Wire Notes Line
-	350  7600 350  6400
 Wire Wire Line
 	7500 1050 7100 1050
 Wire Wire Line
@@ -1005,7 +1001,7 @@ F 3 "" H 4200 5750 50  0001 C CNN
 	1    4200 5750
 	1    0    0    -1  
 $EndComp
-Text Label 3950 5050 2    60   ~ 0
+Text Label 3900 5050 2    60   ~ 0
 PrechargeCTL
 $Comp
 L formula:SSM3K333R Q?
@@ -1186,7 +1182,7 @@ F 3 "" H 5650 2000 50  0001 C CNN
 	1    5650 2000
 	1    0    0    -1  
 $EndComp
-Text Label 5350 1350 2    60   ~ 0
+Text Label 5350 1400 2    60   ~ 0
 ShutdownSenseBMS
 Text Label 5850 1200 0    60   ~ 0
 SenseBMS
@@ -1299,7 +1295,7 @@ F 3 "" H 5650 3500 50  0001 C CNN
 	1    5650 3500
 	1    0    0    -1  
 $EndComp
-Text Label 5350 2850 2    60   ~ 0
+Text Label 5350 2900 2    60   ~ 0
 ShutdownSenseIMD
 Text Label 5850 2700 0    60   ~ 0
 SenseIMD
@@ -1491,9 +1487,9 @@ Connection ~ 9500 5550
 Connection ~ 9800 5550
 Connection ~ 10075 1150
 Text Label 1300 4800 0    50   ~ 0
-Aux_Contact+
+AIR-_Aux_Contact+
 Text Label 1350 4900 0    50   ~ 0
-Aux_Contact-
+AIR-_Aux_Contact-
 Wire Wire Line
 	1300 4800 1300 4950
 Wire Wire Line
@@ -1980,12 +1976,8 @@ F 3 "" H 1250 7450 50  0001 C CNN
 	1    1250 7450
 	1    0    0    -1  
 $EndComp
-Text Label 1250 6650 2    50   ~ 0
-Aux_Contact+
 Text Label 1450 6800 0    50   ~ 0
 AIR-_Weld_Detect
-Text Label 1250 6800 2    50   ~ 0
-Aux_Contact-
 Wire Wire Line
 	950  7400 950  7450
 Wire Wire Line
@@ -2239,4 +2231,15 @@ Connection ~ 8500 6050
 Connection ~ 8500 6350
 Wire Notes Line
 	675  4350 675  6000
+Wire Wire Line
+	9500 5850 9650 5850
+Wire Wire Line
+	9650 5850 9650 5900
+Wire Wire Line
+	9800 5850 9650 5850
+Connection ~ 9650 5850
+Text Label 1250 6650 2    50   ~ 0
+AIR-_Aux_Contact+
+Text Label 1250 6800 2    50   ~ 0
+AIR-_Aux_Contact-
 $EndSCHEMATC
