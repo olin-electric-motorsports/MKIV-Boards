@@ -1410,27 +1410,11 @@ Wire Wire Line
 	1150 7450 1150 7700
 Wire Wire Line
 	1700 7450 1700 7700
-$Comp
-L formula:MHSS1105 S1
-U 1 1 5BFE0CF3
-P 1300 5700
-F 0 "S1" H 1250 6000 50  0000 L CNN
-F 1 "MHSS1105" H 1100 5900 50  0000 L CNN
-F 2 "footprints:MHSS1105" H 1300 5900 50  0001 C CNN
-F 3 "https://www.apem.com/us/index.php?controller=attachment&id_attachment=916" H 1300 5900 50  0001 C CNN
-F 4 "APEM Inc." H 1300 5700 50  0001 C CNN "MFN"
-F 5 "679-1849-ND" H 1300 5700 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/apem-inc/MHSS1105/679-1849-ND/1949465" H 1300 5700 50  0001 C CNN "Purchasing Link"
-	1    1300 5700
-	1    0    0    -1  
-$EndComp
 Text Notes 750  5250 0    87   ~ 0
 Slider Switch
 Wire Wire Line
-	1300 5800 1300 6000
-Wire Wire Line
 	1150 5800 1150 5850
-Text Label 950  6000 2    60   ~ 0
+Text Label 950  6200 2    60   ~ 0
 SWITCH
 Text Label 9300 3450 0    60   ~ 0
 SWITCH
@@ -2095,7 +2079,7 @@ Connection ~ 3150 3100
 Wire Wire Line
 	3150 3100 3150 3000
 Wire Wire Line
-	950  6000 1300 6000
+	950  6200 1300 6200
 Connection ~ 6900 1150
 Wire Wire Line
 	6900 1150 7100 1150
@@ -2292,17 +2276,15 @@ Wire Wire Line
 	900  5800 900  5850
 Wire Wire Line
 	900  5850 1150 5850
-Wire Wire Line
-	1450 5950 1450 5800
 $Comp
 L power:GND #PWR0117
 U 1 1 5C0AC60A
-P 1450 5950
-F 0 "#PWR0117" H 1450 5700 50  0001 C CNN
-F 1 "GND" H 1455 5777 50  0000 C CNN
-F 2 "" H 1450 5950 50  0001 C CNN
-F 3 "" H 1450 5950 50  0001 C CNN
-	1    1450 5950
+P 1550 5950
+F 0 "#PWR0117" H 1550 5700 50  0001 C CNN
+F 1 "GND" H 1555 5777 50  0000 C CNN
+F 2 "" H 1550 5950 50  0001 C CNN
+F 3 "" H 1550 5950 50  0001 C CNN
+	1    1550 5950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5785,4 +5767,44 @@ AC AD 2E 2C 2A AE AC 79 4A A2 E9 98 99 5B D8 DA F6 D1 63 C0 17 86 00 11 40 7E 01
 05 00 C0 AB FF 07 6E 07 3F 5E 31 3F 32 3A 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L formula:C_0.1uF C16
+U 1 1 5C11D9E8
+P 1300 6000
+F 0 "C16" H 1000 6050 50  0000 L CNN
+F 1 "C_0.1uF" H 900 5950 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 1338 5850 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1325 6100 50  0001 C CNN
+F 4 "DK" H 1300 6000 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 1300 6000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 1725 6500 60  0001 C CNN "PurchasingLink"
+	1    1300 6000
+	1    0    0    -1  
+$EndComp
+Text Notes 750  6000 0    50   ~ 0
+DNP
+Wire Wire Line
+	1300 5850 1300 5800
+Wire Wire Line
+	1300 6150 1300 6200
+$Comp
+L formula:MHSS1105 S1
+U 1 1 5BFE0CF3
+P 1300 5700
+F 0 "S1" H 1250 6000 50  0000 L CNN
+F 1 "MHSS1105" H 1100 5900 50  0000 L CNN
+F 2 "footprints:MHSS1105" H 1300 5900 50  0001 C CNN
+F 3 "https://www.apem.com/us/index.php?controller=attachment&id_attachment=916" H 1300 5900 50  0001 C CNN
+F 4 "APEM Inc." H 1300 5700 50  0001 C CNN "MFN"
+F 5 "679-1849-ND" H 1300 5700 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/apem-inc/MHSS1105/679-1849-ND/1949465" H 1300 5700 50  0001 C CNN "Purchasing Link"
+	1    1300 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5800 1450 5850
+Wire Wire Line
+	1450 5850 1550 5850
+Wire Wire Line
+	1550 5850 1550 5950
 $EndSCHEMATC
