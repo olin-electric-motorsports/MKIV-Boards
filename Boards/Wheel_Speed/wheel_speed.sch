@@ -978,12 +978,12 @@ $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5BD7C3F5
-P 1650 1000
-F 0 "#PWR012" H 1650 750 50  0001 C CNN
-F 1 "GND" H 1655 827 50  0000 C CNN
-F 2 "" H 1650 1000 50  0001 C CNN
-F 3 "" H 1650 1000 50  0001 C CNN
-	1    1650 1000
+P 1850 850
+F 0 "#PWR012" H 1850 600 50  0001 C CNN
+F 1 "GND" H 1855 677 50  0000 C CNN
+F 2 "" H 1850 850 50  0001 C CNN
+F 3 "" H 1850 850 50  0001 C CNN
+	1    1850 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1209,51 +1209,51 @@ Text Label 9350 2500 0    50   ~ 0
 P_LED_3
 Text Label 9350 2600 0    50   ~ 0
 P_LED_4
-Text Label 1300 1100 0    50   ~ 0
+Text Label 1300 1600 0    50   ~ 0
 CANH
-Text Label 1300 1200 0    50   ~ 0
+Text Label 1300 1400 0    50   ~ 0
 CANL
-Text Label 1300 1900 0    50   ~ 0
+Text Label 1300 1700 0    50   ~ 0
 POT
 $Comp
 L power:VCC #PWR016
 U 1 1 5BE0CBE7
-P 2150 1300
-F 0 "#PWR016" H 2150 1150 50  0001 C CNN
-F 1 "VCC" H 2167 1473 50  0000 C CNN
-F 2 "" H 2150 1300 50  0001 C CNN
-F 3 "" H 2150 1300 50  0001 C CNN
-	1    2150 1300
+P 2150 1100
+F 0 "#PWR016" H 2150 950 50  0001 C CNN
+F 1 "VCC" H 2167 1273 50  0000 C CNN
+F 2 "" H 2150 1100 50  0001 C CNN
+F 3 "" H 2150 1100 50  0001 C CNN
+	1    2150 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:C_0.1uF C2
 U 1 1 5BE0CBF0
-P 2150 1500
-F 0 "C2" V 1898 1500 50  0000 C CNN
-F 1 "C_0.1uF" V 1989 1500 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 2188 1350 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2175 1600 50  0001 C CNN
-F 4 "DK" H 2150 1500 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 2150 1500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2575 2000 60  0001 C CNN "PurchasingLink"
-	1    2150 1500
+P 2150 1300
+F 0 "C2" V 1898 1300 50  0000 C CNN
+F 1 "C_0.1uF" V 1989 1300 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 2188 1150 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2175 1400 50  0001 C CNN
+F 4 "DK" H 2150 1300 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 2150 1300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2575 1800 60  0001 C CNN "PurchasingLink"
+	1    2150 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5BE0CBF6
-P 2150 1650
-F 0 "#PWR017" H 2150 1400 50  0001 C CNN
-F 1 "GND" H 2155 1477 50  0000 C CNN
-F 2 "" H 2150 1650 50  0001 C CNN
-F 3 "" H 2150 1650 50  0001 C CNN
-	1    2150 1650
+P 2150 1450
+F 0 "#PWR017" H 2150 1200 50  0001 C CNN
+F 1 "GND" H 2155 1277 50  0000 C CNN
+F 2 "" H 2150 1450 50  0001 C CNN
+F 3 "" H 2150 1450 50  0001 C CNN
+	1    2150 1450
 	1    0    0    -1  
 $EndComp
-Text Label 1300 2000 0    50   ~ 0
+Text Label 1300 1900 0    50   ~ 0
 BRAKETEMP
-Text Label 1300 2100 0    50   ~ 0
+Text Label 1300 1800 0    50   ~ 0
 HSENSOR
 Wire Wire Line
 	1300 1000 1650 1000
@@ -1297,36 +1297,32 @@ Wire Notes Line
 Text Notes 8000 700  0    79   ~ 0
 ATMEGA
 Wire Wire Line
-	2150 1300 1300 1300
+	2150 1100 1300 1100
 Wire Wire Line
-	2150 1300 2150 1350
-Connection ~ 2150 1300
-Text Notes 1450 350  0    50   ~ 0
-5&6:\nPower and ground for\nPotentiometer (MCP6001), \nBrake Disc Temp Sensor \n(MLX90614ESF-AAA-000-TU), \nand Hall Effect Sensor\n(55505-00-02-A)
+	2150 1100 2150 1150
+Connection ~ 2150 1100
 $Comp
 L power:GND #PWR013
 U 1 1 5BE42BA9
-P 1850 1400
-F 0 "#PWR013" H 1850 1150 50  0001 C CNN
-F 1 "GND" H 1855 1227 50  0000 C CNN
-F 2 "" H 1850 1400 50  0001 C CNN
-F 3 "" H 1850 1400 50  0001 C CNN
-	1    1850 1400
+P 1850 2300
+F 0 "#PWR013" H 1850 2050 50  0001 C CNN
+F 1 "GND" H 1855 2127 50  0000 C CNN
+F 2 "" H 1850 2300 50  0001 C CNN
+F 3 "" H 1850 2300 50  0001 C CNN
+	1    1850 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1850 1400 1300 1400
 $Sheet
 S 7100 5650 900  800 
 U 5BEA6C51
 F0 "Suspension Strain Testing" 50
 F1 "strain_testing.sch" 50
 $EndSheet
-Text GLabel 1300 2200 2    50   Input ~ 0
+Text GLabel 1300 2900 2    50   Input ~ 0
 gauge1.1in
-Text GLabel 1300 2300 2    50   Input ~ 0
+Text GLabel 1300 3000 2    50   Input ~ 0
 gauge1.2in
-Text GLabel 1300 2400 2    50   Input ~ 0
+Text GLabel 1300 3100 2    50   Input ~ 0
 gauge1.3in
 Text GLabel 9350 1900 2    50   Input ~ 0
 gauge1.1out
@@ -1373,24 +1369,10 @@ $EndComp
 Connection ~ 5100 2150
 Text Notes 4900 2350 0    50   ~ 0
 DNP
-Text Label 1300 2500 0    50   ~ 0
+Text Label 1300 1500 0    50   ~ 0
 CANH
-Text Label 1300 2600 0    50   ~ 0
+Text Label 1300 1300 0    50   ~ 0
 CANL
-$Comp
-L formula:Ampseal_23_RA J1
-U 1 1 5BFDCA66
-P 1100 2000
-F 0 "J1" H 1056 3347 60  0000 C CNN
-F 1 "Ampseal_23_RA" H 1056 3241 60  0000 C CNN
-F 2 "footprints:Ampseal_23" H 900 2750 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776087%7FE11%7Fpdf%7FEnglish%7FENG_CD_776087_E11.pdf%7F776087-1" H 900 2750 60  0001 C CNN
-F 4 "TE" H 950 3300 60  0001 C CNN "MFN"
-F 5 "776087-1" H 1050 3400 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-776087-1.html" H 1150 3500 60  0001 C CNN "PurchasingLink"
-	1    1100 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:R_120 R13
 U 1 1 5C065C4B
@@ -1415,4 +1397,75 @@ Wire Wire Line
 Connection ~ 5150 4000
 Wire Wire Line
 	5150 4000 5275 4000
+Text Notes -1000 1500 0    50   ~ 0
+3&4:\nPower and ground for\nBrake Disc Temp Sensor \n(MLX90614ESF-AAA-000-TU)
+Text Notes -1000 1850 0    50   ~ 0
+12&13:\nPower and ground for\nPotentiometer\n(MCP6001)
+Text Notes -1000 2200 0    50   ~ 0
+14&15:\nPower and ground for\nHall Effect Sensor\n(55505-00-02-A)
+$Comp
+L power:VCC #PWR063
+U 1 1 5C0EEA9F
+P 1300 2000
+F 0 "#PWR063" H 1300 1850 50  0001 C CNN
+F 1 "VCC" H 1317 2173 50  0000 C CNN
+F 2 "" H 1300 2000 50  0001 C CNN
+F 3 "" H 1300 2000 50  0001 C CNN
+	1    1300 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR064
+U 1 1 5C0EEB2B
+P 1300 2200
+F 0 "#PWR064" H 1300 2050 50  0001 C CNN
+F 1 "VCC" H 1317 2373 50  0000 C CNN
+F 2 "" H 1300 2200 50  0001 C CNN
+F 3 "" H 1300 2200 50  0001 C CNN
+	1    1300 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 2300 1850 2300
+Wire Wire Line
+	1300 2100 1850 2100
+Wire Wire Line
+	1850 2300 1850 2100
+Connection ~ 1850 2300
+$Comp
+L formula:Ampseal_23_RA J1
+U 1 1 5BFDCA66
+P 1100 2000
+F 0 "J1" H 1056 3347 60  0000 C CNN
+F 1 "Ampseal_23_RA" H 1056 3241 60  0000 C CNN
+F 2 "footprints:Ampseal_23" H 900 2750 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776087%7FE11%7Fpdf%7FEnglish%7FENG_CD_776087_E11.pdf%7F776087-1" H 900 2750 60  0001 C CNN
+F 4 "TE" H 950 3300 60  0001 C CNN "MFN"
+F 5 "776087-1" H 1050 3400 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-776087-1.html" H 1150 3500 60  0001 C CNN "PurchasingLink"
+	1    1100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1200 1900 1200
+$Comp
+L power:GND #PWR0101
+U 1 1 5C109FC7
+P 1900 1200
+F 0 "#PWR0101" H 1900 950 50  0001 C CNN
+F 1 "GND" H 1905 1027 50  0000 C CNN
+F 2 "" H 1900 1200 50  0001 C CNN
+F 3 "" H 1900 1200 50  0001 C CNN
+	1    1900 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1000 1650 850 
+Wire Wire Line
+	1650 850  1850 850 
+NoConn ~ 1300 2400
+NoConn ~ 1300 2500
+NoConn ~ 1300 2600
+NoConn ~ 1300 2700
+NoConn ~ 1300 2800
 $EndSCHEMATC
