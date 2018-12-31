@@ -20,7 +20,7 @@ U 1 1 5BCFBB32
 P 7100 5350
 F 0 "U1" H 7050 6675 50  0000 C CNN
 F 1 "LTC6811-1" H 7050 6584 50  0000 C CNN
-F 2 "" H 6450 6600 50  0001 C CNN
+F 2 "footprints:TSSOP-48_LTC6811-1" H 6450 6600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf" H 6450 6600 50  0001 C CNN
 	1    7100 5350
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5BCFC832
 P 7600 8550
 F 0 "U2" H 7575 8235 50  0000 C CNN
 F 1 "24AA01" H 7575 8326 50  0000 C CNN
-F 2 "" H 7600 8550 50  0001 C CNN
+F 2 "footprints:SOT-23-5_OEM_24AA01" H 7600 8550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" H 7600 8550 50  0001 C CNN
 	1    7600 8550
 	-1   0    0    1   
@@ -42,7 +42,7 @@ U 1 1 5BCFCA06
 P 8150 8150
 F 0 "R45" V 8050 8100 50  0000 L CNN
 F 1 "R_4.99K" V 8250 8050 50  0000 L CNN
-F 2 "" H 8150 8150 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 8150 8150 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 8150 8150 50  0001 C CNN
 	1    8150 8150
 	1    0    0    -1  
@@ -53,7 +53,7 @@ U 1 1 5BCFCB2A
 P 8500 8150
 F 0 "R47" V 8600 8200 50  0000 R CNN
 F 1 "R_4.99K" V 8400 8250 50  0000 R CNN
-F 2 "" H 8500 8150 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 8500 8150 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 8500 8150 50  0001 C CNN
 	1    8500 8150
 	-1   0    0    1   
@@ -679,7 +679,7 @@ U 1 1 5BD4A0BF
 P 14800 6550
 F 0 "U8" H 14800 6750 50  0000 L CNN
 F 1 "MCP6001" H 14800 6350 50  0000 L CNN
-F 2 "" H 14700 6650 50  0001 C CNN
+F 2 "footprints:SC-70-5_MCP6001" H 14700 6650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 14800 6750 50  0001 C CNN
 F 4 "DK" H 14900 6850 60  0001 C CNN "MFN"
 F 5 "MCP6001T-I/OTCT-ND" H 15000 6950 60  0001 C CNN "MPN"
@@ -726,7 +726,7 @@ U 1 1 5BD9731D
 P 15600 6750
 F 0 "C24" H 15715 6796 50  0000 L CNN
 F 1 "C_10nF" H 15715 6705 50  0000 L CNN
-F 2 "" H 15600 6750 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 15600 6750 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 15500 6850 50  0001 C CNN
 	1    15600 6750
 	1    0    0    -1  
@@ -870,7 +870,7 @@ U 1 1 5BF84AA4
 P 8250 5250
 F 0 "Q11" H 8441 5296 50  0000 L CNN
 F 1 "NSS1C201MZ4" H 8400 5150 50  0000 L CNN
-F 2 "" H 8050 5350 50  0001 C CNN
+F 2 "footprints:SOT-223" H 8050 5350 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" H 8150 5450 50  0001 C CNN
 	1    8250 5250
 	1    0    0    -1  
@@ -883,7 +883,7 @@ U 1 1 5BFA9993
 P 9050 6250
 F 0 "U3" H 9050 6400 50  0000 L CNN
 F 1 "MCP6001" H 9050 6050 50  0000 L CNN
-F 2 "" H 8950 6350 50  0001 C CNN
+F 2 "footprints:SC-70-5_MCP6001" H 8950 6350 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9050 6450 50  0001 C CNN
 F 4 "DK" H 9150 6550 60  0001 C CNN "MFN"
 F 5 "MCP6001T-I/OTCT-ND" H 9250 6650 60  0001 C CNN "MPN"
@@ -1037,7 +1037,7 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9325 5400 60 
 $EndComp
 Wire Wire Line
 	8900 5050 8900 5100
-Text Label 8950 5800 0    50   ~ 0
+Text Label 8950 5950 0    50   ~ 0
 VREG
 Text Label 9450 6250 0    50   ~ 0
 VREF2
@@ -1079,7 +1079,7 @@ U 1 1 5C62706B
 P 11600 1350
 F 0 "R61" H 11500 1350 50  0000 C CNN
 F 1 "R_60.4" V 11700 1350 50  0000 C CNN
-F 2 "" H 11600 1350 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 11600 1350 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 1350 50  0001 C CNN
 	1    11600 1350
 	1    0    0    -1  
@@ -1090,7 +1090,7 @@ U 1 1 5C6A9F92
 P 11600 1750
 F 0 "R62" H 11500 1750 50  0000 C CNN
 F 1 "R_60.4" V 11700 1750 50  0000 C CNN
-F 2 "" H 11600 1750 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 11600 1750 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 1750 50  0001 C CNN
 	1    11600 1750
 	1    0    0    -1  
@@ -1109,7 +1109,7 @@ U 1 1 5C6FB0D2
 P 12300 1600
 F 0 "C18" H 12200 1700 50  0000 C CNN
 F 1 "C_10nF" V 12450 1600 50  0000 C CNN
-F 2 "" H 12300 1600 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 12300 1600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 12200 1700 50  0001 C CNN
 	1    12300 1600
 	1    0    0    -1  
@@ -1122,7 +1122,7 @@ U 1 1 5C7320F9
 P 11200 1700
 F 0 "C16" H 11100 1800 50  0000 C CNN
 F 1 "C_10nF" V 11350 1700 50  0000 C CNN
-F 2 "" H 11200 1700 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 11200 1700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 11100 1800 50  0001 C CNN
 	1    11200 1700
 	1    0    0    -1  
@@ -1144,7 +1144,7 @@ U 1 1 5C7FB50F
 P 11600 2250
 F 0 "R63" H 11500 2250 50  0000 C CNN
 F 1 "R_60.4" V 11700 2250 50  0000 C CNN
-F 2 "" H 11600 2250 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 11600 2250 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 2250 50  0001 C CNN
 	1    11600 2250
 	1    0    0    -1  
@@ -1155,7 +1155,7 @@ U 1 1 5C7FB516
 P 11600 2700
 F 0 "R64" H 11500 2700 50  0000 C CNN
 F 1 "R_60.4" V 11700 2700 50  0000 C CNN
-F 2 "" H 11600 2700 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 11600 2700 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 2700 50  0001 C CNN
 	1    11600 2700
 	1    0    0    -1  
@@ -1168,7 +1168,7 @@ U 1 1 5C7FB521
 P 12300 2400
 F 0 "C19" H 12200 2500 50  0000 C CNN
 F 1 "C_10nF" V 12450 2400 50  0000 C CNN
-F 2 "" H 12300 2400 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 12300 2400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 12200 2500 50  0001 C CNN
 	1    12300 2400
 	1    0    0    -1  
@@ -1179,7 +1179,7 @@ U 1 1 5C7FB52B
 P 11200 2700
 F 0 "C17" H 11100 2800 50  0000 C CNN
 F 1 "C_10nF" V 11350 2700 50  0000 C CNN
-F 2 "" H 11200 2700 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 11200 2700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 11100 2800 50  0001 C CNN
 	1    11200 2700
 	1    0    0    -1  
@@ -1195,20 +1195,6 @@ Wire Wire Line
 	12300 2550 12300 2650
 Wire Wire Line
 	11200 2850 11200 2950
-$Comp
-L formula:T_LAN_7490100111A T1
-U 1 1 5C3D2A9C
-P 14050 2350
-F 0 "T1" H 14925 3547 60  0000 C CNN
-F 1 "T_LAN_7490100111A" H 14925 3441 60  0000 C CNN
-F 2 "footprints:T_LAN_7490100111A" H 14450 3300 60  0001 C CNN
-F 3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" H 14050 2350 60  0001 C CNN
-F 4 "DK" H 14400 2850 60  0001 C CNN "MFN"
-F 5 "732-5711-1-ND" H 14300 2750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" H 14200 2650 60  0001 C CNN "PurchasingLink"
-	1    14050 2350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	11600 1900 12050 1900
 Wire Wire Line
@@ -1384,17 +1370,6 @@ Text Label 6350 4850 0    50   ~ 0
 Text Label 6350 4650 0    50   ~ 0
 ~DIS~10
 $Comp
-L formula:200mA_Fuse F1
-U 1 1 5E140385
-P 2050 1500
-F 0 "F1" H 2050 1650 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 1400 50  0000 C CNN
-F 2 "" H 2000 1500 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 1500 50  0001 C CNN
-	1    2050 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R31
 U 1 1 5E14038F
 P 3650 1500
@@ -1409,26 +1384,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q1
-U 1 1 5E140399
-P 3050 1700
-F 0 "Q1" V 3150 1350 50  0000 L CNN
-F 1 "BSS308PE" V 3050 1100 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 1800 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 1750 50  0001 C CNN
-F 4 "DK" H 3050 1700 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 1700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 2150 60  0001 C CNN "PurchasingLink"
-	1    3050 1700
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R21
 U 1 1 5E1403A0
 P 3300 1950
 F 0 "R21" V 3200 1950 50  0000 C CNN
 F 1 "R_4.99K" V 3400 1950 50  0000 C CNN
-F 2 "" H 3300 1950 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 1950 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 1950 50  0001 C CNN
 	1    3300 1950
 	0    1    1    0   
@@ -1446,7 +1407,7 @@ U 1 1 5E1403AC
 P 4050 1750
 F 0 "C1" H 3950 1850 50  0000 C CNN
 F 1 "C_10nF" V 4200 1750 50  0000 C CNN
-F 2 "" H 4050 1750 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 1750 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 1850 50  0001 C CNN
 	1    4050 1750
 	1    0    0    -1  
@@ -1511,17 +1472,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 2100 3950 2100
 $Comp
-L formula:200mA_Fuse F2
-U 1 1 5E172B1B
-P 2050 2350
-F 0 "F2" H 2050 2500 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 2250 50  0000 C CNN
-F 2 "" H 2000 2350 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 2350 50  0001 C CNN
-	1    2050 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R32
 U 1 1 5E172B25
 P 3650 2350
@@ -1536,26 +1486,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q2
-U 1 1 5E172B2F
-P 3050 2550
-F 0 "Q2" V 3150 2200 50  0000 L CNN
-F 1 "BSS308PE" V 3050 1950 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 2650 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 2600 50  0001 C CNN
-F 4 "DK" H 3050 2550 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 2550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 3000 60  0001 C CNN "PurchasingLink"
-	1    3050 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R22
 U 1 1 5E172B36
 P 3300 2800
 F 0 "R22" V 3200 2800 50  0000 C CNN
 F 1 "R_4.99K" V 3400 2800 50  0000 C CNN
-F 2 "" H 3300 2800 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 2800 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 2800 50  0001 C CNN
 	1    3300 2800
 	0    1    1    0   
@@ -1565,8 +1501,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 2800 3050 2750
 Wire Wire Line
-	2350 2350 2600 2350
-Wire Wire Line
 	3250 2350 3500 2350
 Connection ~ 3250 2350
 $Comp
@@ -1575,7 +1509,7 @@ U 1 1 5E172B42
 P 4050 2600
 F 0 "C2" H 3950 2700 50  0000 C CNN
 F 1 "C_10nF" V 4200 2600 50  0000 C CNN
-F 2 "" H 4050 2600 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 2600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 2700 50  0001 C CNN
 	1    4050 2600
 	1    0    0    -1  
@@ -1644,17 +1578,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 2350 3950 2350
 $Comp
-L formula:200mA_Fuse F3
-U 1 1 5E1AADAA
-P 2050 3200
-F 0 "F3" H 2050 3350 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 3100 50  0000 C CNN
-F 2 "" H 2000 3200 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 3200 50  0001 C CNN
-	1    2050 3200
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R33
 U 1 1 5E1AADB4
 P 3650 3200
@@ -1669,26 +1592,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 3
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q3
-U 1 1 5E1AADBE
-P 3050 3400
-F 0 "Q3" V 3150 3050 50  0000 L CNN
-F 1 "BSS308PE" V 3050 2800 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 3500 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 3450 50  0001 C CNN
-F 4 "DK" H 3050 3400 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 3400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 3850 60  0001 C CNN "PurchasingLink"
-	1    3050 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R23
 U 1 1 5E1AADC5
 P 3300 3650
 F 0 "R23" V 3200 3650 50  0000 C CNN
 F 1 "R_4.99K" V 3400 3650 50  0000 C CNN
-F 2 "" H 3300 3650 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 3650 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 3650 50  0001 C CNN
 	1    3300 3650
 	0    1    1    0   
@@ -1698,8 +1607,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 3650 3050 3600
 Wire Wire Line
-	2350 3200 2600 3200
-Wire Wire Line
 	3250 3200 3500 3200
 Connection ~ 3250 3200
 $Comp
@@ -1708,7 +1615,7 @@ U 1 1 5E1AADD1
 P 4050 3450
 F 0 "C3" H 3950 3550 50  0000 C CNN
 F 1 "C_10nF" V 4200 3450 50  0000 C CNN
-F 2 "" H 4050 3450 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 3450 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 3550 50  0001 C CNN
 	1    4050 3450
 	1    0    0    -1  
@@ -1780,17 +1687,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 3200 3950 3200
 $Comp
-L formula:200mA_Fuse F4
-U 1 1 5E1E8BB6
-P 2050 4050
-F 0 "F4" H 2050 4200 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 3950 50  0000 C CNN
-F 2 "" H 2000 4050 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 4050 50  0001 C CNN
-	1    2050 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R34
 U 1 1 5E1E8BC0
 P 3650 4050
@@ -1805,26 +1701,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 4
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q4
-U 1 1 5E1E8BCA
-P 3050 4250
-F 0 "Q4" V 3150 3900 50  0000 L CNN
-F 1 "BSS308PE" V 3050 3650 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 4350 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 4300 50  0001 C CNN
-F 4 "DK" H 3050 4250 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 4250 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 4700 60  0001 C CNN "PurchasingLink"
-	1    3050 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R24
 U 1 1 5E1E8BD1
 P 3300 4500
 F 0 "R24" V 3200 4500 50  0000 C CNN
 F 1 "R_4.99K" V 3400 4500 50  0000 C CNN
-F 2 "" H 3300 4500 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 4500 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 4500 50  0001 C CNN
 	1    3300 4500
 	0    1    1    0   
@@ -1834,8 +1716,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 4500 3050 4450
 Wire Wire Line
-	2350 4050 2600 4050
-Wire Wire Line
 	3250 4050 3500 4050
 Connection ~ 3250 4050
 $Comp
@@ -1844,7 +1724,7 @@ U 1 1 5E1E8BDD
 P 4050 4300
 F 0 "C4" H 3950 4400 50  0000 C CNN
 F 1 "C_10nF" V 4200 4300 50  0000 C CNN
-F 2 "" H 4050 4300 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 4300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 4400 50  0001 C CNN
 	1    4050 4300
 	1    0    0    -1  
@@ -1913,17 +1793,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 4050 3950 4050
 $Comp
-L formula:200mA_Fuse F5
-U 1 1 5E22CA65
-P 2050 4900
-F 0 "F5" H 2050 5050 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 4800 50  0000 C CNN
-F 2 "" H 2000 4900 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 4900 50  0001 C CNN
-	1    2050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R35
 U 1 1 5E22CA6F
 P 3650 4900
@@ -1938,26 +1807,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q5
-U 1 1 5E22CA79
-P 3050 5100
-F 0 "Q5" V 3150 4750 50  0000 L CNN
-F 1 "BSS308PE" V 3050 4500 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 5200 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 5150 50  0001 C CNN
-F 4 "DK" H 3050 5100 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 5100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 5550 60  0001 C CNN "PurchasingLink"
-	1    3050 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R25
 U 1 1 5E22CA80
 P 3300 5350
 F 0 "R25" V 3200 5350 50  0000 C CNN
 F 1 "R_4.99K" V 3400 5350 50  0000 C CNN
-F 2 "" H 3300 5350 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 5350 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 5350 50  0001 C CNN
 	1    3300 5350
 	0    1    1    0   
@@ -1967,8 +1822,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 5350 3050 5300
 Wire Wire Line
-	2350 4900 2600 4900
-Wire Wire Line
 	3250 4900 3500 4900
 Connection ~ 3250 4900
 $Comp
@@ -1977,7 +1830,7 @@ U 1 1 5E22CA8C
 P 4050 5150
 F 0 "C5" H 3950 5250 50  0000 C CNN
 F 1 "C_10nF" V 4200 5150 50  0000 C CNN
-F 2 "" H 4050 5150 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 5150 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 5250 50  0001 C CNN
 	1    4050 5150
 	1    0    0    -1  
@@ -2046,17 +1899,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 4900 3950 4900
 $Comp
-L formula:200mA_Fuse F6
-U 1 1 5E276A97
-P 2050 5750
-F 0 "F6" H 2050 5900 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 5650 50  0000 C CNN
-F 2 "" H 2000 5750 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 5750 50  0001 C CNN
-	1    2050 5750
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R36
 U 1 1 5E276AA1
 P 3650 5750
@@ -2071,26 +1913,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 6
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q6
-U 1 1 5E276AAB
-P 3050 5950
-F 0 "Q6" V 3150 5600 50  0000 L CNN
-F 1 "BSS308PE" V 3050 5350 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 6050 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 6000 50  0001 C CNN
-F 4 "DK" H 3050 5950 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 5950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 6400 60  0001 C CNN "PurchasingLink"
-	1    3050 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R26
 U 1 1 5E276AB2
 P 3300 6200
 F 0 "R26" V 3200 6200 50  0000 C CNN
 F 1 "R_4.99K" V 3400 6200 50  0000 C CNN
-F 2 "" H 3300 6200 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 6200 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 6200 50  0001 C CNN
 	1    3300 6200
 	0    1    1    0   
@@ -2100,8 +1928,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 6200 3050 6150
 Wire Wire Line
-	2350 5750 2600 5750
-Wire Wire Line
 	3250 5750 3500 5750
 Connection ~ 3250 5750
 $Comp
@@ -2110,7 +1936,7 @@ U 1 1 5E276ABE
 P 4050 6000
 F 0 "C6" H 3950 6100 50  0000 C CNN
 F 1 "C_10nF" V 4200 6000 50  0000 C CNN
-F 2 "" H 4050 6000 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 6000 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 6100 50  0001 C CNN
 	1    4050 6000
 	1    0    0    -1  
@@ -2179,17 +2005,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 5750 3950 5750
 $Comp
-L formula:200mA_Fuse F7
-U 1 1 5E2C73AE
-P 2050 6600
-F 0 "F7" H 2050 6750 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 6500 50  0000 C CNN
-F 2 "" H 2000 6600 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 6600 50  0001 C CNN
-	1    2050 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R37
 U 1 1 5E2C73B8
 P 3650 6600
@@ -2204,26 +2019,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 7
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q7
-U 1 1 5E2C73C2
-P 3050 6800
-F 0 "Q7" V 3150 6450 50  0000 L CNN
-F 1 "BSS308PE" V 3050 6200 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 6900 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 6850 50  0001 C CNN
-F 4 "DK" H 3050 6800 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 6800 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 7250 60  0001 C CNN "PurchasingLink"
-	1    3050 6800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R27
 U 1 1 5E2C73C9
 P 3300 7050
 F 0 "R27" V 3200 7050 50  0000 C CNN
 F 1 "R_4.99K" V 3400 7050 50  0000 C CNN
-F 2 "" H 3300 7050 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 7050 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 7050 50  0001 C CNN
 	1    3300 7050
 	0    1    1    0   
@@ -2233,8 +2034,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 7050 3050 7000
 Wire Wire Line
-	2350 6600 2600 6600
-Wire Wire Line
 	3250 6600 3500 6600
 Connection ~ 3250 6600
 $Comp
@@ -2243,7 +2042,7 @@ U 1 1 5E2C73D5
 P 4050 6850
 F 0 "C7" H 3950 6950 50  0000 C CNN
 F 1 "C_10nF" V 4200 6850 50  0000 C CNN
-F 2 "" H 4050 6850 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 6850 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 6950 50  0001 C CNN
 	1    4050 6850
 	1    0    0    -1  
@@ -2312,17 +2111,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 6600 3950 6600
 $Comp
-L formula:200mA_Fuse F8
-U 1 1 5E31E316
-P 2050 7450
-F 0 "F8" H 2050 7600 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 7350 50  0000 C CNN
-F 2 "" H 2000 7450 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 7450 50  0001 C CNN
-	1    2050 7450
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R38
 U 1 1 5E31E320
 P 3650 7450
@@ -2337,26 +2125,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 7
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q8
-U 1 1 5E31E32A
-P 3050 7650
-F 0 "Q8" V 3150 7300 50  0000 L CNN
-F 1 "BSS308PE" V 3050 7050 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 7750 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 7700 50  0001 C CNN
-F 4 "DK" H 3050 7650 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 7650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 8100 60  0001 C CNN "PurchasingLink"
-	1    3050 7650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R28
 U 1 1 5E31E331
 P 3300 7900
 F 0 "R28" V 3200 7900 50  0000 C CNN
 F 1 "R_4.99K" V 3400 7900 50  0000 C CNN
-F 2 "" H 3300 7900 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 7900 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 7900 50  0001 C CNN
 	1    3300 7900
 	0    1    1    0   
@@ -2366,8 +2140,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 7900 3050 7850
 Wire Wire Line
-	2350 7450 2600 7450
-Wire Wire Line
 	3250 7450 3500 7450
 Connection ~ 3250 7450
 $Comp
@@ -2376,7 +2148,7 @@ U 1 1 5E31E33D
 P 4050 7700
 F 0 "C8" H 3950 7800 50  0000 C CNN
 F 1 "C_10nF" V 4200 7700 50  0000 C CNN
-F 2 "" H 4050 7700 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 7700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 7800 50  0001 C CNN
 	1    4050 7700
 	1    0    0    -1  
@@ -2445,17 +2217,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 7450 3950 7450
 $Comp
-L formula:200mA_Fuse F9
-U 1 1 5E37BDF1
-P 2050 8300
-F 0 "F9" H 2050 8450 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 8200 50  0000 C CNN
-F 2 "" H 2000 8300 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 8300 50  0001 C CNN
-	1    2050 8300
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R39
 U 1 1 5E37BDFB
 P 3650 8300
@@ -2470,26 +2231,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 8
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q9
-U 1 1 5E37BE05
-P 3050 8500
-F 0 "Q9" V 3150 8150 50  0000 L CNN
-F 1 "BSS308PE" V 3050 7900 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 8600 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 8550 50  0001 C CNN
-F 4 "DK" H 3050 8500 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 8500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 8950 60  0001 C CNN "PurchasingLink"
-	1    3050 8500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R29
 U 1 1 5E37BE0C
 P 3300 8750
 F 0 "R29" V 3200 8750 50  0000 C CNN
 F 1 "R_4.99K" V 3400 8750 50  0000 C CNN
-F 2 "" H 3300 8750 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 8750 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 8750 50  0001 C CNN
 	1    3300 8750
 	0    1    1    0   
@@ -2499,8 +2246,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 8750 3050 8700
 Wire Wire Line
-	2350 8300 2600 8300
-Wire Wire Line
 	3250 8300 3500 8300
 Connection ~ 3250 8300
 $Comp
@@ -2509,7 +2254,7 @@ U 1 1 5E37BE18
 P 4050 8550
 F 0 "C9" H 3950 8650 50  0000 C CNN
 F 1 "C_10nF" V 4200 8550 50  0000 C CNN
-F 2 "" H 4050 8550 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 8550 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 8650 50  0001 C CNN
 	1    4050 8550
 	1    0    0    -1  
@@ -2578,17 +2323,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 8300 3950 8300
 $Comp
-L formula:200mA_Fuse F10
-U 1 1 5E44C2BB
-P 2050 9150
-F 0 "F10" H 2050 9300 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 9050 50  0000 C CNN
-F 2 "" H 2000 9150 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 9150 50  0001 C CNN
-	1    2050 9150
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_100 R40
 U 1 1 5E44C2C5
 P 3650 9150
@@ -2603,26 +2337,12 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 9
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:BSS308PE Q10
-U 1 1 5E44C2CF
-P 3050 9350
-F 0 "Q10" V 3150 9000 50  0000 L CNN
-F 1 "BSS308PE" V 3050 8750 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 3250 9450 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 9400 50  0001 C CNN
-F 4 "DK" H 3050 9350 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 9350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 9800 60  0001 C CNN "PurchasingLink"
-	1    3050 9350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L formula:R_4.99K R30
 U 1 1 5E44C2D6
 P 3300 9600
 F 0 "R30" V 3200 9600 50  0000 C CNN
 F 1 "R_4.99K" V 3400 9600 50  0000 C CNN
-F 2 "" H 3300 9600 50  0001 C CNN
+F 2 "footprints:R_0805_OEM" H 3300 9600 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 3300 9600 50  0001 C CNN
 	1    3300 9600
 	0    1    1    0   
@@ -2632,8 +2352,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 9600 3050 9550
 Wire Wire Line
-	2350 9150 2600 9150
-Wire Wire Line
 	3250 9150 3500 9150
 Connection ~ 3250 9150
 $Comp
@@ -2642,7 +2360,7 @@ U 1 1 5E44C2E2
 P 4050 9400
 F 0 "C10" H 3950 9500 50  0000 C CNN
 F 1 "C_10nF" V 4200 9400 50  0000 C CNN
-F 2 "" H 4050 9400 50  0001 C CNN
+F 2 "footprints:C_0805_OEM" H 4050 9400 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 9500 50  0001 C CNN
 	1    4050 9400
 	1    0    0    -1  
@@ -2800,19 +2518,6 @@ Wire Wire Line
 Connection ~ 2600 9150
 Wire Wire Line
 	2600 9150 3250 9150
-$Comp
-L formula:200mA_Fuse F11
-U 1 1 5ED7B725
-P 2050 10000
-F 0 "F11" H 2050 10150 50  0000 C CNN
-F 1 "200mA_Fuse" H 2050 9900 50  0000 C CNN
-F 2 "" H 2000 10000 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 2000 10000 50  0001 C CNN
-	1    2050 10000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 10000 2350 10000
 Wire Wire Line
 	2600 9900 2600 10000
 $Comp
@@ -3434,8 +3139,6 @@ Wire Wire Line
 Wire Wire Line
 	15600 6900 15600 7000
 Wire Wire Line
-	8950 5800 8950 5950
-Wire Wire Line
 	8050 5250 7500 5250
 NoConn ~ 7500 5950
 Text Label 6500 1400 0    50   ~ 0
@@ -3448,11 +3151,8 @@ Text Label 6500 2400 0    50   ~ 0
 CELL3_VOLT
 Text Label 6500 2700 0    50   ~ 0
 CELL4_VOLT
-Wire Wire Line
-	2350 1500 3250 1500
 Wire Notes Line
 	10200 8100 16300 8100
-NoConn ~ 10300 7400
 NoConn ~ 10300 7500
 NoConn ~ 10300 7600
 NoConn ~ 10300 7700
@@ -3578,9 +3278,188 @@ Wire Notes Line
 	9850 3400 9850 7050
 Wire Notes Line
 	5800 7050 5800 3400
-Text Label 8600 2650 0    50   ~ 0
-5V
 Text Label 8600 2750 0    50   ~ 0
 GND
 NoConn ~ 8600 2850
+Wire Wire Line
+	1750 1500 3250 1500
+Wire Wire Line
+	1750 2350 2600 2350
+Wire Wire Line
+	1750 3200 2600 3200
+Wire Wire Line
+	1750 4050 2600 4050
+Wire Wire Line
+	1750 4900 2600 4900
+Wire Wire Line
+	1750 5750 2600 5750
+Wire Wire Line
+	1750 6600 2600 6600
+Wire Wire Line
+	1750 7450 2600 7450
+Wire Wire Line
+	1750 8300 2600 8300
+Wire Wire Line
+	1750 9150 2600 9150
+Wire Wire Line
+	1750 10000 2600 10000
+Text Notes 1800 1400 0    50   ~ 0
+Voltage trace fuses moved to Structural PCB
+NoConn ~ 10300 7400
+Text Label 8600 2650 0    50   ~ 0
+VREG
+$Comp
+L formula:T_LAN_7490100111A T1
+U 1 1 5C3D2A9C
+P 14050 2350
+F 0 "T1" H 14925 3547 60  0000 C CNN
+F 1 "T_LAN_7490100111A" H 14925 3441 60  0000 C CNN
+F 2 "footprints:T_LAN_7490100111A" H 14450 3300 60  0001 C CNN
+F 3 "https://katalog.we-online.de/pbs/datasheet/7490100111A.pdf" H 14050 2350 60  0001 C CNN
+F 4 "DK" H 14400 2850 60  0001 C CNN "MFN"
+F 5 "732-5711-1-ND" H 14300 2750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A/732-5711-1-ND/4969381" H 14200 2650 60  0001 C CNN "PurchasingLink"
+	1    14050 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L formula:BSS308PE Q1
+U 1 1 5C318338
+P 3050 1700
+F 0 "Q1" V 3393 1700 50  0000 C CNN
+F 1 "BSS308PE" V 3302 1700 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 1800 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 1750 50  0001 C CNN
+F 4 "DK" H 3050 1700 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 1700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 2150 60  0001 C CNN "PurchasingLink"
+	1    3050 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q2
+U 1 1 5C318A70
+P 3050 2550
+F 0 "Q2" V 3393 2550 50  0000 C CNN
+F 1 "BSS308PE" V 3302 2550 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 2650 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 2600 50  0001 C CNN
+F 4 "DK" H 3050 2550 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 2550 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 3000 60  0001 C CNN "PurchasingLink"
+	1    3050 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q3
+U 1 1 5C318B9C
+P 3050 3400
+F 0 "Q3" V 3393 3400 50  0000 C CNN
+F 1 "BSS308PE" V 3302 3400 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 3500 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 3450 50  0001 C CNN
+F 4 "DK" H 3050 3400 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 3400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 3850 60  0001 C CNN "PurchasingLink"
+	1    3050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q4
+U 1 1 5C318CCE
+P 3050 4250
+F 0 "Q4" V 3393 4250 50  0000 C CNN
+F 1 "BSS308PE" V 3302 4250 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 4350 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 4300 50  0001 C CNN
+F 4 "DK" H 3050 4250 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 4250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 4700 60  0001 C CNN "PurchasingLink"
+	1    3050 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q5
+U 1 1 5C319756
+P 3050 5100
+F 0 "Q5" V 3393 5100 50  0000 C CNN
+F 1 "BSS308PE" V 3302 5100 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 5200 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 5150 50  0001 C CNN
+F 4 "DK" H 3050 5100 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 5100 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 5550 60  0001 C CNN "PurchasingLink"
+	1    3050 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q6
+U 1 1 5C319880
+P 3050 5950
+F 0 "Q6" V 3393 5950 50  0000 C CNN
+F 1 "BSS308PE" V 3302 5950 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 6050 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 6000 50  0001 C CNN
+F 4 "DK" H 3050 5950 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 6400 60  0001 C CNN "PurchasingLink"
+	1    3050 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q7
+U 1 1 5C3199A4
+P 3050 6800
+F 0 "Q7" V 3393 6800 50  0000 C CNN
+F 1 "BSS308PE" V 3302 6800 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 6900 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 6850 50  0001 C CNN
+F 4 "DK" H 3050 6800 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 6800 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 7250 60  0001 C CNN "PurchasingLink"
+	1    3050 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q8
+U 1 1 5C319AD2
+P 3050 7650
+F 0 "Q8" V 3393 7650 50  0000 C CNN
+F 1 "BSS308PE" V 3302 7650 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 7750 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 7700 50  0001 C CNN
+F 4 "DK" H 3050 7650 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 7650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 8100 60  0001 C CNN "PurchasingLink"
+	1    3050 7650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q9
+U 1 1 5C319E9C
+P 3050 8500
+F 0 "Q9" V 3393 8500 50  0000 C CNN
+F 1 "BSS308PE" V 3302 8500 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 8600 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 8550 50  0001 C CNN
+F 4 "DK" H 3050 8500 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 8500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 8950 60  0001 C CNN "PurchasingLink"
+	1    3050 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L formula:BSS308PE Q10
+U 1 1 5C31A15B
+P 3050 9350
+F 0 "Q10" V 3393 9350 50  0000 C CNN
+F 1 "BSS308PE" V 3302 9350 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 3250 9450 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 3250 9400 50  0001 C CNN
+F 4 "DK" H 3050 9350 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 3050 9350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 3650 9800 60  0001 C CNN "PurchasingLink"
+	1    3050 9350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
