@@ -1467,4 +1467,16 @@ NoConn ~ 1300 2500
 NoConn ~ 1300 2600
 NoConn ~ 1300 2700
 NoConn ~ 1300 2800
+$Comp
+L formula:SK812 U?
+U 1 1 5C168DD9
+P -100 4150
+F 0 "U?" H -50 4565 50  0000 C CNN
+F 1 "SK812" H -50 4474 50  0000 C CNN
+F 2 "footprints:SK6812" H -100 4700 50  0001 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H -400 4450 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679" H -350 4550 50  0001 C CNN "PurchasingLink"
+	1    -100 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
