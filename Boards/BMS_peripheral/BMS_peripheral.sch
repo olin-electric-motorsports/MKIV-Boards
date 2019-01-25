@@ -3141,15 +3141,15 @@ Wire Wire Line
 Wire Wire Line
 	8050 5250 7500 5250
 NoConn ~ 7500 5950
-Text Label 6500 1400 0    50   ~ 0
+Text Label 6500 1450 0    50   ~ 0
 CELL0_VOLT
-Text Label 6500 1800 0    50   ~ 0
+Text Label 6500 1850 0    50   ~ 0
 CELL1_VOLT
-Text Label 6500 2100 0    50   ~ 0
+Text Label 6500 2150 0    50   ~ 0
 CELL2_VOLT
-Text Label 6500 2400 0    50   ~ 0
+Text Label 6500 2450 0    50   ~ 0
 CELL3_VOLT
-Text Label 6500 2700 0    50   ~ 0
+Text Label 6500 2750 0    50   ~ 0
 CELL4_VOLT
 Wire Notes Line
 	10200 8100 16300 8100
@@ -3163,38 +3163,38 @@ Wire Notes Line
 $Comp
 L formula:MM_F_VT_16 J3
 U 1 1 5C694FD9
-P 6250 2100
-F 0 "J3" H 6306 3147 60  0000 C CNN
-F 1 "MM_F_VT_16" H 6306 3041 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_16" H 6150 2900 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 6150 3300 60  0001 C CNN
-F 4 "TE" H 6350 3500 60  0001 C CNN "MFN"
-F 5 "1-338068-6" H 6450 3600 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 6250 3400 60  0001 C CNN "PurchasingLink"
-	1    6250 2100
+P 6250 2150
+F 0 "J3" H 6306 3197 60  0000 C CNN
+F 1 "MM_F_VT_16" H 6306 3091 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_16" H 6150 2950 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-6" H 6150 3350 60  0001 C CNN
+F 4 "TE" H 6350 3550 60  0001 C CNN "MFN"
+F 5 "1-338068-6" H 6450 3650 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 6250 3450 60  0001 C CNN "PurchasingLink"
+	1    6250 2150
 	1    0    0    -1  
 $EndComp
-Text Label 6500 1300 0    50   ~ 0
+Text Label 6500 1350 0    50   ~ 0
 MODULE1_TEMP1
-Text Label 6500 1500 0    50   ~ 0
+Text Label 6500 1550 0    50   ~ 0
 MODULE1_TEMP2
-Text Label 6500 1700 0    50   ~ 0
+Text Label 6500 1750 0    50   ~ 0
 MODULE2_TEMP1
-Text Label 6500 1900 0    50   ~ 0
+Text Label 6500 1950 0    50   ~ 0
 MODULE2_TEMP2
-Text Label 6500 2000 0    50   ~ 0
+Text Label 6500 2050 0    50   ~ 0
 MODULE3_TEMP1
-Text Label 6500 2200 0    50   ~ 0
+Text Label 6500 2250 0    50   ~ 0
 MODULE3_TEMP2
-Text Label 6500 2300 0    50   ~ 0
+Text Label 6500 2350 0    50   ~ 0
 MODULE4_TEMP1
-Text Label 6500 2500 0    50   ~ 0
+Text Label 6500 2550 0    50   ~ 0
 MODULE4_TEMP2
-Text Label 6500 2600 0    50   ~ 0
+Text Label 6500 2650 0    50   ~ 0
 MODULE5_TEMP1
-Text Label 6500 2800 0    50   ~ 0
+Text Label 6500 2850 0    50   ~ 0
 MODULE5_TEMP2
-Text Label 6500 1600 0    50   ~ 0
+Text Label 6500 1650 0    50   ~ 0
 V-
 Text Label 8600 1650 0    50   ~ 0
 CELL5_VOLT
@@ -3254,9 +3254,9 @@ Text Label 1750 9150 2    50   ~ 0
 CELL9_VOLT
 Text Label 1750 10000 2    50   ~ 0
 CELL10_VOLT
-Text Notes 8000 3050 2    50   ~ 0
+Text Notes 7950 3200 2    50   ~ 0
 Traces from Structural PCB under Peripheral PCB
-Text Notes 9800 3050 2    50   ~ 0
+Text Notes 9800 3200 2    50   ~ 0
 Ribbon cable from far side Structural PCB
 $Comp
 L formula:MM_F_VT_20 J4
@@ -3462,4 +3462,12 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	1    3050 9350
 	0    -1   -1   0   
 $EndComp
+Text Label 7350 2850 0    50   ~ 0
+V-
+Text Label 7750 2850 0    50   ~ 0
+GND
+Wire Wire Line
+	7350 2850 7750 2850
+Text Notes 7250 2950 0    50   ~ 0
+Connect V- to gnd net
 $EndSCHEMATC
