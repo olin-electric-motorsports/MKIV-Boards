@@ -563,20 +563,7 @@ Text Label 2950 3750 0    50   ~ 0
 TS_divider
 Text Label 2950 4200 0    50   ~ 0
 5V_divider
-$Comp
-L power:GND #PWR?
-U 1 1 5C365143
-P 3950 7400
-F 0 "#PWR?" H 3950 7150 50  0001 C CNN
-F 1 "GND" H 3955 7227 50  0000 C CNN
-F 2 "" H 3950 7400 50  0001 C CNN
-F 3 "" H 3950 7400 50  0001 C CNN
-	1    3950 7400
-	1    0    0    -1  
-$EndComp
-Text Label 3650 7350 2    50   ~ 0
-TSAL_GREEN-
-Text Label 3850 6550 0    50   ~ 0
+Text Label 5500 6100 0    50   ~ 0
 TSAL_GREEN+
 Wire Wire Line
 	5350 5150 5800 5150
@@ -590,47 +577,47 @@ Step Down
 $Comp
 L formula:BU4S81G2-TR U?
 U 1 1 5C411ECA
-P 3400 6550
-F 0 "U?" H 3600 6950 60  0000 L CNN
-F 1 "BU4S81G2-TR" H 3600 6800 60  0000 L CNN
-F 2 "" H 3500 6550 60  0000 C CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s81g2-e.pdf" H 3791 6497 60  0001 L CNN
-F 4 "DK" H 3791 6444 60  0001 L CNN "MFN"
-F 5 "BU4S81G2-TR" H 3600 6160 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S81G2-TR/BU4S81G2CT-ND/3769276" H 3800 6360 60  0001 C CNN "PurchasingLink"
-	1    3400 6550
+P 3500 6550
+F 0 "U?" H 3700 6950 60  0000 L CNN
+F 1 "BU4S81G2-TR" H 3700 6800 60  0000 L CNN
+F 2 "" H 3600 6550 60  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s81g2-e.pdf" H 3891 6497 60  0001 L CNN
+F 4 "DK" H 3891 6444 60  0001 L CNN "MFN"
+F 5 "BU4S81G2-TR" H 3700 6160 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S81G2-TR/BU4S81G2CT-ND/3769276" H 3900 6360 60  0001 C CNN "PurchasingLink"
+	1    3500 6550
 	1    0    0    -1  
 $EndComp
-Text Label 3400 6150 2    50   ~ 0
+Text Label 3500 6150 2    50   ~ 0
 GLV+
 Wire Wire Line
-	3400 6200 3400 6150
+	3500 6200 3500 6150
 Wire Wire Line
-	3400 6900 3400 6950
+	3500 6900 3500 6950
 $Comp
 L power:GND #PWR?
 U 1 1 5C416858
-P 3400 6950
-F 0 "#PWR?" H 3400 6700 50  0001 C CNN
-F 1 "GND" H 3405 6777 50  0000 C CNN
-F 2 "" H 3400 6950 50  0001 C CNN
-F 3 "" H 3400 6950 50  0001 C CNN
-	1    3400 6950
+P 3500 6950
+F 0 "#PWR?" H 3500 6700 50  0001 C CNN
+F 1 "GND" H 3505 6777 50  0000 C CNN
+F 2 "" H 3500 6950 50  0001 C CNN
+F 3 "" H 3500 6950 50  0001 C CNN
+	1    3500 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 6600 3000 6600
+	3200 6600 3100 6600
 Wire Wire Line
-	3000 6600 3000 6700
+	3100 6600 3100 6700
 $Comp
 L power:GND #PWR?
 U 1 1 5C4196A8
-P 3000 6700
-F 0 "#PWR?" H 3000 6450 50  0001 C CNN
-F 1 "GND" H 3005 6527 50  0000 C CNN
-F 2 "" H 3000 6700 50  0001 C CNN
-F 3 "" H 3000 6700 50  0001 C CNN
-	1    3000 6700
+P 3100 6700
+F 0 "#PWR?" H 3100 6450 50  0001 C CNN
+F 1 "GND" H 3105 6527 50  0000 C CNN
+F 2 "" H 3100 6700 50  0001 C CNN
+F 3 "" H 3100 6700 50  0001 C CNN
+	1    3100 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -640,16 +627,49 @@ Wire Wire Line
 	7250 4300 7800 4300
 Text Label 7250 4250 2    50   ~ 0
 TSAL_FLAG
-Text Label 3000 6500 2    50   ~ 0
+Text Label 3100 6500 2    50   ~ 0
 TSAL_FLAG
 Wire Wire Line
-	3100 6500 3000 6500
-Wire Wire Line
-	3750 6550 3850 6550
-Wire Wire Line
-	3650 7350 3950 7350
-Wire Wire Line
-	3950 7350 3950 7400
+	3200 6500 3100 6500
 Text Notes 4150 5900 2    197  ~ 0
 Green TSAL
+$Comp
+L formula:SSM3K333R Q?
+U 1 1 5C4A2AA6
+P 4700 6550
+F 0 "Q?" H 4906 6596 50  0000 L CNN
+F 1 "SSM3K333R" H 4906 6505 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 4900 6475 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 4900 6625 50  0001 L CNN
+F 4 "DK" H 5200 6925 60  0001 C CNN "MFN"
+F 5 "SSM3K333RLFCT-ND" H 5100 6825 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 5000 6725 60  0001 C CNN "PurchasingLink"
+	1    4700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6750 4800 6900
+$Comp
+L power:GND #PWR?
+U 1 1 5C4A2AAD
+P 4800 6900
+F 0 "#PWR?" H 4800 6650 50  0001 C CNN
+F 1 "GND" H 4805 6727 50  0000 C CNN
+F 2 "" H 4800 6900 50  0001 C CNN
+F 3 "" H 4800 6900 50  0001 C CNN
+	1    4800 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6350 4800 6100
+Text Label 4800 6100 2    50   ~ 0
+TSAL_GREEN-
+Wire Wire Line
+	5200 6100 5500 6100
+Text Label 5200 6100 2    50   ~ 0
+GLV+
+Wire Wire Line
+	3900 7000 3900 7050
+Wire Wire Line
+	3850 6550 4500 6550
 $EndSCHEMATC
