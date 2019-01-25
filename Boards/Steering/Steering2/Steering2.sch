@@ -4439,24 +4439,24 @@ NoConn ~ 9300 1250
 $Comp
 L formula:NF_F_RA_2x03 J1
 U 1 1 5C0125FE
-P 1200 1750
-F 0 "J1" H 1256 2125 50  0000 C CNN
-F 1 "NF_F_RA_2x03" H 1256 2034 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx06_2x03_P2.50mm_Horizontal" H 1200 2000 50  0001 C CNN
-F 3 "" H 1200 2000 50  0001 C CNN
-	1    1200 1750
+P 1200 1850
+F 0 "J1" H 1200 2350 50  0000 C CNN
+F 1 "NF_F_RA_2x03" H 1200 2250 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx06_2x03_P2.50mm_Horizontal" H 1200 2100 50  0001 C CNN
+F 3 "" H 1200 2100 50  0001 C CNN
+	1    1200 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:NF_F_RA_2x04 J2
 U 1 1 5C0127AA
-P 1200 2850
-F 0 "J2" H 1200 3450 50  0000 C CNN
-F 1 "NF_F_RA_2x04" H 1200 3350 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx08_2x04_P2.50mm_Horizontal" H 1200 3100 50  0001 C CNN
-F 3 "" H 1200 3100 50  0001 C CNN
-	1    1200 2850
-	1    0    0    -1  
+P 1200 2700
+F 0 "J2" H 1200 3300 50  0000 C CNN
+F 1 "NF_F_RA_2x04" H 1200 3200 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx08_2x04_P2.50mm_Horizontal" H 1200 2950 50  0001 C CNN
+F 3 "" H 1200 2950 50  0001 C CNN
+	1    1200 2700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:NF_F_RA_2x02 J3
@@ -4467,59 +4467,40 @@ F 1 "NF_F_RA_2x02" H 1256 1334 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal" H 1200 1300 50  0001 C CNN
 F 3 "" H 1200 1300 50  0001 C CNN
 	1    1200 1050
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 9300 2950
 NoConn ~ 9300 1450
 NoConn ~ 9300 2650
-Text Notes 4300 5150 0    50   ~ 0
-LinReg - Decided Against -Not in layout
-Wire Notes Line
-	6200 6150 6200 5050
-Wire Notes Line
-	4150 6150 6200 6150
-Wire Notes Line
-	4150 5050 4150 6150
-Wire Notes Line
-	6200 5050 4150 5050
 $Comp
-L formula:LM3480 U3
-U 1 1 5C00B163
-P 5300 5600
-F 0 "U3" H 5300 5842 50  0000 C CNN
-F 1 "LM3480" H 5300 5751 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2" H 5250 5800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" H 5400 5350 50  0001 C CNN
-F 4 "DK" H 5350 5925 60  0001 C CNN "MFN"
-F 5 "LM3480IM3-3.3CT-ND" H 5450 6025 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" H 5250 5825 60  0001 C CNN "PurchasingLink"
-	1    5300 5600
+L power:VCC #PWR0106
+U 1 1 5C01AC78
+P 5950 5600
+F 0 "#PWR0106" H 5950 5450 50  0001 C CNN
+F 1 "VCC" H 5950 5750 50  0000 C CNN
+F 2 "" H 5950 5600 50  0001 C CNN
+F 3 "" H 5950 5600 50  0001 C CNN
+	1    5950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0101
+U 1 1 5C01AC0D
+P 4700 5550
+F 0 "#PWR0101" H 4700 5400 50  0001 C CNN
+F 1 "+12V" H 4700 5690 50  0000 C CNN
+F 2 "" H 4700 5550 50  0001 C CNN
+F 3 "" H 4700 5550 50  0001 C CNN
+	1    4700 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 5900 5300 5900
-Connection ~ 5300 5900
+	4700 5600 4700 5550
 Wire Wire Line
-	5300 5900 5700 5900
-$Comp
-L formula:C_0.1uF C10
-U 1 1 5C00B672
-P 5700 5750
-F 0 "C10" H 5815 5796 50  0000 L CNN
-F 1 "C_0.1uF" H 5815 5705 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 5738 5600 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5725 5850 50  0001 C CNN
-F 4 "DK" H 5700 5750 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 5700 5750 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 6125 6250 60  0001 C CNN "PurchasingLink"
-	1    5700 5750
-	1    0    0    -1  
-$EndComp
+	4850 5600 4700 5600
 Wire Wire Line
-	5600 5600 5700 5600
-Connection ~ 5700 5600
-Wire Wire Line
-	5700 5600 5950 5600
+	4850 5600 5000 5600
+Connection ~ 4850 5600
 $Comp
 L formula:C_0.1uF C9
 U 1 1 5C00B714
@@ -4535,32 +4516,51 @@ F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5275 6250 60 
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	4850 5600 5000 5600
-Connection ~ 4850 5600
+	5700 5600 5950 5600
 Wire Wire Line
-	4850 5600 4700 5600
-Wire Wire Line
-	4700 5600 4700 5550
+	5600 5600 5700 5600
+Connection ~ 5700 5600
 $Comp
-L power:+12V #PWR0101
-U 1 1 5C01AC0D
-P 4700 5550
-F 0 "#PWR0101" H 4700 5400 50  0001 C CNN
-F 1 "+12V" H 4700 5690 50  0000 C CNN
-F 2 "" H 4700 5550 50  0001 C CNN
-F 3 "" H 4700 5550 50  0001 C CNN
-	1    4700 5550
+L formula:C_0.1uF C10
+U 1 1 5C00B672
+P 5700 5750
+F 0 "C10" H 5815 5796 50  0000 L CNN
+F 1 "C_0.1uF" H 5815 5705 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 5738 5600 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5725 5850 50  0001 C CNN
+F 4 "DK" H 5700 5750 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 5700 5750 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 6125 6250 60  0001 C CNN "PurchasingLink"
+	1    5700 5750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5300 5900 5700 5900
+Wire Wire Line
+	4850 5900 5300 5900
+Connection ~ 5300 5900
 $Comp
-L power:VCC #PWR0106
-U 1 1 5C01AC78
-P 5950 5600
-F 0 "#PWR0106" H 5950 5450 50  0001 C CNN
-F 1 "VCC" H 5950 5750 50  0000 C CNN
-F 2 "" H 5950 5600 50  0001 C CNN
-F 3 "" H 5950 5600 50  0001 C CNN
-	1    5950 5600
+L formula:LM3480 U3
+U 1 1 5C00B163
+P 5300 5600
+F 0 "U3" H 5300 5842 50  0000 C CNN
+F 1 "LM3480" H 5300 5751 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2" H 5250 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm3480.pdf" H 5400 5350 50  0001 C CNN
+F 4 "DK" H 5350 5925 60  0001 C CNN "MFN"
+F 5 "LM3480IM3-3.3CT-ND" H 5450 6025 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583" H 5250 5825 60  0001 C CNN "PurchasingLink"
+	1    5300 5600
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	6200 5050 4150 5050
+Wire Notes Line
+	4150 5050 4150 6150
+Wire Notes Line
+	4150 6150 6200 6150
+Wire Notes Line
+	6200 6150 6200 5050
+Text Notes 4300 5150 0    50   ~ 0
+LinReg - Decided Against -Not in layout
 $EndSCHEMATC
