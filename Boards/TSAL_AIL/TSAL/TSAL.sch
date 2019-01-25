@@ -201,7 +201,6 @@ Wire Wire Line
 	8450 2700 7900 2700
 Wire Wire Line
 	7900 2700 7900 2850
-Connection ~ 7900 2700
 Wire Wire Line
 	7900 2700 7400 2700
 Wire Wire Line
@@ -559,10 +558,6 @@ Text Label 7800 3500 2    50   ~ 0
 GLV+
 Text Label 8100 3500 0    50   ~ 0
 TSAL_RED+
-Text Label 2950 3750 0    50   ~ 0
-TS_divider
-Text Label 2950 4200 0    50   ~ 0
-5V_divider
 Text Label 5500 6100 0    50   ~ 0
 TSAL_GREEN+
 Wire Wire Line
@@ -672,4 +667,5 @@ Wire Wire Line
 	3900 7000 3900 7050
 Wire Wire Line
 	3850 6550 4500 6550
+Connection ~ 7900 2700
 $EndSCHEMATC
