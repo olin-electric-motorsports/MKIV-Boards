@@ -569,20 +569,6 @@ Text Notes 6300 3700 2    197  ~ 0
 Red TSAL
 Text Notes 8600 1100 2    197  ~ 0
 Step Down
-$Comp
-L formula:BU4S81G2-TR U?
-U 1 1 5C411ECA
-P 3500 6550
-F 0 "U?" H 3700 6950 60  0000 L CNN
-F 1 "BU4S81G2-TR" H 3700 6800 60  0000 L CNN
-F 2 "" H 3600 6550 60  0000 C CNN
-F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s81g2-e.pdf" H 3891 6497 60  0001 L CNN
-F 4 "DK" H 3891 6444 60  0001 L CNN "MFN"
-F 5 "BU4S81G2-TR" H 3700 6160 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S81G2-TR/BU4S81G2CT-ND/3769276" H 3900 6360 60  0001 C CNN "PurchasingLink"
-	1    3500 6550
-	1    0    0    -1  
-$EndComp
 Text Label 3500 6150 2    50   ~ 0
 GLV+
 Wire Wire Line
@@ -603,26 +589,13 @@ $EndComp
 Wire Wire Line
 	3200 6600 3100 6600
 Wire Wire Line
-	3100 6600 3100 6700
-$Comp
-L power:GND #PWR?
-U 1 1 5C4196A8
-P 3100 6700
-F 0 "#PWR?" H 3100 6450 50  0001 C CNN
-F 1 "GND" H 3105 6527 50  0000 C CNN
-F 2 "" H 3100 6700 50  0001 C CNN
-F 3 "" H 3100 6700 50  0001 C CNN
-	1    3100 6700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	7250 4300 7250 4250
 Connection ~ 7250 4300
 Wire Wire Line
 	7250 4300 7800 4300
-Text Label 7250 4250 2    50   ~ 0
+Text Label 7250 4250 0    50   ~ 0
 TSAL_FLAG
-Text Label 3100 6500 2    50   ~ 0
+Text Label 3100 6600 2    50   ~ 0
 TSAL_FLAG
 Wire Wire Line
 	3200 6500 3100 6500
@@ -663,9 +636,25 @@ Wire Wire Line
 	5200 6100 5500 6100
 Text Label 5200 6100 2    50   ~ 0
 GLV+
-Wire Wire Line
-	3900 7000 3900 7050
-Wire Wire Line
-	3850 6550 4500 6550
 Connection ~ 7900 2700
+$Comp
+L formula:BU4S11G2-TR U?
+U 1 1 5C4AFE32
+P 3500 6550
+F 0 "U?" H 3615 6810 60  0000 L CNN
+F 1 "BU4S11G2-TR" H 3600 6725 60  0000 L CNN
+F 2 "" H 3600 6550 60  0000 C CNN
+F 3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/logic_switch/standard_logic/bu4s11g2-e.pdf" H 3926 6497 60  0001 L CNN
+F 4 "DK" H 3926 6444 60  0001 L CNN "MFN"
+F 5 "BU4S11G2-TR" H 4150 6050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/BU4S11G2-TR/BU4S11G2CT-ND/1158708" H 3900 5900 60  0001 C CNN "PurchasingLink"
+	1    3500 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3885 6550 4500 6550
+Wire Wire Line
+	3100 6500 3100 6400
+Text Label 3100 6400 2    50   ~ 0
+GLV+
 $EndSCHEMATC
