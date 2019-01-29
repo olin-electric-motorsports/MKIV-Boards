@@ -76,7 +76,7 @@ U 1 1 5C078824
 P 4200 2300
 F 0 "J2" H 4022 2308 60  0000 R CNN
 F 1 "MM_F_VT_08" H 4022 2202 60  0000 R CNN
-F 2 "footprints:micromatch_female_vert_8" H 4100 2600 60  0001 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx08_2x04_P2.50mm_Vertical" H 4100 2600 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-8" H 4100 3500 60  0001 C CNN
 F 4 "TE" H 4300 3700 60  0001 C CNN "MFN"
 F 5 "338068-8" H 4400 3800 60  0001 C CNN "MPN"
@@ -120,51 +120,47 @@ Wire Notes Line
 Text Notes 5300 1000 0    118  ~ 0
 AmpSeal23
 Text Label 6000 1200 2    50   ~ 0
-GND
+IS->BOTS
 Text Label 6000 1300 2    50   ~ 0
-GND
+IS->BOTS
 Text Label 6000 1400 2    50   ~ 0
-12V
-Text Label 6000 1500 2    50   ~ 0
-12V
-Text Label 6000 1600 2    50   ~ 0
-ESTOP->HVD
-Text Label 6000 1700 2    50   ~ 0
 BOTS->ESTOP
+Text Label 6000 1500 2    50   ~ 0
+ESTOP->HVD
+Text Label 6000 1600 2    50   ~ 0
+12V
+Text Label 6000 1700 2    50   ~ 0
+12V
 Text Label 6000 1800 2    50   ~ 0
-IS->BOTS
+GND
 Text Label 6000 1900 2    50   ~ 0
-IS->BOTS
+GND
 Text Label 6000 2000 2    50   ~ 0
-CANH
+BSPD->IS
 Text Label 6000 2100 2    50   ~ 0
-CANH
+BSPD->IS
 Text Label 6000 2200 2    50   ~ 0
-RTD_LSD_GND
+SDA
 Text Label 6000 2300 2    50   ~ 0
 SCL
 Text Label 6000 2400 2    50   ~ 0
-SDA
+RTDLSDGND
 Text Label 6000 2500 2    50   ~ 0
-BSPD->IS
+CANH
 Text Label 6000 2600 2    50   ~ 0
-BSPD->IS
+CANH
 Text Label 6000 2700 2    50   ~ 0
-CANL
-Text Label 6000 2800 2    50   ~ 0
-CANL
-Text Label 6000 2900 2    50   ~ 0
-Throttle1+
-Text Label 6000 3000 2    50   ~ 0
-Throttle1_Sense
-Text Label 6000 3100 2    50   ~ 0
-Throttle1-
-Text Label 6000 3200 2    50   ~ 0
-Throttle2+
-Text Label 6000 3300 2    50   ~ 0
-Throttle2_Sense
-Text Label 6000 3400 2    50   ~ 0
 Throttle2-
+Text Label 6000 3200 2    50   ~ 0
+Throttle1+
+Text Label 6000 3100 2    50   ~ 0
+Throttle1_Sense
+Text Label 6000 3000 2    50   ~ 0
+Throttle1-
+Text Label 6000 2900 2    50   ~ 0
+Throttle2+
+Text Label 6000 2800 2    50   ~ 0
+Throttle2_Sense
 Text Label 8350 1350 0    50   ~ 0
 GND
 Text Label 8350 1450 0    50   ~ 0
@@ -284,4 +280,8 @@ Wire Notes Line
 	5200 2900 4300 2900
 Text Notes 3850 3050 0    118  ~ 0
 RJ45
+Text Label 6000 3300 2    50   ~ 0
+CANL
+Text Label 6000 3400 2    50   ~ 0
+CANL
 $EndSCHEMATC
