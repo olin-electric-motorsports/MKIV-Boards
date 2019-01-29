@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 24)
+    (drawings 30)
     (tracks 60)
     (zones 0)
     (modules 9)
@@ -29,7 +29,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.381)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -316,6 +316,14 @@
       (net 3 /v+))
   )
 
+  (gr_text "Temperature\nSensor" (at 117.729 95.0595) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_line (start 112.5855 80.0735) (end 112.2045 81.026) (layer F.SilkS) (width 0.2))
+  (gr_line (start 112.5855 80.0735) (end 113.665 80.2005) (layer F.SilkS) (width 0.2))
+  (gr_line (start 112.5855 80.0735) (end 117.6655 90.9955) (layer F.SilkS) (width 0.2))
+  (gr_circle (center 68.326 76.581) (end 72.517 72.009) (layer F.SilkS) (width 0.2))
+  (gr_circle (center 106.299 76.581) (end 111.5695 73.279) (layer F.SilkS) (width 0.2))
   (gr_line (start 96.729 82.675) (end 77.871 82.675) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 96.729 81.659) (end 96.729 82.675) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 109.175 145.009) (end 109.175 77.341) (layer Edge.Cuts) (width 0.2))
