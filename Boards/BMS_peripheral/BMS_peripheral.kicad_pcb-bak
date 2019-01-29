@@ -1127,7 +1127,6 @@
     (pad 1 thru_hole circle (at 0 5.08) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 64 /MODULE9_TEMP2))
     (pad 7 thru_hole circle (at 0 -2.54) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-<<<<<<< HEAD
       (net 71 /MODULE8_TEMP1))
     (pad 2 thru_hole circle (at 2.54 3.81) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 66 /CELL8_VOLT))
@@ -1151,31 +1150,6 @@
       (net 75 /CELL9_VOLT))
     (pad 15 thru_hole circle (at 0 -12.7) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 74 /MODULE10_TEMP1))
-=======
-      (net 65 /MODULE6_TEMP1))
-    (pad 2 thru_hole circle (at 2.54 3.81) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 66 /CELL8_VOLT))
-    (pad 4 thru_hole circle (at 2.54 1.27) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 67 /MODULE7_TEMP2))
-    (pad 6 thru_hole circle (at 2.54 -1.27) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 68 /MODULE7_TEMP1))
-    (pad 8 thru_hole circle (at 2.54 -3.81) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 69 /CELL5_VOLT))
-    (pad 9 thru_hole circle (at 0 -5.08) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 70 /MODULE6_TEMP2))
-    (pad 10 thru_hole circle (at 2.54 -6.35) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 71 /MODULE8_TEMP1))
-    (pad 11 thru_hole circle (at 0 -7.62) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 72 /CELL7_VOLT))
-    (pad 12 thru_hole circle (at 2.54 -8.89) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 73 /MODULE8_TEMP2))
-    (pad 13 thru_hole circle (at 0 -10.16) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 74 /MODULE10_TEMP1))
-    (pad 14 thru_hole circle (at 2.54 -11.43) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 75 /CELL9_VOLT))
-    (pad 15 thru_hole circle (at 0 -12.7) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
-      (net 76 /MODULE10_TEMP2))
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (pad 16 thru_hole circle (at 2.54 -13.97) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 77 /CELL10_VOLT))
     (pad 17 thru_hole circle (at 0 -15.24) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
@@ -4409,11 +4383,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E3C71)
-<<<<<<< HEAD
     (at 77.724 39.436 90)
-=======
-    (at 77.3 39.15)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5A087)
@@ -4451,11 +4421,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E3C81)
-<<<<<<< HEAD
     (at 80.584 39.116 180)
-=======
-    (at 80.7 38.55 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5A9EE)
@@ -4493,11 +4459,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E3E2A)
-<<<<<<< HEAD
     (at 84.77 37.592 180)
-=======
-    (at 80.55 36.25 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5AC08)
@@ -4535,11 +4497,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E3E3A)
-<<<<<<< HEAD
     (at 81.092 33.528 180)
-=======
-    (at 80.55 33.8 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5AE2A)
@@ -4577,11 +4535,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E3E4A)
-<<<<<<< HEAD
     (at 80.55 30.734 180)
-=======
-    (at 80.55 31.45 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5B080)
@@ -4619,11 +4573,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E40BE)
-<<<<<<< HEAD
     (at 80.838 36.83 180)
-=======
-    (at 83.9 34.8 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5AAFA)
@@ -4661,11 +4611,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E40CE)
-<<<<<<< HEAD
     (at 84.77 35.052 180)
-=======
-    (at 84.1 37 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5AD18)
@@ -4703,11 +4649,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E42D6)
-<<<<<<< HEAD
     (at 84.394 32.512 180)
-=======
-    (at 84 32.65 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CF5AF3E)
@@ -4745,11 +4687,7 @@
   )
 
   (module footprints:C_0805_OEM (layer F.Cu) (tedit 5C3D8347) (tstamp 5C3E432F)
-<<<<<<< HEAD
     (at 72.66 62.992 180)
-=======
-    (at 71.6 59.15 90)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD24C1E)
@@ -4863,11 +4801,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E466A)
-<<<<<<< HEAD
     (at 82.616 62.484 180)
-=======
-    (at 81.55 61.65 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CFD0925)
@@ -4905,11 +4839,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E467A)
-<<<<<<< HEAD
     (at 82.616 59.944 180)
-=======
-    (at 81.5 59.6 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CFD0939)
@@ -4947,11 +4877,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E468A)
-<<<<<<< HEAD
     (at 86.294 56.388 180)
-=======
-    (at 81.5 57.4 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CFD094D)
@@ -4989,11 +4915,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E469A)
-<<<<<<< HEAD
     (at 82.616 54.102 180)
-=======
-    (at 81.55 55.15 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CFD0961)
@@ -5069,11 +4991,7 @@
   )
 
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E4A81)
-<<<<<<< HEAD
     (at 86.36 61.214 180)
-=======
-    (at 85 60.9 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5CFD092F)
@@ -5338,13 +5256,8 @@
     )
   )
 
-<<<<<<< HEAD
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E4F65)
     (at 56.7 45.45 180)
-=======
-  (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E4A91)
-    (at 85.05 58.75 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5C6A9F92)
@@ -5381,13 +5294,8 @@
     )
   )
 
-<<<<<<< HEAD
   (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E4F75)
     (at 56.8 49.6)
-=======
-  (module footprints:R_0805_OEM (layer F.Cu) (tedit 5C3D844D) (tstamp 5C3E4AA1)
-    (at 85 56.5 180)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5C7FB50F)
@@ -5867,11 +5775,7 @@
   (gr_text "isoSPI \nTransformer" (at 48.895 34.9885) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-<<<<<<< HEAD
   (gr_text "Temperature\nSensing" (at 63.8 62.6) (layer F.SilkS)
-=======
-  (gr_text "Temperature\nSensing" (at 64.95 57.9) (layer F.SilkS)
->>>>>>> 7f77325b0ca9163418fa151630fd65f3e9d0d457
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "I2C Memory" (at 136.0935 58.876) (layer F.SilkS)
