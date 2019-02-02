@@ -1354,17 +1354,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 14000 4175 60
 	1    13600 3675
 	0    1    -1   0   
 $EndComp
-$Comp
-L Device:CP1 C2
-U 1 1 5BE6BCC1
-P 13950 3425
-F 0 "C2" H 14000 3525 50  0000 L CNN
-F 1 "CP_1mF" H 14000 3325 50  0000 L CNN
-F 2 "" H 13950 3425 50  0001 C CNN
-F 3 "~" H 13950 3425 50  0001 C CNN
-	1    13950 3425
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	13950 3275 13950 3225
 Connection ~ 13950 3225
@@ -1394,17 +1383,6 @@ Connection ~ 17450 4825
 Connection ~ 19850 7525
 Connection ~ 20150 7525
 Connection ~ 20325 2450
-$Comp
-L Device:CP1 C1
-U 1 1 5BF0CFA1
-P 10950 3550
-F 0 "C1" H 11000 3650 50  0000 L CNN
-F 1 "CP_1mF" H 11000 3450 50  0000 L CNN
-F 2 "" H 10950 3550 50  0001 C CNN
-F 3 "~" H 10950 3550 50  0001 C CNN
-	1    10950 3550
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR015
 U 1 1 5BF0CFAE
@@ -1627,11 +1605,7 @@ F 3 "" H 2975 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2425 3350 2425 3150
-Wire Wire Line
 	2425 3150 2625 3150
-Wire Wire Line
-	2425 3450 2875 3450
 Wire Wire Line
 	2875 3450 2875 3300
 Text Label 2425 3850 0    50   ~ 0
@@ -1656,20 +1630,6 @@ Text Label 2425 4750 0    50   ~ 0
 ShutdownSense_IMD
 Text Label 2475 7050 0    50   ~ 0
 Shutdown_In
-$Comp
-L formula:UF_2_RA J1
-U 1 1 5BF5D20B
-P 2225 7100
-F 0 "J1" H 2225 7250 60  0000 C CNN
-F 1 "Ultrafit_2" H 2275 6950 60  0000 C CNN
-F 2 "footprints:Ultrafit_2_RA" H 2125 7150 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" H 2225 7250 60  0001 C CNN
-F 4 "DK" H 2425 7450 60  0001 C CNN "MFN"
-F 5 "WM11825-ND " H 2525 7550 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" H 2325 7350 60  0001 C CNN "PurchasingLink"
-	1    2225 7100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VCC #PWR09
 U 1 1 5BDB946D
@@ -1984,24 +1944,6 @@ F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 2275 5750 60  0001 C
 	1    2275 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:MM_F_VT_10 J3
-U 1 1 5C5405EE
-P 2275 6750
-F 0 "J3" H 2231 8097 60  0000 C CNN
-F 1 "MM_F_VT_10" H 2231 7991 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_10" H 2075 7850 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F1-338068-0" H 2175 7950 60  0001 C CNN
-F 4 "TE" H 2375 8150 60  0001 C CNN "MFN"
-F 5 "1-338068-0" H 2475 8250 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-1-338068-0.html" H 2275 8050 60  0001 C CNN "PurchasingLink"
-	1    2275 6750
-	1    0    0    -1  
-$EndComp
-Text Notes 2025 6550 1    50   Italic 0
-will become microfit 10\n
-Text Notes 2000 6750 3    50   Italic 0
-will become microfit 2\n
 Wire Wire Line
 	2425 3750 2975 3750
 Wire Wire Line
@@ -2805,13 +2747,6 @@ Text Label 12100 3300 0    50   ~ 0
 Air+12V
 Text Label 12100 3500 0    50   ~ 0
 Air+GND
-Wire Wire Line
-	10900 3300 10950 3300
-Wire Wire Line
-	10950 3300 10950 3400
-Wire Wire Line
-	10950 3300 11750 3300
-Connection ~ 10950 3300
 Connection ~ 11750 3300
 Wire Wire Line
 	11750 3300 12100 3300
@@ -2821,19 +2756,6 @@ Wire Wire Line
 	12050 4000 12050 3500
 Wire Wire Line
 	12050 3500 12100 3500
-$Comp
-L power:GND #PWR014
-U 1 1 5C59AF8B
-P 10950 3800
-F 0 "#PWR014" H 10950 3550 50  0001 C CNN
-F 1 "GND" H 10955 3627 50  0000 C CNN
-F 2 "" H 10950 3800 50  0001 C CNN
-F 3 "" H 10950 3800 50  0001 C CNN
-	1    10950 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10950 3700 10950 3800
 Text Notes 10775 3025 0    118  ~ 0
 AIR + Circuit
 Text Label 14650 3225 0    50   ~ 0
@@ -3076,4 +2998,53 @@ NoConn ~ 19850 5525
 NoConn ~ 6725 5200
 Text Notes 12925 4450 0    59   ~ 0
 This included cap will\nhelp reduce the voltage\nsag from the + and - \nairs.
+Wire Wire Line
+	10900 3300 11750 3300
+$Comp
+L formula:CP_1mF C1
+U 1 1 5C56A2A1
+P 13950 3425
+F 0 "C1" H 14065 3471 50  0000 L CNN
+F 1 "CP_1mF" H 14065 3380 50  0000 L CNN
+F 2 "footprints:C_Radial_D10_L13_P5_OEM" H 13875 3425 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" H 13975 3525 50  0001 C CNN
+F 4 "Digi-Key" H 14075 3625 60  0001 C CNN "MFN"
+F 5 "493-1305-ND" H 14175 3725 60  0001 C CNN "MPN"
+F 6 "Radial, Can" H 14275 3825 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/products/en?keywords=493-1305-ND" H 14375 3925 60  0001 C CNN "Purchasing Link"
+	1    13950 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MicroFit_RA_10 J1
+U 1 1 5C575074
+P 2175 6200
+F 0 "J1" H 2231 6975 50  0000 C CNN
+F 1 "MicroFit_RA_10" H 2231 6884 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_10" H 2275 6850 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451000_sd.pdf" H 2275 6850 50  0001 C CNN
+F 4 "DK" H 2175 6850 50  0001 C CNN "MFN"
+F 5 "WM1817-ND" H 2275 6950 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430451000/WM1817-ND/252530" H 2375 7050 50  0001 C CNN "PurchasingLink"
+	1    2175 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 3150 2425 3350
+Wire Wire Line
+	2875 3450 2425 3450
+$Comp
+L formula:MicroFit_RA_V_2 J3
+U 1 1 5C598E28
+P 2225 7100
+F 0 "J3" H 2281 7375 50  0000 C CNN
+F 1 "MicroFit_RA_V_2" H 2281 7284 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_V_2" H 2175 7300 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 2175 7300 50  0001 C CNN
+F 4 "MFN" H 2325 7350 50  0001 C CNN "DK"
+F 5 "WM1865-ND" H 2425 7450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 2225 7250 50  0001 C CNN "Purchasing Link"
+	1    2225 7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
