@@ -277,8 +277,6 @@ F 6 "http://www.te.com/global-en/product-1-338068-6.html" H 5700 5250 60  0001 C
 $EndComp
 Text Label 2850 1100 2    50   ~ 0
 MODULE6_TEMP1
-Text Notes 5250 4950 0    50   ~ 0
-Left side structural traces to mounted peripheral PCB
 $Comp
 L BMS_Structural-rescue:LMT85-Q1-formula Q11
 U 1 1 5BEAD146
@@ -760,21 +758,6 @@ Text Label 3550 6300 0    50   ~ 0
 GND
 Wire Wire Line
 	3550 5850 3550 6300
-$Comp
-L BMS_Structural-rescue:MM_F_VT_20-formula J3
-U 1 1 5C065B25
-P 5800 6150
-F 0 "J3" H 5250 6400 60  0000 C CNN
-F 1 "MM_F_VT_20" V 5450 6350 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_20" H 5600 7250 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 5700 7350 60  0001 C CNN
-F 4 "TE" H 5900 7550 60  0001 C CNN "MFN"
-F 5 "2-338068-0" H 6000 7650 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 5800 7450 60  0001 C CNN "PurchasingLink"
-	1    5800 6150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5950 6950
 Wire Notes Line
 	5050 7050 6800 7050
 Wire Notes Line
@@ -783,40 +766,6 @@ Wire Notes Line
 	6800 7050 6800 6500
 Wire Notes Line
 	6800 6500 9400 6500
-Text Label 5950 5950 0    50   ~ 0
-MODULE7_TEMP1
-Text Label 5950 6050 0    50   ~ 0
-volt7
-Text Label 5950 6150 0    50   ~ 0
-MODULE7_TEMP2
-Text Label 5950 6250 0    50   ~ 0
-MODULE9_TEMP1
-Text Label 5950 6350 0    50   ~ 0
-volt9
-Text Label 5950 6450 0    50   ~ 0
-MODULE9_TEMP2
-Text Label 5950 5850 0    50   ~ 0
-MODULE6_TEMP1
-Text Label 5950 5750 0    50   ~ 0
-volt6
-Text Label 5950 5650 0    50   ~ 0
-MODULE6_TEMP2
-Text Label 5950 5550 0    50   ~ 0
-MODULE8_TEMP1
-Text Label 5950 5450 0    50   ~ 0
-volt8
-Text Label 5950 5350 0    50   ~ 0
-MODULE8_TEMP2
-Text Label 5950 5250 0    50   ~ 0
-MODULE10_TEMP1
-Text Label 5950 5150 0    50   ~ 0
-volt10
-Text Label 5950 5050 0    50   ~ 0
-MODULE10_TEMP2
-Text Label 5950 6750 0    50   ~ 0
-5V
-Text Label 5950 6850 0    50   ~ 0
-GND
 $Comp
 L BMS_Structural-rescue:Bolt_connect_4-40-formula B1
 U 1 1 5C463DAE
@@ -908,17 +857,17 @@ Text Label 5950 3650 0    50   ~ 0
 volt3
 Text Label 5950 3750 0    50   ~ 0
 MODULE3_TEMP2
-Text Label 5950 4650 0    50   ~ 0
+Text Label 5950 4050 0    50   ~ 0
 MODULE2_TEMP1
-Text Label 5950 4550 0    50   ~ 0
+Text Label 5950 4150 0    50   ~ 0
 volt2
-Text Label 5950 4450 0    50   ~ 0
+Text Label 5950 4250 0    50   ~ 0
 MODULE2_TEMP2
 Text Label 5950 4350 0    50   ~ 0
 MODULE4_TEMP1
-Text Label 5950 4250 0    50   ~ 0
+Text Label 5950 4450 0    50   ~ 0
 volt4
-Text Label 5950 4150 0    50   ~ 0
+Text Label 5950 4550 0    50   ~ 0
 MODULE4_TEMP2
 Text Label 5950 3850 0    50   ~ 0
 MODULE5_TEMP1
@@ -926,7 +875,7 @@ Text Label 5950 3950 0    50   ~ 0
 volt5
 Text Notes 5250 3050 0    50   ~ 0
 Right side structural to mounted peripheral PCB
-Text Label 5950 4050 0    54   ~ 0
+Text Label 5950 4650 0    54   ~ 0
 MODULE5_TEMP2
 Text Notes 650  750  0    50   ~ 0
 Transmitter for traces from left side structural PCB
@@ -936,10 +885,6 @@ Text Label 7200 2750 2    50   ~ 0
 V11
 Text Label 5950 3450 0    50   ~ 0
 V-
-Text Label 5950 6550 0    50   ~ 0
-V11
-Text Label 5950 6650 0    50   ~ 0
-V+
 $Comp
 L BMS_Structural-rescue:MM_F_VT_20-formula J4
 U 1 1 5C5A600D
@@ -955,23 +900,23 @@ F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 5800 3250 60  0001 C
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5950 2750
-Text Label 5950 1750 0    50   ~ 0
-MODULE7_TEMP1
-Text Label 5950 1850 0    50   ~ 0
-volt7
-Text Label 5950 1950 0    50   ~ 0
-MODULE7_TEMP2
-Text Label 5950 2050 0    50   ~ 0
-MODULE9_TEMP1
 Text Label 5950 2150 0    50   ~ 0
+MODULE7_TEMP1
+Text Label 5950 1950 0    50   ~ 0
+volt7
+Text Label 5950 2050 0    50   ~ 0
+MODULE7_TEMP2
+Text Label 5950 1850 0    50   ~ 0
+MODULE9_TEMP1
+Text Label 5950 1750 0    50   ~ 0
 volt9
-Text Label 5950 2250 0    50   ~ 0
-MODULE9_TEMP2
 Text Label 5950 1650 0    50   ~ 0
+MODULE9_TEMP2
+Text Label 5950 2250 0    50   ~ 0
 MODULE6_TEMP1
-Text Label 5950 1550 0    50   ~ 0
+Text Label 5950 2350 0    50   ~ 0
 volt6
-Text Label 5950 1450 0    50   ~ 0
+Text Label 5950 2450 0    50   ~ 0
 MODULE6_TEMP2
 Text Label 5950 1350 0    50   ~ 0
 MODULE8_TEMP1
@@ -989,62 +934,9 @@ Text Label 5950 2550 0    50   ~ 0
 5V
 Text Label 5950 2650 0    50   ~ 0
 GND
-Text Label 5950 2350 0    50   ~ 0
+Text Label 5950 1550 0    50   ~ 0
 V11
-Text Label 5950 2450 0    50   ~ 0
-V+
-$Comp
-L BMS_Structural-rescue:MM_F_VT_20-formula J2
-U 1 1 5C5ADB56
-P 1150 2100
-F 0 "J2" H 600 2350 60  0000 C CNN
-F 1 "MM_F_VT_20" V 800 2300 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_20" H 950 3200 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 1050 3300 60  0001 C CNN
-F 4 "TE" H 1250 3500 60  0001 C CNN "MFN"
-F 5 "2-338068-0" H 1350 3600 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 1150 3400 60  0001 C CNN "PurchasingLink"
-	1    1150 2100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1300 2900
-Text Label 1300 1900 0    50   ~ 0
-MODULE7_TEMP1
-Text Label 1300 2000 0    50   ~ 0
-volt7
-Text Label 1300 2100 0    50   ~ 0
-MODULE7_TEMP2
-Text Label 1300 2200 0    50   ~ 0
-MODULE9_TEMP1
-Text Label 1300 2300 0    50   ~ 0
-volt9
-Text Label 1300 2400 0    50   ~ 0
-MODULE9_TEMP2
-Text Label 1300 1800 0    50   ~ 0
-MODULE6_TEMP1
-Text Label 1300 1700 0    50   ~ 0
-volt6
-Text Label 1300 1600 0    50   ~ 0
-MODULE6_TEMP2
-Text Label 1300 1500 0    50   ~ 0
-MODULE8_TEMP1
-Text Label 1300 1400 0    50   ~ 0
-volt8
-Text Label 1300 1300 0    50   ~ 0
-MODULE8_TEMP2
-Text Label 1300 1200 0    50   ~ 0
-MODULE10_TEMP1
-Text Label 1300 1100 0    50   ~ 0
-volt10
-Text Label 1300 1000 0    50   ~ 0
-MODULE10_TEMP2
-Text Label 1300 2700 0    50   ~ 0
-5V
-Text Label 1300 2800 0    50   ~ 0
-GND
-Text Label 1300 2500 0    50   ~ 0
-V11
-Text Label 1300 2600 0    50   ~ 0
+Text Label 5950 1450 0    50   ~ 0
 V+
 Text Label 7200 950  2    50   ~ 0
 V+
@@ -1084,4 +976,110 @@ Wire Wire Line
 Wire Wire Line
 	7850 3050 7850 2850
 Connection ~ 7850 2850
+$Comp
+L BMS_Structural-rescue:MM_F_VT_20-formula J2
+U 1 1 5C5ABC7A
+P 5800 6050
+F 0 "J2" H 5250 6300 60  0000 C CNN
+F 1 "MM_F_VT_20" V 5450 6250 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_20" H 5600 7150 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 5700 7250 60  0001 C CNN
+F 4 "TE" H 5900 7450 60  0001 C CNN "MFN"
+F 5 "2-338068-0" H 6000 7550 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 5800 7350 60  0001 C CNN "PurchasingLink"
+	1    5800 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5950 6850
+Text Label 5950 6250 0    50   ~ 0
+MODULE7_TEMP1
+Text Label 5950 6050 0    50   ~ 0
+volt7
+Text Label 5950 6150 0    50   ~ 0
+MODULE7_TEMP2
+Text Label 5950 5950 0    50   ~ 0
+MODULE9_TEMP1
+Text Label 5950 5850 0    50   ~ 0
+volt9
+Text Label 5950 5750 0    50   ~ 0
+MODULE9_TEMP2
+Text Label 5950 6350 0    50   ~ 0
+MODULE6_TEMP1
+Text Label 5950 6450 0    50   ~ 0
+volt6
+Text Label 5950 6550 0    50   ~ 0
+MODULE6_TEMP2
+Text Label 5950 5450 0    50   ~ 0
+MODULE8_TEMP1
+Text Label 5950 5350 0    50   ~ 0
+volt8
+Text Label 5950 5250 0    50   ~ 0
+MODULE8_TEMP2
+Text Label 5950 5150 0    50   ~ 0
+MODULE10_TEMP1
+Text Label 5950 5050 0    50   ~ 0
+volt10
+Text Label 5950 4950 0    50   ~ 0
+MODULE10_TEMP2
+Text Label 5950 6650 0    50   ~ 0
+5V
+Text Label 5950 6750 0    50   ~ 0
+GND
+Text Label 5950 5650 0    50   ~ 0
+V11
+Text Label 5950 5550 0    50   ~ 0
+V+
+$Comp
+L BMS_Structural-rescue:MM_F_VT_20-formula J3
+U 1 1 5C5B08CB
+P 1200 2050
+F 0 "J3" H 650 2300 60  0000 C CNN
+F 1 "MM_F_VT_20" V 850 2250 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_20" H 1000 3150 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 1100 3250 60  0001 C CNN
+F 4 "TE" H 1300 3450 60  0001 C CNN "MFN"
+F 5 "2-338068-0" H 1400 3550 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 1200 3350 60  0001 C CNN "PurchasingLink"
+	1    1200 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1350 2850
+Text Label 1350 2250 0    50   ~ 0
+MODULE7_TEMP1
+Text Label 1350 2050 0    50   ~ 0
+volt7
+Text Label 1350 2150 0    50   ~ 0
+MODULE7_TEMP2
+Text Label 1350 1950 0    50   ~ 0
+MODULE9_TEMP1
+Text Label 1350 1850 0    50   ~ 0
+volt9
+Text Label 1350 1750 0    50   ~ 0
+MODULE9_TEMP2
+Text Label 1350 2350 0    50   ~ 0
+MODULE6_TEMP1
+Text Label 1350 2450 0    50   ~ 0
+volt6
+Text Label 1350 2550 0    50   ~ 0
+MODULE6_TEMP2
+Text Label 1350 1450 0    50   ~ 0
+MODULE8_TEMP1
+Text Label 1350 1350 0    50   ~ 0
+volt8
+Text Label 1350 1250 0    50   ~ 0
+MODULE8_TEMP2
+Text Label 1350 1150 0    50   ~ 0
+MODULE10_TEMP1
+Text Label 1350 1050 0    50   ~ 0
+volt10
+Text Label 1350 950  0    50   ~ 0
+MODULE10_TEMP2
+Text Label 1350 2650 0    50   ~ 0
+5V
+Text Label 1350 2750 0    50   ~ 0
+GND
+Text Label 1350 1650 0    50   ~ 0
+V11
+Text Label 1350 1550 0    50   ~ 0
+V+
 $EndSCHEMATC
