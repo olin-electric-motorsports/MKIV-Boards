@@ -390,7 +390,7 @@ F 3 "" H 9250 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9650 800  0    50   ~ 0
-Vdd
+5V
 Text Label 8800 1650 2    50   ~ 0
 MODULE1_TEMP2
 Text Label 8800 2200 2    50   ~ 0
