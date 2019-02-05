@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q1
+L BMS_Structural-rescue:LMT85-Q1-formula Q61
 U 1 1 5BE70D59
 P 3150 1000
-F 0 "Q1" H 3150 1325 50  0000 C CNN
+F 0 "Q61" H 3150 1325 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 1234 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 950 50  0001 C CNN
 F 3 "" H 3300 950 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 3300 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q2
+L BMS_Structural-rescue:LMT85-Q1-formula Q62
 U 1 1 5BE70DF7
 P 3150 1550
-F 0 "Q2" H 3150 1875 50  0000 C CNN
+F 0 "Q62" H 3150 1875 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 1784 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 1500 50  0001 C CNN
 F 3 "" H 3300 1500 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 3300 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q3
+L BMS_Structural-rescue:LMT85-Q1-formula Q71
 U 1 1 5BE70E23
 P 3150 2100
-F 0 "Q3" H 3150 2425 50  0000 C CNN
+F 0 "Q71" H 3150 2425 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 2334 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 2050 50  0001 C CNN
 F 3 "" H 3300 2050 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 3300 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q4
+L BMS_Structural-rescue:LMT85-Q1-formula Q72
 U 1 1 5BE70E49
 P 3150 2650
-F 0 "Q4" H 3150 2975 50  0000 C CNN
+F 0 "Q72" H 3150 2975 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 2884 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 2600 50  0001 C CNN
 F 3 "" H 3300 2600 50  0001 C CNN
@@ -59,10 +59,10 @@ F 3 "" H 3300 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q5
+L BMS_Structural-rescue:LMT85-Q1-formula Q81
 U 1 1 5BE70E71
 P 3150 3200
-F 0 "Q5" H 3150 3525 50  0000 C CNN
+F 0 "Q81" H 3150 3525 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 3434 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 3150 50  0001 C CNN
 F 3 "" H 3300 3150 50  0001 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 3300 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q6
+L BMS_Structural-rescue:LMT85-Q1-formula Q82
 U 1 1 5BE70EA5
 P 3150 3750
-F 0 "Q6" H 3150 4075 50  0000 C CNN
+F 0 "Q82" H 3150 4075 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 3984 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 3700 50  0001 C CNN
 F 3 "" H 3300 3700 50  0001 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 3300 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q7
+L BMS_Structural-rescue:LMT85-Q1-formula Q91
 U 1 1 5BE70EDB
 P 3150 4300
-F 0 "Q7" H 3150 4625 50  0000 C CNN
+F 0 "Q91" H 3150 4625 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 4534 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 4250 50  0001 C CNN
 F 3 "" H 3300 4250 50  0001 C CNN
@@ -92,10 +92,10 @@ F 3 "" H 3300 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q8
+L BMS_Structural-rescue:LMT85-Q1-formula Q92
 U 1 1 5BE70F0B
 P 3150 4850
-F 0 "Q8" H 3150 5175 50  0000 C CNN
+F 0 "Q92" H 3150 5175 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 5084 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 4800 50  0001 C CNN
 F 3 "" H 3300 4800 50  0001 C CNN
@@ -103,10 +103,10 @@ F 3 "" H 3300 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q9
+L BMS_Structural-rescue:LMT85-Q1-formula Q101
 U 1 1 5BE70F41
 P 3150 5400
-F 0 "Q9" H 3150 5725 50  0000 C CNN
+F 0 "Q101" H 3150 5725 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 5634 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 5350 50  0001 C CNN
 F 3 "" H 3300 5350 50  0001 C CNN
@@ -114,10 +114,10 @@ F 3 "" H 3300 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q10
+L BMS_Structural-rescue:LMT85-Q1-formula Q102
 U 1 1 5BE70F7B
 P 3150 5950
-F 0 "Q10" H 3150 6275 50  0000 C CNN
+F 0 "Q102" H 3150 6275 50  0000 C CNN
 F 1 "LMT85-Q1" H 3150 6184 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 3300 5900 50  0001 C CNN
 F 3 "" H 3300 5900 50  0001 C CNN
@@ -302,10 +302,10 @@ F 3 "" H 9250 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q13
+L BMS_Structural-rescue:LMT85-Q1-formula Q21
 U 1 1 5BEAD152
 P 9100 2100
-F 0 "Q13" H 9100 2425 50  0000 C CNN
+F 0 "Q21" H 9100 2425 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 2334 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 2050 50  0001 C CNN
 F 3 "" H 9250 2050 50  0001 C CNN
@@ -313,10 +313,10 @@ F 3 "" H 9250 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q14
+L BMS_Structural-rescue:LMT85-Q1-formula Q22
 U 1 1 5BEAD158
 P 9100 2650
-F 0 "Q14" H 9100 2975 50  0000 C CNN
+F 0 "Q22" H 9100 2975 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 2884 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 2600 50  0001 C CNN
 F 3 "" H 9250 2600 50  0001 C CNN
@@ -324,10 +324,10 @@ F 3 "" H 9250 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q15
+L BMS_Structural-rescue:LMT85-Q1-formula Q31
 U 1 1 5BEAD15E
 P 9100 3200
-F 0 "Q15" H 9100 3525 50  0000 C CNN
+F 0 "Q31" H 9100 3525 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 3434 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 3150 50  0001 C CNN
 F 3 "" H 9250 3150 50  0001 C CNN
@@ -335,10 +335,10 @@ F 3 "" H 9250 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q16
+L BMS_Structural-rescue:LMT85-Q1-formula Q32
 U 1 1 5BEAD164
 P 9100 3750
-F 0 "Q16" H 9100 4075 50  0000 C CNN
+F 0 "Q32" H 9100 4075 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 3984 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 3700 50  0001 C CNN
 F 3 "" H 9250 3700 50  0001 C CNN
@@ -346,10 +346,10 @@ F 3 "" H 9250 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q17
+L BMS_Structural-rescue:LMT85-Q1-formula Q41
 U 1 1 5BEAD16A
 P 9100 4300
-F 0 "Q17" H 9100 4625 50  0000 C CNN
+F 0 "Q41" H 9100 4625 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 4534 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 4250 50  0001 C CNN
 F 3 "" H 9250 4250 50  0001 C CNN
@@ -357,10 +357,10 @@ F 3 "" H 9250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q18
+L BMS_Structural-rescue:LMT85-Q1-formula Q42
 U 1 1 5BEAD170
 P 9100 4850
-F 0 "Q18" H 9100 5175 50  0000 C CNN
+F 0 "Q42" H 9100 5175 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 5084 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 4800 50  0001 C CNN
 F 3 "" H 9250 4800 50  0001 C CNN
@@ -368,10 +368,10 @@ F 3 "" H 9250 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q19
+L BMS_Structural-rescue:LMT85-Q1-formula Q51
 U 1 1 5BEAD176
 P 9100 5400
-F 0 "Q19" H 9100 5725 50  0000 C CNN
+F 0 "Q51" H 9100 5725 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 5634 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 5350 50  0001 C CNN
 F 3 "" H 9250 5350 50  0001 C CNN
@@ -379,10 +379,10 @@ F 3 "" H 9250 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:LMT85-Q1-formula Q20
+L BMS_Structural-rescue:LMT85-Q1-formula Q52
 U 1 1 5BEAD17C
 P 9100 5950
-F 0 "Q20" H 9100 6275 50  0000 C CNN
+F 0 "Q52" H 9100 6275 50  0000 C CNN
 F 1 "LMT85-Q1" H 9100 6184 50  0000 C CNN
 F 2 "footprints:LMT85-Q1" H 9250 5900 50  0001 C CNN
 F 3 "" H 9250 5900 50  0001 C CNN
@@ -543,23 +543,23 @@ Wire Wire Line
 	9500 6150 9500 5850
 Connection ~ 9500 5850
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F6
+L BMS_Structural-rescue:200mA_Fuse-formula F1
 U 1 1 5BEF3AF8
-P 7500 850
-F 0 "F6" H 7450 950 50  0000 C CNN
-F 1 "200mA_Fuse" H 7450 750 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 7450 850 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 850 50  0001 C CNN
-	1    7500 850 
+P 7500 650
+F 0 "F1" H 7450 750 50  0000 C CNN
+F 1 "200mA_Fuse" H 7450 550 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 7450 650 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 650 50  0001 C CNN
+	1    7500 650 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7800 850  7850 850 
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F7
+L BMS_Structural-rescue:200mA_Fuse-formula F2
 U 1 1 5BEE2335
 P 7500 1250
-F 0 "F7" H 7450 1350 50  0000 C CNN
+F 0 "F2" H 7450 1350 50  0000 C CNN
 F 1 "200mA_Fuse" H 7450 1150 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 7450 1250 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 1250 50  0001 C CNN
@@ -567,10 +567,10 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F8
+L BMS_Structural-rescue:200mA_Fuse-formula F3
 U 1 1 5BEE238B
 P 7500 1650
-F 0 "F8" H 7450 1750 50  0000 C CNN
+F 0 "F3" H 7450 1750 50  0000 C CNN
 F 1 "200mA_Fuse" H 7450 1550 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 7450 1650 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 1650 50  0001 C CNN
@@ -578,10 +578,10 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F9
+L BMS_Structural-rescue:200mA_Fuse-formula F4
 U 1 1 5BEE23E3
 P 7500 2050
-F 0 "F9" H 7450 2150 50  0000 C CNN
+F 0 "F4" H 7450 2150 50  0000 C CNN
 F 1 "200mA_Fuse" H 7450 1950 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 7450 2050 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 2050 50  0001 C CNN
@@ -589,10 +589,10 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F10
+L BMS_Structural-rescue:200mA_Fuse-formula F5
 U 1 1 5BEE243D
 P 7500 2450
-F 0 "F10" H 7450 2550 50  0000 C CNN
+F 0 "F5" H 7450 2550 50  0000 C CNN
 F 1 "200mA_Fuse" H 7450 2350 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 7450 2450 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 2450 50  0001 C CNN
@@ -607,7 +607,7 @@ Wire Wire Line
 	7800 2050 7850 2050
 Wire Wire Line
 	7800 2450 7850 2450
-Text Label 7150 750  2    50   ~ 0
+Text Label 7200 650  2    50   ~ 0
 volt1
 Text Label 7200 1250 2    50   ~ 0
 volt2
@@ -618,10 +618,10 @@ volt4
 Text Label 7200 2450 2    50   ~ 0
 volt5
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F1
+L BMS_Structural-rescue:200mA_Fuse-formula F6
 U 1 1 5BEEB50E
 P 1350 3350
-F 0 "F1" H 1300 3450 50  0000 C CNN
+F 0 "F6" H 1300 3450 50  0000 C CNN
 F 1 "200mA_Fuse" H 1300 3250 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 1300 3350 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1300 3350 50  0001 C CNN
@@ -631,10 +631,10 @@ $EndComp
 Wire Wire Line
 	1650 3350 1700 3350
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F2
+L BMS_Structural-rescue:200mA_Fuse-formula F7
 U 1 1 5BEEB533
 P 1350 3750
-F 0 "F2" H 1300 3850 50  0000 C CNN
+F 0 "F7" H 1300 3850 50  0000 C CNN
 F 1 "200mA_Fuse" H 1300 3650 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 1300 3750 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1300 3750 50  0001 C CNN
@@ -642,10 +642,10 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F3
+L BMS_Structural-rescue:200mA_Fuse-formula F8
 U 1 1 5BEEB539
 P 1350 4150
-F 0 "F3" H 1300 4250 50  0000 C CNN
+F 0 "F8" H 1300 4250 50  0000 C CNN
 F 1 "200mA_Fuse" H 1300 4050 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 1300 4150 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1300 4150 50  0001 C CNN
@@ -653,10 +653,10 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F4
+L BMS_Structural-rescue:200mA_Fuse-formula F9
 U 1 1 5BEEB53F
 P 1350 4550
-F 0 "F4" H 1300 4650 50  0000 C CNN
+F 0 "F9" H 1300 4650 50  0000 C CNN
 F 1 "200mA_Fuse" H 1300 4450 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 1300 4550 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1300 4550 50  0001 C CNN
@@ -664,10 +664,10 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F5
+L BMS_Structural-rescue:200mA_Fuse-formula F10
 U 1 1 5BEEB545
 P 1350 4950
-F 0 "F5" H 1300 5050 50  0000 C CNN
+F 0 "F10" H 1300 5050 50  0000 C CNN
 F 1 "200mA_Fuse" H 1300 4850 50  0000 C CNN
 F 2 "footprints:Fuse_1812" H 1300 4950 50  0001 C CNN
 F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1300 4950 50  0001 C CNN
@@ -702,10 +702,10 @@ Wire Notes Line
 Wire Notes Line
 	3900 500  3900 6400
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B1
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B6
 U 1 1 5BFCD364
 P 1900 3350
-F 0 "B1" H 1900 3500 50  0000 L CNN
+F 0 "B6" H 1900 3500 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 1550 3200 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 1800 3400 50  0001 C CNN
 F 3 "" H 1900 3500 50  0001 C CNN
@@ -713,10 +713,10 @@ F 3 "" H 1900 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B2
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B7
 U 1 1 5BFCD4C3
 P 1900 3750
-F 0 "B2" H 1900 3900 50  0000 L CNN
+F 0 "B7" H 1900 3900 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 1550 3600 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 1800 3800 50  0001 C CNN
 F 3 "" H 1900 3900 50  0001 C CNN
@@ -724,10 +724,10 @@ F 3 "" H 1900 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B3
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B8
 U 1 1 5BFCD529
 P 1900 4150
-F 0 "B3" H 1900 4300 50  0000 L CNN
+F 0 "B8" H 1900 4300 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 1600 4000 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 1800 4200 50  0001 C CNN
 F 3 "" H 1900 4300 50  0001 C CNN
@@ -735,10 +735,10 @@ F 3 "" H 1900 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B4
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B9
 U 1 1 5C060A02
 P 1900 4550
-F 0 "B4" H 1900 4700 50  0000 L CNN
+F 0 "B9" H 1900 4700 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 1600 4400 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 1800 4600 50  0001 C CNN
 F 3 "" H 1900 4700 50  0001 C CNN
@@ -746,10 +746,10 @@ F 3 "" H 1900 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B5
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B10
 U 1 1 5C060A70
 P 1900 4950
-F 0 "B5" H 1900 5100 50  0000 L CNN
+F 0 "B10" H 1900 5100 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 1600 4800 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 1800 5000 50  0001 C CNN
 F 3 "" H 1900 5100 50  0001 C CNN
@@ -783,17 +783,17 @@ Wire Notes Line
 	6800 7050 6800 6500
 Wire Notes Line
 	6800 6500 9400 6500
-Text Label 5950 6450 0    50   ~ 0
-MODULE7_TEMP1
-Text Label 5950 6350 0    50   ~ 0
-volt7
-Text Label 5950 6250 0    50   ~ 0
-MODULE7_TEMP2
-Text Label 5950 6150 0    50   ~ 0
-MODULE9_TEMP1
-Text Label 5950 6050 0    50   ~ 0
-volt9
 Text Label 5950 5950 0    50   ~ 0
+MODULE7_TEMP1
+Text Label 5950 6050 0    50   ~ 0
+volt7
+Text Label 5950 6150 0    50   ~ 0
+MODULE7_TEMP2
+Text Label 5950 6250 0    50   ~ 0
+MODULE9_TEMP1
+Text Label 5950 6350 0    50   ~ 0
+volt9
+Text Label 5950 6450 0    50   ~ 0
 MODULE9_TEMP2
 Text Label 5950 5850 0    50   ~ 0
 MODULE6_TEMP1
@@ -813,254 +813,275 @@ Text Label 5950 5150 0    50   ~ 0
 volt10
 Text Label 5950 5050 0    50   ~ 0
 MODULE10_TEMP2
-$Comp
-L BMS_Structural-rescue:MM_F_VT_20-formula J2
-U 1 1 5C084658
-P 1300 1950
-F 0 "J2" H 1200 1000 60  0000 C CNN
-F 1 "MM_F_VT_20" V 950 2150 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_20" H 1100 3050 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 1200 3150 60  0001 C CNN
-F 4 "TE" H 1400 3350 60  0001 C CNN "MFN"
-F 5 "2-338068-0" H 1500 3450 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 1300 3250 60  0001 C CNN "PurchasingLink"
-	1    1300 1950
-	1    0    0    -1  
-$EndComp
-Text Label 5950 6550 0    50   ~ 0
-V+
-Text Label 5950 6650 0    50   ~ 0
-5V
 Text Label 5950 6750 0    50   ~ 0
+5V
+Text Label 5950 6850 0    50   ~ 0
 GND
-NoConn ~ 1450 2750
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B6
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B1
 U 1 1 5C463DAE
 P 8050 850
-F 0 "B6" H 8269 896 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8269 805 50  0000 L CNN
+F 0 "B1" H 8269 896 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 7750 750 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 7950 900 50  0001 C CNN
 F 3 "" H 8050 1000 50  0001 C CNN
 	1    8050 850 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B7
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B2
 U 1 1 5C463EEC
 P 8050 1250
-F 0 "B7" H 8269 1296 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8269 1205 50  0000 L CNN
+F 0 "B2" H 8269 1296 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 7700 1100 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 7950 1300 50  0001 C CNN
 F 3 "" H 8050 1400 50  0001 C CNN
 	1    8050 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B8
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B3
 U 1 1 5C463F5C
 P 8050 1650
-F 0 "B8" H 8269 1696 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8269 1605 50  0000 L CNN
+F 0 "B3" H 8000 1800 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 7750 1500 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 7950 1700 50  0001 C CNN
 F 3 "" H 8050 1800 50  0001 C CNN
 	1    8050 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B9
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B4
 U 1 1 5C463FCA
 P 8050 2050
-F 0 "B9" H 8269 2096 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8269 2005 50  0000 L CNN
+F 0 "B4" H 8269 2096 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 7700 1850 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 7950 2100 50  0001 C CNN
 F 3 "" H 8050 2200 50  0001 C CNN
 	1    8050 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B10
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B5
 U 1 1 5C4640B4
 P 8050 2450
-F 0 "B10" H 8269 2496 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8269 2405 50  0000 L CNN
+F 0 "B5" H 8269 2496 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 7750 2300 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 7950 2500 50  0001 C CNN
 F 3 "" H 8050 2600 50  0001 C CNN
 	1    8050 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:200mA_Fuse-formula F12
+L BMS_Structural-rescue:200mA_Fuse-formula F13
 U 1 1 5C552823
-P 7550 2850
-F 0 "F12" H 7500 2950 50  0000 C CNN
-F 1 "200mA_Fuse" H 7500 2750 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 7500 2850 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7500 2850 50  0001 C CNN
-	1    7550 2850
+P 7500 3050
+F 0 "F13" H 7450 3150 50  0000 C CNN
+F 1 "200mA_Fuse" H 7450 2950 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 7450 3050 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 3050 50  0001 C CNN
+	1    7500 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_Structural-rescue:Bolt_connect_4-40-formula B12
+L BMS_Structural-rescue:Bolt_connect_4-40-formula B11
 U 1 1 5C552899
 P 8050 2850
-F 0 "B12" H 8269 2896 50  0000 L CNN
+F 0 "B11" H 8269 2896 50  0000 L CNN
 F 1 "Bolt_connect_4-40" H 8269 2805 50  0000 L CNN
 F 2 "footprints:Bolt_connect_4-40_round" H 7950 2900 50  0001 C CNN
 F 3 "" H 8050 3000 50  0001 C CNN
 	1    8050 2850
 	1    0    0    -1  
 $EndComp
-Text Label 7150 2950 2    50   ~ 0
+Text Label 7200 3050 2    50   ~ 0
 V-
-NoConn ~ 1450 2650
-NoConn ~ 5950 6850
 Text Label 5950 3150 0    50   ~ 0
 MODULE1_TEMP1
 Text Label 5950 3250 0    50   ~ 0
 volt1
 Text Label 5950 3350 0    50   ~ 0
 MODULE1_TEMP2
-Text Label 5950 3450 0    50   ~ 0
-MODULE3_TEMP1
 Text Label 5950 3550 0    50   ~ 0
-volt3
+MODULE3_TEMP1
 Text Label 5950 3650 0    50   ~ 0
-MODULE3_TEMP2
+volt3
 Text Label 5950 3750 0    50   ~ 0
-V+
-Text Label 5950 3850 0    50   ~ 0
+MODULE3_TEMP2
+Text Label 5950 4650 0    50   ~ 0
 MODULE2_TEMP1
-Text Label 5950 3950 0    50   ~ 0
+Text Label 5950 4550 0    50   ~ 0
 volt2
-Text Label 5950 4050 0    50   ~ 0
+Text Label 5950 4450 0    50   ~ 0
 MODULE2_TEMP2
-Text Label 5950 4150 0    50   ~ 0
+Text Label 5950 4350 0    50   ~ 0
 MODULE4_TEMP1
 Text Label 5950 4250 0    50   ~ 0
 volt4
-Text Label 5950 4350 0    50   ~ 0
+Text Label 5950 4150 0    50   ~ 0
 MODULE4_TEMP2
-Text Label 5950 4450 0    50   ~ 0
+Text Label 5950 3850 0    50   ~ 0
 MODULE5_TEMP1
-Text Label 5950 4550 0    50   ~ 0
+Text Label 5950 3950 0    50   ~ 0
 volt5
 Text Notes 5250 3050 0    50   ~ 0
 Right side structural to mounted peripheral PCB
-Text Label 5950 4650 0    54   ~ 0
+Text Label 5950 4050 0    54   ~ 0
 MODULE5_TEMP2
 Text Notes 650  750  0    50   ~ 0
 Transmitter for traces from left side structural PCB
-Text Label 1450 2250 0    50   ~ 0
-MODULE7_TEMP1
-Text Label 1450 2150 0    50   ~ 0
-volt7
-Text Label 1450 2050 0    50   ~ 0
-MODULE7_TEMP2
-Text Label 1450 1950 0    50   ~ 0
-MODULE9_TEMP1
-Text Label 1450 1850 0    50   ~ 0
-volt9
-Text Label 1450 1750 0    50   ~ 0
-MODULE9_TEMP2
-Text Label 1450 1650 0    50   ~ 0
-MODULE6_TEMP1
-Text Label 1450 1550 0    50   ~ 0
-volt6
-Text Label 1450 1450 0    50   ~ 0
-MODULE6_TEMP2
-Text Label 1450 1350 0    50   ~ 0
-MODULE8_TEMP1
-Text Label 1450 1250 0    50   ~ 0
-volt8
-Text Label 1450 1150 0    50   ~ 0
-MODULE8_TEMP2
-Text Label 1450 1050 0    50   ~ 0
-MODULE10_TEMP1
-Text Label 1450 950  0    50   ~ 0
-volt10
-Text Label 1450 850  0    50   ~ 0
-MODULE10_TEMP2
-Text Label 1450 2350 0    50   ~ 0
-V+
-Text Label 1450 2450 0    50   ~ 0
-5V
-Text Label 1450 2550 0    50   ~ 0
-GND
-Text Notes 5200 800  0    50   ~ 0
+Text Notes 5200 700  0    50   ~ 0
 Receriver for traces from left side structural
+Text Label 7200 2750 2    50   ~ 0
+V11
+Text Label 5950 3450 0    50   ~ 0
+V-
+Text Label 5950 6550 0    50   ~ 0
+V11
+Text Label 5950 6650 0    50   ~ 0
+V+
 $Comp
 L BMS_Structural-rescue:MM_F_VT_20-formula J4
-U 1 1 5C57DAFE
-P 5800 2000
-F 0 "J4" H 5250 2250 60  0000 C CNN
-F 1 "MM_F_VT_20" V 5450 2200 60  0000 C CNN
-F 2 "footprints:micromatch_female_vert_20" H 5600 3100 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 5700 3200 60  0001 C CNN
-F 4 "TE" H 5900 3400 60  0001 C CNN "MFN"
-F 5 "2-338068-0" H 6000 3500 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 5800 3300 60  0001 C CNN "PurchasingLink"
-	1    5800 2000
+U 1 1 5C5A600D
+P 5800 1950
+F 0 "J4" H 5250 2200 60  0000 C CNN
+F 1 "MM_F_VT_20" V 5450 2150 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_20" H 5600 3050 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 5700 3150 60  0001 C CNN
+F 4 "TE" H 5900 3350 60  0001 C CNN "MFN"
+F 5 "2-338068-0" H 6000 3450 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 5800 3250 60  0001 C CNN "PurchasingLink"
+	1    5800 1950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5950 2800
-Text Label 5950 2300 0    50   ~ 0
+NoConn ~ 5950 2750
+Text Label 5950 1750 0    50   ~ 0
 MODULE7_TEMP1
-Text Label 5950 2200 0    50   ~ 0
+Text Label 5950 1850 0    50   ~ 0
 volt7
-Text Label 5950 2100 0    50   ~ 0
+Text Label 5950 1950 0    50   ~ 0
 MODULE7_TEMP2
-Text Label 5950 2000 0    50   ~ 0
+Text Label 5950 2050 0    50   ~ 0
 MODULE9_TEMP1
-Text Label 5950 1900 0    50   ~ 0
+Text Label 5950 2150 0    50   ~ 0
 volt9
-Text Label 5950 1800 0    50   ~ 0
+Text Label 5950 2250 0    50   ~ 0
 MODULE9_TEMP2
-Text Label 5950 1700 0    50   ~ 0
+Text Label 5950 1650 0    50   ~ 0
 MODULE6_TEMP1
-Text Label 5950 1600 0    50   ~ 0
+Text Label 5950 1550 0    50   ~ 0
 volt6
-Text Label 5950 1500 0    50   ~ 0
+Text Label 5950 1450 0    50   ~ 0
 MODULE6_TEMP2
-Text Label 5950 1400 0    50   ~ 0
+Text Label 5950 1350 0    50   ~ 0
 MODULE8_TEMP1
-Text Label 5950 1300 0    50   ~ 0
+Text Label 5950 1250 0    50   ~ 0
 volt8
-Text Label 5950 1200 0    50   ~ 0
+Text Label 5950 1150 0    50   ~ 0
 MODULE8_TEMP2
-Text Label 5950 1100 0    50   ~ 0
+Text Label 5950 1050 0    50   ~ 0
 MODULE10_TEMP1
-Text Label 5950 1000 0    50   ~ 0
+Text Label 5950 950  0    50   ~ 0
 volt10
-Text Label 5950 900  0    50   ~ 0
+Text Label 5950 850  0    50   ~ 0
 MODULE10_TEMP2
-Text Label 5950 2400 0    50   ~ 0
-V+
-Text Label 5950 2500 0    50   ~ 0
+Text Label 5950 2550 0    50   ~ 0
 5V
-Text Label 5950 2600 0    50   ~ 0
+Text Label 5950 2650 0    50   ~ 0
 GND
-NoConn ~ 5950 2700
-Text Label 7150 2750 2    50   ~ 0
+Text Label 5950 2350 0    50   ~ 0
 V11
-Wire Wire Line
-	7150 2950 7250 2950
-Wire Wire Line
-	7250 2950 7250 2850
-Wire Wire Line
-	7150 2750 7250 2750
-Wire Wire Line
-	7250 2750 7250 2850
-Connection ~ 7250 2850
-Text Label 7150 950  2    50   ~ 0
+Text Label 5950 2450 0    50   ~ 0
 V+
+$Comp
+L BMS_Structural-rescue:MM_F_VT_20-formula J2
+U 1 1 5C5ADB56
+P 1150 2100
+F 0 "J2" H 600 2350 60  0000 C CNN
+F 1 "MM_F_VT_20" V 800 2300 60  0000 C CNN
+F 2 "footprints:micromatch_female_vert_20" H 950 3200 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0" H 1050 3300 60  0001 C CNN
+F 4 "TE" H 1250 3500 60  0001 C CNN "MFN"
+F 5 "2-338068-0" H 1350 3600 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 1150 3400 60  0001 C CNN "PurchasingLink"
+	1    1150 2100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 2900
+Text Label 1300 1900 0    50   ~ 0
+MODULE7_TEMP1
+Text Label 1300 2000 0    50   ~ 0
+volt7
+Text Label 1300 2100 0    50   ~ 0
+MODULE7_TEMP2
+Text Label 1300 2200 0    50   ~ 0
+MODULE9_TEMP1
+Text Label 1300 2300 0    50   ~ 0
+volt9
+Text Label 1300 2400 0    50   ~ 0
+MODULE9_TEMP2
+Text Label 1300 1800 0    50   ~ 0
+MODULE6_TEMP1
+Text Label 1300 1700 0    50   ~ 0
+volt6
+Text Label 1300 1600 0    50   ~ 0
+MODULE6_TEMP2
+Text Label 1300 1500 0    50   ~ 0
+MODULE8_TEMP1
+Text Label 1300 1400 0    50   ~ 0
+volt8
+Text Label 1300 1300 0    50   ~ 0
+MODULE8_TEMP2
+Text Label 1300 1200 0    50   ~ 0
+MODULE10_TEMP1
+Text Label 1300 1100 0    50   ~ 0
+volt10
+Text Label 1300 1000 0    50   ~ 0
+MODULE10_TEMP2
+Text Label 1300 2700 0    50   ~ 0
+5V
+Text Label 1300 2800 0    50   ~ 0
+GND
+Text Label 1300 2500 0    50   ~ 0
+V11
+Text Label 1300 2600 0    50   ~ 0
+V+
+Text Label 7200 950  2    50   ~ 0
+V+
+$Comp
+L BMS_Structural-rescue:200mA_Fuse-formula F12
+U 1 1 5C5B7FD4
+P 7500 950
+F 0 "F12" H 7450 1050 50  0000 C CNN
+F 1 "200mA_Fuse" H 7450 850 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 7450 950 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 950 50  0001 C CNN
+	1    7500 950 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7150 750  7200 750 
+	7800 650  7800 850 
 Wire Wire Line
-	7200 750  7200 850 
+	7800 950  7800 850 
+Connection ~ 7800 850 
+$Comp
+L BMS_Structural-rescue:200mA_Fuse-formula F11
+U 1 1 5C5BD267
+P 7500 2750
+F 0 "F11" H 7450 2850 50  0000 C CNN
+F 1 "200mA_Fuse" H 7450 2650 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 7450 2750 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 7450 2750 50  0001 C CNN
+	1    7500 2750
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7150 950  7200 950 
+	7800 2750 7850 2750
 Wire Wire Line
-	7200 950  7200 850 
-Connection ~ 7200 850 
+	7850 2750 7850 2850
+Wire Wire Line
+	7800 3050 7850 3050
+Wire Wire Line
+	7850 3050 7850 2850
+Connection ~ 7850 2850
 $EndSCHEMATC
