@@ -1082,4 +1082,6 @@ Text Label 1350 1650 0    50   ~ 0
 V11
 Text Label 1350 1550 0    50   ~ 0
 V+
+Text Notes 550  2700 1    50   ~ 0
+name all labels left to differentiate (L_)
 $EndSCHEMATC
