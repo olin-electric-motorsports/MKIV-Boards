@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:IMU-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L formula:R_10K_HV R3
+L IMU-rescue:R_10K_HV-formula R3
 U 1 1 59E042A3
 P 7450 5750
 F 0 "R3" V 7530 5750 50  0000 C CNN
@@ -29,7 +30,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 793
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_10K_HV R4
+L IMU-rescue:R_10K_HV-formula R4
 U 1 1 59E042EA
 P 8500 5900
 F 0 "R4" V 8580 5900 50  0000 C CNN
@@ -44,7 +45,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 898
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_1K R2
+L IMU-rescue:R_1K-formula R2
 U 1 1 59E0432B
 P 6950 5900
 F 0 "R2" V 7030 5900 50  0000 C CNN
@@ -59,7 +60,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 7430 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_51.1K R5
+L IMU-rescue:R_51.1K-formula R5
 U 1 1 59E0438C
 P 8700 5750
 F 0 "R5" V 8600 5750 50  0000 C CNN
@@ -74,7 +75,7 @@ F 7 "https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND" H 9180 6150 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R12
+L IMU-rescue:R_200-formula R12
 U 1 1 59E04401
 P 10175 5700
 F 0 "R12" V 10075 5700 50  0000 C CNN
@@ -89,7 +90,7 @@ F 7 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 10655 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_0 R9
+L IMU-rescue:R_0-formula R9
 U 1 1 59E0444E
 P 9825 5550
 F 0 "R9" V 9905 5550 50  0000 C CNN
@@ -104,7 +105,7 @@ F 7 "https://www.digikey.com/products/en?keywords=A121322CT-ND" H 10305 5950 60 
 	0    1    1    0   
 $EndComp
 $Comp
-L formula:LED_0805 D1
+L IMU-rescue:LED_0805-formula D1
 U 1 1 59E047E3
 P 6950 6200
 F 0 "D1" H 6950 6100 50  0000 C CNN
@@ -119,7 +120,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 7350 6700 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:LED_0805 D2
+L IMU-rescue:LED_0805-formula D2
 U 1 1 59E0483A
 P 10175 6000
 F 0 "D2" H 10175 5900 50  0000 C CNN
@@ -134,7 +135,7 @@ F 7 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 10575 6500 60
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:L_4.7uH L1
+L IMU-rescue:L_4.7uH-formula L1
 U 1 1 59E04875
 P 9050 5550
 F 0 "L1" V 9100 5500 50  0000 L CNN
@@ -149,7 +150,7 @@ F 7 "https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:C_0.1uF C5
+L IMU-rescue:C_0.1uF-formula C5
 U 1 1 59E048C8
 P 8650 5400
 F 0 "C5" H 8700 5300 50  0000 L CNN
@@ -164,7 +165,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 9075 5900 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_22uF C3
+L IMU-rescue:C_22uF-formula C3
 U 1 1 59E04907
 P 7200 5900
 F 0 "C3" H 7225 6000 50  0000 L CNN
@@ -179,7 +180,7 @@ F 7 "https://www.digikey.com/products/en?keywords=1276-2725-1-ND" H 7625 6400 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_47uF C7
+L IMU-rescue:C_47uF-formula C7
 U 1 1 59E0494E
 P 9050 5925
 F 0 "C7" H 9075 6025 50  0000 L CNN
@@ -194,7 +195,7 @@ F 7 "https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:TPS561201 U2
+L IMU-rescue:TPS561201-formula U2
 U 1 1 59E04993
 P 8050 5650
 F 0 "U2" H 7850 5350 60  0000 C CNN
@@ -275,7 +276,7 @@ F 3 "" H 10175 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:F_500mA_16V F1
+L IMU-rescue:F_500mA_16V-formula F1
 U 1 1 59E0A5CF
 P 6950 5600
 F 0 "F1" V 7030 5600 50  0000 C CNN
@@ -345,7 +346,7 @@ F 3 "" H 3150 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_0.1uF C4
+L IMU-rescue:C_0.1uF-formula C4
 U 1 1 59E068FA
 P 5200 1000
 F 0 "C4" V 5150 850 50  0000 L CNN
@@ -449,7 +450,7 @@ F 3 "" H 3750 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:CONN_02X03 J4
+L IMU-rescue:CONN_02X03-formula J4
 U 1 1 59E10F9E
 P 3450 1150
 F 0 "J4" H 3450 1350 50  0000 C CNN
@@ -464,7 +465,7 @@ F 7 "https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-323
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MCP2561-E_SN U1
+L IMU-rescue:MCP2561-E_SN-formula U1
 U 1 1 59E1176B
 P 5050 1450
 F 0 "U1" H 4650 1800 50  0000 L CNN
@@ -497,7 +498,7 @@ RESET
 Text Label 3700 1150 0    60   ~ 0
 MOSI
 $Comp
-L formula:D_Zener_18V D7
+L IMU-rescue:D_Zener_18V-formula D7
 U 1 1 59F253C2
 P 6750 5600
 F 0 "D7" H 6750 5700 50  0000 C CNN
@@ -523,7 +524,7 @@ F 3 "" H 6750 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_0.1uF C12
+L IMU-rescue:C_0.1uF-formula C12
 U 1 1 5A79252F
 P 9675 5925
 F 0 "C12" H 9700 6025 50  0000 L CNN
@@ -538,7 +539,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 10100 6425 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_1uF C11
+L IMU-rescue:C_1uF-formula C11
 U 1 1 5A79269E
 P 9400 5925
 F 0 "C11" H 9425 6025 50  0000 L CNN
@@ -621,7 +622,7 @@ Wire Wire Line
 Connection ~ 9400 5750
 Text Label 2775 4400 0    60   ~ 0
 GND
-Text Label 2550 4550 3    60   ~ 0
+Text Label 2550 4550 2    60   ~ 0
 5V
 $Comp
 L power:GND #PWR049
@@ -668,7 +669,7 @@ CAN Transceiver
 Text Notes 6450 5050 0    71   ~ 0
 Buck Converter
 $Comp
-L formula:LM3480 U3
+L IMU-rescue:LM3480-formula U3
 U 1 1 5BD86FC8
 P 2800 2250
 F 0 "U3" H 2800 2492 50  0000 C CNN
@@ -713,7 +714,7 @@ Wire Notes Line
 Text Notes 4100 2550 0    71   ~ 0
 Digital Accelerometer
 $Comp
-L formula:LED_0805 D3
+L IMU-rescue:LED_0805-formula D3
 U 1 1 5BDE3406
 P 4500 5800
 F 0 "D3" H 4491 6016 50  0000 C CNN
@@ -727,7 +728,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4900 6300 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R6
+L IMU-rescue:R_200-formula R6
 U 1 1 5BDE4533
 P 4500 6100
 F 0 "R6" H 4570 6146 50  0000 L CNN
@@ -756,7 +757,7 @@ Wire Wire Line
 Text Label 4500 5450 0    50   ~ 0
 PLED1
 $Comp
-L formula:LED_0805 D4
+L IMU-rescue:LED_0805-formula D4
 U 1 1 5BDE6059
 P 5000 5800
 F 0 "D4" H 4991 6016 50  0000 C CNN
@@ -770,7 +771,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5400 6300 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R10
+L IMU-rescue:R_200-formula R10
 U 1 1 5BDE6063
 P 5000 6100
 F 0 "R10" H 5070 6146 50  0000 L CNN
@@ -797,7 +798,7 @@ $EndComp
 Wire Wire Line
 	5000 5650 5000 5450
 $Comp
-L formula:LED_0805 D5
+L IMU-rescue:LED_0805-formula D5
 U 1 1 5BDE6C80
 P 5600 5800
 F 0 "D5" H 5591 6016 50  0000 C CNN
@@ -811,7 +812,7 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6000 6300 60 
 	0    -1   -1   0   
 $EndComp
 $Comp
-L formula:R_200 R11
+L IMU-rescue:R_200-formula R11
 U 1 1 5BDE6C8A
 P 5600 6100
 F 0 "R11" H 5670 6146 50  0000 L CNN
@@ -844,7 +845,7 @@ PLED3
 Text Notes 4100 5050 0    71   ~ 0
 Programming LEDS
 $Comp
-L formula:UF_4_VT J1
+L IMU-rescue:UF_4_VT-formula J1
 U 1 1 5BDEC4A6
 P 1900 1250
 F 0 "J1" H 2006 1687 60  0000 C CNN
@@ -868,7 +869,7 @@ CANH
 Text Notes 1500 650  0    71   ~ 0
 Connector
 $Comp
-L formula:BMI088 U4
+L IMU-rescue:BMI088-formula U4
 U 1 1 5BDF6F28
 P 5800 3250
 F 0 "U4" H 5225 3625 50  0000 C CNN
@@ -910,7 +911,7 @@ $EndComp
 Text Label 4500 3350 2    50   ~ 0
 CS_ACCEL
 $Comp
-L formula:C_100nF C13
+L IMU-rescue:C_100nF-formula C13
 U 1 1 5BE03BAD
 P 5000 4050
 F 0 "C13" H 5115 4096 50  0000 L CNN
@@ -926,7 +927,7 @@ $EndComp
 Wire Notes Line
 	4000 6750 10500 6750
 $Comp
-L formula:C_100nF C14
+L IMU-rescue:C_100nF-formula C14
 U 1 1 5BE0DEBB
 P 5100 4200
 F 0 "C14" H 5215 4246 50  0000 L CNN
@@ -944,7 +945,7 @@ Wire Notes Line
 Text Notes 6400 650  0    71   ~ 0
 Microcontroller
 $Comp
-L formula:R_100 R1
+L IMU-rescue:R_100-formula R1
 U 1 1 59E06840
 P 7200 1250
 F 0 "R1" V 7100 1350 50  0000 C CNN
@@ -964,7 +965,7 @@ Connection ~ 7200 1100
 Wire Wire Line
 	7200 1100 7400 1100
 $Comp
-L formula:C_0.1uF C1
+L IMU-rescue:C_0.1uF-formula C1
 U 1 1 59E06957
 P 7000 1250
 F 0 "C1" V 7050 1100 50  0000 L CNN
@@ -979,7 +980,7 @@ F 7 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7425 1750 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:C_100pF C2
+L IMU-rescue:C_100pF-formula C2
 U 1 1 59E06E67
 P 7200 1550
 F 0 "C2" H 7225 1650 50  0000 L CNN
@@ -1068,7 +1069,7 @@ MISO
 Text Label 9600 2300 0    60   ~ 0
 RXCAN
 $Comp
-L formula:Crystal_SMD Y1
+L IMU-rescue:Crystal_SMD-formula Y1
 U 1 1 59E10C38
 P 9750 4100
 F 0 "Y1" H 9800 4275 50  0000 L CNN
@@ -1138,7 +1139,7 @@ F 3 "" H 9750 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K R8
+L IMU-rescue:R_10K-formula R8
 U 1 1 59E087A5
 P 10000 3650
 F 0 "R8" V 10080 3650 50  0000 C CNN
@@ -1154,7 +1155,7 @@ F 7 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 104
 $EndComp
 Connection ~ 9600 4100
 $Comp
-L formula:C_30pF C6
+L IMU-rescue:C_30pF-formula C6
 U 1 1 59E06F43
 P 9600 4250
 F 0 "C6" H 9500 4350 50  0000 L CNN
@@ -1170,7 +1171,7 @@ F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 $EndComp
 Connection ~ 9900 4100
 $Comp
-L formula:C_30pF C8
+L IMU-rescue:C_30pF-formula C8
 U 1 1 59E06ED0
 P 9900 4250
 F 0 "C8" H 9925 4350 50  0000 L CNN
@@ -1185,7 +1186,7 @@ F 7 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:ATMEGA16M1 U5
+L IMU-rescue:ATMEGA16M1-formula U5
 U 1 1 5BDB0B52
 P 8500 2800
 F 0 "U5" H 8500 4767 50  0000 C CNN
@@ -1221,7 +1222,7 @@ Wire Wire Line
 	2400 2250 2400 2300
 Connection ~ 2500 2250
 $Comp
-L formula:C_0.1uF C9
+L IMU-rescue:C_0.1uF-formula C9
 U 1 1 5BDBF375
 P 2400 2450
 F 0 "C9" H 2200 2500 50  0000 L CNN
@@ -1250,7 +1251,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 2250 3200 2250
 $Comp
-L formula:C_0.1uF C10
+L IMU-rescue:C_0.1uF-formula C10
 U 1 1 5BDC8171
 P 3200 2450
 F 0 "C10" H 3315 2496 50  0000 L CNN
@@ -1374,7 +1375,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 1600 5750 1600
 $Comp
-L formula:R_120 R7
+L IMU-rescue:R_120-formula R7
 U 1 1 5C0AA605
 P 5750 1450
 F 0 "R7" H 5820 1496 50  0000 L CNN
