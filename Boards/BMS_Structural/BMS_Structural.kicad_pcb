@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 97)
+    (drawings 98)
     (tracks 1013)
     (zones 0)
     (modules 48)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
@@ -296,7 +296,7 @@
   )
 
   (module footprints:Bolt_connect_4-40_round (layer F.Cu) (tedit 5C5935DE) (tstamp 5C526AD6)
-    (at 49.824001 103.008)
+    (at 87.710002 103.019)
     (path /5C463EEC)
     (fp_text reference B2 (at -10.962001 5.831) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1352,6 +1352,18 @@
       (net 89 "Net-(Q12-Pad3)"))
   )
 
+  (dimension 3.175 (width 0.3) (layer F.SilkS)
+    (gr_text "3.175 mm" (at 45.0215 107.501) (layer F.SilkS)
+      (effects (font (size 1.5 1.5) (thickness 0.3)))
+    )
+    (feature1 (pts (xy 46.609 110.236) (xy 46.609 109.014579)))
+    (feature2 (pts (xy 43.434 110.236) (xy 43.434 109.014579)))
+    (crossbar (pts (xy 43.434 109.601) (xy 46.609 109.601)))
+    (arrow1a (pts (xy 46.609 109.601) (xy 45.482496 110.187421)))
+    (arrow1b (pts (xy 46.609 109.601) (xy 45.482496 109.014579)))
+    (arrow2a (pts (xy 43.434 109.601) (xy 44.560504 110.187421)))
+    (arrow2b (pts (xy 43.434 109.601) (xy 44.560504 109.014579)))
+  )
   (gr_line (start 259.334 55.753) (end 259.334 113.411) (layer F.SilkS) (width 0.2))
   (gr_line (start 105.029 55.88) (end 105.029 113.284) (layer F.SilkS) (width 0.2))
   (gr_line (start 28.575 55.626) (end 28.575 113.411) (layer F.SilkS) (width 0.2))
