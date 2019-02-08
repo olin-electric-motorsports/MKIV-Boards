@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~66~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.508)
     (user_trace_width 0.7)
@@ -44,7 +44,7 @@
     (trace_clearance 0.1524)
     (zone_clearance 0.1524)
     (zone_45_only no)
-    (trace_min 0.2)
+    (trace_min 0.1524)
     (segment_width 0.2)
     (edge_width 0.15)
     (via_size 0.6096)
@@ -64,6 +64,7 @@
     (pad_size 3.3 8.2)
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements FFFFEF7F)
     (pcbplotparams
@@ -113,7 +114,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.1524)
-    (trace_width 0.254)
+    (trace_width 0.1524)
     (via_dia 0.6096)
     (via_drill 0.3048)
     (uvia_dia 0.3)
@@ -762,6 +763,15 @@
   (via (at 152.654 99.822) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
   (segment (start 131.572 100.754) (end 131.572 98.806) (width 0.254) (layer F.Cu) (net 1))
   (via (at 131.572 98.806) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
+  (via (at 137.16 91.186) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
+  (segment (start 128.462366 82.488366) (end 137.16 91.186) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 122.859799 73.686417) (end 122.859799 72.720201) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 124.658783 75.485401) (end 122.859799 73.686417) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 125.777401 75.485401) (end 124.658783 75.485401) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 128.462366 82.488366) (end 128.462366 78.170366) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 128.462366 78.170366) (end 125.777401 75.485401) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 123.461799 72.720201) (end 125.476 70.706) (width 0.254) (layer B.Cu) (net 1))
+  (segment (start 122.859799 72.720201) (end 123.461799 72.720201) (width 0.254) (layer B.Cu) (net 1))
   (segment (start 139.258 92.71) (end 137.819382 92.71) (width 0.254) (layer F.Cu) (net 2))
   (segment (start 137.819382 92.71) (end 136.575799 91.466417) (width 0.254) (layer F.Cu) (net 2))
   (segment (start 136.575799 91.466417) (end 136.575799 90.368081) (width 0.254) (layer F.Cu) (net 2))
@@ -821,15 +831,6 @@
   (segment (start 131.064 98.044) (end 125.986 98.044) (width 0.762) (layer F.Cu) (net 12))
   (segment (start 134.112 97.282) (end 131.826 97.282) (width 0.762) (layer F.Cu) (net 12))
   (segment (start 131.826 97.282) (end 131.064 98.044) (width 0.762) (layer F.Cu) (net 12))
-  (via (at 137.16 91.186) (size 0.6096) (drill 0.3048) (layers F.Cu B.Cu) (net 1))
-  (segment (start 128.462366 82.488366) (end 137.16 91.186) (width 0.254) (layer B.Cu) (net 1))
-  (segment (start 122.859799 73.686417) (end 122.859799 72.720201) (width 0.254) (layer B.Cu) (net 1))
-  (segment (start 124.658783 75.485401) (end 122.859799 73.686417) (width 0.254) (layer B.Cu) (net 1))
-  (segment (start 125.777401 75.485401) (end 124.658783 75.485401) (width 0.254) (layer B.Cu) (net 1))
-  (segment (start 128.462366 82.488366) (end 128.462366 78.170366) (width 0.254) (layer B.Cu) (net 1))
-  (segment (start 128.462366 78.170366) (end 125.777401 75.485401) (width 0.254) (layer B.Cu) (net 1))
-  (segment (start 123.461799 72.720201) (end 125.476 70.706) (width 0.254) (layer B.Cu) (net 1))
-  (segment (start 122.859799 72.720201) (end 123.461799 72.720201) (width 0.254) (layer B.Cu) (net 1))
   (segment (start 131.384 107.442) (end 131.384 112.08) (width 0.254) (layer F.Cu) (net 13))
   (segment (start 141.7701 111.7981) (end 141.7701 110.0025) (width 0.254) (layer F.Cu) (net 13) (tstamp 5B8C07DF))
   (segment (start 142.494 112.522) (end 141.7701 111.7981) (width 0.254) (layer F.Cu) (net 13) (tstamp 5B8C07DE))
