@@ -202,13 +202,13 @@ LED1
 Text Label 8350 3250 0    50   ~ 0
 LED2
 Text Label 8350 3650 0    50   ~ 0
-SS_BOTS
+BOTS->ESTOP
 Text Label 8350 3750 0    50   ~ 0
-SS_IS
+IS->BOTS
 Text Label 8350 3850 0    50   ~ 0
-SS_ESTOP
+ESTOP->HVD
 Text Label 8350 3950 0    50   ~ 0
-RTD_LSD_GND
+GND
 Text Label 4250 1400 0    50   ~ 0
 ESTOP->HVD
 Text Label 4250 1500 0    50   ~ 0
