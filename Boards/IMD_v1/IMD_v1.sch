@@ -32,7 +32,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 2550 3750 3550
 $Comp
-L Formula:TLV3701QDBVRG4Q1 U3
+L formula:TLV3701QDBVRG4Q1 U3
 U 1 1 5BD94370
 P 4050 3650
 F 0 "U3" H 4100 3500 50  0000 L CNN
@@ -74,7 +74,7 @@ U 1 1 5BD9692A
 P 5450 3950
 F 0 "U4" H 5250 4350 50  0000 C CNN
 F 1 "CD4044BPWR" H 5400 3450 50  0000 C CNN
-F 2 "" H 5450 3950 50  0001 C CNN
+F 2 "footprints:TSSOP-16-OEM" H 5450 3950 50  0001 C CNN
 F 3 "" H 5450 3950 50  0001 C CNN
 	1    5450 3950
 	1    0    0    -1  
@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 4550 4250 4550
 $Comp
-L Formula:TLV3701QDBVRG4Q1 U2
+L formula:TLV3701QDBVRG4Q1 U2
 U 1 1 5BD96F8B
 P 3950 4550
 F 0 "U2" H 3950 4700 50  0000 L CNN
@@ -140,7 +140,7 @@ U 1 1 5BD9E82D
 P 2500 4450
 F 0 "U1" H 2250 4750 50  0000 C CNN
 F 1 "Ultrafit_5(IMD)" H 2400 4000 50  0000 C CNN
-F 2 "Formula:Ultrafit_5" H 2500 4450 50  0001 C CNN
+F 2 "footprints:Ultrafit_5" H 2500 4450 50  0001 C CNN
 F 3 "http://www.bender-emobility.com/fileadmin/products/doc/IR155-32xx-V004_D00115_D_XXEN.pdf" H 2500 4450 50  0001 C CNN
 	1    2500 4450
 	1    0    0    -1  
@@ -383,7 +383,7 @@ U 1 1 5BDB2100
 P 7450 2850
 F 0 "D3" V 7404 2918 50  0000 L CNN
 F 1 "D_Schottky_Small" H 7200 2750 50  0000 L CNN
-F 2 "Formula:D_0805_OEM" V 7450 2850 50  0001 C CNN
+F 2 "footprints:D_0805_OEM" V 7450 2850 50  0001 C CNN
 F 3 "~" V 7450 2850 50  0001 C CNN
 	1    7450 2850
 	0    1    1    0   
@@ -395,38 +395,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 2500 7850 2600
 Connection ~ 7850 2600
-Wire Wire Line
-	8150 2600 8650 2600
-Wire Wire Line
-	8650 2600 8650 2850
-Wire Wire Line
-	8650 2850 8700 2850
-Wire Wire Line
-	8150 3200 8650 3200
-Wire Wire Line
-	8650 3200 8650 2950
-Wire Wire Line
-	8650 2950 8700 2950
-$Comp
-L formula:UF_2_RA J2
-U 1 1 5BDB5C30
-P 8950 2900
-F 0 "J2" H 9000 3050 60  0000 R CNN
-F 1 "UF_2_RA" H 9100 2750 60  0000 R CNN
-F 2 "footprints:Ultrafit_2_RA" H 8850 2950 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" H 8950 3050 60  0001 C CNN
-F 4 "DK" H 9150 3250 60  0001 C CNN "MFN"
-F 5 "WM11825-ND " H 9250 3350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" H 9050 3150 60  0001 C CNN "PurchasingLink"
-	1    8950 2900
-	-1   0    0    -1  
-$EndComp
-Connection ~ 8700 2850
-Wire Wire Line
-	8700 2850 8750 2850
-Connection ~ 8700 2950
-Wire Wire Line
-	8700 2950 8750 2950
 $Comp
 L power:GND #PWR013
 U 1 1 5BDB0089
@@ -1227,7 +1195,7 @@ $EndBitmap
 Text Notes 3600 2550 0    50   ~ 0
 10V Output\napprox. 4.2 Sec delay
 $Comp
-L Formula:C_22uF C2
+L formula:C_22uF C2
 U 1 1 5BF6B01C
 P 3000 2700
 F 0 "C2" H 3115 2746 50  0000 L CNN
@@ -1320,7 +1288,7 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    0    0    -1  
 $EndComp
 $Comp
-L Formula:R_300K R13
+L formula:R_300K R13
 U 1 1 5C0F2D12
 P 2800 6000
 F 0 "R13" H 2870 6046 50  0000 L CNN
@@ -1350,4 +1318,26 @@ $EndComp
 Connection ~ 2800 6150
 Wire Wire Line
 	3450 4650 3450 6150
+$Comp
+L formula:UF_2_VT J2
+U 1 1 5C6073B8
+P 8700 2950
+F 0 "J2" H 8756 3247 60  0000 C CNN
+F 1 "UF_2_VT" H 8756 3141 60  0000 C CNN
+F 2 "footprints:Ultrafit_2" H 8600 3000 60  0001 C CNN
+F 3 "" H 8700 3100 60  0001 C CNN
+F 4 "DK" H 8900 3300 60  0001 C CNN "MFN"
+F 5 "WM11570-ND" H 9000 3400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 8800 3200 60  0001 C CNN "PurchasingLink"
+	1    8700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3200 8950 3000
+Wire Wire Line
+	8150 3200 8950 3200
+Wire Wire Line
+	8950 2600 8950 2900
+Wire Wire Line
+	8150 2600 8950 2600
 $EndSCHEMATC
