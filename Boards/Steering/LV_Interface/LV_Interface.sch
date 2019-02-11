@@ -477,52 +477,52 @@ Wire Wire Line
 $Comp
 L formula:Fuse_Holder_Blade U2
 U 1 1 5C5C087D
-P 6060 3150
-F 0 "U2" H 6060 3375 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 6060 3284 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 6060 3150 50  0001 C CNN
-F 3 "" H 6060 3150 50  0001 C CNN
-	1    6060 3150
+P 6290 3170
+F 0 "U2" H 6290 3270 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" H 6290 3080 50  0000 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 6290 3170 50  0001 C CNN
+F 3 "" H 6290 3170 50  0001 C CNN
+	1    6290 3170
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Fuse_Holder_Blade U3
 U 1 1 5C5C0ADD
-P 6303 3448
-F 0 "U3" H 6303 3673 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 6303 3582 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 6303 3448 50  0001 C CNN
-F 3 "" H 6303 3448 50  0001 C CNN
-	1    6303 3448
+P 6303 3658
+F 0 "U3" H 6303 3883 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" H 6303 3792 50  0000 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 6303 3658 50  0001 C CNN
+F 3 "" H 6303 3658 50  0001 C CNN
+	1    6303 3658
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Fuse_Holder_Blade U4
 U 1 1 5C5C0B9D
-P 6299 3798
-F 0 "U4" H 6299 4023 50  0000 C CNN
-F 1 "Fuse_Holder_Blade" H 6299 3932 50  0000 C CNN
-F 2 "footprints:Fuse_Block_Holder" H 6299 3798 50  0001 C CNN
-F 3 "" H 6299 3798 50  0001 C CNN
-	1    6299 3798
+P 6299 3968
+F 0 "U4" H 6299 4193 50  0000 C CNN
+F 1 "Fuse_Holder_Blade" H 6299 4102 50  0000 C CNN
+F 2 "footprints:Fuse_Block_Holder" H 6299 3968 50  0001 C CNN
+F 3 "" H 6299 3968 50  0001 C CNN
+	1    6299 3968
 	1    0    0    -1  
 $EndComp
-Text Label 5810 3150 2    50   ~ 0
+Text Label 6040 3170 2    50   ~ 0
 Bat +
-Text Label 6053 3448 2    50   ~ 0
+Text Label 6053 3658 2    50   ~ 0
 Bat +
-Text Label 6510 2910 0    50   ~ 0
+Text Label 6540 2930 0    50   ~ 0
 Fuse -> Estop
-Text Label 6553 3448 0    50   ~ 0
+Text Label 6553 3658 0    50   ~ 0
 12V
-Text Label 6510 3150 0    50   ~ 0
+Text Label 6540 3170 0    50   ~ 0
 Shutdown Sense GLVMS
-Text Label 6049 3798 2    50   ~ 0
+Text Label 6049 3968 2    50   ~ 0
 Cooling Pump
-Text Label 6549 3798 0    50   ~ 0
+Text Label 6549 3968 0    50   ~ 0
 Cooling Pump Relay
 Wire Wire Line
-	6510 2910 6510 3150
+	6540 2930 6540 3170
 $Comp
 L formula:BSS308PE Q2
 U 1 1 5C5C5E91
@@ -627,8 +627,6 @@ $EndComp
 Connection ~ 5360 5860
 Text Label 5110 5860 2    50   ~ 0
 Shutdown Sense TSMS
-Wire Wire Line
-	6310 3150 6510 3150
 Wire Wire Line
 	5780 6900 5780 6940
 Text Notes 4490 7700 0    100  ~ 0
@@ -873,7 +871,7 @@ U 1 1 5C6395B3
 P 6640 1160
 F 0 "J7" H 6634 1485 50  0000 C CNN
 F 1 "CONN_01x04" H 6634 1394 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 6640 1360 50  0001 C CNN
+F 2 "footprints:Ultrafit_4" H 6640 1360 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 6640 1360 50  0001 C CNN
 F 4 "DK" H 6990 1660 50  0001 C CNN "MFN"
 F 5 "732-5317-ND" H 6890 1560 50  0001 C CNN "MPN"
@@ -911,7 +909,7 @@ Wire Wire Line
 	6840 1160 7170 1160
 Text Notes 5830 1780 0    100  ~ 0
 Data Logger LED I/O\n
-Text Notes 6230 4260 0    100  ~ 0
+Text Notes 6140 4260 0    100  ~ 0
 Fuses\n
 Wire Wire Line
 	6840 1360 6950 1360
@@ -1025,4 +1023,12 @@ Wire Notes Line
 	7500 470  7500 6540
 Wire Notes Line
 	3090 4530 11210 4530
+Text Label 2770 1430 1    50   ~ 0
+Shutdown Sense TSMS
+Wire Wire Line
+	1600 1530 2770 1530
+Wire Wire Line
+	2770 1530 2770 1430
+Wire Wire Line
+	2770 1430 1600 1430
 $EndSCHEMATC
