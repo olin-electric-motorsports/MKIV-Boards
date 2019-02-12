@@ -1827,6 +1827,45 @@ Wire Notes Line
 	9250 3700 9250 2700
 Wire Notes Line
 	9250 2700 10900 2700
+$Comp
+L formula:SSM3K333R Q1
+U 1 1 5A7550D0
+P 5800 3750
+F 0 "Q1" H 6000 3825 50  0000 L CNN
+F 1 "SSM3K333R" H 6000 3750 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 6000 3675 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 6000 3825 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 6100 3925 60  0001 C CNN "Purchase_Link"
+F 5 "SSM3K333RLFCT-ND" H 6200 4025 60  0001 C CNN "MPN"
+F 6 "DK" H 6300 4125 60  0001 C CNN "MFN"
+F 7 "SOT-23-3 Flat Leads" H 6400 4225 60  0001 C CNN "Package"
+F 8 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H -100 550 50  0001 C CNN "PurchasingLink"
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 3550 5900 3450
+$Comp
+L power:GND #PWR016
+U 1 1 5A755CB4
+P 6150 4350
+F 0 "#PWR016" H 6150 4100 50  0001 C CNN
+F 1 "GND" H 6150 4200 50  0000 C CNN
+F 2 "" H 6150 4350 50  0001 C CNN
+F 3 "" H 6150 4350 50  0001 C CNN
+	1    6150 4350
+	1    0    0    -1  
+$EndComp
+Text Label 5900 3450 2    59   ~ 0
+RTD
+Text Label 1800 5950 0    59   ~ 0
+RTD
+Text Notes 5200 4800 0    118  ~ 0
+RTD-Low Drive
+Wire Notes Line
+	6600 3350 6600 4850
+Wire Wire Line
+	6150 4300 5900 4300
 Wire Notes Line
 	10900 550  6100 550 
 $Comp
@@ -1912,6 +1951,23 @@ F 3 "" H 5200 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
+L formula:R_200 R14
+U 1 1 5A799A2F
+P 5400 4000
+F 0 "R14" V 5480 4000 50  0000 C CNN
+F 1 "R_200" V 5300 4000 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5330 4000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5480 4000 50  0001 C CNN
+F 4 "P100KCCT-ND" H 5400 4000 60  0001 C CNN "MPN"
+F 5 "DK" H 5400 4000 60  0001 C CNN "MFN"
+F 6 "Value" H 5400 4000 60  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 5880 4400 60  0001 C CNN "PurchasingLink"
+	1    5400 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3850 5400 3750
+$Comp
 L formula:R_2.2K R17
 U 1 1 5A7B4ECB
 P 5450 2600
@@ -1976,6 +2032,16 @@ Wire Wire Line
 	2500 1450 2500 1550
 Wire Wire Line
 	4900 1400 4900 1500
+Wire Notes Line
+	4450 3350 4450 4850
+Text Label 5350 3750 2    50   ~ 0
+ReadyToDrive_LowDrive
+Wire Notes Line
+	4550 3350 6600 3350
+Wire Notes Line
+	4550 4850 6600 4850
+Text Label 14600 2800 0    50   ~ 0
+ReadyToDrive_LowDrive
 Wire Notes Line
 	4250 3400 4250 6150
 Wire Notes Line
@@ -3264,7 +3330,56 @@ Text Notes 2350 2650 0    50   ~ 0
 Gain: 1.45\n
 Text Notes 4850 2750 0    50   ~ 0
 Gain: 2\n\n
-Text Label 1800 5950 0    50   ~ 0
-GND
-NoConn ~ 14600 2800
+Connection ~ 6150 4300
+Wire Wire Line
+	6150 4300 6150 4350
+Wire Wire Line
+	6150 3950 6150 4150
+$Comp
+L formula:LED_0805 D6
+U 1 1 5BF471DD
+P 5750 4300
+F 0 "D6" H 5750 4500 50  0000 C CNN
+F 1 "LED_0805" H 5750 4400 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 5650 4300 50  0001 C CNN
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5750 4400 50  0001 C CNN
+F 4 "DK" H 5750 4300 60  0001 C CNN "MFN"
+F 5 "475-1410-1-ND" H 5750 4300 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 6150 4800 60  0001 C CNN "PurchasingLink"
+	1    5750 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 4150 5400 4300
+Wire Wire Line
+	6150 3950 5900 3950
+Wire Wire Line
+	5400 3750 5600 3750
+Wire Wire Line
+	5400 3750 5350 3750
+Connection ~ 5400 3750
+$Comp
+L formula:R_100K R18
+U 1 1 5BF97A30
+P 5600 4000
+F 0 "R18" H 5670 4046 50  0000 L CNN
+F 1 "R_100K" H 5670 3955 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 5530 4000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5680 4000 50  0001 C CNN
+F 4 "DK" H 5600 4000 60  0001 C CNN "MFN"
+F 5 "P100KCCT-ND" H 5600 4000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551" H 6080 4400 60  0001 C CNN "PurchasingLink"
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4300 5600 4300
+Wire Wire Line
+	5600 4150 6150 4150
+Connection ~ 6150 4150
+Wire Wire Line
+	6150 4150 6150 4300
+Wire Wire Line
+	5600 3850 5600 3750
+Connection ~ 5600 3750
 $EndSCHEMATC
