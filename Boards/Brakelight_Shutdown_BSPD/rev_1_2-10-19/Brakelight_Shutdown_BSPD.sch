@@ -2314,7 +2314,7 @@ Brake_Pressure+
 Text Label 1150 4670 0    50   ~ 0
 Brakelight_LSD
 Text Label 1150 4570 0    50   ~ 0
-Cooling_Pump_LSD
+Cooling_Pump_LSD_n
 Text Label 1150 4470 0    50   ~ 0
 RESET
 Text Label 1150 4370 0    50   ~ 0
@@ -2456,8 +2456,8 @@ $Comp
 L formula:R_200 R42
 U 1 1 5C6A40BE
 P 4450 7250
-F 0 "R42" V 4280 7250 50  0000 C CNN
-F 1 "R_200" V 4380 7250 50  0000 C BNN
+F 0 "R42" V 4243 7250 50  0000 C CNN
+F 1 "R_200" V 4334 7250 50  0000 C BNN
 F 2 "footprints:R_0805_OEM" H 4380 7250 50  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4530 7250 50  0001 C CNN
 F 4 "DK" H 4450 7250 60  0001 C CNN "MFN"
@@ -2554,8 +2554,8 @@ F 3 "" H 2090 3590 50  0001 C CNN
 	1    2090 3590
 	1    0    0    -1  
 $EndComp
-Text Label 4720 7750 0    50   ~ 0
-Cooling_Pump_LSD
+Text Label 4550 7650 0    50   ~ 0
+Cooling_Pump_LSD_n
 Text Label 3450 8350 0    50   ~ 0
 Brake_Pressure_Sense
 Wire Notes Line
@@ -2568,6 +2568,10 @@ Wire Notes Line
 	15700 5860 15700 7600
 Wire Notes Line
 	11100 5860 11100 7600
+Wire Wire Line
+	3450 7750 4070 7750
+Wire Wire Line
+	4070 7750 4070 7650
 Text Label 3450 8250 0    50   ~ 0
 Brake_Pressure-
 Wire Wire Line
@@ -2808,59 +2812,17 @@ Cooling_Pressure_Sense
 Text Label 1150 2480 0    50   ~ 0
 BSPD_Current_Sense
 Wire Wire Line
+	4070 7650 4550 7650
+Wire Wire Line
 	12850 1590 13190 1590
 Connection ~ 13190 1590
 Text Label 3450 8150 0    50   ~ 0
 BSPD_Relay_Sense
+Wire Notes Line
+	13170 3250 13170 4820
+Wire Notes Line
+	13170 4820 16520 4820
+Wire Notes Line
+	10050 3250 13170 3250
 NoConn ~ 3450 9150
-Wire Notes Line
-	14120 3250 14120 4810
-Wire Notes Line
-	14120 4810 16520 4810
-Wire Notes Line
-	10050 3250 14120 3250
-$Comp
-L formula:LED_0805 D11
-U 1 1 5C645B51
-P 4570 8200
-F 0 "D11" V 4608 8083 50  0000 R CNN
-F 1 "LED_0805" V 4530 8110 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 4470 8200 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 4570 8300 50  0001 C CNN
-F 4 "DK" H 4570 8200 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 4570 8200 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4970 8700 60  0001 C CNN "PurchasingLink"
-	1    4570 8200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R36
-U 1 1 5C6DDBDA
-P 4570 7900
-F 0 "R36" H 4640 7946 50  0000 L CNN
-F 1 "R_1K-formula" H 4640 7855 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 4500 7900 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4650 7900 50  0001 C CNN
-F 4 "DK" H 4570 7900 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 4570 7900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5050 8300 60  0001 C CNN "PurchasingLink"
-	1    4570 7900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 7750 4570 7750
-Wire Wire Line
-	4570 7750 4720 7750
-Connection ~ 4570 7750
-$Comp
-L power:GND #PWR041
-U 1 1 5C703C76
-P 4570 8350
-F 0 "#PWR041" H 4570 8100 50  0001 C CNN
-F 1 "GND" H 4575 8177 50  0000 C CNN
-F 2 "" H 4570 8350 50  0001 C CNN
-F 3 "" H 4570 8350 50  0001 C CNN
-	1    4570 8350
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
