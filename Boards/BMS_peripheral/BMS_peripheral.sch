@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BMS_peripheral-rescue:LTC6811-1-formula U1
+L formula:LTC6811-1 U1
 U 1 1 5BCFBB32
 P 7100 5350
 F 0 "U1" H 7050 6675 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:24AA01-formula U2
+L formula:24AA01 U2
 U 1 1 5BCFC832
 P 7600 8550
 F 0 "U2" H 7575 8235 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" H 7600 8550 50 
 	-1   0    0    1   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R45
+L formula:R_4.99K R45
 U 1 1 5BCFCA06
 P 8150 8150
 F 0 "R45" V 8050 8100 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KL
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R47
+L formula:R_4.99K R47
 U 1 1 5BCFCB2A
 P 8500 8150
 F 0 "R47" V 8600 8200 50  0000 R CNN
@@ -94,7 +94,7 @@ Connection ~ 8150 8400
 Wire Wire Line
 	8150 8400 8150 8300
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR04
+L power:GND #PWR04
 U 1 1 5BCFD2C0
 P 8100 8750
 F 0 "#PWR04" H 8100 8500 50  0001 C CNN
@@ -109,7 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 8550 8100 8750
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR01
+L power:GND #PWR01
 U 1 1 5BCFD4B3
 P 7100 8750
 F 0 "#PWR01" H 7100 8500 50  0001 C CNN
@@ -138,7 +138,7 @@ Wire Notes Line
 Text Notes 6850 9150 0    50   ~ 10
 I2C Memory
 $Comp
-L BMS_peripheral-rescue:LTC1380-formula U5
+L formula:LTC1380 U5
 U 1 1 5BCFF797
 P 13000 4350
 F 0 "U5" H 12975 4925 50  0000 C CNN
@@ -157,7 +157,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 4100 13500 4100
 $Comp
-L BMS_peripheral-rescue:C_1uF-formula C21
+L formula:C_1uF C21
 U 1 1 5BCFFF3C
 P 13800 4150
 F 0 "C21" H 13915 4196 50  0000 L CNN
@@ -180,7 +180,7 @@ Wire Wire Line
 	13400 4000 13800 4000
 Connection ~ 13800 4000
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR06
+L power:GND #PWR06
 U 1 1 5BD00B38
 P 13800 4800
 F 0 "#PWR06" H 13800 4550 50  0001 C CNN
@@ -324,7 +324,7 @@ Connection ~ 11000 3500
 Text Label 11000 3400 0    50   ~ 0
 VREF2
 $Comp
-L BMS_peripheral-rescue:LTC1380-formula U6
+L formula:LTC1380 U6
 U 1 1 5BD1F879
 P 13000 5900
 F 0 "U6" H 12975 6475 50  0000 C CNN
@@ -343,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 5650 13500 5650
 $Comp
-L BMS_peripheral-rescue:C_1uF-formula C22
+L formula:C_1uF C22
 U 1 1 5BD1F887
 P 13800 5700
 F 0 "C22" H 13915 5746 50  0000 L CNN
@@ -364,7 +364,7 @@ Wire Wire Line
 	13400 5550 13700 5550
 Connection ~ 13800 5550
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR07
+L power:GND #PWR07
 U 1 1 5BD1F893
 P 13800 6350
 F 0 "#PWR07" H 13800 6100 50  0001 C CNN
@@ -501,7 +501,7 @@ Connection ~ 11000 5050
 Text Label 11000 4950 0    50   ~ 0
 VREF2
 $Comp
-L BMS_peripheral-rescue:LTC1380-formula U7
+L formula:LTC1380 U7
 U 1 1 5BD24C10
 P 13000 7350
 F 0 "U7" H 12975 7925 50  0000 C CNN
@@ -520,7 +520,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 7100 13500 7100
 $Comp
-L BMS_peripheral-rescue:C_1uF-formula C23
+L formula:C_1uF C23
 U 1 1 5BD24C1E
 P 13800 7150
 F 0 "C23" H 13915 7196 50  0000 L CNN
@@ -543,7 +543,7 @@ Wire Wire Line
 	13400 7000 13700 7000
 Connection ~ 13800 7000
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR08
+L power:GND #PWR08
 U 1 1 5BD24C2A
 P 13800 7800
 F 0 "#PWR08" H 13800 7550 50  0001 C CNN
@@ -674,7 +674,7 @@ Wire Wire Line
 	14250 7700 14250 6450
 Connection ~ 14250 6250
 $Comp
-L BMS_peripheral-rescue:MCP6001-formula U8
+L formula:MCP6001 U8
 U 1 1 5BD4A0BF
 P 14800 6550
 F 0 "U8" H 14800 6750 50  0000 L CNN
@@ -704,7 +704,7 @@ VREG
 Wire Wire Line
 	14700 6850 14700 6900
 $Comp
-L BMS_peripheral-rescue:R_100-formula R82
+L formula:R_100 R82
 U 1 1 5BD83964
 P 15400 6550
 F 0 "R82" V 15193 6550 50  0000 C CNN
@@ -721,7 +721,7 @@ Connection ~ 15200 6550
 Wire Wire Line
 	15200 6550 15250 6550
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C24
+L formula:C_10nF C24
 U 1 1 5BD9731D
 P 15600 6750
 F 0 "C24" H 15715 6796 50  0000 L CNN
@@ -790,7 +790,7 @@ Wire Wire Line
 NoConn ~ 6600 4450
 NoConn ~ 6600 5650
 $Comp
-L BMS_peripheral-rescue:C_1uF-formula C14
+L formula:C_1uF C14
 U 1 1 5BF0CED4
 P 8350 5900
 F 0 "C14" H 8400 6000 50  0000 L CNN
@@ -804,7 +804,7 @@ F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A10
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR03
+L power:GND #PWR03
 U 1 1 5BF3ED4F
 P 8350 6100
 F 0 "#PWR03" H 8350 5850 50  0001 C CNN
@@ -820,7 +820,7 @@ Connection ~ 8350 6050
 Wire Wire Line
 	7500 6050 7700 6050
 $Comp
-L BMS_peripheral-rescue:C_1uF-formula C13
+L formula:C_1uF C13
 U 1 1 5BF4FDEE
 P 8100 5900
 F 0 "C13" H 8150 6000 50  0000 L CNN
@@ -837,7 +837,7 @@ Connection ~ 8100 6050
 Wire Wire Line
 	8100 6050 8350 6050
 $Comp
-L BMS_peripheral-rescue:C_1uF-formula C12
+L formula:C_1uF C12
 U 1 1 5BF4FE6E
 P 7850 5900
 F 0 "C12" H 7900 6000 50  0000 L CNN
@@ -865,7 +865,7 @@ Connection ~ 8350 5500
 Wire Wire Line
 	8350 5500 8350 5750
 $Comp
-L BMS_peripheral-rescue:NSS1C201MZ4-formula Q11
+L formula:NSS1C201MZ4 Q11
 U 1 1 5BF84AA4
 P 8250 5250
 F 0 "Q11" H 8441 5296 50  0000 L CNN
@@ -878,7 +878,7 @@ $EndComp
 Wire Wire Line
 	7500 5550 8100 5550
 $Comp
-L BMS_peripheral-rescue:MCP6001-formula U3
+L formula:MCP6001 U3
 U 1 1 5BFA9993
 P 9050 6250
 F 0 "U3" H 9050 6400 50  0000 L CNN
@@ -952,7 +952,7 @@ NoConn ~ 7500 5150
 NoConn ~ 7500 4650
 NoConn ~ 7500 4750
 $Comp
-L BMS_peripheral-rescue:R_1K-formula R43
+L formula:R_1K R43
 U 1 1 5C1228F0
 P 7700 4450
 F 0 "R43" V 7800 4450 50  0000 C CNN
@@ -966,7 +966,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 8180 4
 	0    1    1    0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_1K-formula R44
+L formula:R_1K R44
 U 1 1 5C1229EE
 P 8100 4450
 F 0 "R44" V 8000 4450 50  0000 C CNN
@@ -987,7 +987,7 @@ Connection ~ 7900 4450
 Wire Wire Line
 	7900 4450 7950 4450
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR02
+L power:GND #PWR02
 U 1 1 5C1D54DA
 P 8350 4450
 F 0 "#PWR02" H 8350 4200 50  0001 C CNN
@@ -1008,7 +1008,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 4450 7900 4600
 $Comp
-L BMS_peripheral-rescue:R_100-formula R46
+L formula:R_100 R46
 U 1 1 5C24C55E
 P 8900 4500
 F 0 "R46" H 8970 4546 50  0000 L CNN
@@ -1022,7 +1022,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 9380 4
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:C_0.1uF-formula C15
+L formula:C_0.1uF C15
 U 1 1 5C2AB15F
 P 8900 4900
 F 0 "C15" H 9015 4946 50  0000 L CNN
@@ -1042,7 +1042,7 @@ VREG
 Text Label 9450 6250 0    50   ~ 0
 VREF2
 $Comp
-L BMS_peripheral-rescue:R_100-formula R42
+L formula:R_100 R42
 U 1 1 5C41EE32
 P 6100 3750
 F 0 "R42" H 6170 3796 50  0000 L CNN
@@ -1056,7 +1056,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 6580 4
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:C_0.1uF-formula C11
+L formula:C_0.1uF C11
 U 1 1 5C4514F6
 P 6100 4150
 F 0 "C11" H 5950 4250 50  0000 L CNN
@@ -1074,7 +1074,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 4300 6100 4350
 $Comp
-L BMS_peripheral-rescue:R_60.4-formula R61
+L formula:R_60.4 R61
 U 1 1 5C62706B
 P 11600 1350
 F 0 "R61" H 11500 1350 50  0000 C CNN
@@ -1085,7 +1085,7 @@ F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_60.4-formula R62
+L formula:R_60.4 R62
 U 1 1 5C6A9F92
 P 11600 1750
 F 0 "R62" H 11500 1750 50  0000 C CNN
@@ -1104,7 +1104,7 @@ Wire Wire Line
 Wire Wire Line
 	11600 1500 11600 1550
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C18
+L formula:C_10nF C18
 U 1 1 5C6FB0D2
 P 12300 1600
 F 0 "C18" H 12200 1700 50  0000 C CNN
@@ -1117,7 +1117,7 @@ $EndComp
 Wire Wire Line
 	12550 1800 12050 1800
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C16
+L formula:C_10nF C16
 U 1 1 5C7320F9
 P 11200 1700
 F 0 "C16" H 11100 1800 50  0000 C CNN
@@ -1139,7 +1139,7 @@ Wire Wire Line
 Wire Wire Line
 	12300 1750 12300 1850
 $Comp
-L BMS_peripheral-rescue:R_60.4-formula R63
+L formula:R_60.4 R63
 U 1 1 5C7FB50F
 P 11600 2250
 F 0 "R63" H 11500 2250 50  0000 C CNN
@@ -1150,7 +1150,7 @@ F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_60.4-formula R64
+L formula:R_60.4 R64
 U 1 1 5C7FB516
 P 11600 2700
 F 0 "R64" H 11500 2700 50  0000 C CNN
@@ -1163,7 +1163,7 @@ $EndComp
 Wire Wire Line
 	11600 2400 11600 2500
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C19
+L formula:C_10nF C19
 U 1 1 5C7FB521
 P 12300 2400
 F 0 "C19" H 12200 2500 50  0000 C CNN
@@ -1174,7 +1174,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 12200
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C17
+L formula:C_10nF C17
 U 1 1 5C7FB52B
 P 11200 2700
 F 0 "C17" H 11100 2800 50  0000 C CNN
@@ -1254,7 +1254,7 @@ IPA
 Text Label 10750 1600 0    50   ~ 0
 IMA
 $Comp
-L BMS_peripheral-rescue:NanoFit_2-formula J1
+L formula:NanoFit_2 J1
 U 1 1 5CCB2A9E
 P 14050 1350
 F 0 "J1" H 14400 1300 60  0000 C CNN
@@ -1268,7 +1268,7 @@ F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-co
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:NanoFit_2-formula J2
+L formula:NanoFit_2 J2
 U 1 1 5CCB2B75
 P 14050 2050
 F 0 "J2" H 14400 2000 60  0000 C CNN
@@ -1370,7 +1370,7 @@ Text Label 6350 4850 0    50   ~ 0
 Text Label 6350 4650 0    50   ~ 0
 ~DIS~10
 $Comp
-L BMS_peripheral-rescue:R_100-formula R31
+L formula:R_100 R31
 U 1 1 5E14038F
 P 3650 1500
 F 0 "R31" V 3730 1500 50  0000 C CNN
@@ -1384,7 +1384,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 1
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R21
+L formula:R_4.99K R21
 U 1 1 5E1403A0
 P 3300 1950
 F 0 "R21" V 3200 1950 50  0000 C CNN
@@ -1402,7 +1402,7 @@ Wire Wire Line
 	3250 1500 3500 1500
 Connection ~ 3250 1500
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C1
+L formula:C_10nF C1
 U 1 1 5E1403AC
 P 4050 1750
 F 0 "C1" H 3950 1850 50  0000 C CNN
@@ -1413,7 +1413,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R11
+L formula:PWR163S-25-27R0F R11
 U 1 1 5E1403B4
 P 2600 1900
 F 0 "R11" V 2750 2000 50  0000 C CNN
@@ -1429,7 +1429,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 2200 2600 2250
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D1
+L formula:LED_0805 D1
 U 1 1 5E1403C1
 P 2300 1750
 F 0 "D1" V 2300 1850 50  0000 C CNN
@@ -1446,7 +1446,7 @@ Wire Wire Line
 	2300 1600 2600 1600
 Connection ~ 2600 1600
 $Comp
-L BMS_peripheral-rescue:R_475-formula R1
+L formula:R_475 R1
 U 1 1 5E1403CD
 P 2300 2100
 F 0 "R1" V 2380 2100 50  0000 C CNN
@@ -1472,7 +1472,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2100 3950 2100
 $Comp
-L BMS_peripheral-rescue:R_100-formula R32
+L formula:R_100 R32
 U 1 1 5E172B25
 P 3650 2350
 F 0 "R32" V 3730 2350 50  0000 C CNN
@@ -1486,7 +1486,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R22
+L formula:R_4.99K R22
 U 1 1 5E172B36
 P 3300 2800
 F 0 "R22" V 3200 2800 50  0000 C CNN
@@ -1504,7 +1504,7 @@ Wire Wire Line
 	3250 2350 3500 2350
 Connection ~ 3250 2350
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C2
+L formula:C_10nF C2
 U 1 1 5E172B42
 P 4050 2600
 F 0 "C2" H 3950 2700 50  0000 C CNN
@@ -1515,7 +1515,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R12
+L formula:PWR163S-25-27R0F R12
 U 1 1 5E172B4A
 P 2600 2750
 F 0 "R12" V 2750 2850 50  0000 C CNN
@@ -1531,7 +1531,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3050 2600 3100
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D2
+L formula:LED_0805 D2
 U 1 1 5E172B57
 P 2300 2600
 F 0 "D2" V 2300 2700 50  0000 C CNN
@@ -1548,7 +1548,7 @@ Wire Wire Line
 	2300 2450 2600 2450
 Connection ~ 2600 2450
 $Comp
-L BMS_peripheral-rescue:R_475-formula R2
+L formula:R_475 R2
 U 1 1 5E172B63
 P 2300 2950
 F 0 "R2" V 2380 2950 50  0000 C CNN
@@ -1578,7 +1578,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 2350 3950 2350
 $Comp
-L BMS_peripheral-rescue:R_100-formula R33
+L formula:R_100 R33
 U 1 1 5E1AADB4
 P 3650 3200
 F 0 "R33" V 3730 3200 50  0000 C CNN
@@ -1592,7 +1592,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 3
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R23
+L formula:R_4.99K R23
 U 1 1 5E1AADC5
 P 3300 3650
 F 0 "R23" V 3200 3650 50  0000 C CNN
@@ -1610,7 +1610,7 @@ Wire Wire Line
 	3250 3200 3500 3200
 Connection ~ 3250 3200
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C3
+L formula:C_10nF C3
 U 1 1 5E1AADD1
 P 4050 3450
 F 0 "C3" H 3950 3550 50  0000 C CNN
@@ -1621,7 +1621,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R13
+L formula:PWR163S-25-27R0F R13
 U 1 1 5E1AADD9
 P 2600 3600
 F 0 "R13" V 2750 3700 50  0000 C CNN
@@ -1637,7 +1637,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3900 2600 3950
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D3
+L formula:LED_0805 D3
 U 1 1 5E1AADE6
 P 2300 3450
 F 0 "D3" V 2300 3550 50  0000 C CNN
@@ -1654,7 +1654,7 @@ Wire Wire Line
 	2300 3300 2600 3300
 Connection ~ 2600 3300
 $Comp
-L BMS_peripheral-rescue:R_475-formula R3
+L formula:R_475 R3
 U 1 1 5E1AADF2
 P 2300 3800
 F 0 "R3" V 2380 3800 50  0000 C CNN
@@ -1687,7 +1687,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3200 3950 3200
 $Comp
-L BMS_peripheral-rescue:R_100-formula R34
+L formula:R_100 R34
 U 1 1 5E1E8BC0
 P 3650 4050
 F 0 "R34" V 3730 4050 50  0000 C CNN
@@ -1701,7 +1701,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 4
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R24
+L formula:R_4.99K R24
 U 1 1 5E1E8BD1
 P 3300 4500
 F 0 "R24" V 3200 4500 50  0000 C CNN
@@ -1719,7 +1719,7 @@ Wire Wire Line
 	3250 4050 3500 4050
 Connection ~ 3250 4050
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C4
+L formula:C_10nF C4
 U 1 1 5E1E8BDD
 P 4050 4300
 F 0 "C4" H 3950 4400 50  0000 C CNN
@@ -1730,7 +1730,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R14
+L formula:PWR163S-25-27R0F R14
 U 1 1 5E1E8BE5
 P 2600 4450
 F 0 "R14" V 2750 4550 50  0000 C CNN
@@ -1746,7 +1746,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 4750 2600 4800
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D4
+L formula:LED_0805 D4
 U 1 1 5E1E8BF2
 P 2300 4300
 F 0 "D4" V 2300 4400 50  0000 C CNN
@@ -1763,7 +1763,7 @@ Wire Wire Line
 	2300 4150 2600 4150
 Connection ~ 2600 4150
 $Comp
-L BMS_peripheral-rescue:R_475-formula R4
+L formula:R_475 R4
 U 1 1 5E1E8BFE
 P 2300 4650
 F 0 "R4" V 2380 4650 50  0000 C CNN
@@ -1793,7 +1793,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4050 3950 4050
 $Comp
-L BMS_peripheral-rescue:R_100-formula R35
+L formula:R_100 R35
 U 1 1 5E22CA6F
 P 3650 4900
 F 0 "R35" V 3730 4900 50  0000 C CNN
@@ -1807,7 +1807,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 5
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R25
+L formula:R_4.99K R25
 U 1 1 5E22CA80
 P 3300 5350
 F 0 "R25" V 3200 5350 50  0000 C CNN
@@ -1825,7 +1825,7 @@ Wire Wire Line
 	3250 4900 3500 4900
 Connection ~ 3250 4900
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C5
+L formula:C_10nF C5
 U 1 1 5E22CA8C
 P 4050 5150
 F 0 "C5" H 3950 5250 50  0000 C CNN
@@ -1836,7 +1836,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R15
+L formula:PWR163S-25-27R0F R15
 U 1 1 5E22CA94
 P 2600 5300
 F 0 "R15" V 2750 5400 50  0000 C CNN
@@ -1852,7 +1852,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 5600 2600 5650
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D5
+L formula:LED_0805 D5
 U 1 1 5E22CAA1
 P 2300 5150
 F 0 "D5" V 2300 5250 50  0000 C CNN
@@ -1869,7 +1869,7 @@ Wire Wire Line
 	2300 5000 2600 5000
 Connection ~ 2600 5000
 $Comp
-L BMS_peripheral-rescue:R_475-formula R5
+L formula:R_475 R5
 U 1 1 5E22CAAD
 P 2300 5500
 F 0 "R5" V 2380 5500 50  0000 C CNN
@@ -1899,7 +1899,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 4900 3950 4900
 $Comp
-L BMS_peripheral-rescue:R_100-formula R36
+L formula:R_100 R36
 U 1 1 5E276AA1
 P 3650 5750
 F 0 "R36" V 3730 5750 50  0000 C CNN
@@ -1913,7 +1913,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 6
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R26
+L formula:R_4.99K R26
 U 1 1 5E276AB2
 P 3300 6200
 F 0 "R26" V 3200 6200 50  0000 C CNN
@@ -1931,7 +1931,7 @@ Wire Wire Line
 	3250 5750 3500 5750
 Connection ~ 3250 5750
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C6
+L formula:C_10nF C6
 U 1 1 5E276ABE
 P 4050 6000
 F 0 "C6" H 3950 6100 50  0000 C CNN
@@ -1942,7 +1942,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R16
+L formula:PWR163S-25-27R0F R16
 U 1 1 5E276AC6
 P 2600 6150
 F 0 "R16" V 2750 6250 50  0000 C CNN
@@ -1958,7 +1958,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 6450 2600 6500
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D6
+L formula:LED_0805 D6
 U 1 1 5E276AD3
 P 2300 6000
 F 0 "D6" V 2300 6100 50  0000 C CNN
@@ -1975,7 +1975,7 @@ Wire Wire Line
 	2300 5850 2600 5850
 Connection ~ 2600 5850
 $Comp
-L BMS_peripheral-rescue:R_475-formula R6
+L formula:R_475 R6
 U 1 1 5E276ADF
 P 2300 6350
 F 0 "R6" V 2380 6350 50  0000 C CNN
@@ -2005,7 +2005,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 5750 3950 5750
 $Comp
-L BMS_peripheral-rescue:R_100-formula R37
+L formula:R_100 R37
 U 1 1 5E2C73B8
 P 3650 6600
 F 0 "R37" V 3730 6600 50  0000 C CNN
@@ -2019,7 +2019,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 7
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R27
+L formula:R_4.99K R27
 U 1 1 5E2C73C9
 P 3300 7050
 F 0 "R27" V 3200 7050 50  0000 C CNN
@@ -2037,7 +2037,7 @@ Wire Wire Line
 	3250 6600 3500 6600
 Connection ~ 3250 6600
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C7
+L formula:C_10nF C7
 U 1 1 5E2C73D5
 P 4050 6850
 F 0 "C7" H 3950 6950 50  0000 C CNN
@@ -2048,7 +2048,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R17
+L formula:PWR163S-25-27R0F R17
 U 1 1 5E2C73DD
 P 2600 7000
 F 0 "R17" V 2750 7100 50  0000 C CNN
@@ -2064,7 +2064,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 7300 2600 7350
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D7
+L formula:LED_0805 D7
 U 1 1 5E2C73EA
 P 2300 6850
 F 0 "D7" V 2300 6950 50  0000 C CNN
@@ -2081,7 +2081,7 @@ Wire Wire Line
 	2300 6700 2600 6700
 Connection ~ 2600 6700
 $Comp
-L BMS_peripheral-rescue:R_475-formula R7
+L formula:R_475 R7
 U 1 1 5E2C73F6
 P 2300 7200
 F 0 "R7" V 2380 7200 50  0000 C CNN
@@ -2111,7 +2111,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 6600 3950 6600
 $Comp
-L BMS_peripheral-rescue:R_100-formula R38
+L formula:R_100 R38
 U 1 1 5E31E320
 P 3650 7450
 F 0 "R38" V 3730 7450 50  0000 C CNN
@@ -2125,7 +2125,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 7
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R28
+L formula:R_4.99K R28
 U 1 1 5E31E331
 P 3300 7900
 F 0 "R28" V 3200 7900 50  0000 C CNN
@@ -2143,7 +2143,7 @@ Wire Wire Line
 	3250 7450 3500 7450
 Connection ~ 3250 7450
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C8
+L formula:C_10nF C8
 U 1 1 5E31E33D
 P 4050 7700
 F 0 "C8" H 3950 7800 50  0000 C CNN
@@ -2154,7 +2154,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R18
+L formula:PWR163S-25-27R0F R18
 U 1 1 5E31E345
 P 2600 7850
 F 0 "R18" V 2750 7950 50  0000 C CNN
@@ -2170,7 +2170,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 8150 2600 8200
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D8
+L formula:LED_0805 D8
 U 1 1 5E31E352
 P 2300 7700
 F 0 "D8" V 2300 7800 50  0000 C CNN
@@ -2187,7 +2187,7 @@ Wire Wire Line
 	2300 7550 2600 7550
 Connection ~ 2600 7550
 $Comp
-L BMS_peripheral-rescue:R_475-formula R8
+L formula:R_475 R8
 U 1 1 5E31E35E
 P 2300 8050
 F 0 "R8" V 2380 8050 50  0000 C CNN
@@ -2217,7 +2217,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 7450 3950 7450
 $Comp
-L BMS_peripheral-rescue:R_100-formula R39
+L formula:R_100 R39
 U 1 1 5E37BDFB
 P 3650 8300
 F 0 "R39" V 3730 8300 50  0000 C CNN
@@ -2231,7 +2231,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 8
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R29
+L formula:R_4.99K R29
 U 1 1 5E37BE0C
 P 3300 8750
 F 0 "R29" V 3200 8750 50  0000 C CNN
@@ -2249,7 +2249,7 @@ Wire Wire Line
 	3250 8300 3500 8300
 Connection ~ 3250 8300
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C9
+L formula:C_10nF C9
 U 1 1 5E37BE18
 P 4050 8550
 F 0 "C9" H 3950 8650 50  0000 C CNN
@@ -2260,7 +2260,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R19
+L formula:PWR163S-25-27R0F R19
 U 1 1 5E37BE20
 P 2600 8700
 F 0 "R19" V 2750 8800 50  0000 C CNN
@@ -2276,7 +2276,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 9000 2600 9050
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D9
+L formula:LED_0805 D9
 U 1 1 5E37BE2D
 P 2300 8550
 F 0 "D9" V 2300 8650 50  0000 C CNN
@@ -2293,7 +2293,7 @@ Wire Wire Line
 	2300 8400 2600 8400
 Connection ~ 2600 8400
 $Comp
-L BMS_peripheral-rescue:R_475-formula R9
+L formula:R_475 R9
 U 1 1 5E37BE39
 P 2300 8900
 F 0 "R9" V 2380 8900 50  0000 C CNN
@@ -2323,7 +2323,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 8300 3950 8300
 $Comp
-L BMS_peripheral-rescue:R_100-formula R40
+L formula:R_100 R40
 U 1 1 5E44C2C5
 P 3650 9150
 F 0 "R40" V 3730 9150 50  0000 C CNN
@@ -2337,7 +2337,7 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND" H 4130 9
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_4.99K-formula R30
+L formula:R_4.99K R30
 U 1 1 5E44C2D6
 P 3300 9600
 F 0 "R30" V 3200 9600 50  0000 C CNN
@@ -2355,7 +2355,7 @@ Wire Wire Line
 	3250 9150 3500 9150
 Connection ~ 3250 9150
 $Comp
-L BMS_peripheral-rescue:C_10nF-formula C10
+L formula:C_10nF C10
 U 1 1 5E44C2E2
 P 4050 9400
 F 0 "C10" H 3950 9500 50  0000 C CNN
@@ -2366,7 +2366,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:PWR163S-25-27R0F-formula R20
+L formula:PWR163S-25-27R0F R20
 U 1 1 5E44C2EA
 P 2600 9550
 F 0 "R20" V 2750 9650 50  0000 C CNN
@@ -2382,7 +2382,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 9850 2600 9900
 $Comp
-L BMS_peripheral-rescue:LED_0805-formula D10
+L formula:LED_0805 D10
 U 1 1 5E44C2F7
 P 2300 9400
 F 0 "D10" V 2300 9500 50  0000 C CNN
@@ -2399,7 +2399,7 @@ Wire Wire Line
 	2300 9250 2600 9250
 Connection ~ 2600 9250
 $Comp
-L BMS_peripheral-rescue:R_475-formula R10
+L formula:R_475 R10
 U 1 1 5E44C303
 P 2300 9750
 F 0 "R10" V 2380 9750 50  0000 C CNN
@@ -2521,7 +2521,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 9900 2600 10000
 $Comp
-L BMS_peripheral-rescue:R_100-formula R41
+L formula:R_100 R41
 U 1 1 5EDF0A73
 P 3650 10000
 F 0 "R41" V 3730 10000 50  0000 C CNN
@@ -2683,7 +2683,7 @@ Wire Wire Line
 	4050 1500 5400 1500
 Connection ~ 6350 4550
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R49
+L formula:R_100K R49
 U 1 1 5CF5A087
 P 11000 3750
 F 0 "R49" V 11080 3750 50  0000 C CNN
@@ -2697,7 +2697,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R53
+L formula:R_100K R53
 U 1 1 5CF5A9EE
 P 11200 3750
 F 0 "R53" V 11280 3750 50  0000 C CNN
@@ -2711,7 +2711,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R57
+L formula:R_100K R57
 U 1 1 5CF5AAFA
 P 11400 3750
 F 0 "R57" V 11480 3750 50  0000 C CNN
@@ -2725,7 +2725,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R65
+L formula:R_100K R65
 U 1 1 5CF5AC08
 P 11600 3750
 F 0 "R65" V 11680 3750 50  0000 C CNN
@@ -2739,7 +2739,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R69
+L formula:R_100K R69
 U 1 1 5CF5AD18
 P 11800 3750
 F 0 "R69" V 11880 3750 50  0000 C CNN
@@ -2753,7 +2753,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R73
+L formula:R_100K R73
 U 1 1 5CF5AE2A
 P 12000 3750
 F 0 "R73" V 12080 3750 50  0000 C CNN
@@ -2767,7 +2767,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R76
+L formula:R_100K R76
 U 1 1 5CF5AF3E
 P 12200 3750
 F 0 "R76" V 12280 3750 50  0000 C CNN
@@ -2781,7 +2781,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R79
+L formula:R_100K R79
 U 1 1 5CF5B080
 P 12400 3750
 F 0 "R79" V 12480 3750 50  0000 C CNN
@@ -2795,7 +2795,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R50
+L formula:R_100K R50
 U 1 1 5CF5B315
 P 11000 5300
 F 0 "R50" V 11080 5300 50  0000 C CNN
@@ -2809,7 +2809,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R54
+L formula:R_100K R54
 U 1 1 5CF5B31F
 P 11200 5300
 F 0 "R54" V 11280 5300 50  0000 C CNN
@@ -2823,7 +2823,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R58
+L formula:R_100K R58
 U 1 1 5CF5B329
 P 11400 5300
 F 0 "R58" V 11480 5300 50  0000 C CNN
@@ -2837,7 +2837,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R66
+L formula:R_100K R66
 U 1 1 5CF5B333
 P 11600 5300
 F 0 "R66" V 11680 5300 50  0000 C CNN
@@ -2851,7 +2851,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R70
+L formula:R_100K R70
 U 1 1 5CF5B33D
 P 11800 5300
 F 0 "R70" V 11880 5300 50  0000 C CNN
@@ -2865,7 +2865,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R74
+L formula:R_100K R74
 U 1 1 5CF5B347
 P 12000 5300
 F 0 "R74" V 12080 5300 50  0000 C CNN
@@ -2879,7 +2879,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R77
+L formula:R_100K R77
 U 1 1 5CF5B351
 P 12200 5300
 F 0 "R77" V 12280 5300 50  0000 C CNN
@@ -2893,7 +2893,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R80
+L formula:R_100K R80
 U 1 1 5CF5B35B
 P 12400 5300
 F 0 "R80" V 12480 5300 50  0000 C CNN
@@ -2907,7 +2907,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R51
+L formula:R_100K R51
 U 1 1 5CFD091B
 P 11000 6750
 F 0 "R51" V 11080 6750 50  0000 C CNN
@@ -2921,7 +2921,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R55
+L formula:R_100K R55
 U 1 1 5CFD0925
 P 11200 6750
 F 0 "R55" V 11280 6750 50  0000 C CNN
@@ -2935,7 +2935,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R59
+L formula:R_100K R59
 U 1 1 5CFD092F
 P 11400 6750
 F 0 "R59" V 11480 6750 50  0000 C CNN
@@ -2949,7 +2949,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R67
+L formula:R_100K R67
 U 1 1 5CFD0939
 P 11600 6750
 F 0 "R67" V 11680 6750 50  0000 C CNN
@@ -2963,7 +2963,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R71
+L formula:R_100K R71
 U 1 1 5CFD0943
 P 11800 6750
 F 0 "R71" V 11880 6750 50  0000 C CNN
@@ -2977,7 +2977,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R75
+L formula:R_100K R75
 U 1 1 5CFD094D
 P 12000 6750
 F 0 "R75" V 12080 6750 50  0000 C CNN
@@ -2991,7 +2991,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R78
+L formula:R_100K R78
 U 1 1 5CFD0957
 P 12200 6750
 F 0 "R78" V 12280 6750 50  0000 C CNN
@@ -3005,7 +3005,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:R_100K-formula R81
+L formula:R_100K R81
 U 1 1 5CFD0961
 P 12400 6750
 F 0 "R81" V 12480 6750 50  0000 C CNN
@@ -3024,7 +3024,7 @@ Connection ~ 14250 6450
 Wire Wire Line
 	14250 6450 14250 6250
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR09
+L power:GND #PWR09
 U 1 1 5C040302
 P 6100 4350
 F 0 "#PWR09" H 6100 4100 50  0001 C CNN
@@ -3035,7 +3035,7 @@ F 3 "" H 6100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR010
+L power:GND #PWR010
 U 1 1 5C040484
 P 8900 5100
 F 0 "#PWR010" H 8900 4850 50  0001 C CNN
@@ -3046,7 +3046,7 @@ F 3 "" H 8900 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR011
+L power:GND #PWR011
 U 1 1 5C0414FD
 P 8950 6600
 F 0 "#PWR011" H 8950 6350 50  0001 C CNN
@@ -3057,7 +3057,7 @@ F 3 "" H 8950 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR016
+L power:GND #PWR016
 U 1 1 5C041DD9
 P 14700 6900
 F 0 "#PWR016" H 14700 6650 50  0001 C CNN
@@ -3068,7 +3068,7 @@ F 3 "" H 14700 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR017
+L power:GND #PWR017
 U 1 1 5C041FD0
 P 15600 7000
 F 0 "#PWR017" H 15600 6750 50  0001 C CNN
@@ -3079,7 +3079,7 @@ F 3 "" H 15600 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR013
+L power:GND #PWR013
 U 1 1 5C0428BA
 P 11200 2950
 F 0 "#PWR013" H 11200 2700 50  0001 C CNN
@@ -3090,7 +3090,7 @@ F 3 "" H 11200 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR015
+L power:GND #PWR015
 U 1 1 5C042AB1
 P 12300 2650
 F 0 "#PWR015" H 12300 2400 50  0001 C CNN
@@ -3101,7 +3101,7 @@ F 3 "" H 12300 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR014
+L power:GND #PWR014
 U 1 1 5C042CA8
 P 12300 1850
 F 0 "#PWR014" H 12300 1600 50  0001 C CNN
@@ -3112,7 +3112,7 @@ F 3 "" H 12300 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:GND-power #PWR012
+L power:GND #PWR012
 U 1 1 5C042E9F
 P 11200 1950
 F 0 "#PWR012" H 11200 1700 50  0001 C CNN
@@ -3161,7 +3161,7 @@ Wire Notes Line
 Wire Notes Line
 	10200 8100 10200 3250
 $Comp
-L BMS_peripheral-rescue:MM_F_VT_16-formula J3
+L formula:MM_F_VT_16 J3
 U 1 1 5C694FD9
 P 6250 2150
 F 0 "J3" H 6306 3197 60  0000 C CNN
@@ -3259,7 +3259,7 @@ Traces from Structural PCB under Peripheral PCB
 Text Notes 9800 3200 2    50   ~ 0
 Ribbon cable from far side Structural PCB
 $Comp
-L BMS_peripheral-rescue:MM_F_VT_20-formula J4
+L formula:MM_F_VT_20 J4
 U 1 1 5C37400A
 P 8450 2050
 F 0 "J4" H 8406 3397 60  0000 C CNN
@@ -3309,7 +3309,7 @@ NoConn ~ 10300 7400
 Text Label 8600 2650 0    50   ~ 0
 VREG
 $Comp
-L BMS_peripheral-rescue:T_LAN_7490100111A-formula T1
+L formula:T_LAN_7490100111A T1
 U 1 1 5C3D2A9C
 P 14050 2350
 F 0 "T1" H 14925 3547 60  0000 C CNN
@@ -3323,7 +3323,7 @@ F 6 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/7490100111A
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q1
+L formula:BSS308PE Q1
 U 1 1 5C318338
 P 3050 1700
 F 0 "Q1" V 3393 1700 50  0000 C CNN
@@ -3337,7 +3337,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q2
+L formula:BSS308PE Q2
 U 1 1 5C318A70
 P 3050 2550
 F 0 "Q2" V 3393 2550 50  0000 C CNN
@@ -3351,7 +3351,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q3
+L formula:BSS308PE Q3
 U 1 1 5C318B9C
 P 3050 3400
 F 0 "Q3" V 3393 3400 50  0000 C CNN
@@ -3365,7 +3365,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q4
+L formula:BSS308PE Q4
 U 1 1 5C318CCE
 P 3050 4250
 F 0 "Q4" V 3393 4250 50  0000 C CNN
@@ -3379,7 +3379,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q5
+L formula:BSS308PE Q5
 U 1 1 5C319756
 P 3050 5100
 F 0 "Q5" V 3393 5100 50  0000 C CNN
@@ -3393,7 +3393,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q6
+L formula:BSS308PE Q6
 U 1 1 5C319880
 P 3050 5950
 F 0 "Q6" V 3393 5950 50  0000 C CNN
@@ -3407,7 +3407,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q7
+L formula:BSS308PE Q7
 U 1 1 5C3199A4
 P 3050 6800
 F 0 "Q7" V 3393 6800 50  0000 C CNN
@@ -3421,7 +3421,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q8
+L formula:BSS308PE Q8
 U 1 1 5C319AD2
 P 3050 7650
 F 0 "Q8" V 3393 7650 50  0000 C CNN
@@ -3435,7 +3435,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q9
+L formula:BSS308PE Q9
 U 1 1 5C319E9C
 P 3050 8500
 F 0 "Q9" V 3393 8500 50  0000 C CNN
@@ -3449,7 +3449,7 @@ F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transis
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS_peripheral-rescue:BSS308PE-formula Q10
+L formula:BSS308PE Q10
 U 1 1 5C31A15B
 P 3050 9350
 F 0 "Q10" V 3393 9350 50  0000 C CNN
