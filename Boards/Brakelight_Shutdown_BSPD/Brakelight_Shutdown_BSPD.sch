@@ -2365,7 +2365,7 @@ $EndComp
 Text Label 3740 2830 2    50   ~ 0
 Brake_Switch_Pressed
 Text Label 3450 8450 0    50   ~ 0
-Current_Sense
+BSPD_Current_Sense
 Text Label 3740 3230 2    50   ~ 0
 BSPD_Test_Switch
 Wire Wire Line
@@ -2392,8 +2392,6 @@ Text Label 3450 7350 0    50   ~ 0
 SS_E-Stop_Pin
 Text Label 3450 7450 0    50   ~ 0
 SS_TSMS_Pin
-Text Label 3450 9150 0    50   ~ 0
-HVD_Pin
 Text Label 3450 8750 0    50   ~ 0
 Brakelight_Gate
 Wire Wire Line
@@ -2826,4 +2824,5 @@ Wire Notes Line
 	13170 4820 16520 4820
 Wire Notes Line
 	10050 3250 13170 3250
+NoConn ~ 3450 9150
 $EndSCHEMATC
