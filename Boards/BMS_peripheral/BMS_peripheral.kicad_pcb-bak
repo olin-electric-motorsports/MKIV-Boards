@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 8)
     (tracks 1743)
     (zones 0)
     (modules 132)
@@ -5759,9 +5759,6 @@
     )
   )
 
-  (gr_text LTC6811 (at 130.3 35.7 90) (layer F.SilkS) (tstamp 5C3AE25C)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_line (start 207.264 71.116434) (end 207.264 24.438434) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 49.784 71.12) (end 44.704 71.12) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 202.184 24.4475) (end 207.264 24.4475) (angle -90) (layer Edge.Cuts) (width 0.2))
@@ -5780,9 +5777,6 @@
     (arrow1b (pts (xy 183.137548 74.408741) (xy 183.718623 73.279471)))
     (arrow2a (pts (xy 182.883548 20.814741) (xy 182.302473 21.944011)))
     (arrow2b (pts (xy 182.883548 20.814741) (xy 183.475301 21.938453)))
-  )
-  (gr_text "isoSPI \nTransformer" (at 74.041 18.415) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
   (segment (start 114.75 32.95) (end 114.8 32.9) (width 0.25) (layer F.Cu) (net 1))
@@ -7529,7 +7523,7 @@
   (segment (start 53.719 30.98459) (end 53.721 30.98459) (width 0.25) (layer F.Cu) (net 125))
   (segment (start 53.721 30.98459) (end 53.719 27.757998) (width 0.25) (layer F.Cu) (net 125))
 
-  (zone (net 12) (net_name GND) (layer In1.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 12) (net_name GND) (layer In1.Cu) (tstamp 5C623680) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7945,7 +7939,7 @@
       )
     )
   )
-  (zone (net 16) (net_name /VREG) (layer In2.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 16) (net_name /VREG) (layer In2.Cu) (tstamp 5C62367D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
