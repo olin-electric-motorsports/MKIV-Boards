@@ -2364,7 +2364,7 @@ F 3 "" H 4730 3230 50  0001 C CNN
 $EndComp
 Text Label 3740 2830 2    50   ~ 0
 Brake_Switch_Pressed
-Text Label 3450 8450 0    50   ~ 0
+Text Label 3450 8250 0    50   ~ 0
 BSPD_Current_Sense
 Text Label 3740 3230 2    50   ~ 0
 BSPD_Test_Switch
@@ -2568,8 +2568,6 @@ Wire Notes Line
 	15700 5860 15700 7600
 Wire Notes Line
 	11100 5860 11100 7600
-Text Label 3450 8250 0    50   ~ 0
-Brake_Pressure-
 Wire Wire Line
 	1150 4770 2080 4770
 Wire Wire Line
@@ -2585,7 +2583,7 @@ F 3 "" H 2080 4680 50  0001 C CNN
 	1    2080 4680
 	1    0    0    -1  
 $EndComp
-Text Notes 1890 5050 0    39   ~ 0
+Text Notes 2030 4920 0    39   ~ 0
 Brake_Pressure_Sense is an off board component \nthat measures the pressure being applied to the brakes. 
 Text Notes 1810 3750 0    39   ~ 0
 Brake_Switch signals whether brakes are being pressed. 
@@ -2812,7 +2810,6 @@ Wire Wire Line
 Connection ~ 13190 1590
 Text Label 3450 8150 0    50   ~ 0
 BSPD_Relay_Sense
-NoConn ~ 3450 9150
 Wire Notes Line
 	14120 3250 14120 4810
 Wire Notes Line
@@ -2863,4 +2860,21 @@ F 3 "" H 4570 8350 50  0001 C CNN
 	1    4570 8350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3450 9150
+Wire Wire Line
+	1150 4970 2040 4970
+Wire Wire Line
+	2040 4970 2040 5060
+$Comp
+L power:GND #PWR0108
+U 1 1 5C6FC26A
+P 2040 5060
+F 0 "#PWR0108" H 2040 4810 50  0001 C CNN
+F 1 "GND" H 2045 4887 50  0000 C CNN
+F 2 "" H 2040 5060 50  0001 C CNN
+F 3 "" H 2040 5060 50  0001 C CNN
+	1    2040 5060
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3450 8450
 $EndSCHEMATC
