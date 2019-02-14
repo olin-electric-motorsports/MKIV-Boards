@@ -1,4 +1,4 @@
-update=Fri 04 Jan 2019 05:23:29 PM EST
+update=Sun 10 Feb 2019 04:55:06 PM EST
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=dashboard_mk4_6.net
+LastNetListRead=dashboard_mk4.net
 PadDrill=0
 PadDrillOvalY=0
 PadSizeH=3.3
