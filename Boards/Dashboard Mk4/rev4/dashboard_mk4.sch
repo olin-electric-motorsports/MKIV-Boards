@@ -923,13 +923,6 @@ NoConn ~ 8350 1200
 NoConn ~ 8350 2100
 NoConn ~ 8350 2200
 NoConn ~ 8350 2700
-NoConn ~ 7750 2800
-NoConn ~ 7750 2900
-NoConn ~ 7750 3000
-NoConn ~ 7750 3100
-NoConn ~ 7750 3200
-NoConn ~ 7750 3300
-NoConn ~ 7750 3400
 Text Label 8350 1600 0    50   ~ 0
 XTAL1
 Text Label 8350 1700 0    50   ~ 0
@@ -965,69 +958,46 @@ $EndComp
 $Comp
 L power:VCC #PWR02
 U 1 1 5BDE7D82
-P 6250 900
-F 0 "#PWR02" H 6250 750 50  0001 C CNN
-F 1 "VCC" H 6267 1073 50  0000 C CNN
-F 2 "" H 6250 900 50  0001 C CNN
-F 3 "" H 6250 900 50  0001 C CNN
-	1    6250 900 
+P 6600 900
+F 0 "#PWR02" H 6600 750 50  0001 C CNN
+F 1 "VCC" H 6500 1000 50  0000 C CNN
+F 2 "" H 6600 900 50  0001 C CNN
+F 3 "" H 6600 900 50  0001 C CNN
+	1    6600 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5BDECEA4
-P 6250 3650
-F 0 "#PWR017" H 6250 3400 50  0001 C CNN
-F 1 "GND" H 6255 3477 50  0000 C CNN
-F 2 "" H 6250 3650 50  0001 C CNN
-F 3 "" H 6250 3650 50  0001 C CNN
-	1    6250 3650
+P 6600 3550
+F 0 "#PWR017" H 6600 3300 50  0001 C CNN
+F 1 "GND" H 6605 3377 50  0000 C CNN
+F 2 "" H 6600 3550 50  0001 C CNN
+F 3 "" H 6600 3550 50  0001 C CNN
+	1    6600 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6400 3200 6250 3200
-Connection ~ 6250 3200
+	6750 3100 6600 3100
+Connection ~ 6600 3100
 Wire Wire Line
-	6250 3200 6250 3650
+	6600 3100 6600 3200
 Wire Wire Line
-	6400 3100 6250 3100
-Wire Wire Line
-	6250 900  6250 1150
-Connection ~ 6250 3100
-Wire Wire Line
-	6250 3100 6250 3200
-Wire Wire Line
-	6400 3000 6250 3000
-Wire Wire Line
-	6250 3000 6250 3100
-Wire Wire Line
-	6400 1150 6250 1150
-Connection ~ 6250 1150
-Wire Wire Line
-	6250 1150 6250 1250
-Wire Wire Line
-	6400 1250 6250 1250
-Connection ~ 6250 1250
-Wire Wire Line
-	6250 1250 6250 1400
-Wire Wire Line
-	6400 1400 6250 1400
+	6750 1300 6600 1300
 $Comp
 L formula:C_0.1uF C4
 U 1 1 5BDFD964
-P 6250 2100
-F 0 "C4" H 6000 2150 50  0000 L CNN
-F 1 "C_0.1uF" H 5850 2050 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 6288 1950 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6275 2200 50  0001 C CNN
-F 4 "DK" H 6250 2100 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 6250 2100 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 6675 2600 60  0001 C CNN "PurchasingLink"
-	1    6250 2100
+P 6600 2000
+F 0 "C4" H 6350 2050 50  0000 L CNN
+F 1 "C_0.1uF" H 6200 1950 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 6638 1850 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 6625 2100 50  0001 C CNN
+F 4 "DK" H 6600 2000 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 6600 2000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 7025 2500 60  0001 C CNN "PurchasingLink"
+	1    6600 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 2250 6250 3000
 Connection ~ 800  800 
 Connection ~ 1000 800 
 Wire Wire Line
@@ -1036,7 +1006,6 @@ Connection ~ 1000 1100
 Connection ~ 3400 3800
 Connection ~ 3700 3800
 NoConn ~ 3400 2100
-NoConn ~ 3400 2200
 NoConn ~ 3400 2600
 NoConn ~ 3400 2700
 NoConn ~ 3400 3200
@@ -1111,20 +1080,20 @@ $EndComp
 $Comp
 L formula:R_200 R19
 U 1 1 5BE99967
-P 4550 2400
-F 0 "R19" V 4550 2300 50  0000 L CNN
-F 1 "R_200" V 4450 2250 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 4480 2400 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4630 2400 50  0001 C CNN
-F 4 "DK" H 4550 2400 60  0001 C CNN "MFN"
-F 5 "RMCF0805JT200RCT-ND" H 4550 2400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 5030 2800 60  0001 C CNN "PurchasingLink"
-	1    4550 2400
+P 3700 2400
+F 0 "R19" V 3700 2300 50  0000 L CNN
+F 1 "R_200" V 3600 2250 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3630 2400 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3780 2400 50  0001 C CNN
+F 4 "DK" H 3700 2400 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3700 2400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4180 2800 60  0001 C CNN "PurchasingLink"
+	1    3700 2400
 	0    -1   -1   0   
 $EndComp
 Text Label 4800 1100 0    50   ~ 0
 LED_IMD
-Text Label 4800 2400 0    50   ~ 0
+Text Label 3950 2400 0    50   ~ 0
 LED_BMS
 $Comp
 L formula:R_200 R15
@@ -1505,7 +1474,7 @@ Text Notes 1000 6150 0    50   ~ 0
 Buck Converter - Take the input 12V from LV system and turn it into usable 5V
 Text Notes 8900 700  0    50   ~ 0
 Debugging LEDs\n
-Text Notes 4300 2250 0    50   ~ 0
+Text Notes 5100 2000 1    50   ~ 0
 Debugging LEDs\n
 Text Notes 4200 900  0    50   ~ 0
 LEDs for Start Button, IMD \nIndicator and BMS Indicator
@@ -1612,31 +1581,18 @@ F 3 "" H 9850 4600 50  0001 C CNN
 	1    9850 4600
 	0    1    1    0   
 $EndComp
-$Comp
-L formula:ATmega328P-AU U3
-U 1 1 5BEE7AD5
-P 7250 2700
-F 0 "U3" H 7375 4667 50  0000 C CNN
-F 1 "ATmega328P-AU" H 7375 4576 50  0000 C CNN
-F 2 "footprints:TQFP-32_7x7mm_Pitch0.8mm" H 9500 3700 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf" H 8650 4750 50  0001 C CNN
-F 4 "ATMEGA328P-AURCT-ND" H 9550 3450 60  0001 C CNN "MPN"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328P-AUR/ATMEGA328P-AURCT-ND/3789455" H 6700 4930 60  0001 C CNN "PurchasingLink"
-	1    7250 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6250 1400 6250 1950
-Connection ~ 6250 1400
-NoConn ~ 6400 1950
-NoConn ~ 6400 2150
-NoConn ~ 6400 2250
+	6600 1300 6600 1850
+Connection ~ 6600 1300
+NoConn ~ 6750 1750
+NoConn ~ 6750 1950
+NoConn ~ 6750 2050
 Wire Wire Line
 	4700 1200 4800 1200
 Wire Wire Line
 	4700 1100 4800 1100
 Wire Wire Line
-	4700 2400 4800 2400
+	3850 2400 3950 2400
 NoConn ~ 3400 1000
 Wire Wire Line
 	3400 1100 4400 1100
@@ -1696,8 +1652,6 @@ Wire Wire Line
 	4000 1500 4000 2000
 Wire Wire Line
 	4000 2000 4100 2000
-Wire Wire Line
-	3400 2400 4400 2400
 Text Label 3400 2300 0    50   ~ 0
 START_BTN
 Wire Wire Line
@@ -1732,7 +1686,6 @@ Wire Notes Line
 	6150 6250 4600 6250
 Wire Notes Line
 	4600 6250 4600 7750
-NoConn ~ 9850 6300
 NoConn ~ 9850 6400
 NoConn ~ 9100 4500
 NoConn ~ 9100 4600
@@ -1766,7 +1719,6 @@ Wire Notes Line
 	9150 2800 9150 3900
 Text Notes 9200 2900 0    50   ~ 0
 Crystal for 328
-Connection ~ 6250 3000
 Text Notes 9000 1800 0    50   ~ 0
 Interface via PWM with ATmega16\n
 Wire Notes Line
@@ -1796,7 +1748,7 @@ Wire Notes Line
 Wire Notes Line
 	5300 550  550  550 
 Text Notes 1450 4100 0    50   ~ 0
-ATmega16 - for LEDs on \nDash + Start Button
+ATmega16 - for LEDs on \nDash + Start Button\nNEW: RTD Buzzer
 Text Notes 2150 5150 0    50   ~ 10
 DNP
 $Bitmap
@@ -13863,4 +13815,131 @@ F 6 "http://www.te.com/global-en/product-338068-4.html" H 8850 7550 60  0001 C C
 	1    8850 6250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3550 2400 3400 2400
+Wire Wire Line
+	3400 2200 4650 2200
+$Comp
+L formula:SSM3K333R Q1
+U 1 1 5C5AAEC7
+P 5100 2400
+F 0 "Q1" H 5306 2446 50  0000 L CNN
+F 1 "SSM3K333R" H 5306 2355 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 5300 2325 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 5300 2475 50  0001 L CNN
+F 4 "DK" H 5600 2775 60  0001 C CNN "MFN"
+F 5 "SSM3K333RLFCT-ND" H 5500 2675 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 5400 2575 60  0001 C CNN "PurchasingLink"
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5C5AB31F
+P 4650 2700
+F 0 "R23" V 4650 2650 50  0000 L CNN
+F 1 "R_200" V 4750 2600 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" V 4580 2700 50  0001 C CNN
+F 3 "~" H 4650 2700 50  0001 C CNN
+	1    4650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5C5AB415
+P 4900 2700
+F 0 "R24" V 4900 2650 50  0000 L CNN
+F 1 "R_100k" V 5000 2600 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" V 4830 2700 50  0001 C CNN
+F 3 "~" H 4900 2700 50  0001 C CNN
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D9
+U 1 1 5C5AB54B
+P 4850 3150
+F 0 "D9" H 4850 3050 50  0000 C CNN
+F 1 "LED" H 4850 3300 50  0000 C CNN
+F 2 "footprints:LED_0805_OEM" H 4850 3150 50  0001 C CNN
+F 3 "~" H 4850 3150 50  0001 C CNN
+	1    4850 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4650 2550 4650 2400
+Wire Wire Line
+	4650 2400 4900 2400
+Wire Wire Line
+	4900 2550 4900 2400
+Connection ~ 4900 2400
+Wire Wire Line
+	4650 2400 4650 2200
+Connection ~ 4650 2400
+Text Label 5200 2200 1    50   ~ 0
+RTD_BUZZER
+Wire Wire Line
+	4650 3150 4700 3150
+Wire Wire Line
+	4650 2850 4650 3150
+Wire Wire Line
+	5000 3150 5200 3150
+Wire Wire Line
+	5200 3150 5200 2850
+Wire Wire Line
+	4900 2850 5200 2850
+Connection ~ 5200 2850
+Wire Wire Line
+	5200 2850 5200 2600
+Wire Wire Line
+	5200 3150 5200 3250
+Connection ~ 5200 3150
+$Comp
+L power:GND #PWR0101
+U 1 1 5C5C5A01
+P 5200 3250
+F 0 "#PWR0101" H 5200 3000 50  0001 C CNN
+F 1 "GND" H 5205 3077 50  0000 C CNN
+F 2 "" H 5200 3250 50  0001 C CNN
+F 3 "" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+Text Label 9850 6300 0    50   ~ 0
+RTD_BUZZER
+Wire Wire Line
+	6600 900  6600 1000
+Wire Wire Line
+	6600 2150 6600 3100
+$Comp
+L atmega328p-au_formula_mk4:ATmega328P-AU_FORMULA_MK4 U3
+U 1 1 5C61F91D
+P 7750 2200
+F 0 "U3" H 7550 3767 50  0000 C CNN
+F 1 "ATmega328P-AU_FORMULA_MK4" H 7550 3676 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 7550 3750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf" H 7750 2200 50  0001 C CNN
+	1    7750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1000 6750 1000
+Connection ~ 6600 1000
+Wire Wire Line
+	6600 1000 6600 1100
+Wire Wire Line
+	6750 1100 6600 1100
+Connection ~ 6600 1100
+Wire Wire Line
+	6600 1100 6600 1300
+Wire Wire Line
+	6750 3200 6600 3200
+Connection ~ 6600 3200
+Wire Wire Line
+	6600 3200 6600 3300
+Wire Wire Line
+	6750 3300 6600 3300
+Connection ~ 6600 3300
+Wire Wire Line
+	6600 3300 6600 3550
 $EndSCHEMATC

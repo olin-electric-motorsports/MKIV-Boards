@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\vscheyer\Desktop\Formula\MKIV-Boards\Boards\BMS_Structural\BMS_Structural.sch)
-    (date "2/5/2019 2:20:50 PM")
+    (date "2/7/2019 8:40:16 PM")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
