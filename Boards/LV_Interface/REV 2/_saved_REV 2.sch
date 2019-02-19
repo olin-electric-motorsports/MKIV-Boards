@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:LV_Interface-cache
+LIBS:REV 2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -98,56 +98,54 @@ F 6 "http://www.te.com/global-en/product-338068-6.html" H 4000 4620 60  0001 C C
 	1    4000 3320
 	1    0    0    -1  
 $EndComp
-Text Label 1600 1030 0    50   ~ 0
+Text Label 1600 1930 0    50   ~ 0
 12V
-Text Label 1600 1130 0    50   ~ 0
+Text Label 1600 1830 0    50   ~ 0
 Fuse -> Estop
-Text Label 1600 1230 0    50   ~ 0
+Text Label 1600 1730 0    50   ~ 0
 Estop -> BSPD
-Text Label 1600 1330 0    50   ~ 0
-BSDP -> IS
-Text Label 1600 1430 0    50   ~ 0
-TSMS -> Final Shutdown
+Text Label 1600 1630 0    50   ~ 0
+BSPD -> IS
 Text Label 1600 1530 0    50   ~ 0
 TSMS -> Final Shutdown
-Text Label 1600 2030 0    50   ~ 0
+Text Label 1600 1430 0    50   ~ 0
+TSMS -> Final Shutdown
+Text Label 1600 930  0    50   ~ 0
 12V
-Text Label 1600 2230 0    50   ~ 0
+Text Label 1600 3030 0    50   ~ 0
 CAN low
-Text Label 1600 2330 0    50   ~ 0
+Text Label 1600 2930 0    50   ~ 0
 CAN high
 Text Label 4210 4310 2    50   ~ 0
 BSPD Switch +
 Text Label 4210 4210 2    50   ~ 0
 BSPD Switch -
-Text Label 1600 2630 0    50   ~ 0
-Cooling Pump
-Text Label 1600 2930 0    50   ~ 0
-CAN low
-Text Label 1600 3030 0    50   ~ 0
-CAN high
-Text Label 1600 3130 0    50   ~ 0
-Brake Switch +
-Text Label 1600 3230 0    50   ~ 0
-Bat +
-Text Label 1600 3430 0    50   ~ 0
-BSPD Current Sense
-Text Label 1600 3630 0    50   ~ 0
-Cooling Pressure Sense
-Text Label 1600 3730 0    50   ~ 0
-5V
-Text Label 1600 3830 0    50   ~ 0
-Brake Pressure -
-Text Label 1600 3930 0    50   ~ 0
-Brake Pressure Sense
-Text Label 1600 4030 0    50   ~ 0
-Brake Pressure +
 Text Label 1600 4130 0    50   ~ 0
-Brakelight LSD
-Text Label 1600 4230 0    50   ~ 0
-12V
+Cooling Pump
+Text Label 1600 2330 0    50   ~ 0
+CAN low
+Text Label 1600 2230 0    50   ~ 0
+CAN high
+Text Label 1600 2130 0    50   ~ 0
+Brake Switch +
 Text Label 1600 4330 0    50   ~ 0
-Brake Switch -
+GLVMS_IN
+Text Label 1600 2630 0    50   ~ 0
+BSPD Current Sense
+Text Label 1600 3930 0    50   ~ 0
+Cooling Pressure Sense
+Text Label 1600 3830 0    50   ~ 0
+5V
+Text Label 1600 3730 0    50   ~ 0
+Brake Pressure -
+Text Label 1600 3630 0    50   ~ 0
+Brake Pressure Sense
+Text Label 1600 3530 0    50   ~ 0
+Brake Pressure +
+Text Label 1600 3430 0    50   ~ 0
+Brakelight LSD
+Text Label 1600 3330 0    50   ~ 0
+12V
 Text Label 1130 5790 2    50   ~ 0
 CAN low
 Text Label 1130 5890 2    50   ~ 0
@@ -205,13 +203,13 @@ RJ45 LED1
 Text Label 4250 2680 0    50   ~ 0
 RJ45 LED2
 Text Label 4250 3070 0    50   ~ 0
-Shutdown Sense GLVMS
+~Shutdown Sense GLVMS
 Text Label 4250 3170 0    50   ~ 0
-Shutdown Sense Estop
+~Shutdown Sense Estop
 Text Label 4250 3270 0    50   ~ 0
-Shutdown Sense BSPD
+~Shutdown Sense BSPD
 Text Label 4250 3370 0    50   ~ 0
-Shutdown Sense TSMS
+~Shutdown Sense TSMS
 Text Label 8070 1020 0    50   ~ 0
 12V
 Text Label 8070 1120 0    50   ~ 0
@@ -306,20 +304,16 @@ Text Notes 8830 3090 0    100  ~ 0
 LCD Interface
 Text Notes 10350 3300 0    100  ~ 0
 Spare\n
-Text Label 1600 1730 0    50   ~ 0
+Text Label 1600 1230 0    50   ~ 0
 CAN high
-Text Label 1600 1630 0    50   ~ 0
+Text Label 1600 1330 0    50   ~ 0
 CAN low
-Text Label 1600 2730 0    50   ~ 0
+Text Label 1600 2530 0    50   ~ 0
 12V
 Text Label 4250 3470 0    50   ~ 0
 BSPD Current Sense
 Text Label 4250 3570 0    50   ~ 0
 Cooling Pressure Sense
-Text Label 4780 5200 2    50   ~ 0
-12V
-Wire Wire Line
-	4780 5200 4780 5300
 Wire Wire Line
 	4780 5300 4930 5300
 Wire Wire Line
@@ -380,15 +374,15 @@ Wire Wire Line
 Wire Wire Line
 	9990 5060 9990 5310
 Text Label 9990 5060 0    50   ~ 0
-BSDP -> IS
+BSPD -> IS
 Text Label 9040 5060 2    50   ~ 0
 Estop -> BSPD
 Text Label 9790 5610 0    50   ~ 0
 BSPD Relay
 Text Label 9990 5310 0    50   ~ 0
-Shutdown Sense BSPD
+~Shutdown Sense BSPD
 Text Label 9040 5310 2    50   ~ 0
-Shutdown Sense Estop
+~Shutdown Sense Estop
 Text Label 4780 4750 2    50   ~ 0
 Cooling Pump Relay
 $Comp
@@ -402,9 +396,9 @@ F 3 "" H 5730 5000 50  0001 C CNN
 	1    5730 5000
 	1    0    0    -1  
 $EndComp
-Text Label 1600 2430 0    50   ~ 0
+Text Label 1600 2830 0    50   ~ 0
 BSPD Switch +
-Text Label 1600 2530 0    50   ~ 0
+Text Label 1600 2730 0    50   ~ 0
 BSPD Switch -
 Text Label 4360 4060 0    50   ~ 0
 5V
@@ -508,49 +502,21 @@ F 3 "" H 6299 3968 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6040 3170 2    50   ~ 0
-Bat +
+GLVMS_IN
 Text Label 6053 3658 2    50   ~ 0
-Bat +
+GLVMS_IN
 Text Label 6540 2930 0    50   ~ 0
 Fuse -> Estop
 Text Label 6553 3658 0    50   ~ 0
 12V
 Text Label 6540 3170 0    50   ~ 0
-Shutdown Sense GLVMS
+~Shutdown Sense GLVMS
 Text Label 6049 3968 2    50   ~ 0
 Cooling Pump
 Text Label 6549 3968 0    50   ~ 0
 Cooling Pump Relay
 Wire Wire Line
 	6540 2930 6540 3170
-$Comp
-L formula:BSS308PE Q2
-U 1 1 5C5C5E91
-P 5680 6700
-F 0 "Q2" H 5886 6746 50  0000 L CNN
-F 1 "BSS308PE" H 5886 6655 50  0000 L CNN
-F 2 "footprints:SOT-23-3_OEM" H 5880 6800 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 5880 6750 50  0001 C CNN
-F 4 "DK" H 5680 6700 60  0001 C CNN "MFN"
-F 5 "BSS308PEH6327XTSA1CT-ND" H 5680 6700 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 6280 7150 60  0001 C CNN "PurchasingLink"
-	1    5680 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:SSM3K333R Q1
-U 1 1 5C5C6161
-P 5680 5860
-F 0 "Q1" H 5886 5906 50  0000 L CNN
-F 1 "SSM3K333R" H 5886 5815 50  0000 L CNN
-F 2 "footprints:SOT-23F" H 5880 5785 50  0001 L CIN
-F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 5880 5935 50  0001 L CNN
-F 4 "DK" H 6180 6235 60  0001 C CNN "MFN"
-F 5 "SSM3K333RLFCT-ND" H 6080 6135 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 5980 6035 60  0001 C CNN "PurchasingLink"
-	1    5680 5860
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5C5C7373
@@ -565,68 +531,23 @@ $EndComp
 Text Label 4920 6700 2    50   ~ 0
 Cooling Pump LSD
 Wire Wire Line
-	5780 5660 5780 5300
-Wire Wire Line
 	5780 5300 5530 5300
-$Comp
-L power:GND #PWR03
-U 1 1 5C5C8640
-P 5360 6300
-F 0 "#PWR03" H 5360 6050 50  0001 C CNN
-F 1 "GND" H 5365 6127 50  0000 C CNN
-F 2 "" H 5360 6300 50  0001 C CNN
-F 3 "" H 5360 6300 50  0001 C CNN
-	1    5360 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5C5C8669
-P 5110 6460
-F 0 "#PWR02" H 5110 6210 50  0001 C CNN
-F 1 "GND" H 5115 6287 50  0000 C CNN
-F 2 "" H 5110 6460 50  0001 C CNN
-F 3 "" H 5110 6460 50  0001 C CNN
-	1    5110 6460
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5360 6220 5360 6300
-Wire Wire Line
-	5480 5860 5360 5860
-Wire Wire Line
-	5360 5860 5360 5920
-$Comp
-L formula:LED_0805 D1
-U 1 1 5C5C9759
-P 5110 6310
-F 0 "D1" V 5160 6420 50  0000 L CNN
-F 1 "LED_0805" V 5070 6800 50  0000 R CNN
-F 2 "footprints:LED_0805_OEM" H 5010 6310 50  0001 C CNN
-F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" H 5110 6410 50  0001 C CNN
-F 4 "DK" H 5110 6310 60  0001 C CNN "MFN"
-F 5 "475-1410-1-ND" H 5110 6310 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 5510 6810 60  0001 C CNN "PurchasingLink"
-	1    5110 6310
-	0    -1   -1   0   
-$EndComp
 $Comp
 L formula:R_1K R1
 U 1 1 5C5CA524
-P 5110 6010
-F 0 "R1" V 5190 6000 50  0000 C CNN
-F 1 "R_1K" V 4994 6010 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 5040 6010 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5190 6010 50  0001 C CNN
-F 4 "DK" H 5110 6010 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 5110 6010 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5590 6410 60  0001 C CNN "PurchasingLink"
-	1    5110 6010
-	-1   0    0    1   
+P 4430 5600
+F 0 "R1" V 4510 5590 50  0000 C CNN
+F 1 "R_1K" V 4314 5600 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4360 5600 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4510 5600 50  0001 C CNN
+F 4 "DK" H 4430 5600 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 4430 5600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 4910 6000 60  0001 C CNN "PurchasingLink"
+	1    4430 5600
+	0    1    1    0   
 $EndComp
-Connection ~ 5360 5860
-Text Label 5110 5860 2    50   ~ 0
-Shutdown Sense TSMS
+Text Label 4280 6450 2    50   ~ 0
+~Shutdown Sense TSMS
 Wire Wire Line
 	5780 6900 5780 6940
 Text Notes 4490 7700 0    100  ~ 0
@@ -636,103 +557,71 @@ BSPD Relay\n
 $Comp
 L power:GND #PWR0105
 U 1 1 5C5D7BF1
-P 2340 1660
-F 0 "#PWR0105" H 2340 1410 50  0001 C CNN
-F 1 "GND" H 2345 1487 50  0000 C CNN
-F 2 "" H 2340 1660 50  0001 C CNN
-F 3 "" H 2340 1660 50  0001 C CNN
-	1    2340 1660
-	1    0    0    -1  
+P 2340 1030
+F 0 "#PWR0105" H 2340 780 50  0001 C CNN
+F 1 "GND" H 2345 857 50  0000 C CNN
+F 2 "" H 2340 1030 50  0001 C CNN
+F 3 "" H 2340 1030 50  0001 C CNN
+	1    2340 1030
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5C5D7C27
-P 2540 1570
-F 0 "#PWR0106" H 2540 1320 50  0001 C CNN
-F 1 "GND" H 2545 1397 50  0000 C CNN
-F 2 "" H 2540 1570 50  0001 C CNN
-F 3 "" H 2540 1570 50  0001 C CNN
-	1    2540 1570
-	1    0    0    -1  
+P 2080 1130
+F 0 "#PWR0106" H 2080 880 50  0001 C CNN
+F 1 "GND" H 2085 957 50  0000 C CNN
+F 2 "" H 2080 1130 50  0001 C CNN
+F 3 "" H 2080 1130 50  0001 C CNN
+	1    2080 1130
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5C5D7C96
-P 2080 2090
-F 0 "#PWR0107" H 2080 1840 50  0001 C CNN
-F 1 "GND" H 2085 1917 50  0000 C CNN
-F 2 "" H 2080 2090 50  0001 C CNN
-F 3 "" H 2080 2090 50  0001 C CNN
-	1    2080 2090
+P 2250 3140
+F 0 "#PWR0107" H 2250 2890 50  0001 C CNN
+F 1 "GND" H 2255 2967 50  0000 C CNN
+F 2 "" H 2250 3140 50  0001 C CNN
+F 3 "" H 2250 3140 50  0001 C CNN
+	1    2250 3140
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5C5D7CC5
-P 2360 2810
-F 0 "#PWR0108" H 2360 2560 50  0001 C CNN
-F 1 "GND" H 2365 2637 50  0000 C CNN
-F 2 "" H 2360 2810 50  0001 C CNN
-F 3 "" H 2360 2810 50  0001 C CNN
-	1    2360 2810
-	1    0    0    -1  
+P 2490 2430
+F 0 "#PWR0108" H 2490 2180 50  0001 C CNN
+F 1 "GND" H 2495 2257 50  0000 C CNN
+F 2 "" H 2490 2430 50  0001 C CNN
+F 3 "" H 2490 2430 50  0001 C CNN
+	1    2490 2430
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
 U 1 1 5C5D7DCC
-P 2660 3240
-F 0 "#PWR0109" H 2660 2990 50  0001 C CNN
-F 1 "GND" H 2665 3067 50  0000 C CNN
-F 2 "" H 2660 3240 50  0001 C CNN
-F 3 "" H 2660 3240 50  0001 C CNN
-	1    2660 3240
-	1    0    0    -1  
+P 2090 4230
+F 0 "#PWR0109" H 2090 3980 50  0001 C CNN
+F 1 "GND" H 2095 4057 50  0000 C CNN
+F 2 "" H 2090 4230 50  0001 C CNN
+F 3 "" H 2090 4230 50  0001 C CNN
+	1    2090 4230
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 5C5D7EE6
-P 2660 3550
-F 0 "#PWR0110" H 2660 3300 50  0001 C CNN
-F 1 "GND" H 2665 3377 50  0000 C CNN
-F 2 "" H 2660 3550 50  0001 C CNN
-F 3 "" H 2660 3550 50  0001 C CNN
-	1    2660 3550
-	1    0    0    -1  
+P 2250 4030
+F 0 "#PWR0110" H 2250 3780 50  0001 C CNN
+F 1 "GND" H 2255 3857 50  0000 C CNN
+F 2 "" H 2250 4030 50  0001 C CNN
+F 3 "" H 2250 4030 50  0001 C CNN
+	1    2250 4030
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1600 1830 1980 1830
-Wire Wire Line
-	1980 1830 1980 1570
-Wire Wire Line
-	1980 1570 2540 1570
-Wire Wire Line
-	1600 1930 2060 1930
-Wire Wire Line
-	2060 1930 2060 1660
-Wire Wire Line
-	2060 1660 2340 1660
-Wire Wire Line
-	1600 2130 1970 2130
-Wire Wire Line
-	1970 2130 1970 2090
-Wire Wire Line
-	1970 2090 2080 2090
-Wire Wire Line
-	1600 2830 2280 2830
-Wire Wire Line
-	2280 2830 2280 2790
-Wire Wire Line
-	2280 2790 2360 2790
-Wire Wire Line
-	2360 2790 2360 2810
-Wire Wire Line
-	1600 3330 2560 3330
-Wire Wire Line
-	2560 3330 2560 3220
-Wire Wire Line
-	2560 3220 2660 3220
-Wire Wire Line
-	2660 3220 2660 3240
+	1600 4230 2090 4230
 $Comp
 L power:GND #PWR0111
 U 1 1 5C5DE399
@@ -810,22 +699,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0115
 U 1 1 5C5E62A7
-P 1870 770
-F 0 "#PWR0115" H 1870 520 50  0001 C CNN
-F 1 "GND" H 1875 597 50  0000 C CNN
-F 2 "" H 1870 770 50  0001 C CNN
-F 3 "" H 1870 770 50  0001 C CNN
-	1    1870 770 
-	1    0    0    -1  
+P 2290 2030
+F 0 "#PWR0115" H 2290 1780 50  0001 C CNN
+F 1 "GND" H 2295 1857 50  0000 C CNN
+F 2 "" H 2290 2030 50  0001 C CNN
+F 3 "" H 2290 2030 50  0001 C CNN
+	1    2290 2030
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 930  1750 930 
-Wire Wire Line
-	1750 930  1750 730 
-Wire Wire Line
-	1750 730  1870 730 
-Wire Wire Line
-	1870 730  1870 770 
 $Comp
 L formula:RJ45_VT U1
 U 1 1 5C588B16
@@ -862,9 +743,7 @@ Wire Notes Line
 Wire Notes Line
 	3090 480  3090 6540
 Wire Wire Line
-	2660 3530 2660 3550
-Wire Wire Line
-	1600 3530 2660 3530
+	1600 4030 2250 4030
 $Comp
 L formula:CONN_01x04 J7
 U 1 1 5C6395B3
@@ -913,24 +792,6 @@ Text Notes 6140 4260 0    100  ~ 0
 Fuses\n
 Wire Wire Line
 	6840 1360 6950 1360
-$Comp
-L formula:R_10K R3
-U 1 1 5C5D1A7B
-P 5360 6070
-F 0 "R3" H 5430 6116 50  0000 L CNN
-F 1 "R_10K" H 5430 6025 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5290 6070 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5440 6070 50  0001 C CNN
-F 4 "DK" H 5360 6070 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 5360 6070 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 5840 6470 60  0001 C CNN "PurchasingLink"
-	1    5360 6070
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5110 5860 5360 5860
-Wire Wire Line
-	5780 6060 5780 6500
 $Comp
 L power:GND #PWR0119
 U 1 1 5C5DB824
@@ -1023,12 +884,106 @@ Wire Notes Line
 	7500 470  7500 6540
 Wire Notes Line
 	3090 4530 11210 4530
-Text Label 2770 1430 1    50   ~ 0
-Shutdown Sense TSMS
+Text Label 2770 1530 3    50   ~ 0
+~Shutdown Sense TSMS
 Wire Wire Line
-	1600 1530 2770 1530
+	1600 1430 2770 1430
 Wire Wire Line
-	2770 1530 2770 1430
+	2770 1430 2770 1530
 Wire Wire Line
-	2770 1430 1600 1430
+	2770 1530 1600 1530
+$Comp
+L formula:SSM3K333R Q3
+U 1 1 5C6261C5
+P 5680 6700
+F 0 "Q3" H 5886 6746 50  0000 L CNN
+F 1 "SSM3K333R" H 5886 6655 50  0000 L CNN
+F 2 "footprints:SOT-23F" H 5880 6625 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 5880 6775 50  0001 L CNN
+F 4 "DK" H 6180 7075 60  0001 C CNN "MFN"
+F 5 "SSM3K333RLFCT-ND" H 6080 6975 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 5980 6875 60  0001 C CNN "PurchasingLink"
+	1    5680 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:BSS308PE Q2
+U 1 1 5C65A971
+P 4580 5400
+F 0 "Q2" V 4923 5400 50  0000 C CNN
+F 1 "BSS308PE" V 4832 5400 50  0000 C CNN
+F 2 "footprints:SOT-23-3_OEM" H 4780 5500 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073" H 4780 5450 50  0001 C CNN
+F 4 "DK" H 4580 5400 60  0001 C CNN "MFN"
+F 5 "BSS308PEH6327XTSA1CT-ND" H 4580 5400 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25" H 5180 5850 60  0001 C CNN "PurchasingLink"
+	1    4580 5400
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5780 5300 5780 6500
+Text Label 4380 5300 2    50   ~ 0
+12V
+Text Label 4280 5600 2    50   ~ 0
+12V
+Wire Wire Line
+	4580 5600 4580 5810
+Connection ~ 4580 5600
+Text Label 4280 5870 0    50   ~ 0
+5V
+$Comp
+L formula:R_10K R3
+U 1 1 5C699623
+P 4280 6160
+F 0 "R3" H 4350 6206 50  0000 L CNN
+F 1 "R_10K" H 4350 6115 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4210 6160 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4360 6160 50  0001 C CNN
+F 4 "DK" H 4280 6160 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4280 6160 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4760 6560 60  0001 C CNN "PurchasingLink"
+	1    4280 6160
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4280 5870 4280 6010
+Wire Wire Line
+	4580 6210 4580 6310
+Connection ~ 4280 6010
+$Comp
+L formula:SSM3K333R Q1
+U 1 1 5C688E48
+P 4480 6010
+F 0 "Q1" V 4823 6010 50  0000 C CNN
+F 1 "SSM3K333R" V 4732 6010 50  0000 C CNN
+F 2 "footprints:SOT-23F" H 4680 5935 50  0001 L CIN
+F 3 "https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk" H 4680 6085 50  0001 L CNN
+F 4 "DK" H 4980 6385 60  0001 C CNN "MFN"
+F 5 "SSM3K333RLFCT-ND" H 4880 6285 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391" H 4780 6185 60  0001 C CNN "PurchasingLink"
+	1    4480 6010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4280 6310 4280 6450
+Wire Wire Line
+	4280 6450 4570 6450
+Wire Wire Line
+	4570 6450 4570 6310
+Wire Wire Line
+	4570 6310 4580 6310
+Wire Wire Line
+	1600 2030 2290 2030
+Text Label 1600 3230 0    50   ~ 0
+Brake Switch -
+Wire Wire Line
+	2250 3130 2250 3140
+Wire Wire Line
+	1600 3130 2250 3130
+Wire Wire Line
+	1600 1130 2080 1130
+Wire Wire Line
+	1600 1030 2340 1030
+Wire Wire Line
+	1600 2430 2490 2430
 $EndSCHEMATC
