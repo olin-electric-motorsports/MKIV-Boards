@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/manu/Desktop/Formula/MKIV-Boards/Boards/Steering/Steering2/Steering2.sch</source>
-    <date>Wed 05 Dec 2018 09:20:35 PM EST</date>
+    <date>Thu 31 Jan 2019 08:42:30 PM EST</date>
     <tool>Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -604,42 +604,16 @@
     <comp ref="J2">
       <value>NF_F_RA_2x04</value>
       <footprint>Connector_Molex:Molex_Nano-Fit_105314-xx08_2x04_P2.50mm_Horizontal</footprint>
-      <libsource lib="formula" part="NF_F_RA_2x04" description=""/>
+      <libsource lib="" part="NF_F_RA_2x04" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0127AA</tstamp>
     </comp>
     <comp ref="J3">
       <value>NF_F_RA_2x02</value>
       <footprint>Connector_Molex:Molex_Nano-Fit_105314-xx04_2x02_P2.50mm_Horizontal</footprint>
-      <libsource lib="formula" part="NF_F_RA_2x02" description=""/>
+      <libsource lib="" part="NF_F_RA_2x02" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C01823F</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>LM3480</value>
-      <footprint>TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/lm3480.pdf</datasheet>
-      <fields>
-        <field name="MFN">DK</field>
-        <field name="MPN">LM3480IM3-3.3CT-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583</field>
-      </fields>
-      <libsource lib="formula" part="LM3480" description="Linear regulator, 30V max input, 3.3V output, 100mA"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C00B163</tstamp>
-    </comp>
-    <comp ref="C10">
-      <value>C_0.1uF</value>
-      <footprint>footprints:C_0805_OEM</footprint>
-      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
-      <fields>
-        <field name="MFN">DK</field>
-        <field name="MPN">478-3352-1-ND</field>
-        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
-      </fields>
-      <libsource lib="formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C00B672</tstamp>
     </comp>
     <comp ref="C9">
       <value>C_0.1uF</value>
@@ -654,8 +628,62 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C00B714</tstamp>
     </comp>
+    <comp ref="C10">
+      <value>C_0.1uF</value>
+      <footprint>footprints:C_0805_OEM</footprint>
+      <datasheet>http://datasheets.avx.com/X7RDielectric.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">478-3352-1-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=478-3352-1-ND</field>
+      </fields>
+      <libsource lib="formula" part="C_0.1uF" description="Capacitor, 0.1uF, 50V, 5%, 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C00B672</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM3480</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-3-Lead_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm3480.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">LM3480IM3-3.3CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/texas-instruments/LM3480IM3-3.3/LM3480IM3-3.3CT-ND/3701583</field>
+      </fields>
+      <libsource lib="formula" part="LM3480" description="Linear regulator, 30V max input, 3.3V output, 100mA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C00B163</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="" part="formula:NF_F_RA_2x02">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">formula:NF_F_RA_2x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="formula:NF_F_RA_2x04">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">formula:NF_F_RA_2x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+      </pins>
+    </libpart>
     <libpart lib="formula" part="ATMEGA16M1">
       <description>Microcontroller, 8-bit, 1KB RAM, 16KB Flash</description>
       <footprints>
@@ -1018,18 +1046,6 @@
         <pin num="8" name="STBY" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="formula" part="NF_F_RA_2x02">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">NF_F_RA_2x02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
-        <pin num="4" name="4" type="BiDi"/>
-      </pins>
-    </libpart>
     <libpart lib="formula" part="NF_F_RA_2x03">
       <fields>
         <field name="Reference">J</field>
@@ -1042,22 +1058,6 @@
         <pin num="4" name="4" type="BiDi"/>
         <pin num="5" name="5" type="BiDi"/>
         <pin num="6" name="6" type="BiDi"/>
-      </pins>
-    </libpart>
-    <libpart lib="formula" part="NF_F_RA_2x04">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">NF_F_RA_2x04</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="BiDi"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
-        <pin num="4" name="4" type="BiDi"/>
-        <pin num="5" name="5" type="BiDi"/>
-        <pin num="6" name="6" type="BiDi"/>
-        <pin num="7" name="7" type="BiDi"/>
-        <pin num="8" name="8" type="BiDi"/>
       </pins>
     </libpart>
     <libpart lib="formula" part="R_0">
@@ -1231,68 +1231,68 @@
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="C4" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="C2" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R10" pin="2"/>
       <node ref="R18" pin="2"/>
       <node ref="D5" pin="1"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C7" pin="2"/>
+      <node ref="J3" pin="4"/>
       <node ref="IC1" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R8" pin="2"/>
       <node ref="J1" pin="4"/>
       <node ref="J1" pin="5"/>
       <node ref="J1" pin="6"/>
-      <node ref="U1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="IC1" pin="20"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
       <node ref="C6" pin="2"/>
       <node ref="Y1" pin="4"/>
       <node ref="J4" pin="6"/>
-      <node ref="D6" pin="1"/>
-      <node ref="R8" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="D7" pin="2"/>
-      <node ref="D2" pin="1"/>
-      <node ref="IC1" pin="20"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="D4" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U2" pin="1"/>
-      <node ref="J3" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C1" pin="2"/>
     </net>
     <net code="2" name="VCC">
-      <node ref="U1" pin="3"/>
-      <node ref="R2" pin="1"/>
-      <node ref="J4" pin="2"/>
-      <node ref="R20" pin="1"/>
-      <node ref="U3" pin="1"/>
       <node ref="C10" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="IC1" pin="4"/>
-      <node ref="J2" pin="5"/>
-      <node ref="J2" pin="6"/>
-      <node ref="J2" pin="7"/>
-      <node ref="J2" pin="8"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R2" pin="1"/>
       <node ref="R1" pin="1"/>
       <node ref="C4" pin="1"/>
+      <node ref="J4" pin="2"/>
       <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="R12" pin="1"/>
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U3" pin="1"/>
     </net>
     <net code="3" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="2"/>
       <node ref="L1" pin="1"/>
       <node ref="C5" pin="2"/>
-      <node ref="U2" pin="2"/>
     </net>
     <net code="4" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
       <node ref="R16" pin="2"/>
     </net>
     <net code="5" name="Net-(R17-Pad1)">
-      <node ref="U2" pin="5"/>
       <node ref="R17" pin="1"/>
+      <node ref="U2" pin="5"/>
     </net>
     <net code="6" name="/LED3_Out">
       <node ref="R11" pin="1"/>
@@ -1307,33 +1307,33 @@
       <node ref="J1" pin="3"/>
     </net>
     <net code="9" name="/LED_Driver1">
-      <node ref="R3" pin="2"/>
       <node ref="IC1" pin="26"/>
+      <node ref="R3" pin="2"/>
     </net>
     <net code="10" name="/LED_Driver2">
-      <node ref="R9" pin="2"/>
       <node ref="IC1" pin="27"/>
+      <node ref="R9" pin="2"/>
     </net>
     <net code="11" name="/LED_Driver3">
-      <node ref="R11" pin="2"/>
       <node ref="IC1" pin="28"/>
+      <node ref="R11" pin="2"/>
     </net>
     <net code="12" name="/CANL">
       <node ref="U1" pin="6"/>
-      <node ref="R7" pin="2"/>
       <node ref="J3" pin="2"/>
+      <node ref="R7" pin="2"/>
     </net>
     <net code="13" name="/CANH">
+      <node ref="U1" pin="7"/>
       <node ref="R7" pin="1"/>
       <node ref="J3" pin="1"/>
-      <node ref="U1" pin="7"/>
     </net>
     <net code="14" name="+12V">
+      <node ref="J3" pin="3"/>
       <node ref="D7" pin="1"/>
       <node ref="U3" pin="2"/>
-      <node ref="F1" pin="1"/>
       <node ref="C9" pin="2"/>
-      <node ref="J3" pin="3"/>
+      <node ref="F1" pin="1"/>
     </net>
     <net code="15" name="Net-(IC1-Pad9)">
       <node ref="IC1" pin="9"/>
@@ -1348,13 +1348,13 @@
     <net code="18" name="Net-(IC1-Pad32)">
       <node ref="IC1" pin="32"/>
     </net>
-    <net code="19" name="Net-(IC1-Pad30)">
-      <node ref="IC1" pin="30"/>
-    </net>
-    <net code="20" name="Net-(C10-Pad2)">
-      <node ref="U3" pin="3"/>
+    <net code="19" name="Net-(C10-Pad2)">
       <node ref="C10" pin="2"/>
+      <node ref="U3" pin="3"/>
       <node ref="C9" pin="1"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad30)">
+      <node ref="IC1" pin="30"/>
     </net>
     <net code="21" name="Net-(IC1-Pad22)">
       <node ref="IC1" pin="22"/>
@@ -1369,9 +1369,9 @@
       <node ref="IC1" pin="3"/>
     </net>
     <net code="25" name="/B4_In">
-      <node ref="R14" pin="1"/>
       <node ref="J2" pin="1"/>
       <node ref="IC1" pin="25"/>
+      <node ref="R14" pin="1"/>
     </net>
     <net code="26" name="/B3_In">
       <node ref="J2" pin="2"/>
