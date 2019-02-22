@@ -1,6 +1,6 @@
-update=Wed 31 Oct 2018 09:20:54 PM EDT
+update=Mon 10 Dec 2018 04:37:01 PM EST
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=../../../../../Pictures/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

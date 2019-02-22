@@ -4468,4 +4468,18 @@ NoConn ~ 9350 3350
 NoConn ~ 9300 3450
 NoConn ~ 9300 1150
 NoConn ~ 9300 1250
+$Comp
+L formula:TXB0104 U3
+U 1 1 5C0A1355
+P 1350 4750
+F 0 "U3" H 1400 4825 50  0000 C CNN
+F 1 "TXB0104" H 1400 4734 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 1250 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 1350 4750 50  0001 C CNN
+F 4 "DK" H 1450 4850 50  0001 C CNN "MFN"
+F 5 "296-21929-1-ND" H 1550 4950 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TXB0104PWR/296-21929-1-ND/1629282" H 1650 5050 50  0001 C CNN "PurchasingLink"
+	1    1350 4750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
