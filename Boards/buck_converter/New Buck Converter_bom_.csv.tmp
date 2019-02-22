@@ -1,0 +1,32 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN,MFN,PurchasingLink,Link,Digi-key Part Number,Purchasing Link
+1,"Capacitor, 0.1uF, 50V, 5%, 0805",C_0.1uF,C1 C2,C_0.1uF,C_0805_OEM,2,http://datasheets.avx.com/X7RDielectric.pdf,478-3352-1-ND,DK,https://www.digikey.com/products/en?keywords=478-3352-1-ND,,,
+2,"Capacitor, 2.2uF, 10V, 10%, 0603",C_2.2uF,C3,C_2.2uF,C_0603_1608Metric,1,http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf,311-1451-1-ND,DK,https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757,,,
+3,"Capacitor, 100uF, 6.3V, 20%, 1812",C_100uF,COUT5,C_100uF,Fuse_1812,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,445-1413-1-ND,C4532X5R0J107M280KA,https://www.digikey.com/product-detail/en/tdk-corporation/C4532X5R0J107M280KA/445-1413-1-ND/567567,,,
+4,"Capacitor, 22uF, 16V, 20%, 1206",C_22uF,COUT1,C_22uF,C_1206_OEM,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,445-11693-1-ND,DK,https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359,,,
+5,"Capacitor, 33uF, 75V, 20%, 1812",C_33uF,COUT2,C_33uF,Fuse_1812,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,445-3924-1-ND,C4532X7R1C336M250KC,https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431,,,
+6,"Capacitor, 47uF, 6.3V, 20%, 0805",C_47uF,COUT3,C_47uF,C_0805_OEM,1,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/22/CL21A476MQYNNNG.pdf,1276-6467-1-ND,DK,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095,,,
+7,"Capacitor, 68uF, 6.3V, 20%, 1210",C_68uF,COUT4,C_68uF,Fuse_1210,1,https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf,445-3954-1-ND,C3225X5R0J686M200AC,https://www.digikey.com/product-detail/en/tdk-corporation/C3225X5R0J686M200AC/445-3954-1-ND/1944451,,,
+8,"Diode, Zener, 18V, 5W, 5%",D_Zener_18V,D2,D_Zener_18V,DO-214AA,1,http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf,SMBJ5355B-TPMSCT-ND,DK,https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND,,,
+9,"LED, Green, 2.2V, 20mA, 0805",LED_0805,D1,LED_0805,LED_0805_OEM,1,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,475-1410-1-ND,DK,https://www.digikey.com/products/en?keywords=475-1410-1-ND,,,
+10,"Fuse, PTC, 500mA, 16V, 1210",F_500mA_16V,F1,F_500mA_16V,Fuse_1210,1,https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf,507-1786-1-ND,DK,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209,,,
+11,100uH 10% 55MA 2.2 OHM SMD,L_100uH,L1,L_100uH,L_100uH,1,https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf,445-15759-1-ND,Digikey,,https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055,,
+12,"Resistor, 0 ohm jumper, 3W, 2512",R_0_2512,R4,R_0_2512,R_2512_OEM,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English,A121322CT-ND,DK,https://www.digikey.com/products/en?keywords=A121322CT-ND,,,
+13,"Resistor, 100K, 0.125W, 1%, 0805",R_100K,R1,R_100K,R_0805_OEM,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,P100KCCT-ND,DK,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551,,,
+14,"Resistor, 200, 0.125W, 5%, 0805",R_200,R3,R_200,R_0805_OEM,1,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,RMCF0805JT200RCT-ND,DK,https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND,,,
+15,"Resistor, 25K, 0.1W, 0.1%, 0805",R_25K,R2,R_25K,R_0805_OEM,1,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English,,A124124CT-ND,https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044,,CPF-A-0805B25KE,
+16,,TPS560430YF,U1,TPS560430YF,SOT-23-6_OEM,1,http://www.ti.com/lit/ds/symlink/tps560430.pdf,TPS560430YFDBVR,TPS560430YFDBVR-ND,,,,https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813
+
+
+
+
+
+Component Groups:,16
+Component Count:,17
+Fitted Components:,17
+Number of PCBs:,1
+Total components:,17
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Mon 11 Feb 2019 09:58:51 PM EST
+Schematic Source:,/home/sparsh/Desktop/Formula/buck_converter/New Buck Converter/New Buck Converter.sch
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1
