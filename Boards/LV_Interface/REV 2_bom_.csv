@@ -1,0 +1,29 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN,MFN,PurchasingLink
+1,"LED, Green, 2.2V, 20mA, 0805",LED_0805,D3,LED_0805,LED_0805_OEM,1,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,475-1410-1-ND,DK,https://www.digikey.com/products/en?keywords=475-1410-1-ND
+2,DIODE SCHOTTKY 100V 1A SOD123W,SS110LW,D2,SS110LW,D_SOD-123W_OEM,1,http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf,SS110LWRVGCT-ND,DK,https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/SS110LW-RVG/SS110LWRVGCT-ND/7359346
+3,Ampseal connector 35 pin vertical,Ampseal_35_VT,J1,Ampseal_35_VT,Ampseal_35,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776231%7FA13%7Fpdf%7FEnglish%7FENG_CD_776231_A13.pdf%7F1-776231-1,1-776231-1,TE,http://www.te.com/usa-en/product-1-776231-1.html
+4,CONN HEADER 4 POS 2.54,CONN_01x04,J7,CONN_01x04,Ultrafit_4,1,https://katalog.we-online.de/em/datasheet/6130xx11121.pdf,732-5317-ND,DK,https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300411121/732-5317-ND/4846827
+5,Micro-MaTch connector 6 pin female vertical,MM_F_VT_06,J2,MM_F_VT_06,micromatch_female_vert_6,1,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F338068-6,338068-6,TE,http://www.te.com/global-en/product-338068-6.html
+6,Micro-MaTch connector 20 pin female vertical,MM_F_VT_20,J3 J4 J5 J6,MM_F_VT_20,micromatch_female_vert_20,4,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338068%7FF1%7Fpdf%7FEnglish%7FENG_CD_338068_F1.pdf%7F2-338068-0,2-338068-0,TE,http://www.te.com/global-en/product-2-338068-0.html
+7,"Relay, SPST-NO, Switch 10A/30V, Coil 40mA/5V",G5Q-1A4-DC5-5V,K1 K2,G5Q-1A4-DC5-5V,Relay_SPST_OMRON-G5Q-1A4_OEM,2,http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf,Z3632-ND,DK,https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/G5Q-1A4-DC5/Z3632-ND/1815721
+8,"MOSFET, P-channel, 30V, 2A",BSS308PE,Q2,BSS308PE,SOT-23-3_OEM,1,https://www.infineon.com/dgdl/BSS308PE_Rev2.03.pdf?folderId=db3a304314dca38901154a72e3951a65&fileId=db3a304330f686060131099c80400073,BSS308PEH6327XTSA1CT-ND,DK,https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-fets-mosfets-single/278?k=bss308pe&k=&pkeyword=bss308pe&pv7=2&pv1989=0&sf=0&quantity=&ColumnSort=0&page=1&stock=1&datasheet=1&pageSize=25
+9,"MOSFET, N-channel, 30V, 6A",SSM3K333R,Q1 Q3,SSM3K333R,SOT-23F,2,https://drive.google.com/drive/folders/0B-V-iZf33Y4GNzhDQTJZanJRbVk,SSM3K333RLFCT-ND,DK,https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391
+10,"Resistor, 10K, 0.25W, 1%, 0805",R_10K,R3 R4,R_10K,R_0805_OEM,2,http://www.bourns.com/data/global/pdfs/CRS.pdf,CRS0805-FX-1002ELFCT-ND,DK,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND
+11,"Resistor, 1K, 0.25W, 1%, 0805",R_1K,R1 R2,R_1K,R_0805_OEM,2,https://www.seielect.com/Catalog/SEI-rncp.pdf,RNCP0805FTD1K00CT-ND,DK,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND
+12,Fuse Holder,Fuse_Holder_Blade,U2 U3 U4,Fuse_Holder_Blade,Fuse_Block_Holder,3,https://www.keyelco.com/userAssets/file/M65p41.pdf,36-3557-2-ND ,DK,https://www.digikey.com/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305
+13,RJ45 ethernet connector vertical,RJ45_VT,U1,RJ45_VT,RJ45-Vertical,1,https://www.amphenolcanada.com/ProductSearch/drawings/AC/MRJ548XX1.pdf,MRJ-5481-01-ND,DK,https://www.digikey.com/products/en?keywords=MRJ-5481-01
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Component Groups:,13,,,,,,,,,
+Component Count:,22,,,,,,,,,
+Fitted Components:,22,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,
+Total components:,22,,,,,,,,,
+Schematic Version:,,,,,,,,,,
+Schematic Date:,,,,,,,,,,
+BoM Date:,Wed 20 Feb 2019 08:30:59 PM EST,,,,,,,,,
+Schematic Source:,/home/manu/Desktop/Formula/MKIV-Boards/Boards/LV_Interface/REV 2.sch,,,,,,,,,
+KiCad Version:,Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1,,,,,,,,,
