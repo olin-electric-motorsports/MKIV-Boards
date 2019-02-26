@@ -412,21 +412,12 @@ Wire Wire Line
 	3100 2950 3100 3100
 Wire Wire Line
 	3100 3800 3100 4150
-Wire Wire Line
-	3100 2950 3700 2950
 Connection ~ 3100 2950
-Wire Wire Line
-	3700 2950 3700 4200
-Connection ~ 3700 2950
-Wire Wire Line
-	3700 2950 4000 2950
 Connection ~ 4000 2950
 Wire Wire Line
 	4000 2950 4300 2950
 Text Notes 3900 2800 0    50   ~ 0
 Input Capacitors\n\n
-Text Notes 4150 4350 0    50   ~ 0
-Enable Pickup\n
 Text Notes 3000 3850 1    50   ~ 0
 12V Indicator
 Text Notes 2150 3450 1    50   ~ 0
@@ -547,20 +538,6 @@ Wire Wire Line
 Text Notes 10000 4000 1    50   ~ 0
 5V Indicator
 Connection ~ 4300 2950
-$Comp
-L formula:TPS560430YF U1
-U 1 1 5C752F87
-P 5850 3100
-F 0 "U1" H 5850 3550 50  0000 C CNN
-F 1 "TPS560430YF" H 5900 3450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5800 3800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 5850 3650 50  0001 C CNN
-F 4 "TPS560430YFDBVR" H 5800 2000 50  0001 C CNN "MPN"
-F 5 "TPS560430YFDBVR-ND" H 5850 2100 50  0001 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 6600 2200 50  0001 C CNN "Purchasing Link"
-	1    5850 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 3200 5000 3200
 Wire Wire Line
@@ -570,9 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3250 7100 4100
 Wire Wire Line
-	4300 2950 5500 2950
-Wire Wire Line
-	5000 3200 5000 4200
+	4300 2950 5000 2950
 Wire Wire Line
 	8850 3050 9200 3050
 Wire Wire Line
@@ -591,11 +566,30 @@ Input Connector\n
 Text Notes 9850 1750 0    50   ~ 0
 Output Connector
 Wire Wire Line
-	3700 4200 5000 4200
-Wire Wire Line
 	7100 3050 7550 3050
 Connection ~ 7100 3050
 Wire Wire Line
 	7750 3050 8150 3050
 Connection ~ 8150 3050
+$Comp
+L formula:TPS560430YF U?
+U 1 1 5C75D405
+P 5850 3100
+F 0 "U?" H 5875 3565 50  0000 C CNN
+F 1 "TPS560430YF" H 5875 3474 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5800 3800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps560430.pdf" H 5850 3650 50  0001 C CNN
+F 4 "TPS560430YFDBVR" H 5800 2000 50  0001 C CNN "MPN"
+F 5 "TPS560430YFDBVR-ND" H 5850 2100 50  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813" H 6600 2200 50  0001 C CNN "Purchasing Link"
+	1    5850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2950 4000 2950
+Wire Wire Line
+	5000 3200 5000 2950
+Connection ~ 5000 2950
+Wire Wire Line
+	5000 2950 5500 2950
 $EndSCHEMATC
