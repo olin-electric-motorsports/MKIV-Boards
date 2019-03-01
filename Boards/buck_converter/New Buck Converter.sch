@@ -592,4 +592,6 @@ Wire Wire Line
 Connection ~ 5000 2950
 Wire Wire Line
 	5000 2950 5500 2950
+Text Notes 10600 7650 0    50   ~ 0
+2
 $EndSCHEMATC
