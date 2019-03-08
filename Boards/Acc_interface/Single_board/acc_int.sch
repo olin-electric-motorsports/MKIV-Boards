@@ -128,10 +128,6 @@ Text Label 2150 2000 0    50   ~ 0
 CAN_LOW
 Text Label 2150 2100 0    50   ~ 0
 CAN_HIGH
-Text Label 2150 2200 0    50   ~ 0
-TSMS
-Text Label 2150 2300 0    50   ~ 0
-TSMS
 Text Label 2150 2400 0    50   ~ 0
 CAN_LOW
 Text Label 2150 2500 0    50   ~ 0
@@ -140,8 +136,6 @@ Text Label 2150 3100 0    50   ~ 0
 FAN_PWM
 Text Label 2150 3300 0    50   ~ 0
 BSPD_Current_sense
-Text Notes 2350 2250 0    50   ~ 0
-Check that these are tied together
 Text Label 5070 3275 2    50   ~ 0
 CAN_LOW
 Text Label 5070 3375 2    50   ~ 0
@@ -159,12 +153,12 @@ Text Label 6400 3475 0    50   ~ 0
 $Comp
 L power:GND #PWR0101
 U 1 1 5C781E66
-P 2895 1980
-F 0 "#PWR0101" H 2895 1730 50  0001 C CNN
-F 1 "GND" H 2900 1807 50  0000 C CNN
-F 2 "" H 2895 1980 50  0001 C CNN
-F 3 "" H 2895 1980 50  0001 C CNN
-	1    2895 1980
+P 2895 2260
+F 0 "#PWR0101" H 2895 2010 50  0001 C CNN
+F 1 "GND" H 2900 2087 50  0000 C CNN
+F 2 "" H 2895 2260 50  0001 C CNN
+F 3 "" H 2895 2260 50  0001 C CNN
+	1    2895 2260
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -338,7 +332,7 @@ IMD_SENSE
 Text Label 2195 5695 0    50   ~ 0
 BMS_SENSE
 Text Label 2195 6195 0    50   ~ 0
-5V_BMS
+5V_AIR
 Text Label 2195 6295 0    50   ~ 0
 Cooling_pressure_sense
 Text Notes 3135 6395 0    50   ~ 0
@@ -390,7 +384,7 @@ Text Notes 9265 1340 0    50   ~ 0
 Text Notes 2765 6100 0    50   ~ 0
 (MP shutdown sense)
 Text Label 8700 1550 0    50   ~ 0
-12V
+Shutdown_Final
 Text Label 8700 1450 0    50   ~ 0
 Shutdown_BMS
 Text Notes 9260 1430 0    50   ~ 0
@@ -424,8 +418,6 @@ Text Notes 9255 2045 0    50   ~ 0
 Text Notes 9250 2140 0    50   ~ 0
 (in, HVD -> MP)
 Wire Wire Line
-	2150 2800 2370 2800
-Wire Wire Line
 	2880 2800 2880 2860
 $Comp
 L power:GND #PWR0109
@@ -438,14 +430,6 @@ F 3 "" H 2880 2860 50  0001 C CNN
 	1    2880 2860
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5435 2275
-NoConn ~ 5715 2275
-NoConn ~ 6015 2275
-NoConn ~ 6125 2275
-NoConn ~ 5370 4095
-NoConn ~ 5650 4095
-NoConn ~ 5950 4095
-NoConn ~ 6060 4095
 Wire Wire Line
 	2895 1100 2895 1700
 Connection ~ 2895 1700
@@ -474,22 +458,13 @@ Text Label 2195 6095 0    50   ~ 0
 Shutdown_MP
 Text Label 2150 3200 0    50   ~ 0
 Shutdown_E-STOP
-Wire Wire Line
-	2895 1900 2895 1980
 Text Label 2150 2600 0    50   ~ 0
-5V_BMS
+5V_AIR
 Text Notes 3045 2760 0    50   ~ 0
 cooling pressure +\n\ncooling pressure -
 Text Label 2150 2700 0    50   ~ 0
 Cooling_pressure_sense
-Wire Wire Line
-	2150 2900 2370 2900
-Wire Wire Line
-	2370 2900 2370 2800
-Connection ~ 2370 2800
-Wire Wire Line
-	2370 2800 2880 2800
-Text Label 2150 3000 0    50   ~ 0
+Text Label 2150 2300 0    50   ~ 0
 12V
 Wire Wire Line
 	2195 6395 2960 6395
@@ -506,4 +481,77 @@ F 3 "" H 2960 6490 50  0001 C CNN
 	1    2960 6490
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5715 2275 5715 2665
+Wire Wire Line
+	5715 2665 6015 2665
+Wire Wire Line
+	6125 2665 6125 2275
+Wire Wire Line
+	6015 2275 6015 2665
+Connection ~ 6015 2665
+Wire Wire Line
+	6015 2665 6125 2665
+Wire Wire Line
+	5435 2665 5715 2665
+Wire Wire Line
+	5435 2275 5435 2665
+Connection ~ 5715 2665
+Wire Wire Line
+	6125 2665 6125 2710
+Connection ~ 6125 2665
+$Comp
+L power:GND #PWR0111
+U 1 1 5C81D03E
+P 6125 2710
+F 0 "#PWR0111" H 6125 2460 50  0001 C CNN
+F 1 "GND" H 6130 2537 50  0000 C CNN
+F 2 "" H 6125 2710 50  0001 C CNN
+F 3 "" H 6125 2710 50  0001 C CNN
+	1    6125 2710
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5370 4095 5370 4520
+Wire Wire Line
+	5370 4520 5650 4520
+Wire Wire Line
+	6060 4520 6060 4095
+Wire Wire Line
+	5950 4095 5950 4520
+Connection ~ 5950 4520
+Wire Wire Line
+	5950 4520 6060 4520
+Wire Wire Line
+	5650 4095 5650 4520
+Connection ~ 5650 4520
+Wire Wire Line
+	5650 4520 5950 4520
+Wire Wire Line
+	6060 4520 6060 4565
+Connection ~ 6060 4520
+$Comp
+L power:GND #PWR0112
+U 1 1 5C81F03B
+P 6060 4565
+F 0 "#PWR0112" H 6060 4315 50  0001 C CNN
+F 1 "GND" H 6065 4392 50  0000 C CNN
+F 2 "" H 6060 4565 50  0001 C CNN
+F 3 "" H 6060 4565 50  0001 C CNN
+	1    6060 4565
+	1    0    0    -1  
+$EndComp
+Text Label 2150 3000 0    50   ~ 0
+Shutdown_Final
+Text Label 2150 2900 0    50   ~ 0
+Shutdown_IMD
+Wire Wire Line
+	2150 2800 2880 2800
+Wire Wire Line
+	2150 2200 2895 2200
+Wire Wire Line
+	2895 1900 2895 2200
+Wire Wire Line
+	2895 2200 2895 2260
+Connection ~ 2895 2200
 $EndSCHEMATC
