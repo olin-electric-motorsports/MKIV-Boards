@@ -2,7 +2,7 @@
 
   (general
     (thickness 4.79999)
-    (drawings 24)
+    (drawings 25)
     (tracks 373)
     (zones 0)
     (modules 23)
@@ -937,6 +937,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module footprints:Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 59F2AABB) (tstamp 5C6B60D6)
@@ -990,7 +995,7 @@
       (net 15 "/Estop -> BSPD"))
     (pad 5 thru_hole circle (at 0 -7.62) (size 1.8 1.8) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 /12V))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.wrl
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1849,6 +1854,9 @@
       (xy -14.438917 -2.443881) (xy -14.269056 -2.445555)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text "Data Logger\nLEDs\n" (at 165.354 33.0073) (layer F.SilkS)
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
   (gr_text "Manu Patil" (at 168.7703 97.2185) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
@@ -1879,17 +1887,17 @@
   (gr_text "BSPD Relay" (at 74.4855 55.9308) (layer F.SilkS)
     (effects (font (size 1.905 1.905) (thickness 0.3)))
   )
-  (gr_text "Data Logger" (at 162.1917 78.105) (layer F.SilkS)
+  (gr_text "Data Logger" (at 111.4425 72.2249) (layer F.SilkS)
     (effects (font (size 1.905 1.905) (thickness 0.3)))
   )
-  (gr_text "LCD Interface" (at 163.8935 65.7352) (layer F.SilkS)
+  (gr_text "LCD Interface" (at 111.4425 60.3123) (layer F.SilkS)
     (effects (font (size 1.905 1.905) (thickness 0.3)))
   )
-  (gr_text Spare (at 157.2641 55.4228) (layer F.SilkS)
+  (gr_text Spare (at 108.1405 49.4157) (layer F.SilkS)
     (effects (font (size 1.905 1.905) (thickness 0.3)))
   )
-  (gr_text Brakelight/BSPD/Shutdown (at 144.1196 47.5869) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text Brakelight/BSPD/Shutdown (at 113.1443 36.1061) (layer F.SilkS)
+    (effects (font (size 1.905 1.905) (thickness 0.3)))
   )
   (gr_text "SOLIDWORKS Educational Product." (at 19.7866 100.435166) (layer Dwgs.User)
     (effects (font (size 4.83362 3.866896) (thickness 0.2)) (justify left top))
