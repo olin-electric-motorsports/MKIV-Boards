@@ -933,23 +933,6 @@ $EndComp
 Wire Wire Line
 	6900 8750 6900 8650
 $Comp
-L formula:R_51.1K R?
-U 1 1 5C703677
-P 4300 9600
-AR Path="/5C6B723E/5C703677" Ref="R?"  Part="1" 
-AR Path="/5C703677" Ref="R104"  Part="1" 
-AR Path="/5C702479/5C703677" Ref="R?"  Part="1" 
-F 0 "R104" V 4200 9600 50  0000 C CNN
-F 1 "R_51.1K" V 4400 9650 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4230 9600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4380 9600 50  0001 C CNN
-F 4 "DK" H 4300 9600 60  0001 C CNN "MFN"
-F 5 "P51.1KCCT-ND" H 4300 9600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF5112V/P51.1KCCT-ND/119466" H 4780 10000 60  0001 C CNN "PurchasingLink"
-	1    4300 9600
-	0    1    1    0   
-$EndComp
-$Comp
 L formula:R_10K R?
 U 1 1 5C703681
 P 3850 9600
@@ -2369,4 +2352,18 @@ Wire Wire Line
 	3750 3550 3850 3550
 Text Label 3850 3550 0    50   ~ 0
 RELAY_DRIVE
+$Comp
+L formula:R_54.9K R104
+U 1 1 5C8A4ED4
+P 4300 9600
+F 0 "R104" V 4380 9600 50  0000 C CNN
+F 1 "R_54.9K" V 4200 9600 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4230 9600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 4380 9600 50  0001 C CNN
+F 4 "DK" H 4300 9600 60  0001 C CNN "MFN"
+F 5 "311-54.9KCRCT-ND" H 4300 9600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KCRCT-ND/730976" H 4780 10000 60  0001 C CNN "PurchasingLink"
+	1    4300 9600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
