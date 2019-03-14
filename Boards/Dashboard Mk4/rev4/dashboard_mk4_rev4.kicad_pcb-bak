@@ -3410,11 +3410,11 @@
       (xy -14.438917 -2.443881) (xy -14.269056 -2.445555)) (layer B.SilkS) (width 0.01))
   )
 
-  (gr_line (start 143.891 87.63) (end 226.416846 97.299013) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 143.891 87.63) (end 226.441 97.282) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 237.864181 103.159894) (end 228.858963 96.328799) (angle 6.364011452) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 227.830627 93.622784) (end 230.236237 92.807535) (angle 62.26818749) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 222.478246 69.915545) (end 230.236237 92.807535) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 226.835318 94.793722) (end 228.858963 96.328799) (angle 62.3) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 226.835318 94.793722) (end 228.858963 96.328799) (angle 62.28371521) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 220.072636 70.730796) (end 220.569414 68.23985) (angle 60) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 135.163812 78.379245) (end 135.163812 54.303701) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 220.569414 68.23985) (end 138.20059 51.812755) (layer Edge.Cuts) (width 0.2))
