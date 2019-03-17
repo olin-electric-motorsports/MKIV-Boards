@@ -1341,7 +1341,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 4750 8350 4750
 Wire Wire Line
-	8350 4750 8350 5050
+	8350 4750 8350 5000
 Wire Wire Line
 	8900 4650 8900 4750
 Connection ~ 8900 4750
@@ -3470,4 +3470,11 @@ Wire Wire Line
 	7350 2850 7750 2850
 Text Notes 7250 2950 0    50   ~ 0
 Connect V- to gnd net
+Wire Wire Line
+	8450 5050 8450 5000
+Wire Wire Line
+	8450 5000 8350 5000
+Connection ~ 8350 5000
+Wire Wire Line
+	8350 5000 8350 5050
 $EndSCHEMATC
