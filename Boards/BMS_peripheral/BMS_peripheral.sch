@@ -1412,20 +1412,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R11
-U 1 1 5E1403B4
-P 2600 1900
-F 0 "R11" V 2750 2000 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 2350 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 1950 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 1900 50  0001 C CNN
-	1    2600 1900
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 1900
-Wire Wire Line
-	2850 1600 2600 1600
 Wire Wire Line
 	2600 2200 2600 2250
 $Comp
@@ -1442,9 +1429,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 2250 60 
 	1    2300 1750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 1600 2600 1600
-Connection ~ 2600 1600
 $Comp
 L formula:R_475 R1
 U 1 1 5E1403CD
@@ -1514,20 +1498,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R12
-U 1 1 5E172B4A
-P 2600 2750
-F 0 "R12" V 2750 2850 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 3200 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 2800 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 2750 50  0001 C CNN
-	1    2600 2750
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 2750
-Wire Wire Line
-	2850 2450 2600 2450
 Wire Wire Line
 	2600 3050 2600 3100
 $Comp
@@ -1544,9 +1515,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 3100 60 
 	1    2300 2600
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 2450 2600 2450
-Connection ~ 2600 2450
 $Comp
 L formula:R_475 R2
 U 1 1 5E172B63
@@ -1620,20 +1588,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 3450
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R13
-U 1 1 5E1AADD9
-P 2600 3600
-F 0 "R13" V 2750 3700 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 4050 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 3650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 3600 50  0001 C CNN
-	1    2600 3600
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 3600
-Wire Wire Line
-	2850 3300 2600 3300
 Wire Wire Line
 	2600 3900 2600 3950
 $Comp
@@ -1650,9 +1605,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 3950 60 
 	1    2300 3450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 3300 2600 3300
-Connection ~ 2600 3300
 $Comp
 L formula:R_475 R3
 U 1 1 5E1AADF2
@@ -1729,20 +1681,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 4300
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R14
-U 1 1 5E1E8BE5
-P 2600 4450
-F 0 "R14" V 2750 4550 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 4900 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 4500 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 4450 50  0001 C CNN
-	1    2600 4450
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 4450
-Wire Wire Line
-	2850 4150 2600 4150
 Wire Wire Line
 	2600 4750 2600 4800
 $Comp
@@ -1759,9 +1698,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 4800 60 
 	1    2300 4300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 4150 2600 4150
-Connection ~ 2600 4150
 $Comp
 L formula:R_475 R4
 U 1 1 5E1E8BFE
@@ -1835,20 +1771,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 5150
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R15
-U 1 1 5E22CA94
-P 2600 5300
-F 0 "R15" V 2750 5400 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 5750 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 5350 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 5300 50  0001 C CNN
-	1    2600 5300
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 5300
-Wire Wire Line
-	2850 5000 2600 5000
 Wire Wire Line
 	2600 5600 2600 5650
 $Comp
@@ -1865,9 +1788,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 5650 60 
 	1    2300 5150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 5000 2600 5000
-Connection ~ 2600 5000
 $Comp
 L formula:R_475 R5
 U 1 1 5E22CAAD
@@ -1941,20 +1861,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 6000
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R16
-U 1 1 5E276AC6
-P 2600 6150
-F 0 "R16" V 2750 6250 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 6600 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 6200 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 6150 50  0001 C CNN
-	1    2600 6150
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 6150
-Wire Wire Line
-	2850 5850 2600 5850
 Wire Wire Line
 	2600 6450 2600 6500
 $Comp
@@ -1971,9 +1878,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 6500 60 
 	1    2300 6000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 5850 2600 5850
-Connection ~ 2600 5850
 $Comp
 L formula:R_475 R6
 U 1 1 5E276ADF
@@ -2047,20 +1951,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 6850
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R17
-U 1 1 5E2C73DD
-P 2600 7000
-F 0 "R17" V 2750 7100 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 7450 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 7050 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7000 50  0001 C CNN
-	1    2600 7000
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 7000
-Wire Wire Line
-	2850 6700 2600 6700
 Wire Wire Line
 	2600 7300 2600 7350
 $Comp
@@ -2077,9 +1968,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 7350 60 
 	1    2300 6850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 6700 2600 6700
-Connection ~ 2600 6700
 $Comp
 L formula:R_475 R7
 U 1 1 5E2C73F6
@@ -2153,20 +2041,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 7700
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R18
-U 1 1 5E31E345
-P 2600 7850
-F 0 "R18" V 2750 7950 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 8300 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 7900 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7850 50  0001 C CNN
-	1    2600 7850
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 7850
-Wire Wire Line
-	2850 7550 2600 7550
 Wire Wire Line
 	2600 8150 2600 8200
 $Comp
@@ -2183,9 +2058,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 8200 60 
 	1    2300 7700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 7550 2600 7550
-Connection ~ 2600 7550
 $Comp
 L formula:R_475 R8
 U 1 1 5E31E35E
@@ -2259,20 +2131,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 8550
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R19
-U 1 1 5E37BE20
-P 2600 8700
-F 0 "R19" V 2750 8800 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 9150 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 8750 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 8700 50  0001 C CNN
-	1    2600 8700
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 8700
-Wire Wire Line
-	2850 8400 2600 8400
 Wire Wire Line
 	2600 9000 2600 9050
 $Comp
@@ -2289,9 +2148,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 9050 60 
 	1    2300 8550
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 8400 2600 8400
-Connection ~ 2600 8400
 $Comp
 L formula:R_475 R9
 U 1 1 5E37BE39
@@ -2365,20 +2221,7 @@ F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 
 	1    4050 9400
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:PWR163S-25-27R0F R20
-U 1 1 5E44C2EA
-P 2600 9550
-F 0 "R20" V 2750 9650 50  0000 C CNN
-F 1 "PWR163S-25-27R0F" V 2850 10000 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 9600 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 9550 50  0001 C CNN
-	1    2600 9550
-	0    1    1    0   
-$EndComp
 NoConn ~ 2850 9550
-Wire Wire Line
-	2850 9250 2600 9250
 Wire Wire Line
 	2600 9850 2600 9900
 $Comp
@@ -2395,9 +2238,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 2700 9900 60 
 	1    2300 9400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2300 9250 2600 9250
-Connection ~ 2600 9250
 $Comp
 L formula:R_475 R10
 U 1 1 5E44C303
@@ -3477,4 +3317,184 @@ Wire Wire Line
 Connection ~ 8350 5000
 Wire Wire Line
 	8350 5000 8350 5050
+Wire Wire Line
+	2300 1600 2600 1600
+Wire Wire Line
+	2300 2450 2600 2450
+Wire Wire Line
+	2300 3300 2600 3300
+Wire Wire Line
+	2300 4150 2600 4150
+Wire Wire Line
+	2300 5000 2600 5000
+Wire Wire Line
+	2300 5850 2600 5850
+Wire Wire Line
+	2300 6700 2600 6700
+Wire Wire Line
+	2300 7550 2600 7550
+Wire Wire Line
+	2300 8400 2600 8400
+Wire Wire Line
+	2300 9250 2600 9250
+$Comp
+L formula:R_3.3_25W_TO163 R11
+U 1 1 5C9B9BA4
+P 2600 1900
+F 0 "R11" V 2450 2050 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 2100 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 1950 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 1900 50  0001 C CNN
+F 4 "DK" H 2550 2150 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 2250 50  0001 C CNN "MPN"
+	1    2600 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 1600
+Wire Wire Line
+	2600 1600 2850 1600
+$Comp
+L formula:R_3.3_25W_TO163 R12
+U 1 1 5C9BA9F9
+P 2600 2750
+F 0 "R12" V 2450 2900 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 2950 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 2800 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 2750 50  0001 C CNN
+F 4 "DK" H 2550 3000 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 3100 50  0001 C CNN "MPN"
+	1    2600 2750
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 2450
+Wire Wire Line
+	2600 2450 2850 2450
+$Comp
+L formula:R_3.3_25W_TO163 R13
+U 1 1 5C9BAB2D
+P 2600 3600
+F 0 "R13" V 2450 3750 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 3800 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 3650 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 3600 50  0001 C CNN
+F 4 "DK" H 2550 3850 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 3950 50  0001 C CNN "MPN"
+	1    2600 3600
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 3300
+Wire Wire Line
+	2600 3300 2850 3300
+$Comp
+L formula:R_3.3_25W_TO163 R14
+U 1 1 5C9BAFCA
+P 2600 4450
+F 0 "R14" V 2450 4600 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 4650 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 4500 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 4450 50  0001 C CNN
+F 4 "DK" H 2550 4700 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 4800 50  0001 C CNN "MPN"
+	1    2600 4450
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 4150
+Wire Wire Line
+	2600 4150 2850 4150
+$Comp
+L formula:R_3.3_25W_TO163 R15
+U 1 1 5C9BB11C
+P 2600 5300
+F 0 "R15" V 2450 5450 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 5500 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 5350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 5300 50  0001 C CNN
+F 4 "DK" H 2550 5550 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 5650 50  0001 C CNN "MPN"
+	1    2600 5300
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 5000
+Wire Wire Line
+	2600 5000 2850 5000
+$Comp
+L formula:R_3.3_25W_TO163 R16
+U 1 1 5C9BB262
+P 2600 6150
+F 0 "R16" V 2450 6300 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 6350 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 6200 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 6150 50  0001 C CNN
+F 4 "DK" H 2550 6400 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 6500 50  0001 C CNN "MPN"
+	1    2600 6150
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 5850
+Wire Wire Line
+	2600 5850 2850 5850
+$Comp
+L formula:R_3.3_25W_TO163 R17
+U 1 1 5C9BB39A
+P 2600 7000
+F 0 "R17" V 2450 7150 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 7200 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 7050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7000 50  0001 C CNN
+F 4 "DK" H 2550 7250 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 7350 50  0001 C CNN "MPN"
+	1    2600 7000
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 6700
+Wire Wire Line
+	2600 6700 2850 6700
+$Comp
+L formula:R_3.3_25W_TO163 R18
+U 1 1 5C9BB708
+P 2600 7850
+F 0 "R18" V 2450 8000 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 8050 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 7900 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7850 50  0001 C CNN
+F 4 "DK" H 2550 8100 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 8200 50  0001 C CNN "MPN"
+	1    2600 7850
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 7550
+Wire Wire Line
+	2600 7550 2850 7550
+$Comp
+L formula:R_3.3_25W_TO163 R19
+U 1 1 5C9BB874
+P 2600 8700
+F 0 "R19" V 2450 8850 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 8900 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 8750 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 8700 50  0001 C CNN
+F 4 "DK" H 2550 8950 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 9050 50  0001 C CNN "MPN"
+	1    2600 8700
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 8400
+Wire Wire Line
+	2600 8400 2850 8400
+$Comp
+L formula:R_3.3_25W_TO163 R20
+U 1 1 5C9BBCCE
+P 2600 9550
+F 0 "R20" V 2450 9700 50  0000 C CNN
+F 1 "R_3.3_25W_TO163" V 2850 9750 50  0000 C CNN
+F 2 "footprints:PWR163" H 2350 9600 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 9550 50  0001 C CNN
+F 4 "DK" H 2550 9800 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 9900 50  0001 C CNN "MPN"
+	1    2600 9550
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 9250
+Wire Wire Line
+	2600 9250 2850 9250
 $EndSCHEMATC

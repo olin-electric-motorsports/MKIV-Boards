@@ -2046,11 +2046,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C3D913F) (tstamp 5C6F582E)
     (at 101.7524 27.8384 90)
-    (path /5E1403B4)
+    (path /5C9B9BA4)
     (fp_text reference R11 (at -1.27 -11.43 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 90) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -10.16) (end -3.81 -10.16) (layer B.SilkS) (width 0.15))
@@ -5361,11 +5361,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C461A39)
     (at 101.7524 38.0492 90)
-    (path /5E172B4A)
+    (path /5C9BA9F9)
     (fp_text reference R12 (at -1.27 -11.43 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 90) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -5.08) (end -1.27 -10.16) (layer B.SilkS) (width 0.15))
@@ -5400,11 +5400,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C461A4C)
     (at 101.727 48.3616 90)
-    (path /5E1AADD9)
+    (path /5C9BAB2D)
     (fp_text reference R13 (at -1.27 -11.43 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 90) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -5.08) (end -1.27 -10.16) (layer B.SilkS) (width 0.15))
@@ -5439,11 +5439,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C6F592D)
     (at 101.7524 58.674 90)
-    (path /5E1E8BE5)
+    (path /5C9BAFCA)
     (fp_text reference R14 (at -1.27 -11.43 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 90) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -10.16) (end -3.81 -10.16) (layer B.SilkS) (width 0.15))
@@ -5478,11 +5478,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C64959D)
     (at 101.7778 68.9356 90)
-    (path /5E22CA94)
+    (path /5C9BB11C)
     (fp_text reference R15 (at -1.27 -11.43 90) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 90) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -5.08) (end -1.27 -10.16) (layer B.SilkS) (width 0.15))
@@ -5517,11 +5517,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C461A85)
     (at 174.498 69.342 270)
-    (path /5E276AC6)
+    (path /5C9BB262)
     (fp_text reference R16 (at -1.27 -11.43 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 270) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -5.08) (end -1.27 -10.16) (layer B.SilkS) (width 0.15))
@@ -5556,11 +5556,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C461A98)
     (at 174.498 58.9915 270)
-    (path /5E2C73DD)
+    (path /5C9BB39A)
     (fp_text reference R17 (at -1.27 -11.43 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 270) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -10.16) (end -3.81 -10.16) (layer B.SilkS) (width 0.15))
@@ -5595,11 +5595,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C6F0263)
     (at 174.498 48.5775 270)
-    (path /5E31E345)
+    (path /5C9BB708)
     (fp_text reference R18 (at -1.27 -11.43 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 270) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -10.16) (end -3.81 -10.16) (layer B.SilkS) (width 0.15))
@@ -5634,11 +5634,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C461ABE)
     (at 174.5234 38.1254 270)
-    (path /5E37BE20)
+    (path /5C9BB874)
     (fp_text reference R19 (at -1.27 -11.43 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 270) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -10.16) (end -3.81 -10.16) (layer B.SilkS) (width 0.15))
@@ -5673,11 +5673,11 @@
 
   (module footprints:PWR163 (layer B.Cu) (tedit 5C4615C1) (tstamp 5C6CA02B)
     (at 174.5234 27.7114 270)
-    (path /5E44C2EA)
+    (path /5C9BBCCE)
     (fp_text reference R20 (at -1.27 -11.43 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PWR163S-25-27R0F (at -1.27 6.35 270) (layer B.Fab) hide
+    (fp_text value R_3.3_25W_TO163 (at -1.27 6.35 270) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.27 -10.16) (end -3.81 -10.16) (layer B.SilkS) (width 0.15))
