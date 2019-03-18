@@ -137,17 +137,6 @@ Wire Notes Line
 	8800 7550 6800 7550
 Text Notes 6850 9150 0    50   ~ 10
 I2C Memory
-$Comp
-L formula:LTC1380 U5
-U 1 1 5BCFF797
-P 13000 4350
-F 0 "U5" H 12975 4925 50  0000 C CNN
-F 1 "LTC1380" H 12975 4834 50  0000 C CNN
-F 2 "footprints:SSOP-16_LTC1380" H 12400 4800 50  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" H 12400 4800 50  0001 C CNN
-	1    13000 4350
-	1    0    0    -1  
-$EndComp
 Text Label 13500 4100 0    50   ~ 0
 SCL
 Text Label 13500 4200 0    50   ~ 0
@@ -323,17 +312,6 @@ Wire Wire Line
 Connection ~ 11000 3500
 Text Label 11000 3400 0    50   ~ 0
 VREF2
-$Comp
-L formula:LTC1380 U6
-U 1 1 5BD1F879
-P 13000 5900
-F 0 "U6" H 12975 6475 50  0000 C CNN
-F 1 "LTC1380" H 12975 6384 50  0000 C CNN
-F 2 "footprints:SSOP-16_LTC1380" H 12400 6350 50  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" H 12400 6350 50  0001 C CNN
-	1    13000 5900
-	1    0    0    -1  
-$EndComp
 Text Label 13500 5650 0    50   ~ 0
 SCL
 Text Label 13500 5750 0    50   ~ 0
@@ -500,17 +478,6 @@ Wire Wire Line
 Connection ~ 11000 5050
 Text Label 11000 4950 0    50   ~ 0
 VREF2
-$Comp
-L formula:LTC1380 U7
-U 1 1 5BD24C10
-P 13000 7350
-F 0 "U7" H 12975 7925 50  0000 C CNN
-F 1 "LTC1380" H 12975 7834 50  0000 C CNN
-F 2 "footprints:SSOP-16_LTC1380" H 12400 7800 50  0001 C CNN
-F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" H 12400 7800 50  0001 C CNN
-	1    13000 7350
-	1    0    0    -1  
-$EndComp
 Text Label 13500 7100 0    50   ~ 0
 SCL
 Text Label 13500 7200 0    50   ~ 0
@@ -673,20 +640,6 @@ Wire Wire Line
 Wire Wire Line
 	14250 7700 14250 6450
 Connection ~ 14250 6250
-$Comp
-L formula:MCP6001 U8
-U 1 1 5BD4A0BF
-P 14800 6550
-F 0 "U8" H 14800 6750 50  0000 L CNN
-F 1 "MCP6001" H 14800 6350 50  0000 L CNN
-F 2 "footprints:SC-70-5_MCP6001" H 14700 6650 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 14800 6750 50  0001 C CNN
-F 4 "DK" H 14900 6850 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/OTCT-ND" H 15000 6950 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" H 15100 7050 60  0001 C CNN "PurchasingLink"
-	1    14800 6550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14500 6450 14250 6450
 Wire Wire Line
@@ -877,20 +830,6 @@ F 3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" H 8150 5450 50  000
 $EndComp
 Wire Wire Line
 	7500 5550 8100 5550
-$Comp
-L formula:MCP6001 U3
-U 1 1 5BFA9993
-P 9050 6250
-F 0 "U3" H 9050 6400 50  0000 L CNN
-F 1 "MCP6001" H 9050 6050 50  0000 L CNN
-F 2 "footprints:SC-70-5_MCP6001" H 8950 6350 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9050 6450 50  0001 C CNN
-F 4 "DK" H 9150 6550 60  0001 C CNN "MFN"
-F 5 "MCP6001T-I/OTCT-ND" H 9250 6650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-OT/MCP6001T-I-OTCT-ND/697158" H 9350 6750 60  0001 C CNN "PurchasingLink"
-	1    9050 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8600 5650 8600 6150
 Wire Wire Line
@@ -1253,34 +1192,6 @@ Text Label 10750 1450 0    50   ~ 0
 IPA
 Text Label 10750 1600 0    50   ~ 0
 IMA
-$Comp
-L formula:NanoFit_2 J1
-U 1 1 5CCB2A9E
-P 14050 1350
-F 0 "J1" H 14400 1300 60  0000 C CNN
-F 1 "NanoFit_2" H 14550 850 60  0000 C CNN
-F 2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 14300 1200 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 14400 1300 60  0001 C CNN
-F 4 "DK" H 14500 1400 50  0001 C CNN "MFN"
-F 5 "WM14972-ND" H 14600 1500 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 14700 1600 50  0001 C CNN "PurchasingLink"
-	1    14050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:NanoFit_2 J2
-U 1 1 5CCB2B75
-P 14050 2050
-F 0 "J2" H 14400 2000 60  0000 C CNN
-F 1 "NanoFit_2" H 14550 1550 60  0000 C CNN
-F 2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 14300 1900 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 14400 2000 60  0001 C CNN
-F 4 "DK" H 14500 2100 50  0001 C CNN "MFN"
-F 5 "WM14972-ND" H 14600 2200 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 14700 2300 50  0001 C CNN "PurchasingLink"
-	1    14050 2050
-	1    0    0    -1  
-$EndComp
 Text Notes 14900 1650 0    50   ~ 0
 isoSPI A towards Core
 Text Notes 14900 2350 0    50   ~ 0
@@ -1289,14 +1200,6 @@ Wire Wire Line
 	13800 2100 14000 2100
 Wire Wire Line
 	14000 2100 14000 2250
-Wire Wire Line
-	14000 2250 14150 2250
-Wire Wire Line
-	14150 2400 14000 2400
-Wire Wire Line
-	14000 2400 14000 2500
-Wire Wire Line
-	14000 2500 13800 2500
 Wire Wire Line
 	11600 2100 11000 2100
 Wire Wire Line
@@ -2963,17 +2866,9 @@ F 3 "" H 11200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14150 1550 14050 1550
-Wire Wire Line
 	14050 1550 14050 1400
 Wire Wire Line
 	14050 1400 13800 1400
-Wire Wire Line
-	14150 1700 14050 1700
-Wire Wire Line
-	14050 1700 14050 1800
-Wire Wire Line
-	14050 1800 13800 1800
 Wire Wire Line
 	14700 6050 14700 6250
 Wire Wire Line
@@ -3497,4 +3392,112 @@ $EndComp
 Connection ~ 2600 9250
 Wire Wire Line
 	2600 9250 2850 9250
+$Comp
+L formula:MCP6001T-I-LT U4
+U 1 1 5C96E245
+P 14800 6550
+F 0 "U4" H 14800 6750 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 14800 6350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 14700 6650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 14800 6750 50  0001 C CNN
+F 4 "DK" H 14900 6850 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 15000 6950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 15100 7050 60  0001 C CNN "PurchasingLink"
+	1    14800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MCP6001T-I-LT U3
+U 1 1 5C96E5D2
+P 9050 6250
+F 0 "U3" H 9050 6450 50  0000 L CNN
+F 1 "MCP6001T-I-LT" H 9050 6050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 8950 6350 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9050 6450 50  0001 C CNN
+F 4 "DK" H 9150 6550 60  0001 C CNN "MFN"
+F 5 "MCP6001T-I/LTCT-ND" H 9250 6650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/microchip-technology/MCP6001T-I-LT/MCP6001T-I-LTCT-ND/669499" H 9350 6750 60  0001 C CNN "PurchasingLink"
+	1    9050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LTC1380IGN U5
+U 1 1 5CAAC736
+P 13000 4350
+F 0 "U5" H 13000 4800 50  0000 C CNN
+F 1 "LTC1380IGN" H 13000 3900 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 12400 4800 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" H 12400 4800 50  0001 C CNN
+F 4 "DK" H 13300 5100 50  0001 C CNN "MFN"
+F 5 "LTC1380IGN#PBF-ND" H 13100 4900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC1380IGN-TRPBF/LTC1380IGN-TRPBFCT-ND/9554873" H 13200 5000 50  0001 C CNN "PurchasingLink"
+	1    13000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LTC1380IGN U6
+U 1 1 5CAAC895
+P 13000 5900
+F 0 "U6" H 13000 6350 50  0000 C CNN
+F 1 "LTC1380IGN" H 13000 5450 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 12400 6350 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" H 12400 6350 50  0001 C CNN
+F 4 "DK" H 13300 6650 50  0001 C CNN "MFN"
+F 5 "LTC1380IGN#PBF-ND" H 13100 6450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC1380IGN-TRPBF/LTC1380IGN-TRPBFCT-ND/9554873" H 13200 6550 50  0001 C CNN "PurchasingLink"
+	1    13000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:LTC1380IGN U7
+U 1 1 5CAACBA0
+P 13000 7350
+F 0 "U7" H 13000 7800 50  0000 C CNN
+F 1 "LTC1380IGN" H 13000 6900 50  0000 C CNN
+F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 12400 7800 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/138093f.pdf" H 12400 7800 50  0001 C CNN
+F 4 "DK" H 13300 8100 50  0001 C CNN "MFN"
+F 5 "LTC1380IGN#PBF-ND" H 13100 7900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC1380IGN-TRPBF/LTC1380IGN-TRPBFCT-ND/9554873" H 13200 8000 50  0001 C CNN "PurchasingLink"
+	1    13000 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:isoSPI-Cutout J1
+U 1 1 5CB799CD
+P 14350 1600
+F 0 "J1" H 14400 1800 50  0000 C CNN
+F 1 "isoSPI-Cutout" H 14350 1400 50  0000 C CNN
+F 2 "footprints:iso_spi_cutout" H 14450 1600 50  0001 C CNN
+F 3 "" H 14450 1600 50  0001 C CNN
+	1    14350 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 1550 14200 1550
+Wire Wire Line
+	14200 1650 14050 1650
+Wire Wire Line
+	14050 1650 14050 1800
+Wire Wire Line
+	14050 1800 13800 1800
+Wire Wire Line
+	14000 2250 14200 2250
+Wire Wire Line
+	14200 2350 14000 2350
+Wire Wire Line
+	14000 2350 14000 2500
+Wire Wire Line
+	14000 2500 13800 2500
+$Comp
+L formula:isoSPI-Cutout J2
+U 1 1 5D033883
+P 14350 2300
+F 0 "J2" H 14400 2500 50  0000 C CNN
+F 1 "isoSPI-Cutout" H 14350 2100 50  0000 C CNN
+F 2 "footprints:iso_spi_cutout" H 14450 2300 50  0001 C CNN
+F 3 "" H 14450 2300 50  0001 C CNN
+	1    14350 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
