@@ -206,14 +206,14 @@ $EndComp
 $Comp
 L power:VCC #PWR?
 U 1 1 5C6BBC0E
-P 4400 4500
+P 4550 4500
 AR Path="/5C6B723E/5C6BBC0E" Ref="#PWR?"  Part="1" 
 AR Path="/5C6BBC0E" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 4400 4350 50  0001 C CNN
-F 1 "VCC" H 4400 4650 50  0000 C CNN
-F 2 "" H 4400 4500 50  0001 C CNN
-F 3 "" H 4400 4500 50  0001 C CNN
-	1    4400 4500
+F 0 "#PWR09" H 4550 4350 50  0001 C CNN
+F 1 "VCC" H 4550 4650 50  0000 C CNN
+F 2 "" H 4550 4500 50  0001 C CNN
+F 3 "" H 4550 4500 50  0001 C CNN
+	1    4550 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -245,7 +245,7 @@ Text Label 3850 4050 0    50   ~ 0
 MOSI
 Text Label 3850 4150 0    50   ~ 0
 SCK
-Text Label 4200 4650 0    50   ~ 0
+Text Label 4350 4650 0    50   ~ 0
 RESET
 NoConn ~ 1550 2650
 Wire Wire Line
@@ -269,17 +269,17 @@ Wire Wire Line
 $Comp
 L formula:R_10K R?
 U 1 1 5C6BBC56
-P 4200 4500
+P 4350 4500
 AR Path="/5C6B723E/5C6BBC56" Ref="R?"  Part="1" 
 AR Path="/5C6BBC56" Ref="R2"  Part="1" 
-F 0 "R2" V 3993 4500 50  0000 C CNN
-F 1 "R_10K" V 4084 4500 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 4130 4500 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4280 4500 50  0001 C CNN
-F 4 "DK" H 4200 4500 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 4200 4500 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4680 4900 60  0001 C CNN "PurchasingLink"
-	1    4200 4500
+F 0 "R2" V 4143 4500 50  0000 C CNN
+F 1 "R_10K" V 4234 4500 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4280 4500 50  0001 C CNN
+F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4430 4500 50  0001 C CNN
+F 4 "DK" H 4350 4500 60  0001 C CNN "MFN"
+F 5 "CRS0805-FX-1002ELFCT-ND" H 4350 4500 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4830 4900 60  0001 C CNN "PurchasingLink"
+	1    4350 4500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1221,7 +1221,7 @@ U 1 1 5C6F2CD2
 P 5450 6700
 F 0 "U2" H 5850 6800 60  0000 C CNN
 F 1 "SN74LVC1G17" H 6100 6300 60  0000 C CNN
-F 2 "" H 5450 6700 60  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5450 6700 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf" H 5450 6700 60  0001 C CNN
 F 4 "DK" H 5400 7100 60  0001 C CNN "MFN"
 F 5 "296-11933-1-ND" H 5300 7000 60  0001 C CNN "MPN"
@@ -1298,20 +1298,6 @@ Wire Notes Line
 	4800 7700 7100 7700
 Wire Notes Line
 	4800 5900 7100 5900
-$Comp
-L formula:C_0.1uF_0603 C6
-U 1 1 5C727522
-P 5300 6600
-F 0 "C6" V 5250 6450 50  0000 L CNN
-F 1 "C_0.1uF_0603" V 5450 6500 50  0000 L CNN
-F 2 "footprints:C_0603_1608Metric" H 5338 6450 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" H 5325 6700 50  0001 C CNN
-F 4 "DK" H 5300 6600 60  0001 C CNN "MFN"
-F 5 "1276-6582-1-ND" H 5300 6600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KO8WPNC/1276-6582-1-ND/5961441" H 5725 7100 60  0001 C CNN "PurchasingLink"
-	1    5300 6600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	5550 6500 5550 6600
 Wire Wire Line
@@ -1442,16 +1428,14 @@ Wire Notes Line
 Wire Notes Line
 	700  1300 4800 1300
 Wire Wire Line
-	4400 4500 4350 4500
+	4550 4500 4500 4500
 Wire Wire Line
-	3750 4650 3950 4650
+	4200 4500 4100 4500
 Wire Wire Line
-	4050 4500 3950 4500
+	4100 4500 4100 4650
+Connection ~ 4100 4650
 Wire Wire Line
-	3950 4500 3950 4650
-Connection ~ 3950 4650
-Wire Wire Line
-	3950 4650 4200 4650
+	4100 4650 4350 4650
 $Comp
 L formula:MCP6001 U4
 U 1 1 5C831275
@@ -1508,7 +1492,7 @@ $EndComp
 Text Label 12650 1700 0    50   ~ 0
 GND
 Text Label 12650 1800 0    50   ~ 0
-12V
++12V
 Text Label 12650 1900 0    50   ~ 0
 CANH
 Text Label 12650 2000 0    50   ~ 0
@@ -1991,7 +1975,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4800 5900 4800
 Text Label 6200 5150 0    50   ~ 0
-~OCD~
+~OCD
 $Comp
 L formula:R_10K R7
 U 1 1 5C9185DC
@@ -2366,4 +2350,36 @@ F 6 "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KC
 	1    4300 9600
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3750 4250 3850 4250
+Wire Wire Line
+	3750 4350 3850 4350
+Wire Wire Line
+	3750 4450 3850 4450
+Text Label 3850 4250 0    50   ~ 0
+PROG_1
+Text Label 3850 4350 0    50   ~ 0
+PROG_2
+Wire Wire Line
+	3750 4650 4100 4650
+Text Label 3850 4450 0    50   ~ 0
+PROG_3
+$Comp
+L formula:C_0.1uF C6
+U 1 1 5C987866
+P 5300 6600
+F 0 "C6" V 5552 6449 50  0000 L CNN
+F 1 "C_0.1uF" V 5461 6449 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 5338 6450 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5325 6700 50  0001 C CNN
+F 4 "DK" H 5300 6600 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 5300 6600 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 5725 7100 60  0001 C CNN "PurchasingLink"
+	1    5300 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3850 2150 3750 2150
+Text Label 3850 2150 0    50   ~ 0
+~OCD
 $EndSCHEMATC
