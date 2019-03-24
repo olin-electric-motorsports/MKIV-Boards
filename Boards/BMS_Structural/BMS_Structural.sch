@@ -525,124 +525,124 @@ Traces from left structural to peripheral
 $Comp
 L formula:Bolt_connect_4-40 B10
 U 1 1 5C98DD24
-P 1300 3350
-F 0 "B10" H 1519 3396 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 1519 3305 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1200 3400 50  0001 C CNN
-F 3 "" H 1300 3500 50  0001 C CNN
-	1    1300 3350
+P 1950 4700
+F 0 "B10" H 2169 4746 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2169 4655 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1850 4750 50  0001 C CNN
+F 3 "" H 1950 4850 50  0001 C CNN
+	1    1950 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B8
 U 1 1 5C98DDCC
-P 1300 3650
-F 0 "B8" H 1519 3696 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 1519 3605 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1200 3700 50  0001 C CNN
-F 3 "" H 1300 3800 50  0001 C CNN
-	1    1300 3650
+P 1950 5000
+F 0 "B8" H 2169 5046 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2169 4955 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1850 5050 50  0001 C CNN
+F 3 "" H 1950 5150 50  0001 C CNN
+	1    1950 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B7
 U 1 1 5C98DF3A
-P 1300 3950
-F 0 "B7" H 1519 3996 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 1519 3905 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1200 4000 50  0001 C CNN
-F 3 "" H 1300 4100 50  0001 C CNN
-	1    1300 3950
+P 1950 5300
+F 0 "B7" H 2169 5346 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2169 5255 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1850 5350 50  0001 C CNN
+F 3 "" H 1950 5450 50  0001 C CNN
+	1    1950 5300
 	1    0    0    -1  
 $EndComp
-Text Label 1100 3350 2    50   ~ 0
+Text Label 1150 4700 2    50   ~ 0
 volt10_L
-Text Label 1100 3650 2    50   ~ 0
+Text Label 1150 5000 2    50   ~ 0
 volt8_L
-Text Label 1100 3950 2    50   ~ 0
+Text Label 1150 5300 2    50   ~ 0
 volt7_L
 $Comp
 L formula:Bolt_connect_4-40 B6
 U 1 1 5C98E525
-P 1300 4250
-F 0 "B6" H 1519 4296 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 1519 4205 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1200 4300 50  0001 C CNN
-F 3 "" H 1300 4400 50  0001 C CNN
-	1    1300 4250
+P 1950 5600
+F 0 "B6" H 2169 5646 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2169 5555 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1850 5650 50  0001 C CNN
+F 3 "" H 1950 5750 50  0001 C CNN
+	1    1950 5600
 	1    0    0    -1  
 $EndComp
-Text Label 1100 4250 2    50   ~ 0
+Text Label 1150 5600 2    50   ~ 0
 volt6_L
 $Comp
 L formula:Bolt_connect_4-40 B1
 U 1 1 5C98EE8D
-P 8000 3200
-F 0 "B1" H 8219 3246 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8219 3155 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 7900 3250 50  0001 C CNN
-F 3 "" H 8000 3350 50  0001 C CNN
-	1    8000 3200
+P 8600 2700
+F 0 "B1" H 8819 2746 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8819 2655 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8500 2750 50  0001 C CNN
+F 3 "" H 8600 2850 50  0001 C CNN
+	1    8600 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B12
 U 1 1 5C98EE93
-P 8000 3500
-F 0 "B12" H 8219 3546 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8219 3455 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 7900 3550 50  0001 C CNN
-F 3 "" H 8000 3650 50  0001 C CNN
-	1    8000 3500
+P 8600 3500
+F 0 "B12" H 8819 3546 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8819 3455 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8500 3550 50  0001 C CNN
+F 3 "" H 8600 3650 50  0001 C CNN
+	1    8600 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B3
 U 1 1 5C98EE99
-P 8000 3800
-F 0 "B3" H 8219 3846 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8219 3755 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 7900 3850 50  0001 C CNN
-F 3 "" H 8000 3950 50  0001 C CNN
-	1    8000 3800
+P 8600 3800
+F 0 "B3" H 8819 3846 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8819 3755 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8500 3850 50  0001 C CNN
+F 3 "" H 8600 3950 50  0001 C CNN
+	1    8600 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B5
 U 1 1 5C98EE9F
-P 8000 4100
-F 0 "B5" H 8219 4146 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8219 4055 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 7900 4150 50  0001 C CNN
-F 3 "" H 8000 4250 50  0001 C CNN
-	1    8000 4100
+P 8600 4100
+F 0 "B5" H 8819 4146 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8819 4055 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8500 4150 50  0001 C CNN
+F 3 "" H 8600 4250 50  0001 C CNN
+	1    8600 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B2
 U 1 1 5C98EEA5
-P 8000 4400
-F 0 "B2" H 8219 4446 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8219 4355 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 7900 4450 50  0001 C CNN
-F 3 "" H 8000 4550 50  0001 C CNN
-	1    8000 4400
+P 8600 4400
+F 0 "B2" H 8819 4446 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8819 4355 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8500 4450 50  0001 C CNN
+F 3 "" H 8600 4550 50  0001 C CNN
+	1    8600 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B4
 U 1 1 5C98EEAB
-P 8000 4700
-F 0 "B4" H 8219 4746 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8219 4655 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 7900 4750 50  0001 C CNN
-F 3 "" H 8000 4850 50  0001 C CNN
-	1    8000 4700
+P 8600 4700
+F 0 "B4" H 8819 4746 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8819 4655 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8500 4750 50  0001 C CNN
+F 3 "" H 8600 4850 50  0001 C CNN
+	1    8600 4700
 	1    0    0    -1  
 $EndComp
-Text Label 7600 3100 2    50   ~ 0
+Text Label 7800 2700 2    50   ~ 0
 volt1_R
-Text Label 7600 3400 2    50   ~ 0
+Text Label 7800 3150 2    50   ~ 0
 V-_R
 Text Label 7800 3800 2    50   ~ 0
 volt3_R
@@ -709,42 +709,22 @@ Wire Wire Line
 $Comp
 L formula:Bolt_connect_4-40 B9
 U 1 1 5C9A9AD0
-P 1300 4550
-F 0 "B9" H 1519 4596 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 1519 4505 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1200 4600 50  0001 C CNN
-F 3 "" H 1300 4700 50  0001 C CNN
-	1    1300 4550
+P 1950 5900
+F 0 "B9" H 2169 5946 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2169 5855 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1850 5950 50  0001 C CNN
+F 3 "" H 1950 6050 50  0001 C CNN
+	1    1950 5900
 	1    0    0    -1  
 $EndComp
-Text Label 1100 4550 2    50   ~ 0
+Text Label 1150 5900 2    50   ~ 0
 volt9_L
-Text Label 7600 3600 2    50   ~ 0
+Text Label 7750 3500 2    50   ~ 0
 V+_L
 Wire Wire Line
-	7750 3400 7750 3500
-Wire Wire Line
 	7750 3500 7800 3500
-Wire Wire Line
-	7750 3500 7750 3600
-Connection ~ 7750 3500
-Wire Wire Line
-	7600 3400 7750 3400
-Wire Wire Line
-	7600 3600 7750 3600
-Text Label 7600 3250 2    50   ~ 0
+Text Label 7800 2400 2    50   ~ 0
 volt11_L
-Wire Wire Line
-	7600 3100 7750 3100
-Wire Wire Line
-	7750 3100 7750 3200
-Wire Wire Line
-	7750 3200 7800 3200
-Wire Wire Line
-	7750 3200 7750 3250
-Wire Wire Line
-	7750 3250 7600 3250
-Connection ~ 7750 3200
 NoConn ~ 1350 2750
 NoConn ~ 1350 2850
 Text Label 5950 2450 0    50   ~ 0
@@ -785,4 +765,153 @@ Text Label 5950 1050 0    50   ~ 0
 volt9_R
 Wire Wire Line
 	5950 2150 6050 2150
+$Comp
+L formula:200mA_Fuse F10
+U 1 1 5C96F1D5
+P 1450 4700
+F 0 "F10" H 1450 4925 50  0000 C CNN
+F 1 "200mA_Fuse" H 1450 4834 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1400 4700 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 4700 50  0001 C CNN
+	1    1450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F8
+U 1 1 5C9719C1
+P 1450 5000
+F 0 "F8" H 1450 5225 50  0000 C CNN
+F 1 "200mA_Fuse" H 1450 5134 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1400 5000 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5000 50  0001 C CNN
+	1    1450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F7
+U 1 1 5C971A27
+P 1450 5300
+F 0 "F7" H 1450 5525 50  0000 C CNN
+F 1 "200mA_Fuse" H 1450 5434 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1400 5300 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5300 50  0001 C CNN
+	1    1450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F6
+U 1 1 5C971A8B
+P 1450 5600
+F 0 "F6" H 1450 5825 50  0000 C CNN
+F 1 "200mA_Fuse" H 1450 5734 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1400 5600 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5600 50  0001 C CNN
+	1    1450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F9
+U 1 1 5C971AF5
+P 1450 5900
+F 0 "F9" H 1450 6125 50  0000 C CNN
+F 1 "200mA_Fuse" H 1450 6034 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1400 5900 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5900 50  0001 C CNN
+	1    1450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F1
+U 1 1 5C972F6A
+P 8100 2700
+F 0 "F1" H 8100 2925 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 2834 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 2700 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 2700 50  0001 C CNN
+	1    8100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F12
+U 1 1 5C973FDD
+P 8100 3500
+F 0 "F12" H 8100 3725 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 3634 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 3500 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 3500 50  0001 C CNN
+	1    8100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F3
+U 1 1 5C97404D
+P 8100 3800
+F 0 "F3" H 8100 4025 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 3934 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 3800 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 3800 50  0001 C CNN
+	1    8100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F5
+U 1 1 5C9740BD
+P 8100 4100
+F 0 "F5" H 8100 4325 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 4234 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 4100 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 4100 50  0001 C CNN
+	1    8100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F2
+U 1 1 5C974135
+P 8100 4400
+F 0 "F2" H 8100 4625 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 4534 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 4400 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 4400 50  0001 C CNN
+	1    8100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F4
+U 1 1 5C9741D4
+P 8100 4700
+F 0 "F4" H 8100 4925 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 4834 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 4700 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 4700 50  0001 C CNN
+	1    8100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:200mA_Fuse F11
+U 1 1 5C9759A0
+P 8100 2400
+F 0 "F11" H 8100 2625 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 2534 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 2400 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 2400 50  0001 C CNN
+	1    8100 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 2400 8400 2700
+Connection ~ 8400 2700
+$Comp
+L formula:200mA_Fuse F13
+U 1 1 5C97756F
+P 8100 3150
+F 0 "F13" H 8100 3375 50  0000 C CNN
+F 1 "200mA_Fuse" H 8100 3284 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8050 3150 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 3150 50  0001 C CNN
+	1    8100 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3150 8400 3500
+Connection ~ 8400 3500
 $EndSCHEMATC
