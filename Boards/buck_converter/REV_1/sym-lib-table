@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name New-Buck-Converter-rescue)(type Legacy)(uri "${KIPRJMOD}/New Buck Converter-rescue.lib")(options "")(descr ""))
-)
