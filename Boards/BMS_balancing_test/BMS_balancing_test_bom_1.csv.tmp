@@ -1,0 +1,20 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN,MFN,MFG,PurchasingLink
+1,CONN HEADER 2 POS 2.54mm,CONN_01x02,J1 J2 J3,CONN_01x02,PinHeader_1x02_P2.54mm_Vertical,3,https://katalog.we-online.de/em/datasheet/6130xx11121.pdf,732-5315-ND,DK,,
+2,RES SMD 1.5 OHM 1% 25W DPAK,R_1.3_25W_TO163,R3,R_1.3_25W_TO163,PWR163,1,https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf,PWR163S-25-1R50F-ND,DK,,
+3,"Resistor, 13 ohm 1%, 2W, 2512",R_13_2W_2512_0,R1,R_13_2W_2512_0,R_2512_OEM,1,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-5&DocType=DS&DocLang=English,A115987CT-ND,,DK,https://www.digikey.com/product-detail/en/te-connectivity-passive-product/352113RFT/A115987CT-ND/4280006
+4,"Resistor, 13 ohm 1%, 2W, 2512",R_3.6_5W_SMD,R2,R_3.6_5W_SMD,SM_5,1,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773242&DocType=DS&DocLang=English,A131834CT-ND,,DK,https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SMW53R6JT/A131834CT-ND/8603964
+
+
+
+
+
+Component Groups:,4
+Component Count:,6
+Fitted Components:,6
+Number of PCBs:,1
+Total components:,6
+Schematic Version:,1
+Schematic Date:,2018-12-02
+BoM Date:,Sat 15 Dec 2018 01:55:05 PM EST
+Schematic Source:,/home/aehoppe/Documents/Formula/MKIV-Boards/Boards/BMS_balancing_test/BMS_balancing_test.sch
+KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1
