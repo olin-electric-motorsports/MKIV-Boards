@@ -313,8 +313,6 @@ F 3 "" H 2700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
-=======
 L power:PWR_FLAG #FLG010
 U 1 1 59E0A7A5
 P 3100 3650
@@ -326,7 +324,6 @@ F 3 "" H 3100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
->>>>>>> parent of 949f977... Layout and schematic alterations for voltage level converter
 L power:+12V #PWR011
 U 1 1 59E0A7D7
 P 2300 3650
@@ -338,8 +335,6 @@ F 3 "" H 2300 3650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-<<<<<<< HEAD
-=======
 L power:GND #PWR012
 U 1 1 59E0A859
 P 3100 3650
@@ -351,7 +346,6 @@ F 3 "" H 3100 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
->>>>>>> parent of 949f977... Layout and schematic alterations for voltage level converter
 L formula:C_0.1uF C4
 U 1 1 59E068FA
 P 5200 1000
@@ -1046,6 +1040,8 @@ Text Label 9600 3300 0    60   ~ 0
 SCK
 Text Label 9600 3200 0    60   ~ 0
 MOSI
+Text Label 9600 3100 0    60   ~ 0
+MISO
 Text Label 9600 2300 0    60   ~ 0
 RXCAN
 $Comp
@@ -1374,10 +1370,10 @@ NoConn ~ 5950 3300
 NoConn ~ 9600 2500
 NoConn ~ 9600 2600
 $Comp
-L formula:UF_8_RA J?
+L formula:UF_8_RA J1
 U 1 1 5C60C429
 P 2150 1100
-F 0 "J?" V 1900 800 60  0000 L CNN
+F 0 "J1" V 1900 800 60  0000 L CNN
 F 1 "UF_8_RA" V 1900 950 60  0000 L CNN
 F 2 "footprints:Ultrafit_8_RA" H 2050 1850 60  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1723161306_sd.pdf" H 2150 1950 60  0001 C CNN
@@ -1394,10 +1390,10 @@ Wire Notes Line
 Wire Notes Line
 	1450 500  1450 4800
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5C6224D9
 P 1750 1350
-F 0 "#PWR?" H 1750 1100 50  0001 C CNN
+F 0 "#PWR0103" H 1750 1100 50  0001 C CNN
 F 1 "GND" H 1755 1177 50  0000 C CNN
 F 2 "" H 1750 1350 50  0001 C CNN
 F 3 "" H 1750 1350 50  0001 C CNN
@@ -1408,14 +1404,11 @@ Text Label 1950 1350 3    60   ~ 0
 CANH
 Text Label 2050 1350 3    60   ~ 0
 CANL
-<<<<<<< HEAD
-Text Label 1450 1350 3    60   ~ 0
-=======
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5C62AFC1
 P 2150 1350
-F 0 "#PWR?" H 2150 1100 50  0001 C CNN
+F 0 "#PWR0104" H 2150 1100 50  0001 C CNN
 F 1 "GND" H 2155 1177 50  0000 C CNN
 F 2 "" H 2150 1350 50  0001 C CNN
 F 3 "" H 2150 1350 50  0001 C CNN
@@ -1423,7 +1416,6 @@ F 3 "" H 2150 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2350 1350 3    60   ~ 0
->>>>>>> parent of 949f977... Layout and schematic alterations for voltage level converter
 CANH
 Text Label 2450 1350 3    60   ~ 0
 CANL
@@ -1431,171 +1423,4 @@ Text Label 1850 1350 3    50   ~ 0
 12V
 Text Label 2250 1350 3    50   ~ 0
 12V
-<<<<<<< HEAD
-$Comp
-L Transistor_FET:2N7000 Q3
-U 1 1 5C9994C9
-P 5750 4050
-F 0 "Q3" V 6100 4050 50  0000 L CNN
-F 1 "2N7000" V 6000 3950 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5950 3975 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 5750 4050 50  0001 L CNN
-	1    5750 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5C9AB04D
-P 5850 3850
-F 0 "#PWR0105" H 5850 3600 50  0001 C CNN
-F 1 "GND" H 5855 3677 50  0000 C CNN
-F 2 "" H 5850 3850 50  0001 C CNN
-F 3 "" H 5850 3850 50  0001 C CNN
-	1    5850 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_FET:2N7000 Q2
-U 1 1 5C9AB3D2
-P 4100 2800
-F 0 "Q2" V 4305 2846 50  0000 L CNN
-F 1 "2N7000" V 4400 2750 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 2725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 2800 50  0001 L CNN
-	1    4100 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5C9B94A5
-P 3900 2700
-F 0 "#PWR0106" H 3900 2450 50  0001 C CNN
-F 1 "GND" H 3905 2572 50  0000 R CNN
-F 2 "" H 3900 2700 50  0001 C CNN
-F 3 "" H 3900 2700 50  0001 C CNN
-	1    3900 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Transistor_FET:2N7000 Q1
-U 1 1 5C9B957E
-P 3350 3400
-F 0 "Q1" H 3450 3800 50  0000 L CNN
-F 1 "2N7000" H 3250 3900 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3550 3325 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 3350 3400 50  0001 L CNN
-	1    3350 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 5C9BDD69
-P 3250 3600
-F 0 "#PWR0107" H 3250 3350 50  0001 C CNN
-F 1 "GND" V 3350 3500 50  0000 C CNN
-F 2 "" H 3250 3600 50  0001 C CNN
-F 3 "" H 3250 3600 50  0001 C CNN
-	1    3250 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 4200 4700 4050
-Connection ~ 4700 4200
-Wire Wire Line
-	3850 3400 4100 3400
-$Comp
-L formula:R_10K R14
-U 1 1 5C9D2F5D
-P 4100 3150
-F 0 "R14" V 4000 3100 50  0000 L CNN
-F 1 "R_10K" V 3900 3050 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 4030 3150 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 4180 3150 50  0001 C CNN
-F 4 "DK" H 4100 3150 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 4100 3150 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4580 3550 60  0001 C CNN "PurchasingLink"
-	1    4100 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_10K R13
-U 1 1 5C9E0479
-P 3700 3400
-F 0 "R13" V 3493 3400 50  0000 C CNN
-F 1 "R_10K" V 3584 3400 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 3630 3400 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 3780 3400 50  0001 C CNN
-F 4 "DK" H 3700 3400 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 3700 3400 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 4180 3800 60  0001 C CNN "PurchasingLink"
-	1    3700 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_10K R15
-U 1 1 5C9E60F4
-P 5550 3900
-F 0 "R15" V 5350 3800 50  0000 L CNN
-F 1 "R_10K" V 5450 3750 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 5480 3900 50  0001 C CNN
-F 3 "http://www.bourns.com/data/global/pdfs/CRS.pdf" H 5630 3900 50  0001 C CNN
-F 4 "DK" H 5550 3900 60  0001 C CNN "MFN"
-F 5 "CRS0805-FX-1002ELFCT-ND" H 5550 3900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 6030 4300 60  0001 C CNN "PurchasingLink"
-	1    5550 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 3750 5550 3650
-Connection ~ 5550 3750
-Wire Wire Line
-	7200 1400 7400 1400
-Connection ~ 7200 1400
-Wire Notes Line
-	3100 6750 10500 6750
-Wire Notes Line
-	550  4800 10500 4800
-Wire Notes Line
-	3100 2100 6300 2100
-Text Label 9600 3100 0    60   ~ 0
-MISO
-Text Label 2300 1050 2    60   ~ 0
-MISO
-Wire Notes Line
-	550  500  10500 500 
-$Comp
-L power:PWR_FLAG #FLG010
-U 1 1 59E0A7A5
-P 2200 3650
-F 0 "#FLG010" H 2200 3725 50  0001 C CNN
-F 1 "PWR_FLAG" H 2200 3800 50  0000 C CNN
-F 2 "" H 2200 3650 50  0001 C CNN
-F 3 "" H 2200 3650 50  0001 C CNN
-	1    2200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5C9A7DA8
-P 2200 3650
-F 0 "#PWR0108" H 2200 3400 50  0001 C CNN
-F 1 "GND" H 2205 3477 50  0000 C CNN
-F 2 "" H 2200 3650 50  0001 C CNN
-F 3 "" H 2200 3650 50  0001 C CNN
-	1    2200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C9A83BF
-P 1250 1350
-F 0 "#PWR?" H 1250 1100 50  0001 C CNN
-F 1 "GND" H 1255 1177 50  0000 C CNN
-F 2 "" H 1250 1350 50  0001 C CNN
-F 3 "" H 1250 1350 50  0001 C CNN
-	1    1250 1350
-	1    0    0    -1  
-$EndComp
-=======
->>>>>>> parent of 949f977... Layout and schematic alterations for voltage level converter
 $EndSCHEMATC
