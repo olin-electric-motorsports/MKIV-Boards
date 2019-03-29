@@ -1361,9 +1361,9 @@
   (segment (start 123.4208 103.198) (end 123.5583 103.0605) (width 0.254) (layer F.Cu) (net 5))
   (segment (start 123.4208 105.7275) (end 123.4208 103.198) (width 0.254) (layer F.Cu) (net 5))
   (segment (start 111.9 104.35) (end 112.2 104.35) (width 0.254) (layer F.Cu) (net 5))
-  (segment (start 118.575 104.35) (end 111.9 104.35) (width 0.1524) (layer F.Cu) (net 5))
-  (segment (start 121.75236 102.93868) (end 119.98632 102.93868) (width 0.1524) (layer F.Cu) (net 5))
-  (segment (start 119.98632 102.93868) (end 118.575 104.35) (width 0.1524) (layer F.Cu) (net 5))
+  (segment (start 121.17736 102.93868) (end 121.75236 102.93868) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 112.2 104.35) (end 113.61132 102.93868) (width 0.254) (layer F.Cu) (net 5))
+  (segment (start 113.61132 102.93868) (end 121.17736 102.93868) (width 0.254) (layer F.Cu) (net 5))
   (segment (start 129.8566 100.8658) (end 129.9718 100.981) (width 0.254) (layer F.Cu) (net 6))
   (segment (start 127.6276 100.8658) (end 129.8566 100.8658) (width 0.254) (layer F.Cu) (net 6))
   (segment (start 127.6276 105.41744) (end 127.8767 105.66654) (width 0.25) (layer F.Cu) (net 7))
@@ -1594,6 +1594,23 @@
     (filled_polygon
       (pts
         (xy 126.442236 101.925) (xy 126.343436 102.0238) (xy 125.4262 102.0238) (xy 125.4262 101.8012) (xy 126.318436 101.8012)
+      )
+    )
+  )
+  (zone (net 6) (net_name "Net-(C103-Pad2)") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.1524))
+    (min_thickness 0.1524)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 127.25 100.275) (xy 130.95 100.275) (xy 131.125 100.45) (xy 131.125 101.55) (xy 130.925 101.75)
+        (xy 127.4 101.75) (xy 127.25 101.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 131.0488 100.481564) (xy 131.0488 101.518436) (xy 130.893436 101.6738) (xy 127.431564 101.6738) (xy 127.3262 101.568436)
+        (xy 127.3262 100.3512) (xy 130.918436 100.3512)
       )
     )
   )

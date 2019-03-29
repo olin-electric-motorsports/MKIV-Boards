@@ -1597,4 +1597,21 @@
       )
     )
   )
+  (zone (net 6) (net_name "Net-(C103-Pad2)") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads yes (clearance 0.1524))
+    (min_thickness 0.1524)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 127.25 100.275) (xy 130.95 100.275) (xy 131.125 100.45) (xy 131.125 101.55) (xy 130.925 101.75)
+        (xy 127.4 101.75) (xy 127.25 101.6)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 131.0488 100.481564) (xy 131.0488 101.518436) (xy 130.893436 101.6738) (xy 127.431564 101.6738) (xy 127.3262 101.568436)
+        (xy 127.3262 100.3512) (xy 130.918436 100.3512)
+      )
+    )
+  )
 )
