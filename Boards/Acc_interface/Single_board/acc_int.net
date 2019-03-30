@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/bryce/Storage/Formula/MKIV-Boards/Boards/Acc_interface/Single_board/acc_int.sch)
-    (date "Thu 07 Mar 2019 09:04:55 PM EST")
-    (tool "Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1")
+    (source /home/corey/Desktop/Formula/MKIV-Boards/Boards/Acc_interface/Single_board/acc_int.sch)
+    (date "Sat 30 Mar 2019 11:21:19 AM EDT")
+    (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -39,7 +39,7 @@
       (tstamp 5C7809BA))
     (comp (ref J3)
       (value MM_F_RA_04)
-      (footprint footprints:micromatch_female_ra_4)
+      (footprint footprints:micromatch_female_vert_4)
       (datasheet http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-4)
       (fields
         (field (name MFN) TE)
@@ -50,7 +50,7 @@
       (tstamp 5C780DA3))
     (comp (ref J4)
       (value MM_F_RA_14)
-      (footprint footprints:micromatch_female_ra_14)
+      (footprint footprints:micromatch_female_vert_14)
       (datasheet http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F1-338070-4)
       (fields
         (field (name MFN) TE)
@@ -61,7 +61,7 @@
       (tstamp 5C780FF6))
     (comp (ref J2)
       (value MM_F_RA_20)
-      (footprint footprints:micromatch_female_ra_20)
+      (footprint footprints:micromatch_female_vert_20)
       (datasheet http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0)
       (fields
         (field (name MFN) TE)
@@ -72,7 +72,7 @@
       (tstamp 5C7811DA))
     (comp (ref J5)
       (value MM_F_RA_06)
-      (footprint footprints:micromatch_female_ra_6)
+      (footprint footprints:micromatch_female_vert_6)
       (datasheet http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6)
       (fields
         (field (name MFN) TE)
@@ -272,7 +272,7 @@
         (pin (num 14) (name GND) (type BiDi)))))
   (libraries
     (library (logical formula)
-      (uri /home/bryce/Storage/Formula/OEM/schematic/formula.lib)))
+      (uri /home/corey/Desktop/Formula/OEM_Preferred_Parts/schematic/formula.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref U1) (pin 14))
