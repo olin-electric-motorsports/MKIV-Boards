@@ -1008,20 +1008,6 @@ Wire Wire Line
 	3800 8425 3800 8650
 Wire Wire Line
 	3950 8425 3800 8425
-$Comp
-L formula:NanoFit_2 J3
-U 1 1 5C6DE1E3
-P 10600 2050
-F 0 "J3" H 10950 2000 60  0000 C CNN
-F 1 "NanoFit_2" H 11100 1550 60  0000 C CNN
-F 2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 10850 1900 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 10950 2000 60  0001 C CNN
-F 4 "DK" H 11050 2100 50  0001 C CNN "MFN"
-F 5 "WM14972-ND" H 11150 2200 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 11250 2300 50  0001 C CNN "PurchasingLink"
-	1    10600 2050
-	1    0    0    -1  
-$EndComp
 Connection ~ 6900 8750
 Connection ~ 3350 6450
 Connection ~ 4050 6750
@@ -1486,6 +1472,9 @@ F 0 "J2" H 5450 5000 50  0000 C CNN
 F 1 "B5B-PH-K-S" H 5450 4400 50  0000 C CNN
 F 2 "footprints:B5B-PH-K-S" H 5350 4900 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 5450 5000 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "455-1707-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B5B-PH-K-S-LF-SN/455-1707-ND/926614" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    5450 4650
 	-1   0    0    -1  
 $EndComp
@@ -1545,20 +1534,6 @@ Wire Wire Line
 	13350 2900 12650 2900
 Wire Wire Line
 	13350 3000 12650 3000
-$Comp
-L formula:MicroFit_RA_R_2 J4
-U 1 1 5C878A91
-P 13600 3450
-F 0 "J4" H 13500 3500 50  0000 C CNN
-F 1 "MicroFit_RA_R_2" H 13600 3300 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_2" H 13550 3650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/436500201_sd.pdf" H 13550 3650 50  0001 C CNN
-F 4 "MFN" H 13700 3700 50  0001 C CNN "DK"
-F 5 "WM1865-ND" H 13800 3800 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" H 13600 3600 50  0001 C CNN "Purchasing Link"
-	1    13600 3450
-	-1   0    0    -1  
-$EndComp
 Text Label 12200 3400 0    50   ~ 0
 SHDN_IN(MAIN_PACK->BMS)
 Text Label 12200 3500 0    50   ~ 0
@@ -1568,17 +1543,6 @@ Wire Wire Line
 Wire Wire Line
 	13350 3500 12200 3500
 $Comp
-L formula:C_10nF C9
-U 1 1 5C880080
-P 8850 2950
-F 0 "C9" H 8750 3050 50  0000 C CNN
-F 1 "C_10nF" V 9000 2950 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 8650 2950 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 8750 3050 50  0001 C CNN
-	1    8850 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L formula:R_60.4 R10
 U 1 1 5C8801E5
 P 7850 2150
@@ -1586,6 +1550,9 @@ F 0 "R10" H 7750 2150 50  0000 C CNN
 F 1 "R_60.4" V 7950 2150 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 7650 2050 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7750 2150 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "P60.4DACT-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    7850 2150
 	1    0    0    -1  
 $EndComp
@@ -1597,18 +1564,10 @@ F 0 "R11" H 7750 2550 50  0000 C CNN
 F 1 "R_60.4" V 7950 2550 50  0000 C CNN
 F 2 "footprints:R_0805_OEM" H 7650 2450 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7750 2550 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "P60.4DACT-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    7850 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_10nF C8
-U 1 1 5C8804FE
-P 8250 2500
-F 0 "C8" H 8150 2600 50  0000 C CNN
-F 1 "C_10nF" V 8400 2500 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 8050 2500 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 8150 2600 50  0001 C CNN
-	1    8250 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1846,6 +1805,9 @@ F 0 "U3" H 6100 3350 50  0000 C CNN
 F 1 "LTC6820HMS" H 6100 1750 50  0000 C CNN
 F 2 "Package_SO:MSOP-16_3x4mm_P0.5mm" V 6500 2250 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/6820fb.pdf" V 6500 2250 50  0001 C CNN
+F 4 "DK" H 0   0   50  0001 C CNN "MFN"
+F 5 "LTC6820HMS#TRPBFCT-ND" H 0   0   50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6820HMS-TRPBF/LTC6820HMS-TRPBFCT-ND/8275338" H 0   0   50  0001 C CNN "PurchasingLink"
 	1    6100 2600
 	1    0    0    -1  
 $EndComp
@@ -2295,17 +2257,6 @@ Wire Wire Line
 	8900 9100 8900 9200
 Wire Wire Line
 	8900 9200 9000 9200
-$Comp
-L formula:BAS40-00 D4
-U 1 1 5CC0F342
-P 8200 8800
-F 0 "D4" H 8200 8900 50  0000 C CNN
-F 1 "BAS40-00" H 8200 8700 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 8800 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf" H 8200 8900 50  0001 C CNN
-	1    8200 8800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8200 9150 8600 9150
 Wire Wire Line
@@ -2382,4 +2333,74 @@ Wire Wire Line
 	3850 2150 3750 2150
 Text Label 3850 2150 0    50   ~ 0
 ~OCD
+$Comp
+L formula:NanoFit_2 J3
+U 1 1 5C6DE1E3
+P 10600 2050
+F 0 "J3" H 10950 2000 60  0000 C CNN
+F 1 "NanoFit_2" H 11100 1550 60  0000 C CNN
+F 2 "footprints:NanoFit_Molex_1x02x2.50mm_Angled_OEM" H 10850 1900 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1053131102_sd.pdf" H 10950 2000 60  0001 C CNN
+F 4 "DK" H 11050 2100 50  0001 C CNN "MFN"
+F 5 "WM14972-ND" H 11150 2200 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-connectors-headers-male-pins/314?k=nanofit+2&k=&pkeyword=nanofit+2&pv88=2&pv69=367&sf=0&FV=ffe0013a&quantity=&ColumnSort=0&page=1&pageSize=25" H 11250 2300 50  0001 C CNN "PurchasingLink"
+	1    10600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MicroFit_RA_R_2 J4
+U 1 1 5CA151A5
+P 13600 3450
+F 0 "J4" H 13500 3500 50  0000 C CNN
+F 1 "MicroFit_RA_R_2" H 13600 3300 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_2" H 13550 3650 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/436500201_sd.pdf" H 13550 3650 50  0001 C CNN
+F 4 "DK" H 13700 3700 50  0001 C CNN "MFN"
+F 5 "WM1865-ND" H 13800 3800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" H 13600 3600 50  0001 C CNN "PurchasingLink"
+	1    13600 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C8
+U 1 1 5CA27A1B
+P 8250 2500
+F 0 "C8" H 8150 2600 50  0000 C CNN
+F 1 "C_10nF" V 8400 2500 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 8050 2500 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 8150 2600 50  0001 C CNN
+F 4 "DK" H 8250 2700 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 8350 2800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 8450 2900 50  0001 C CNN "PurchasingLink"
+	1    8250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C9
+U 1 1 5CA27AB8
+P 8850 2950
+F 0 "C9" H 8750 3050 50  0000 C CNN
+F 1 "C_10nF" V 9000 2950 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 8650 2950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 8750 3050 50  0001 C CNN
+F 4 "DK" H 8850 3150 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 8950 3250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 9050 3350 50  0001 C CNN "PurchasingLink"
+	1    8850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:BAS40-00 D4
+U 1 1 5CA4A35E
+P 8200 8800
+F 0 "D4" H 8200 8900 50  0000 C CNN
+F 1 "BAS40-00" H 8200 8700 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 8800 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BAS40_1PSXXSB4X_SER.pdf" H 8200 8900 50  0001 C CNN
+F 4 "DK" H 8300 9000 50  0001 C CNN "MFN"
+F 5 "1727-4234-1-ND" H 8400 9100 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-4234-1-ND/2122190" H 8500 9200 50  0001 C CNN "PurchasingLink"
+	1    8200 8800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

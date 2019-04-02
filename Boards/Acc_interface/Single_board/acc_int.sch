@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:acc_int-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -48,7 +47,7 @@ U 1 1 5C780DA3
 P 2315 3950
 F 0 "J3" H 2371 4397 60  0000 C CNN
 F 1 "MM_F_RA_04" H 2371 4291 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_4" H 2115 5050 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_4" H 2115 5050 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-4" H 2215 5150 60  0001 C CNN
 F 4 "TE" H 2415 5350 60  0001 C CNN "MFN"
 F 5 "338070-4" H 2515 5450 60  0001 C CNN "MPN"
@@ -62,7 +61,7 @@ U 1 1 5C780FF6
 P 4665 5315
 F 0 "J4" H 4771 6212 60  0000 C CNN
 F 1 "MM_F_RA_14" H 4771 6106 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_14" H 4615 5965 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_14" H 4615 5965 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F1-338070-4" H 4715 6065 60  0001 C CNN
 F 4 "TE" H 4765 6715 60  0001 C CNN "MFN"
 F 5 "1-338070-4" H 4865 6815 60  0001 C CNN "MPN"
@@ -76,7 +75,7 @@ U 1 1 5C7811DA
 P 2045 5595
 F 0 "J2" H 2001 6942 60  0000 C CNN
 F 1 "MM_F_RA_20" H 2001 6836 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_20" H 1845 6695 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_20" H 1845 6695 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338070&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2-338070-0" H 1945 6795 60  0001 C CNN
 F 4 "TE" H 2145 6995 60  0001 C CNN "MFN"
 F 5 "2-338070-0" H 2245 7095 60  0001 C CNN "MPN"
@@ -90,7 +89,7 @@ U 1 1 5C781441
 P 7355 4190
 F 0 "J5" H 7411 4687 60  0000 C CNN
 F 1 "MM_F_RA_06" H 7411 4581 60  0000 C CNN
-F 2 "footprints:micromatch_female_ra_6" H 7255 4440 60  0001 C CNN
+F 2 "footprints:micromatch_female_vert_6" H 7255 4440 60  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F338070%7FG1%7Fpdf%7FEnglish%7FENG_CD_338070_G1.pdf%7F338070-6" H 7355 4540 60  0001 C CNN
 F 4 "TE" H 7455 5590 60  0001 C CNN "MFN"
 F 5 "338070-6" H 7555 5690 60  0001 C CNN "MPN"
