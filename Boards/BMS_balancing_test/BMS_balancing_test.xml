@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/aehoppe/Documents/Formula/MKIV-Boards/Boards/BMS_balancing_test/BMS_balancing_test.sch</source>
+    <date>Sat 15 Dec 2018 01:55:22 PM EST</date>
+    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BMS Balancing Resistor Test</title>
+        <company>Olin Electric Motorsports</company>
+        <rev>1</rev>
+        <date>2018-12-02</date>
+        <source>BMS_balancing_test.sch</source>
+        <comment number="1" value="Alexander Hoppe"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>CONN_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <libsource lib="formula" part="CONN_01x02" description="CONN HEADER 2 POS 2.54mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C069125</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <libsource lib="formula" part="CONN_01x02" description="CONN HEADER 2 POS 2.54mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C069173</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <libsource lib="formula" part="CONN_01x02" description="CONN HEADER 2 POS 2.54mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0691A5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_1.3_25W_TO163</value>
+      <footprint>footprints:PWR163</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf</datasheet>
+      <fields>
+        <field name="MFN">DK</field>
+        <field name="MPN">PWR163S-25-1R50F-ND</field>
+      </fields>
+      <libsource lib="formula" part="R_1.3_25W_TO163" description="RES SMD 1.5 OHM 1% 25W DPAK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0698DF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_3.6_5W_SMD</value>
+      <footprint>footprints:SM_5</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773242&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFG">DK</field>
+        <field name="MPN">A131834CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SMW53R6JT/A131834CT-ND/8603964</field>
+      </fields>
+      <libsource lib="formula" part="R_3.6_5W_SMD" description="Resistor, 13 ohm 1%, 2W, 2512"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C069B7F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_13_2W_2512_0</value>
+      <footprint>footprints:R_2512_OEM</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-5&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="MFG">DK</field>
+        <field name="MPN">A115987CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/352113RFT/A115987CT-ND/4280006</field>
+      </fields>
+      <libsource lib="formula" part="R_13_2W_2512_0" description="Resistor, 13 ohm 1%, 2W, 2512"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C069D69</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="formula" part="CONN_01x02">
+      <description>CONN HEADER 2 POS 2.54mm</description>
+      <docs>https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x02</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://katalog.we-online.de/em/datasheet/6130xx11121.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">732-5315-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="formula" part="R_1.3_25W_TO163">
+      <description>RES SMD 1.5 OHM 1% 25W DPAK</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1.3_25W_TO163</field>
+        <field name="Footprint">footprints:PWR163</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf</field>
+        <field name="MFN">DK</field>
+        <field name="MPN">PWR163S-25-1R50F-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="EP" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="formula" part="R_13_2W_2512_0">
+      <description>Resistor, 13 ohm 1%, 2W, 2512</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-5&amp;DocType=DS&amp;DocLang=English</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_13_2W_2512_0</field>
+        <field name="Footprint">footprints:R_2512_OEM</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=9-1773463-5&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="MFG">DK</field>
+        <field name="MPN">A115987CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/352113RFT/A115987CT-ND/4280006</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="formula" part="R_3.6_5W_SMD">
+      <description>Resistor, 13 ohm 1%, 2W, 2512</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773242&amp;DocType=DS&amp;DocLang=English</docs>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_3.6_5W_SMD</field>
+        <field name="Footprint">footprints:SM_5</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773242&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="MFG">DK</field>
+        <field name="MPN">A131834CT-ND</field>
+        <field name="PurchasingLink">https://www.digikey.com/product-detail/en/te-connectivity-passive-product/SMW53R6JT/A131834CT-ND/8603964</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="formula">
+      <uri>/home/aehoppe/Documents/Formula/OEM_Preferred_Parts/schematic/formula.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R3-PadEP)">
+      <node ref="R3" pin="EP"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+  </nets>
+</export>
