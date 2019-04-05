@@ -70,20 +70,6 @@ F 6 "http://www.te.com/usa-en/product-338070-6.html" H 6600 7180 60  0001 C CNN 
 	1    6600 5880
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:MicroFit_RA_10 J6
-U 1 1 5C7815BF
-P 4460 5195
-F 0 "J6" H 4516 5970 50  0000 C CNN
-F 1 "MicroFit_RA_10" H 4516 5879 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_10" H 4560 5845 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430451000_sd.pdf" H 4560 5845 50  0001 C CNN
-F 4 "DK" H 4460 5845 50  0001 C CNN "MFN"
-F 5 "WM1817-ND" H 4560 5945 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430451000/WM1817-ND/252530" H 4660 6045 50  0001 C CNN "PurchasingLink"
-	1    4460 5195
-	1    0    0    -1  
-$EndComp
 Text Label 6669 2118 0    50   ~ 0
 TSAL+_R
 Text Label 6669 2018 0    50   ~ 0
@@ -327,8 +313,6 @@ Text Notes 5390 5235 0    50   ~ 0
 (in, E-stop -> HVD)
 Wire Wire Line
 	6300 4945 6300 4980
-Wire Wire Line
-	4710 4945 6300 4945
 Text Notes 4997 3144 0    50   ~ 0
 (out, E-stop -> HVD)
 Text Notes 5265 5340 0    50   ~ 0
@@ -442,4 +426,20 @@ F 6 "https://www.samtec.com/products/ss-126-g-2" H 4127 3454 60  0001 C CNN "Pur
 $EndComp
 Text Label 4277 1154 0    50   ~ 0
 12V
+Wire Wire Line
+	4710 4945 6300 4945
+$Comp
+L formula:MicroFit_VT_10 J1
+U 1 1 5CA728E2
+P 4460 5195
+F 0 "J1" H 4516 5970 50  0000 C CNN
+F 1 "MicroFit_VT_10" H 4516 5879 50  0000 C CNN
+F 2 "footprints:MicroFit_VT_10" H 4560 5845 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430451012_sd.pdf" H 4560 5845 50  0001 C CNN
+F 4 "DK" H 4460 5845 50  0001 C CNN "MFN"
+F 5 "WM1793-ND" H 4560 5945 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430451012/WM1793-ND/252506" H 4660 6045 50  0001 C CNN "PurchasingLink"
+	1    4460 5195
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
