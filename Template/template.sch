@@ -963,4 +963,36 @@ Wire Wire Line
 	3650 7350 3775 7350
 Text Label 9300 2250 0    60   ~ 0
 TXCAN
+$Comp
+L formula:TPS561201 U?
+U 1 1 5BD80BF8
+P 1950 3700
+F 0 "U?" H 1950 4187 60  0000 C CNN
+F 1 "TPS561201" H 1950 4081 60  0000 C CNN
+F 2 "footprints:SOT-23-6_OEM" H 1650 3950 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps561201.pdf" H 1750 4050 60  0001 C CNN
+F 4 "DK" H 1950 3700 60  0001 C CNN "MFN"
+F 5 "TPS561201" H 1950 3700 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=296-46928-1-ND" H 2150 4450 60  0001 C CNN "PurchasingLink"
+	1    1950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:L693D1 U?
+U 1 1 5BD8111B
+P 5100 3550
+F 0 "U?" H 4875 3937 60  0000 C CNN
+F 1 "L693D1" H 4875 3831 60  0000 C CNN
+F 2 "footprints:L6932D1.2TR" H 4800 3600 60  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/41/7a/35/60/5b/95/4f/48/CD00002172.pdf/files/CD00002172.pdf/jcr:content/translations/en.CD00002172.pdf" H 4900 3700 60  0001 C CNN
+F 4 "DK" H 5100 3900 60  0001 C CNN "MFN"
+F 5 "497-5724-1-ND" H 5200 4000 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stmicroelectronics/L6932D1.2TR/497-5724-1-ND/1299970" H 5000 3800 60  0001 C CNN "Purchasing Link"
+	1    5100 3550
+	1    0    0    -1  
+$EndComp
+Text Label 4550 3050 0    50   ~ 0
+LinearRegulator
+Text Label 1650 3100 0    50   ~ 0
+BuckConverter
 $EndSCHEMATC

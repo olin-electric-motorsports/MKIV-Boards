@@ -14,50 +14,6 @@ Comment2 "Vienna Scheyer"
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L formula:LTC6811-1 U1
-U 1 1 5BCFBB32
-P 7100 5350
-F 0 "U1" H 7050 6675 50  0000 C CNN
-F 1 "LTC6811-1" H 7050 6584 50  0000 C CNN
-F 2 "footprints:TSSOP-48_LTC6811-1" H 6450 6600 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf" H 6450 6600 50  0001 C CNN
-	1    7100 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:24AA01 U2
-U 1 1 5BCFC832
-P 7600 8550
-F 0 "U2" H 7575 8235 50  0000 C CNN
-F 1 "24AA01" H 7575 8326 50  0000 C CNN
-F 2 "footprints:SOT-23-5_OEM_24AA01" H 7600 8550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" H 7600 8550 50  0001 C CNN
-	1    7600 8550
-	-1   0    0    1   
-$EndComp
-$Comp
-L formula:R_4.99K R45
-U 1 1 5BCFCA06
-P 8150 8150
-F 0 "R45" V 8050 8100 50  0000 L CNN
-F 1 "R_4.99K" V 8250 8050 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 8150 8150 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 8150 8150 50  0001 C CNN
-	1    8150 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_4.99K R47
-U 1 1 5BCFCB2A
-P 8500 8150
-F 0 "R47" V 8600 8200 50  0000 R CNN
-F 1 "R_4.99K" V 8400 8250 50  0000 R CNN
-F 2 "footprints:R_0805_OEM" H 8500 8150 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K99L/311-4.99KLRTR-ND/2827568" H 8500 8150 50  0001 C CNN
-	1    8500 8150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8050 8450 8150 8450
 Wire Wire Line
@@ -673,17 +629,6 @@ $EndComp
 Connection ~ 15200 6550
 Wire Wire Line
 	15200 6550 15250 6550
-$Comp
-L formula:C_10nF C24
-U 1 1 5BD9731D
-P 15600 6750
-F 0 "C24" H 15715 6796 50  0000 L CNN
-F 1 "C_10nF" H 15715 6705 50  0000 L CNN
-F 2 "footprints:C_0805_OEM" H 15600 6750 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 15500 6850 50  0001 C CNN
-	1    15600 6750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15550 6550 15600 6550
 Wire Wire Line
@@ -817,17 +762,6 @@ Wire Wire Line
 Connection ~ 8350 5500
 Wire Wire Line
 	8350 5500 8350 5750
-$Comp
-L formula:NSS1C201MZ4 Q11
-U 1 1 5BF84AA4
-P 8250 5250
-F 0 "Q11" H 8441 5296 50  0000 L CNN
-F 1 "NSS1C201MZ4" H 8400 5150 50  0000 L CNN
-F 2 "footprints:SOT-223" H 8050 5350 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" H 8150 5450 50  0001 C CNN
-	1    8250 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7500 5550 8100 5550
 Wire Wire Line
@@ -1012,60 +946,14 @@ Wire Wire Line
 	6350 4250 6600 4250
 Wire Wire Line
 	6100 4300 6100 4350
-$Comp
-L formula:R_60.4 R61
-U 1 1 5C62706B
-P 11600 1350
-F 0 "R61" H 11500 1350 50  0000 C CNN
-F 1 "R_60.4" V 11700 1350 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11600 1350 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 1350 50  0001 C CNN
-	1    11600 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_60.4 R62
-U 1 1 5C6A9F92
-P 11600 1750
-F 0 "R62" H 11500 1750 50  0000 C CNN
-F 1 "R_60.4" V 11700 1750 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11600 1750 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 1750 50  0001 C CNN
-	1    11600 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12550 1400 12050 1400
 Wire Wire Line
 	12050 1400 12050 1200
 Wire Wire Line
-	12050 1200 11600 1200
-Wire Wire Line
 	11600 1500 11600 1550
-$Comp
-L formula:C_10nF C18
-U 1 1 5C6FB0D2
-P 12300 1600
-F 0 "C18" H 12200 1700 50  0000 C CNN
-F 1 "C_10nF" V 12450 1600 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 12300 1600 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 12200 1700 50  0001 C CNN
-	1    12300 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12550 1800 12050 1800
-$Comp
-L formula:C_10nF C16
-U 1 1 5C7320F9
-P 11200 1700
-F 0 "C16" H 11100 1800 50  0000 C CNN
-F 1 "C_10nF" V 11350 1700 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 11200 1700 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 11100 1800 50  0001 C CNN
-	1    11200 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11600 1550 11200 1550
 Connection ~ 11600 1550
@@ -1077,52 +965,8 @@ Wire Wire Line
 	12550 1450 12300 1450
 Wire Wire Line
 	12300 1750 12300 1850
-$Comp
-L formula:R_60.4 R63
-U 1 1 5C7FB50F
-P 11600 2250
-F 0 "R63" H 11500 2250 50  0000 C CNN
-F 1 "R_60.4" V 11700 2250 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11600 2250 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 2250 50  0001 C CNN
-	1    11600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_60.4 R64
-U 1 1 5C7FB516
-P 11600 2700
-F 0 "R64" H 11500 2700 50  0000 C CNN
-F 1 "R_60.4" V 11700 2700 50  0000 C CNN
-F 2 "footprints:R_0805_OEM" H 11600 2700 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB6042X/P60.4KDCDKR-ND/3064165" H 11600 2700 50  0001 C CNN
-	1    11600 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11600 2400 11600 2500
-$Comp
-L formula:C_10nF C19
-U 1 1 5C7FB521
-P 12300 2400
-F 0 "C19" H 12200 2500 50  0000 C CNN
-F 1 "C_10nF" V 12450 2400 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 12300 2400 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 12200 2500 50  0001 C CNN
-	1    12300 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L formula:C_10nF C17
-U 1 1 5C7FB52B
-P 11200 2700
-F 0 "C17" H 11100 2800 50  0000 C CNN
-F 1 "C_10nF" V 11350 2700 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 11200 2700 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 11100 2800 50  0001 C CNN
-	1    11200 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11600 2500 11200 2500
 Wire Wire Line
@@ -1135,11 +979,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 2850 11200 2950
 Wire Wire Line
-	11600 1900 12050 1900
-Wire Wire Line
 	12050 1800 12050 1900
-Wire Wire Line
-	11600 2100 12550 2100
 Wire Wire Line
 	12550 2300 12500 2300
 Wire Wire Line
@@ -1173,12 +1013,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 4950 7500 4950
 Wire Wire Line
-	11000 1200 11600 1200
-Connection ~ 11600 1200
-Connection ~ 11600 1900
-Wire Wire Line
-	11000 1900 11600 1900
-Wire Wire Line
 	11200 1850 11200 1950
 Wire Wire Line
 	11000 1600 10750 1600
@@ -1201,12 +1035,9 @@ Wire Wire Line
 Wire Wire Line
 	14000 2100 14000 2250
 Wire Wire Line
-	11600 2100 11000 2100
-Wire Wire Line
 	11000 2100 11000 2350
 Wire Wire Line
 	11000 2350 10750 2350
-Connection ~ 11600 2100
 Wire Wire Line
 	11600 2900 11000 2900
 Wire Wire Line
@@ -1304,17 +1135,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 1500 3500 1500
 Connection ~ 3250 1500
-$Comp
-L formula:C_10nF C1
-U 1 1 5E1403AC
-P 4050 1750
-F 0 "C1" H 3950 1850 50  0000 C CNN
-F 1 "C_10nF" V 4200 1750 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 1750 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 1850 50  0001 C CNN
-	1    4050 1750
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 1900
 Wire Wire Line
 	2600 2200 2600 2250
@@ -1390,17 +1210,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 2350 3500 2350
 Connection ~ 3250 2350
-$Comp
-L formula:C_10nF C2
-U 1 1 5E172B42
-P 4050 2600
-F 0 "C2" H 3950 2700 50  0000 C CNN
-F 1 "C_10nF" V 4200 2600 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 2600 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 2700 50  0001 C CNN
-	1    4050 2600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 2750
 Wire Wire Line
 	2600 3050 2600 3100
@@ -1480,17 +1289,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 3200 3500 3200
 Connection ~ 3250 3200
-$Comp
-L formula:C_10nF C3
-U 1 1 5E1AADD1
-P 4050 3450
-F 0 "C3" H 3950 3550 50  0000 C CNN
-F 1 "C_10nF" V 4200 3450 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 3450 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 3550 50  0001 C CNN
-	1    4050 3450
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 3600
 Wire Wire Line
 	2600 3900 2600 3950
@@ -1573,17 +1371,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 4050 3500 4050
 Connection ~ 3250 4050
-$Comp
-L formula:C_10nF C4
-U 1 1 5E1E8BDD
-P 4050 4300
-F 0 "C4" H 3950 4400 50  0000 C CNN
-F 1 "C_10nF" V 4200 4300 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 4300 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 4400 50  0001 C CNN
-	1    4050 4300
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 4450
 Wire Wire Line
 	2600 4750 2600 4800
@@ -1663,17 +1450,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 4900 3500 4900
 Connection ~ 3250 4900
-$Comp
-L formula:C_10nF C5
-U 1 1 5E22CA8C
-P 4050 5150
-F 0 "C5" H 3950 5250 50  0000 C CNN
-F 1 "C_10nF" V 4200 5150 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 5150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 5250 50  0001 C CNN
-	1    4050 5150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 5300
 Wire Wire Line
 	2600 5600 2600 5650
@@ -1753,17 +1529,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 5750 3500 5750
 Connection ~ 3250 5750
-$Comp
-L formula:C_10nF C6
-U 1 1 5E276ABE
-P 4050 6000
-F 0 "C6" H 3950 6100 50  0000 C CNN
-F 1 "C_10nF" V 4200 6000 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 6000 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 6100 50  0001 C CNN
-	1    4050 6000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 6150
 Wire Wire Line
 	2600 6450 2600 6500
@@ -1843,17 +1608,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 6600 3500 6600
 Connection ~ 3250 6600
-$Comp
-L formula:C_10nF C7
-U 1 1 5E2C73D5
-P 4050 6850
-F 0 "C7" H 3950 6950 50  0000 C CNN
-F 1 "C_10nF" V 4200 6850 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 6850 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 6950 50  0001 C CNN
-	1    4050 6850
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 7000
 Wire Wire Line
 	2600 7300 2600 7350
@@ -1933,17 +1687,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 7450 3500 7450
 Connection ~ 3250 7450
-$Comp
-L formula:C_10nF C8
-U 1 1 5E31E33D
-P 4050 7700
-F 0 "C8" H 3950 7800 50  0000 C CNN
-F 1 "C_10nF" V 4200 7700 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 7700 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 7800 50  0001 C CNN
-	1    4050 7700
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 7850
 Wire Wire Line
 	2600 8150 2600 8200
@@ -2023,17 +1766,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 8300 3500 8300
 Connection ~ 3250 8300
-$Comp
-L formula:C_10nF C9
-U 1 1 5E37BE18
-P 4050 8550
-F 0 "C9" H 3950 8650 50  0000 C CNN
-F 1 "C_10nF" V 4200 8550 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 8550 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 8650 50  0001 C CNN
-	1    4050 8550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 8700
 Wire Wire Line
 	2600 9000 2600 9050
@@ -2113,17 +1845,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 9150 3500 9150
 Connection ~ 3250 9150
-$Comp
-L formula:C_10nF C10
-U 1 1 5E44C2E2
-P 4050 9400
-F 0 "C10" H 3950 9500 50  0000 C CNN
-F 1 "C_10nF" V 4200 9400 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 4050 9400 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 3950 9500 50  0001 C CNN
-	1    4050 9400
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2850 9550
 Wire Wire Line
 	2600 9850 2600 9900
@@ -3212,186 +2933,6 @@ Wire Wire Line
 Connection ~ 8350 5000
 Wire Wire Line
 	8350 5000 8350 5050
-Wire Wire Line
-	2300 1600 2600 1600
-Wire Wire Line
-	2300 2450 2600 2450
-Wire Wire Line
-	2300 3300 2600 3300
-Wire Wire Line
-	2300 4150 2600 4150
-Wire Wire Line
-	2300 5000 2600 5000
-Wire Wire Line
-	2300 5850 2600 5850
-Wire Wire Line
-	2300 6700 2600 6700
-Wire Wire Line
-	2300 7550 2600 7550
-Wire Wire Line
-	2300 8400 2600 8400
-Wire Wire Line
-	2300 9250 2600 9250
-$Comp
-L formula:R_3.3_25W_TO163 R11
-U 1 1 5C9B9BA4
-P 2600 1900
-F 0 "R11" V 2450 2050 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 2100 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 1950 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 1900 50  0001 C CNN
-F 4 "DK" H 2550 2150 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 2250 50  0001 C CNN "MPN"
-	1    2600 1900
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 1600
-Wire Wire Line
-	2600 1600 2850 1600
-$Comp
-L formula:R_3.3_25W_TO163 R12
-U 1 1 5C9BA9F9
-P 2600 2750
-F 0 "R12" V 2450 2900 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 2950 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 2800 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 2750 50  0001 C CNN
-F 4 "DK" H 2550 3000 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 3100 50  0001 C CNN "MPN"
-	1    2600 2750
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 2450
-Wire Wire Line
-	2600 2450 2850 2450
-$Comp
-L formula:R_3.3_25W_TO163 R13
-U 1 1 5C9BAB2D
-P 2600 3600
-F 0 "R13" V 2450 3750 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 3800 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 3650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 3600 50  0001 C CNN
-F 4 "DK" H 2550 3850 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 3950 50  0001 C CNN "MPN"
-	1    2600 3600
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 3300
-Wire Wire Line
-	2600 3300 2850 3300
-$Comp
-L formula:R_3.3_25W_TO163 R14
-U 1 1 5C9BAFCA
-P 2600 4450
-F 0 "R14" V 2450 4600 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 4650 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 4500 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 4450 50  0001 C CNN
-F 4 "DK" H 2550 4700 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 4800 50  0001 C CNN "MPN"
-	1    2600 4450
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 4150
-Wire Wire Line
-	2600 4150 2850 4150
-$Comp
-L formula:R_3.3_25W_TO163 R15
-U 1 1 5C9BB11C
-P 2600 5300
-F 0 "R15" V 2450 5450 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 5500 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 5350 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 5300 50  0001 C CNN
-F 4 "DK" H 2550 5550 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 5650 50  0001 C CNN "MPN"
-	1    2600 5300
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 5000
-Wire Wire Line
-	2600 5000 2850 5000
-$Comp
-L formula:R_3.3_25W_TO163 R16
-U 1 1 5C9BB262
-P 2600 6150
-F 0 "R16" V 2450 6300 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 6350 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 6200 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 6150 50  0001 C CNN
-F 4 "DK" H 2550 6400 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 6500 50  0001 C CNN "MPN"
-	1    2600 6150
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 5850
-Wire Wire Line
-	2600 5850 2850 5850
-$Comp
-L formula:R_3.3_25W_TO163 R17
-U 1 1 5C9BB39A
-P 2600 7000
-F 0 "R17" V 2450 7150 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 7200 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 7050 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7000 50  0001 C CNN
-F 4 "DK" H 2550 7250 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 7350 50  0001 C CNN "MPN"
-	1    2600 7000
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 6700
-Wire Wire Line
-	2600 6700 2850 6700
-$Comp
-L formula:R_3.3_25W_TO163 R18
-U 1 1 5C9BB708
-P 2600 7850
-F 0 "R18" V 2450 8000 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 8050 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 7900 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7850 50  0001 C CNN
-F 4 "DK" H 2550 8100 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 8200 50  0001 C CNN "MPN"
-	1    2600 7850
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 7550
-Wire Wire Line
-	2600 7550 2850 7550
-$Comp
-L formula:R_3.3_25W_TO163 R19
-U 1 1 5C9BB874
-P 2600 8700
-F 0 "R19" V 2450 8850 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 8900 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 8750 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 8700 50  0001 C CNN
-F 4 "DK" H 2550 8950 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 9050 50  0001 C CNN "MPN"
-	1    2600 8700
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 8400
-Wire Wire Line
-	2600 8400 2850 8400
-$Comp
-L formula:R_3.3_25W_TO163 R20
-U 1 1 5C9BBCCE
-P 2600 9550
-F 0 "R20" V 2450 9700 50  0000 C CNN
-F 1 "R_3.3_25W_TO163" V 2850 9750 50  0000 C CNN
-F 2 "footprints:PWR163" H 2350 9600 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 9550 50  0001 C CNN
-F 4 "DK" H 2550 9800 50  0001 C CNN "MFN"
-F 5 "PWR163S-25-3R30F-ND" H 2650 9900 50  0001 C CNN "MPN"
-	1    2600 9550
-	0    1    1    0   
-$EndComp
-Connection ~ 2600 9250
-Wire Wire Line
-	2600 9250 2850 9250
 $Comp
 L formula:MCP6001T-I-LT U4
 U 1 1 5C96E245
@@ -3498,6 +3039,544 @@ F 1 "isoSPI-Cutout" H 14350 2100 50  0000 C CNN
 F 2 "footprints:iso_spi_cutout" H 14450 2300 50  0001 C CNN
 F 3 "" H 14450 2300 50  0001 C CNN
 	1    14350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C20
+U 1 1 5CA14224
+P 15600 6750
+F 0 "C20" H 15715 6796 50  0000 L CNN
+F 1 "C_10nF" H 15715 6705 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 15400 6750 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1076_X7R_HV_AUTO_SMD.pdf" H 15500 6850 50  0001 C CNN
+	1    15600 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C1
+U 1 1 5CA13C72
+P 4050 1750
+F 0 "C1" H 4165 1796 50  0000 L CNN
+F 1 "C_10nF" H 4165 1705 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 1750 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 1850 50  0001 C CNN
+F 4 "DK" H 4050 1950 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 2050 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 2150 50  0001 C CNN "PurchasingLink"
+	1    4050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C2
+U 1 1 5CA14139
+P 4050 2600
+F 0 "C2" H 4165 2646 50  0000 L CNN
+F 1 "C_10nF" H 4165 2555 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 2700 50  0001 C CNN
+F 4 "DK" H 4050 2800 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 2900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 3000 50  0001 C CNN "PurchasingLink"
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C3
+U 1 1 5CA1437F
+P 4050 3450
+F 0 "C3" H 4165 3496 50  0000 L CNN
+F 1 "C_10nF" H 4165 3405 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 3450 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 3550 50  0001 C CNN
+F 4 "DK" H 4050 3650 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 3750 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 3850 50  0001 C CNN "PurchasingLink"
+	1    4050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C4
+U 1 1 5CA1453F
+P 4050 4300
+F 0 "C4" H 4165 4346 50  0000 L CNN
+F 1 "C_10nF" H 4165 4255 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 4300 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 4400 50  0001 C CNN
+F 4 "DK" H 4050 4500 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 4600 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 4700 50  0001 C CNN "PurchasingLink"
+	1    4050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C5
+U 1 1 5CA1470F
+P 4050 5150
+F 0 "C5" H 4165 5196 50  0000 L CNN
+F 1 "C_10nF" H 4165 5105 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 5150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 5250 50  0001 C CNN
+F 4 "DK" H 4050 5350 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 5450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 5550 50  0001 C CNN "PurchasingLink"
+	1    4050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C6
+U 1 1 5CA14A63
+P 4050 6000
+F 0 "C6" H 4165 6046 50  0000 L CNN
+F 1 "C_10nF" H 4165 5955 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 6000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 6100 50  0001 C CNN
+F 4 "DK" H 4050 6200 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 6300 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 6400 50  0001 C CNN "PurchasingLink"
+	1    4050 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C7
+U 1 1 5CA14C23
+P 4050 6850
+F 0 "C7" H 4165 6896 50  0000 L CNN
+F 1 "C_10nF" H 4165 6805 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 6850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 6950 50  0001 C CNN
+F 4 "DK" H 4050 7050 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 7150 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 7250 50  0001 C CNN "PurchasingLink"
+	1    4050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C8
+U 1 1 5CA14F0A
+P 4050 7700
+F 0 "C8" H 4165 7746 50  0000 L CNN
+F 1 "C_10nF" H 4165 7655 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 7700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 7800 50  0001 C CNN
+F 4 "DK" H 4050 7900 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 8000 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 8100 50  0001 C CNN "PurchasingLink"
+	1    4050 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C9
+U 1 1 5CA15046
+P 4050 8550
+F 0 "C9" H 4165 8596 50  0000 L CNN
+F 1 "C_10nF" H 4165 8505 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 8550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 8650 50  0001 C CNN
+F 4 "DK" H 4050 8750 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 8850 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 8950 50  0001 C CNN "PurchasingLink"
+	1    4050 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C10
+U 1 1 5CA15347
+P 4050 9400
+F 0 "C10" H 4165 9446 50  0000 L CNN
+F 1 "C_10nF" H 4165 9355 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 3850 9400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 3950 9500 50  0001 C CNN
+F 4 "DK" H 4050 9600 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 4150 9700 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 4250 9800 50  0001 C CNN "PurchasingLink"
+	1    4050 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C16
+U 1 1 5CA169FD
+P 11200 1700
+F 0 "C16" H 11315 1746 50  0000 L CNN
+F 1 "C_10nF" H 11315 1655 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 11000 1700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 11100 1800 50  0001 C CNN
+F 4 "DK" H 11200 1900 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 11300 2000 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 11400 2100 50  0001 C CNN "PurchasingLink"
+	1    11200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C17
+U 1 1 5CA16B41
+P 11200 2700
+F 0 "C17" H 11315 2746 50  0000 L CNN
+F 1 "C_10nF" H 11315 2655 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 11000 2700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 11100 2800 50  0001 C CNN
+F 4 "DK" H 11200 2900 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 11300 3000 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 11400 3100 50  0001 C CNN "PurchasingLink"
+	1    11200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C18
+U 1 1 5CA7B718
+P 12300 1600
+F 0 "C18" H 12415 1646 50  0000 L CNN
+F 1 "C_10nF" H 12415 1555 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 12100 1600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 12200 1700 50  0001 C CNN
+F 4 "DK" H 12300 1800 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 12400 1900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 12500 2000 50  0001 C CNN "PurchasingLink"
+	1    12300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:C_10nF C19
+U 1 1 5CA7BAFF
+P 12300 2400
+F 0 "C19" H 12415 2446 50  0000 L CNN
+F 1 "C_10nF" H 12415 2355 50  0000 L CNN
+F 2 "footprints:C_0805_OEM" H 12100 2400 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/23/CL21B103KBANNNC.pdf" H 12200 2500 50  0001 C CNN
+F 4 "DK" H 12300 2600 50  0001 C CNN "MFN"
+F 5 "1276-1015-1-ND" H 12400 2700 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B103KBANNNC/1276-1015-1-ND/3889101" H 12500 2800 50  0001 C CNN "PurchasingLink"
+	1    12300 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11000 1200 11600 1200
+Wire Wire Line
+	11000 1900 11600 1900
+Wire Wire Line
+	11000 2100 11600 2100
+$Comp
+L formula:R_60.4 R48
+U 1 1 5CAF0544
+P 11600 1350
+F 0 "R48" H 11670 1396 50  0000 L CNN
+F 1 "R_60.4" H 11670 1305 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 11400 1250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 11500 1350 50  0001 C CNN
+F 4 "DK" H 11600 1450 50  0001 C CNN "MFN"
+F 5 "P60.4DACT-ND" H 11700 1550 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" H 11800 1650 50  0001 C CNN "PurchasingLink"
+	1    11600 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 11600 1200
+Wire Wire Line
+	11600 1200 12050 1200
+$Comp
+L formula:R_60.4 R52
+U 1 1 5CAF069A
+P 11600 1750
+F 0 "R52" H 11670 1796 50  0000 L CNN
+F 1 "R_60.4" H 11670 1705 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 11400 1650 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 11500 1750 50  0001 C CNN
+F 4 "DK" H 11600 1850 50  0001 C CNN "MFN"
+F 5 "P60.4DACT-ND" H 11700 1950 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" H 11800 2050 50  0001 C CNN "PurchasingLink"
+	1    11600 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 11600 1900
+Wire Wire Line
+	11600 1900 12050 1900
+$Comp
+L formula:R_60.4 R56
+U 1 1 5CAF07D2
+P 11600 2250
+F 0 "R56" H 11670 2296 50  0000 L CNN
+F 1 "R_60.4" H 11670 2205 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 11400 2150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 11500 2250 50  0001 C CNN
+F 4 "DK" H 11600 2350 50  0001 C CNN "MFN"
+F 5 "P60.4DACT-ND" H 11700 2450 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" H 11800 2550 50  0001 C CNN "PurchasingLink"
+	1    11600 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 11600 2100
+Wire Wire Line
+	11600 2100 12550 2100
+$Comp
+L formula:R_60.4 R60
+U 1 1 5CAF0908
+P 11600 2700
+F 0 "R60" H 11670 2746 50  0000 L CNN
+F 1 "R_60.4" H 11670 2655 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 11400 2600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 11500 2700 50  0001 C CNN
+F 4 "DK" H 11600 2800 50  0001 C CNN "MFN"
+F 5 "P60.4DACT-ND" H 11700 2900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204" H 11800 3000 50  0001 C CNN "PurchasingLink"
+	1    11600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:NSS1C201MZ4 Q11
+U 1 1 5CAF2883
+P 8250 5250
+F 0 "Q11" H 8491 5432 50  0000 L CNN
+F 1 "NSS1C201MZ4" H 8491 5341 50  0000 L CNN
+F 2 "footprints:SOT-223" H 8050 5350 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" H 8150 5450 50  0001 C CNN
+F 4 "NSS1C201MZ4T3GOSCT-ND " H 8491 5250 50  0000 L CNN "MPN"
+F 5 "DK" H 8491 5159 50  0000 L CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/NSS1C201MZ4T3GOSCT-ND/9087487" H 8491 5068 50  0000 L CNN "PurchasingLink"
+	1    8250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1600 2600 1600
+$Comp
+L formula:R_3.3_25W_TO163 R11
+U 1 1 5CB57D42
+P 2600 1900
+F 0 "R11" V 2509 1822 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 1822 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 1950 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 1900 50  0001 C CNN
+F 4 "DK" H 2550 2150 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 2250 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 1822 50  0000 R CNN "PurchasingLink"
+	1    2600 1900
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 1600
+Wire Wire Line
+	2600 1600 2850 1600
+Wire Wire Line
+	2300 2450 2600 2450
+Wire Wire Line
+	2300 3300 2600 3300
+Wire Wire Line
+	2300 4150 2600 4150
+Wire Wire Line
+	2300 5000 2600 5000
+Wire Wire Line
+	2300 5850 2600 5850
+Wire Wire Line
+	2300 6700 2600 6700
+Wire Wire Line
+	2300 7550 2600 7550
+Wire Wire Line
+	2300 8400 2600 8400
+Wire Wire Line
+	2300 9250 2600 9250
+$Comp
+L formula:R_3.3_25W_TO163 R12
+U 1 1 5CB58D0D
+P 2600 2750
+F 0 "R12" V 2509 2672 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 2672 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 2800 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 2750 50  0001 C CNN
+F 4 "DK" H 2550 3000 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 3100 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 2672 50  0000 R CNN "PurchasingLink"
+	1    2600 2750
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 2450
+Wire Wire Line
+	2600 2450 2850 2450
+$Comp
+L formula:R_3.3_25W_TO163 R13
+U 1 1 5CB58E43
+P 2600 3600
+F 0 "R13" V 2509 3522 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 3522 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 3650 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 3600 50  0001 C CNN
+F 4 "DK" H 2550 3850 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 3950 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 3522 50  0000 R CNN "PurchasingLink"
+	1    2600 3600
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 3300
+Wire Wire Line
+	2600 3300 2850 3300
+$Comp
+L formula:R_3.3_25W_TO163 R14
+U 1 1 5CB58F7B
+P 2600 4450
+F 0 "R14" V 2509 4372 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 4372 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 4500 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 4450 50  0001 C CNN
+F 4 "DK" H 2550 4700 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 4800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 4372 50  0000 R CNN "PurchasingLink"
+	1    2600 4450
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 4150
+Wire Wire Line
+	2600 4150 2850 4150
+$Comp
+L formula:R_3.3_25W_TO163 R15
+U 1 1 5CB590B5
+P 2600 5300
+F 0 "R15" V 2509 5222 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 5222 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 5350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 5300 50  0001 C CNN
+F 4 "DK" H 2550 5550 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 5650 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 5222 50  0000 R CNN "PurchasingLink"
+	1    2600 5300
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 5000
+Wire Wire Line
+	2600 5000 2850 5000
+$Comp
+L formula:R_3.3_25W_TO163 R16
+U 1 1 5CB59474
+P 2600 6150
+F 0 "R16" V 2509 6072 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 6072 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 6200 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 6150 50  0001 C CNN
+F 4 "DK" H 2550 6400 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 6500 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 6072 50  0000 R CNN "PurchasingLink"
+	1    2600 6150
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 5850
+Wire Wire Line
+	2600 5850 2850 5850
+$Comp
+L formula:R_3.3_25W_TO163 R17
+U 1 1 5CB596BC
+P 2600 7000
+F 0 "R17" V 2509 6922 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 6922 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 7050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7000 50  0001 C CNN
+F 4 "DK" H 2550 7250 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 7350 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 6922 50  0000 R CNN "PurchasingLink"
+	1    2600 7000
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 6700
+Wire Wire Line
+	2600 6700 2850 6700
+$Comp
+L formula:R_3.3_25W_TO163 R18
+U 1 1 5CB5986F
+P 2600 7850
+F 0 "R18" V 2509 7772 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 7772 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 7900 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7850 50  0001 C CNN
+F 4 "DK" H 2550 8100 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 8200 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 7772 50  0000 R CNN "PurchasingLink"
+	1    2600 7850
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 7550
+Wire Wire Line
+	2600 7550 2850 7550
+$Comp
+L formula:R_3.3_25W_TO163 R19
+U 1 1 5CB599B7
+P 2600 8700
+F 0 "R19" V 2509 8622 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 8622 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 8750 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 8700 50  0001 C CNN
+F 4 "DK" H 2550 8950 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 9050 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 8622 50  0000 R CNN "PurchasingLink"
+	1    2600 8700
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 8400
+Wire Wire Line
+	2600 8400 2850 8400
+$Comp
+L formula:R_3.3_25W_TO163 R20
+U 1 1 5CB59CC6
+P 2600 9550
+F 0 "R20" V 2509 9472 50  0000 R CNN
+F 1 "R_3.3_25W_TO163" V 2600 9472 50  0000 R CNN
+F 2 "footprints:PWR163" H 2350 9600 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 9550 50  0001 C CNN
+F 4 "DK" H 2550 9800 50  0001 C CNN "MFN"
+F 5 "PWR163S-25-3R30F-ND" H 2650 9900 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 9472 50  0000 R CNN "PurchasingLink"
+	1    2600 9550
+	0    1    1    0   
+$EndComp
+Connection ~ 2600 9250
+Wire Wire Line
+	2600 9250 2850 9250
+$Comp
+L formula:24AA01 U2
+U 1 1 5CB5A7AB
+P 7600 8550
+F 0 "U2" H 7575 7963 50  0000 C CNN
+F 1 "24AA01" H 7575 8054 50  0000 C CNN
+F 2 "footprints:SOT-23-5_OEM_24AA01" H 7500 8650 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" H 7600 8750 50  0001 C CNN
+F 4 "CAT24AA01TDI-GT3OSCT-ND " H 7575 8145 50  0000 C CNN "MPN"
+F 5 "DK" H 7575 8236 50  0000 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/CAT24AA01TDI-GT3/CAT24AA01TDI-GT3OSCT-ND/3487510" H 7575 8327 50  0000 C CNN "PurchasingLink"
+	1    7600 8550
+	-1   0    0    1   
+$EndComp
+$Comp
+L formula:LTC6811-1 U1
+U 1 1 5CB5B5C7
+P 7100 5350
+F 0 "U1" H 7050 6947 50  0000 C CNN
+F 1 "LTC6811-1" H 7050 6856 50  0000 C CNN
+F 2 "footprints:TSSOP-48_LTC6811-1" H 6450 6600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf" H 6450 6600 50  0001 C CNN
+F 4 "DK" H 7050 6765 50  0000 C CNN "MFN"
+F 5 "LTC6811IG-1-PBF-ND" H 7050 6674 50  0000 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6811IG-1-3ZZTRPBF/LTC6811IG-1-3ZZTRPBFCT-ND/9841747" H 7050 6583 50  0000 C CNN "PurchasingLink"
+	1    7100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_4.99K R45
+U 1 1 5CB5C802
+P 8150 8150
+F 0 "R45" H 8220 8332 50  0000 L CNN
+F 1 "R_4.99K" H 8220 8241 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 7950 8100 50  0001 C CNN
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 8050 8200 50  0001 C CNN
+F 4 "RNCP0805FTD4K99CT-ND " H 8220 8150 50  0000 L CNN "MPN"
+F 5 "DK" H 8220 8059 50  0000 L CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 8220 7968 50  0000 L CNN "PurchasingLink"
+	1    8150 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:R_4.99K R47
+U 1 1 5CB5C93E
+P 8500 8150
+F 0 "R47" H 8570 8332 50  0000 L CNN
+F 1 "R_4.99K" H 8570 8241 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 8300 8100 50  0001 C CNN
+F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 8400 8200 50  0001 C CNN
+F 4 "RNCP0805FTD4K99CT-ND " H 8570 8150 50  0000 L CNN "MPN"
+F 5 "DK" H 8570 8059 50  0000 L CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 8570 7968 50  0000 L CNN "PurchasingLink"
+	1    8500 8150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
