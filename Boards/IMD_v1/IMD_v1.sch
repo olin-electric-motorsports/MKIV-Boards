@@ -1184,20 +1184,6 @@ F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF080
 	1    0    0    -1  
 $EndComp
 Connection ~ 3650 6500
-$Comp
-L formula:UF_2_VT J2
-U 1 1 5C6073B8
-P 10100 2200
-F 0 "J2" H 10156 2497 60  0000 C CNN
-F 1 "UF_2_VT" H 10156 2391 60  0000 C CNN
-F 2 "footprints:Ultrafit_2" H 10000 2250 60  0001 C CNN
-F 3 "" H 10100 2350 60  0001 C CNN
-F 4 "DK" H 10300 2550 60  0001 C CNN "MFN"
-F 5 "WM11570-ND" H 10400 2650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1722861102/WM11570-ND/5344267" H 10200 2450 60  0001 C CNN "PurchasingLink"
-	1    10100 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10350 2450 10350 2250
 Wire Wire Line
@@ -1363,4 +1349,18 @@ Text Notes 7350 1300 0    50   ~ 0
 LATCH and POWER RELAY\nprocesses signals from IMD and Delay and acts accordingly\n
 Text Notes 6900 5100 0    50   ~ 0
 Input, Output and Fuses the 12 V\n
+$Comp
+L formula:mm_2 J2
+U 1 1 5CAF7F3B
+P 10100 2200
+F 0 "J2" H 10156 2497 60  0000 C CNN
+F 1 "mm_2" H 10156 2391 60  0000 C CNN
+F 2 "footprints:mm_2" H 10000 2250 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" H 10100 2350 60  0001 C CNN
+F 4 "DK" H 10300 2550 60  0001 C CNN "MFN"
+F 5 "WM11825-ND " H 10400 2650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" H 10200 2450 60  0001 C CNN "PurchasingLink"
+	1    10100 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
