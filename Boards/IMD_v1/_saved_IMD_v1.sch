@@ -1350,10 +1350,10 @@ LATCH and POWER RELAY\nprocesses signals from IMD and Delay and acts accordingly
 Text Notes 6900 5100 0    50   ~ 0
 Input, Output and Fuses the 12 V\n
 $Comp
-L formula:mm_2 J?
+L formula:mm_2 J2
 U 1 1 5CAF7F3B
 P 10100 2200
-F 0 "J?" H 10156 2497 60  0000 C CNN
+F 0 "J2" H 10156 2497 60  0000 C CNN
 F 1 "mm_2" H 10156 2391 60  0000 C CNN
 F 2 "footprints:mm_2" H 10000 2250 60  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" H 10100 2350 60  0001 C CNN
