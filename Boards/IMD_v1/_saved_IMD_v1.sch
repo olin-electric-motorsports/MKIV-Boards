@@ -1350,10 +1350,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 4900 4300 6100
 $Comp
-L formula:MicroFit_V_2 J?
+L formula:MicroFit_V_2 J2
 U 1 1 5CB231A2
 P 10100 2200
-F 0 "J?" H 10156 2475 50  0000 C CNN
+F 0 "J2" H 10156 2475 50  0000 C CNN
 F 1 "MicroFit_V_2" H 10156 2384 50  0000 C CNN
 F 2 "footprints:MicroFit_V_2" H 10050 2400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 10050 2400 50  0001 C CNN
