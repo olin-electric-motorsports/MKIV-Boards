@@ -1,0 +1,44 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MFN,MPN,PurchasingLink,Package,Link,Digi-key Part Number,Purchasing Link
+1,"b'Capacitor, 0.1uF, 50V, 5%, 0805'",b'C_0.1uF',b'C2 C3 C5 C6 C8 C9 C11',b'C_0.1uF',b'C_0805_OEM',b'7',b'http://datasheets.avx.com/X7RDielectric.pdf',b'DK Digi-Key',b'478-3352-1-ND',b'https://www.digikey.com/products/en?keywords=478-3352-1-ND',b'Value',b'',b'',b''
+2,"b'Capacitor, 100pF, 50V, 5%, 0805'",b'C_100pF',b'C10',b'C_100pF',b'C_0805_OEM',b'1',b'https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf',b'Digi-Key',b'399-1122-1-ND',b'https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1-ND/411397',b'Value',b'',b'',b''
+3,"b'Capacitor, 2.2uF, 10V, 10%, 0603'",b'C_2.2uF',b'C7',b'C_2.2uF',b'C_0603_1608Metric',b'1',b'http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf',b'DK',b'311-1451-1-ND',b'https://www.digikey.com/product-detail/en/yageo/CC0603KRX5R6BB225/311-1451-1-ND/2833757',b'',b'',b'',b''
+4,"b'Capacitor, 22uF, 16V, 20%, 1206'",b'C_22uF',b'C12',b'C_22uF',b'C_1206_OEM',b'1',b'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf',b'DK',b'445-11693-1-ND',b'https://www.digikey.com/product-detail/en/tdk-corporation/C3216JB1C226M160AB/445-11693-1-ND/3953359',b'',b'',b'',b''
+5,"b'Capacitor, 30pF, 50V, 5%, 0805'",b'C_30pF',b'C1 C4',b'C_30pF',b'C_0805_OEM',b'2',b'https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf',b'Digi-Key',b'1276-1130-1-ND',b'https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216',b'Value',b'',b'',b''
+6,b'',b'C_33uF',b'C13',b'C_33uF',b'C_1812',b'1',b'https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf',b'C4532X7R1C336M250KC',b'445-3924-1-ND',b'https://www.digikey.com/product-detail/en/tdk-corporation/C4532X7R1C336M250KC/445-3924-1-ND/1923431',b'',b'',b'',b''
+7,"b'Capacitor, 47uF, 6.3V, 20%, 0805'",b'C_47uF',b'C14',b'C_47uF',b'C_0805_OEM',b'1',b'http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/22/CL21A476MQYNNNG.pdf',b'DK',b'1276-6467-1-ND',b'https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A476MQYNNNG/1276-6467-1-ND/5958095',b'',b'',b'',b''
+8,"b'Diode, Zener, 18V, 5W, 5%'",b'D_Zener_18V',b'D1',b'D_Zener_18V',b'DO-214AA',b'1',b'http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf',b'DK',b'SMBJ5355B-TPMSCT-ND',b'https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND',b'',b'',b'',b''
+9,"b'LED, Green, 2.2V, 20mA, 0805'",b'LED_0805',b'D2 D3 D4',b'LED_0805',b'LED_0805_OEM',b'3',b'http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf',b'DK',b'475-1410-1-ND',b'https://www.digikey.com/products/en?keywords=475-1410-1-ND',b'',b'',b'',b''
+10,"b'Fuse, PTC, 500mA, 16V, 1210'",b'F_500mA_16V',b'F1',b'F_500mA_16V',b'Fuse_1210',b'1',b'https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf',b'DK',b'507-1786-1-ND',b'https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209',b'',b'',b'',b''
+11,"b'Microcontroller, 8-bit, 1KB RAM, 16KB Flash'",b'ATMEGA16M1',b'IC1',b'ATMEGA16M1',b'TQFP-32_7x7mm_Pitch0.8mm',b'1',b'http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf',b'Digi-Key',b'ATMEGA16M1-AU-ND',b'https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208',b'Value',b'',b'',b''
+12,b'Ampseal connector 35 pin right angle',b'Ampseal_35_RA',b'J1',b'Ampseal_35_RA',b'TE_1-776180-1_35_RA',b'1',b'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776180%7FH7%7Fpdf%7FEnglish%7FENG_CD_776180_H7.pdf%7F776180-1',b'TE',b'776180-1',b'http://www.te.com/usa-en/product-776180-1.html',b'',b'',b'',b''
+13,b'',b'L_100uH',b'L1',b'L_100uH',b'L_100uH',b'1',b'https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_decoupling_nlfv32-ef_en.pdf',b'Digikey',b'445-15759-1-ND',b'',b'',b'https://www.digikey.com/product-detail/en/tdk-corporation/NLFV32T-101K-EF/445-15759-1-ND/4328055',b'',b''
+14,"b'Resistor, 0 ohm jumper, 0.1W, 0603'",b'R_0',b'R10',b'R_0',b'R_0603_1608Metric',b'1',b'http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW',b'DK',b'P0.0GCT-ND',b'https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711',b'',b'',b'',b''
+15,"b'Resistor, 0 ohm jumper, 3W, 2512'",b'R_0_2512',b'R12',b'R_0_2512',b'R_2512_OEM',b'1',b'http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English',b'DK',b'A121322CT-ND',b'https://www.digikey.com/products/en?keywords=A121322CT-ND',b'',b'',b'',b''
+16,"b'Resistor, 100, 0.25W, 1%, 0805'",b'R_100',b'R14',b'R_100',b'R_0805_OEM',b'1',b'https://www.seielect.com/Catalog/SEI-rncp.pdf',b'Digi-Key',b'RNCP0805FTD100RCT-ND',b'https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND',b'Value',b'',b'',b''
+17,"b'Resistor, 100K, 0.125W, 1%, 0805'",b'R_100K',b'R9',b'R_100K',b'R_0805_OEM',b'1',b'https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf',b'DK',b'P100KCCT-ND',b'https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-6ENF1003V/P100KCCT-ND/119551',b'',b'',b'',b''
+18,"b'Resistor, 10K, 0.25W, 1%, 0805'",b'R_10K',b'R15',b'R_10k',b'R_0805_OEM',b'1',b'http://www.bourns.com/data/global/pdfs/CRS.pdf',b'Digi-Key',b'CRS0805-FX-1002ELFCT-ND',b'https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND',b'Value',b'',b'',b''
+19,"b'Resistor, 120, 0.125W, 1%, 0805'",b'R_120',b'R13',b'R_120',b'R_0805_OEM',b'1',b'https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf',b'DK',b'667-ERJ-6ENF1200V',b'https://www.mouser.com/ProductDetail/Panasonic-Industrial-Devices/ERJ-6ENF1200V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7x%252bFQnctTMUmU%3d',b'',b'',b'',b''
+20,"b'Resistor, 1K, 0.25W, 1%, 0805'",b'R_1K',b'R3 R4 R5 R6 R11',b'R_1K',b'R_0805_OEM',b'5',b'https://www.seielect.com/Catalog/SEI-rncp.pdf',b'DK',b'RNCP0805FTD1K00CT-ND',b'https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND',b'',b'',b'',b''
+21,"b'Resistor, 200, 0.125W, 5%, 0805'",b'R_200',b'R1 R2 R7 R16',b'R_200',b'R_0805_OEM',b'4',b'https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf',b'DK',b'RMCF0805JT200RCT-ND',b'https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND',b'',b'',b'',b''
+22,b'',b'R_25K',b'R8',b'R_25K',b'R_0805_OEM',b'1',b'https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773200-1&DocType=DS&DocLang=English',b'A124124CT-ND',b'',b'https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CPF-A-0805B25KE/A124124CT-ND/5970044',b'',b'',b'CPF-A-0805B25KE',b''
+23,"b'High speed CAN transceiver, 1Mb/s'",b'MCP2561-E_SN',b'U1',b'CAN_Transceiver',b'SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM',b'1',b'http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044',b'Digi-Key',b'MCP2561-E/SN-ND',b'https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn',b'Value',b'',b'',b''
+24,"b'Op-amp, general purpose'",b'LMV341',b'U3',b'LMV341',b'SOT-23-6',b'1',b'http://www.ti.com/lit/ds/symlink/lmv341.pdf',b'DK',b'296-17843-1-ND',b'https://www.digikey.com/product-detail/en/texas-instruments/LMV341IDBVR/296-17843-1-ND/738777',b'',b'',b'',b''
+25,b'',b'SK812',b'U7',b'SK812',b'SK6812',b'1',b'https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf',b'',b'',b'https://www.digikey.com/product-detail/en/adafruit-industries-llc/1655/1528-1104-ND/5154679',b'',b'',b'',b''
+26,b'',b'TPS560430YF',b'U2',b'TPS560430YF',b'SOT-23-6_Handsoldering',b'1',b'http://www.ti.com/lit/ds/symlink/tps560430.pdf',b'TPS560430YFDBVR-ND',b'TPS560430YFDBVR',b'',b'',b'',b'',b'https://www.digikey.com/product-detail/en/texas-instruments/TPS560430XDBVR/296-50420-6-ND/9685813'
+27,b'',b'USB_MicroB',b'U8',b'USB_MicroB',b'USB_Micro-B_Molex-105017-0001',b'1',b'https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf',b'DK',b'WM1399CT-ND',b'https://www.digikey.com/product-detail/en/molex-llc/1050170001/WM1399CT-ND/2350885',b'',b'',b'',b''
+28,b'CRYSTAL 16.0000MHZ 18PF SMD',b'Crystal_SMD',b'Y1',b'Crystal_SMD',b'Crystal_SMD_FA238',b'1',b'https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf',b'Digi-Key',b'SER3686CT-ND',b'https://www.digikey.com/products/en?keywords=SER3686CT-ND',b'Value',b'',b'',b''
+
+
+
+
+
+Component Groups:,28
+Component Count:,44
+Fitted Components:,44
+Number of PCBs:,1
+Total components:,44
+Schematic Version:,
+Schematic Date:,
+BoM Date:,b'Sat 30 Mar 2019 09:28:12 AM EDT'
+Schematic Source:,b'/home/william/Desktop/MKIV-Boards/Boards/Sensing_Module/sensing_board.sch'
+KiCad Version:,b'Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1'

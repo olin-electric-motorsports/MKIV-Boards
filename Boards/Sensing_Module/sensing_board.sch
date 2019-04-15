@@ -424,7 +424,7 @@ Wire Wire Line
 	9600 3900 9800 3900
 Text Label 9350 2300 0    60   ~ 0
 TXCAN
-Text Label 9350 1800 0    50   ~ 0
+Text Label 9350 3700 0    50   ~ 0
 HSENSOR
 $Comp
 L formula:LED_0805 D3
@@ -563,51 +563,40 @@ Wire Wire Line
 Wire Wire Line
 	4700 1000 4700 1300
 Connection ~ 4700 1000
-Text Label 9350 1700 0    50   ~ 0
+Text Label 9350 3600 0    50   ~ 0
 BRAKETEMP
-Text Label 1300 1400 0    50   ~ 0
+Text Label 1300 1300 0    50   ~ 0
 CANH
-Text Label 1300 2500 0    50   ~ 0
+Text Label 1300 2400 0    50   ~ 0
 CANL
-Text Label 1850 2475 0    50   ~ 0
+Text Label 1300 1600 0    50   ~ 0
 POT
-$Comp
-L power:VCC #PWR016
-U 1 1 5BE0CBE7
-P 2050 1675
-F 0 "#PWR016" H 2050 1525 50  0001 C CNN
-F 1 "VCC" H 2067 1848 50  0000 C CNN
-F 2 "" H 2050 1675 50  0001 C CNN
-F 3 "" H 2050 1675 50  0001 C CNN
-	1    2050 1675
-	1    0    0    -1  
-$EndComp
 $Comp
 L formula:C_0.1uF C2
 U 1 1 5BE0CBF0
-P 2050 1875
-F 0 "C2" V 1798 1875 50  0000 C CNN
-F 1 "C_0.1uF" V 1889 1875 50  0000 C CNN
-F 2 "footprints:C_0805_OEM" H 2088 1725 50  0001 C CNN
-F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 2075 1975 50  0001 C CNN
-F 4 "DK" H 2050 1875 60  0001 C CNN "MFN"
-F 5 "478-3352-1-ND" H 2050 1875 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 2475 2375 60  0001 C CNN "PurchasingLink"
-	1    2050 1875
+P 1500 2950
+F 0 "C2" V 1248 2950 50  0000 C CNN
+F 1 "C_0.1uF" V 1339 2950 50  0000 C CNN
+F 2 "footprints:C_0805_OEM" H 1538 2800 50  0001 C CNN
+F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1525 3050 50  0001 C CNN
+F 4 "DK" H 1500 2950 60  0001 C CNN "MFN"
+F 5 "478-3352-1-ND" H 1500 2950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=478-3352-1-ND" H 1925 3450 60  0001 C CNN "PurchasingLink"
+	1    1500 2950
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5BE0CBF6
-P 2050 2025
-F 0 "#PWR017" H 2050 1775 50  0001 C CNN
-F 1 "GND" H 2055 1852 50  0000 C CNN
-F 2 "" H 2050 2025 50  0001 C CNN
-F 3 "" H 2050 2025 50  0001 C CNN
-	1    2050 2025
+P 1500 3100
+F 0 "#PWR017" H 1500 2850 50  0001 C CNN
+F 1 "GND" H 1505 2927 50  0000 C CNN
+F 2 "" H 1500 3100 50  0001 C CNN
+F 3 "" H 1500 3100 50  0001 C CNN
+	1    1500 3100
 	1    0    0    -1  
 $EndComp
-Text Label 1300 1900 0    50   ~ 0
+Text Label 1300 1400 0    50   ~ 0
 BRAKETEMP
 Text Label 1300 1500 0    50   ~ 0
 HSENSOR
@@ -641,8 +630,6 @@ Wire Notes Line
 	5700 4900 10500 4900
 Text Notes 8000 700  0    79   ~ 0
 ATMEGA
-Wire Wire Line
-	2050 1675 2050 1725
 NoConn ~ 9350 1200
 NoConn ~ 9350 1300
 NoConn ~ 9350 1600
@@ -665,9 +652,9 @@ $EndComp
 Connection ~ 5100 2150
 Text Notes 4900 2350 0    50   ~ 0
 DNP
-Text Label 1300 2600 0    50   ~ 0
+Text Label 1300 2500 0    50   ~ 0
 CANH
-Text Label 1300 1300 0    50   ~ 0
+Text Label 1300 1200 0    50   ~ 0
 CANL
 $Comp
 L formula:R_120 R13
@@ -739,20 +726,14 @@ NEO_PIXEL
 $Comp
 L power:GND #PWR0103
 U 1 1 5C6A0FA4
-P 1400 900
-F 0 "#PWR0103" H 1400 650 50  0001 C CNN
-F 1 "GND" H 1475 900 50  0000 C CNN
-F 2 "" H 1400 900 50  0001 C CNN
-F 3 "" H 1400 900 50  0001 C CNN
-	1    1400 900 
+P 2025 900
+F 0 "#PWR0103" H 2025 650 50  0001 C CNN
+F 1 "GND" H 2100 900 50  0000 C CNN
+F 2 "" H 2025 900 50  0001 C CNN
+F 3 "" H 2025 900 50  0001 C CNN
+	1    2025 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 900  1400 900 
-Wire Wire Line
-	1300 1200 1675 1200
-Wire Wire Line
-	1675 1200 1675 1100
 $Comp
 L power:VCC #PWR0105
 U 1 1 5C6B0084
@@ -795,30 +776,6 @@ Wire Wire Line
 	2975 2325 2975 2250
 Wire Wire Line
 	2575 2925 2675 2925
-$Comp
-L power:GND #PWR0107
-U 1 1 5C6B92C1
-P 1575 1625
-F 0 "#PWR0107" H 1575 1375 50  0001 C CNN
-F 1 "GND" H 1425 1600 50  0000 C CNN
-F 2 "" H 1575 1625 50  0001 C CNN
-F 3 "" H 1575 1625 50  0001 C CNN
-	1    1575 1625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1700 1500 1700
-Wire Wire Line
-	1500 1700 1500 1625
-Wire Wire Line
-	1500 1625 1575 1625
-Wire Wire Line
-	1300 1800 1800 1800
-Wire Wire Line
-	1800 1800 1800 1725
-Wire Wire Line
-	1800 1725 2050 1725
-Connection ~ 2050 1725
 $Comp
 L power:VCC #PWR0108
 U 1 1 5C6C6559
@@ -895,21 +852,6 @@ F 3 "" H 1500 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2400 1750 2400
-Wire Wire Line
-	1750 2400 1750 2325
-$Comp
-L power:VCC #PWR0113
-U 1 1 5C6E297C
-P 1750 2325
-F 0 "#PWR0113" H 1750 2175 50  0001 C CNN
-F 1 "VCC" H 1850 2350 50  0000 C CNN
-F 2 "" H 1750 2325 50  0001 C CNN
-F 3 "" H 1750 2325 50  0001 C CNN
-	1    1750 2325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1850 5850 1950 5850
 $Comp
 L formula:R_200 R2
@@ -971,56 +913,20 @@ F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5580 2
 	1    5100 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L formula:Ampseal_35_RA J1
-U 1 1 5C6FA2BA
-P 1100 2600
-F 0 "J1" H 875 4300 60  0000 C CNN
-F 1 "Ampseal_35_RA" H 1056 4441 60  0000 C CNN
-F 2 "footprints:TE_1-776180-1_35_RA" H 900 3950 60  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776180%7FH7%7Fpdf%7FEnglish%7FENG_CD_776180_H7.pdf%7F776180-1" H 900 3950 60  0001 C CNN
-F 4 "TE" H 1050 4600 60  0001 C CNN "MFN"
-F 5 " 776180-1" H 950 4500 60  0001 C CNN "MPN"
-F 6 "http://www.te.com/usa-en/product-776180-1.html" H 1150 4700 60  0001 C CNN "PurchasingLink"
-	1    1100 2600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1300 3000
-NoConn ~ 1300 3100
-NoConn ~ 1300 3200
-NoConn ~ 1300 3300
 NoConn ~ 1300 3400
 NoConn ~ 1300 3500
 NoConn ~ 1300 3700
-NoConn ~ 1300 3800
-NoConn ~ 1300 4300
-NoConn ~ 1300 4200
-NoConn ~ 1300 4100
-NoConn ~ 1300 4000
-Wire Wire Line
-	1300 2800 1300 2900
-Wire Wire Line
-	1300 2900 1750 2900
-Wire Wire Line
-	1750 2900 1750 2700
-Connection ~ 1300 2900
 $Comp
 L power:VCC #PWR0115
 U 1 1 5C72F1F8
-P 1750 2700
-F 0 "#PWR0115" H 1750 2550 50  0001 C CNN
-F 1 "VCC" H 1767 2873 50  0000 C CNN
-F 2 "" H 1750 2700 50  0001 C CNN
-F 3 "" H 1750 2700 50  0001 C CNN
-	1    1750 2700
+P 1650 2550
+F 0 "#PWR0115" H 1650 2400 50  0001 C CNN
+F 1 "VCC" H 1667 2723 50  0000 C CNN
+F 2 "" H 1650 2550 50  0001 C CNN
+F 3 "" H 1650 2550 50  0001 C CNN
+	1    1650 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 1100 1300 1200
-Connection ~ 1300 1200
-Wire Wire Line
-	1300 1000 1300 900 
-Connection ~ 1300 900 
 Wire Wire Line
 	9875 2575 9875 2650
 $Comp
@@ -1058,8 +964,6 @@ Wire Wire Line
 Wire Wire Line
 	9350 4100 9350 4200
 NoConn ~ 9350 3500
-NoConn ~ 9350 3600
-NoConn ~ 9350 3700
 NoConn ~ 9350 1900
 NoConn ~ 9350 2200
 NoConn ~ 9350 2500
@@ -1566,22 +1470,73 @@ Wire Wire Line
 	5325 7725 5325 7825
 Text Notes 9975 2300 0    50   ~ 0
 ID Resistors
-Text Label 1675 1100 0    50   ~ 0
+Text Label 1500 1000 0    50   ~ 0
 12V
 Wire Wire Line
-	1300 3900 1525 3900
+	1300 4300 1525 4300
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5C8E949B
-P 1525 3900
-F 0 "#PWR?" H 1525 3650 50  0001 C CNN
-F 1 "GND" H 1530 3727 50  0000 C CNN
-F 2 "" H 1525 3900 50  0001 C CNN
-F 3 "" H 1525 3900 50  0001 C CNN
-	1    1525 3900
+P 1525 4300
+F 0 "#PWR0104" H 1525 4050 50  0001 C CNN
+F 1 "GND" H 1530 4127 50  0000 C CNN
+F 2 "" H 1525 4300 50  0001 C CNN
+F 3 "" H 1525 4300 50  0001 C CNN
+	1    1525 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2700 1750 2700
-Connection ~ 1750 2700
+	1300 3900 1300 4000
+Wire Wire Line
+	1300 900  2025 900 
+Wire Wire Line
+	1300 1100 1300 1000
+Wire Wire Line
+	1300 1000 1500 1000
+Wire Wire Line
+	1300 2200 1300 2300
+Wire Wire Line
+	1300 2700 1300 2600
+Wire Wire Line
+	1300 2600 1650 2600
+Wire Wire Line
+	1650 2600 1650 2550
+Connection ~ 1300 1000
+Connection ~ 1300 2600
+Connection ~ 1300 2300
+$Comp
+L formula:Ampseal_35_RA J1
+U 1 1 5C6FA2BA
+P 1100 2600
+F 0 "J1" H 875 4300 60  0000 C CNN
+F 1 "Ampseal_35_RA" H 1056 4441 60  0000 C CNN
+F 2 "footprints:TE_1-776180-1_35_RA" H 900 3950 60  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F776180%7FH7%7Fpdf%7FEnglish%7FENG_CD_776180_H7.pdf%7F776180-1" H 900 3950 60  0001 C CNN
+F 4 "TE" H 1050 4600 60  0001 C CNN "MFN"
+F 5 " 776180-1" H 950 4500 60  0001 C CNN "MPN"
+F 6 "http://www.te.com/usa-en/product-776180-1.html" H 1150 4700 60  0001 C CNN "PurchasingLink"
+	1    1100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4000 1300 4100
+Connection ~ 1300 4000
+Wire Wire Line
+	1300 4100 1300 4200
+Connection ~ 1300 4100
+Wire Wire Line
+	1300 4200 1300 4300
+Connection ~ 1300 4200
+Connection ~ 1300 4300
+Wire Wire Line
+	1300 2700 1300 2800
+Connection ~ 1300 2700
+Wire Wire Line
+	1300 2800 1300 2900
+Connection ~ 1300 2800
+Wire Wire Line
+	1300 2800 1500 2800
+Wire Wire Line
+	1300 3800 1300 3900
+Connection ~ 1300 3900
 $EndSCHEMATC
