@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:DR_InterfaceBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -274,9 +273,9 @@ RJ45_LED2
 Text Label 2090 4620 0    50   ~ 0
 RJ45_LED1
 Text Label 1270 5030 3    50   ~ 0
-CANH
-Text Label 1370 5030 3    50   ~ 0
 CANL
+Text Label 1370 5030 3    50   ~ 0
+CANH
 Text Label 1470 5030 3    50   ~ 0
 RESET
 Text Label 1570 5030 3    50   ~ 0

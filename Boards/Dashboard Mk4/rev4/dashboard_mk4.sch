@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:dashboard_mk4-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -920,8 +919,6 @@ Wire Wire Line
 	2600 6650 2900 6650
 Connection ~ 4125 6650
 NoConn ~ 8350 1200
-NoConn ~ 8350 2100
-NoConn ~ 8350 2200
 NoConn ~ 8350 2700
 Text Label 8350 1600 0    50   ~ 0
 XTAL1
@@ -1006,8 +1003,6 @@ Connection ~ 1000 1100
 Connection ~ 3400 3800
 Connection ~ 3700 3800
 NoConn ~ 3400 2100
-NoConn ~ 3400 2600
-NoConn ~ 3400 2700
 NoConn ~ 3400 3200
 NoConn ~ 3400 3300
 Text Label 8350 1300 0    50   ~ 0
@@ -13784,8 +13779,6 @@ NoConn ~ 8350 2800
 NoConn ~ 8350 2900
 NoConn ~ 8350 3000
 NoConn ~ 8350 3100
-NoConn ~ 8350 3200
-NoConn ~ 8350 3300
 NoConn ~ 8350 3400
 $Comp
 L formula:MM_F_VT_10 J1
@@ -13942,4 +13935,14 @@ Wire Wire Line
 Connection ~ 6600 3300
 Wire Wire Line
 	6600 3300 6600 3550
+Text Label 3400 2600 0    50   ~ 0
+INFO1
+Text Label 3400 2700 0    50   ~ 0
+INFO2
+NoConn ~ 8350 2100
+NoConn ~ 8350 2200
+Text Label 8350 3200 0    50   ~ 0
+INFO1
+Text Label 8350 3300 0    50   ~ 0
+INFO2
 $EndSCHEMATC
