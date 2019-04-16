@@ -34,7 +34,7 @@ L formula:TLV3701QDBVRG4Q1 U3
 U 1 1 5BD94370
 P 4050 3100
 F 0 "U3" H 4100 2950 50  0000 L CNN
-F 1 "TLV3701QDBVRG4Q1" H 4050 3250 50  0000 L CNN
+F 1 "TLV3701QDBVRG4Q1" H 4050 2850 50  0000 L CNN
 F 2 "footprints:SOT-23-5_OEM" H 4050 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" H 4050 3300 50  0001 C CNN
 F 4 "DK" H 4400 3600 60  0001 C CNN "MFN"
@@ -70,16 +70,16 @@ $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5BD97D00
-P 3650 6800
-F 0 "#PWR06" H 3650 6550 50  0001 C CNN
-F 1 "GND" H 3655 6627 50  0000 C CNN
-F 2 "" H 3650 6800 50  0001 C CNN
-F 3 "" H 3650 6800 50  0001 C CNN
-	1    3650 6800
+P 3650 6400
+F 0 "#PWR06" H 3650 6150 50  0001 C CNN
+F 1 "GND" H 3655 6227 50  0000 C CNN
+F 2 "" H 3650 6400 50  0001 C CNN
+F 3 "" H 3650 6400 50  0001 C CNN
+	1    3650 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3650 6500 4300 6500
+	3650 6100 4300 6100
 NoConn ~ 6450 2900
 NoConn ~ 7200 3500
 NoConn ~ 7200 3600
@@ -510,7 +510,7 @@ F 3 "" H 8300 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8300 5700 8300 5800
-Text Label 3650 5900 0    50   ~ 0
+Text Label 3650 5500 0    50   ~ 0
 12V_Fused
 Text Notes 6700 2850 0    50   ~ 0
 NAND LATCH
@@ -543,7 +543,7 @@ $EndComp
 NoConn ~ 6450 3000
 Text Notes 4250 2150 0    50   ~ 0
 8V output\n
-Text Notes 3900 6500 0    50   ~ 0
+Text Notes 3900 6100 0    50   ~ 0
 8V Output
 Text Notes 9300 3850 0    50   ~ 0
 current: 20mA
@@ -625,15 +625,15 @@ $EndComp
 $Comp
 L formula:R_604K R7
 U 1 1 5BEF0A33
-P 3650 6650
-F 0 "R7" H 3720 6696 50  0000 L CNN
-F 1 "R_604K" H 3720 6605 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 3580 6650 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3730 6650 50  0001 C CNN
-F 4 "DK" H 3650 6650 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT604KCT-ND" H 3650 6650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" H 4130 7050 60  0001 C CNN "PurchasingLink"
-	1    3650 6650
+P 3650 6250
+F 0 "R7" H 3720 6296 50  0000 L CNN
+F 1 "R_604K" H 3720 6205 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3580 6250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3730 6250 50  0001 C CNN
+F 4 "DK" H 3650 6250 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT604KCT-ND" H 3650 6250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT604K/RMCF0805FT604KCT-ND/4425214" H 4130 6650 60  0001 C CNN "PurchasingLink"
+	1    3650 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1158,32 +1158,32 @@ Comparator outputs 12V \nwhen the IMD Output is "Healthy"\n
 $Comp
 L formula:R_300K R13
 U 1 1 5C0F2D12
-P 3650 6350
-F 0 "R13" H 3720 6396 50  0000 L CNN
-F 1 "R_300K" H 3720 6305 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 3580 6350 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3730 6350 50  0001 C CNN
-F 4 "DK" H 3650 6350 60  0001 C CNN "MFN"
-F 5 "P300KDACT-ND" H 3650 6350 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" H 4130 6750 60  0001 C CNN "PurchasingLink"
-	1    3650 6350
+P 3650 5950
+F 0 "R13" H 3720 5996 50  0000 L CNN
+F 1 "R_300K" H 3720 5905 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3580 5950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 3730 5950 50  0001 C CNN
+F 4 "DK" H 3650 5950 60  0001 C CNN "MFN"
+F 5 "P300KDACT-ND" H 3650 5950 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB304V/P300KDACT-ND/1466006" H 4130 6350 60  0001 C CNN "PurchasingLink"
+	1    3650 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:R_2.2K R6
 U 1 1 5C0F2E7E
-P 3650 6050
-F 0 "R6" H 3720 6096 50  0000 L CNN
-F 1 "R_2.2K" H 3720 6005 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 3580 6050 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3730 6050 50  0001 C CNN
-F 4 "DK" H 3650 6050 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT2K20CT-ND" H 3650 6050 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 4130 6450 60  0001 C CNN "PurchasingLink"
-	1    3650 6050
+P 3650 5650
+F 0 "R6" H 3720 5696 50  0000 L CNN
+F 1 "R_2.2K" H 3720 5605 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3580 5650 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3730 5650 50  0001 C CNN
+F 4 "DK" H 3650 5650 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT2K20CT-ND" H 3650 5650 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 4130 6050 60  0001 C CNN "PurchasingLink"
+	1    3650 5650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3650 6500
+Connection ~ 3650 6100
 Wire Wire Line
 	10350 2450 10350 2250
 Wire Wire Line
@@ -1192,113 +1192,106 @@ Wire Wire Line
 	10350 1850 10350 2150
 Wire Wire Line
 	9550 1850 10350 1850
-Wire Wire Line
-	4300 4900 4300 6500
 $Comp
 L formula:R_2.2K R9
 U 1 1 5C0F16B3
-P 3200 4850
-F 0 "R9" H 3270 4896 50  0000 L CNN
-F 1 "R_2.2K" H 3270 4805 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 3130 4850 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3280 4850 50  0001 C CNN
-F 4 "DK" H 3200 4850 60  0001 C CNN "MFN"
-F 5 "RMCF0805FT2K20CT-ND" H 3200 4850 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 3680 5250 60  0001 C CNN "PurchasingLink"
-	1    3200 4850
+P 3200 5050
+F 0 "R9" H 3270 5096 50  0000 L CNN
+F 1 "R_2.2K" H 3270 5005 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 3130 5050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3280 5050 50  0001 C CNN
+F 4 "DK" H 3200 5050 60  0001 C CNN "MFN"
+F 5 "RMCF0805FT2K20CT-ND" H 3200 5050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387" H 3680 5450 60  0001 C CNN "PurchasingLink"
+	1    3200 5050
 	1    0    0    -1  
 $EndComp
-Text Notes 2700 4600 0    50   ~ 0
+Text Notes 2700 4800 0    50   ~ 0
 IMD Output\n
-Text Label 2700 4850 0    50   ~ 0
+Text Label 2700 5050 0    50   ~ 0
 12V_Fused
 $Comp
 L power:GND #PWR05
 U 1 1 5BDA22BB
-P 2800 5400
-F 0 "#PWR05" H 2800 5150 50  0001 C CNN
-F 1 "GND" H 2805 5227 50  0000 C CNN
-F 2 "" H 2800 5400 50  0001 C CNN
-F 3 "" H 2800 5400 50  0001 C CNN
-	1    2800 5400
+P 2800 5600
+F 0 "#PWR05" H 2800 5350 50  0001 C CNN
+F 1 "GND" H 2805 5427 50  0000 C CNN
+F 2 "" H 2800 5600 50  0001 C CNN
+F 3 "" H 2800 5600 50  0001 C CNN
+	1    2800 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5BDA2275
-P 2950 5400
-F 0 "#PWR07" H 2950 5150 50  0001 C CNN
-F 1 "GND" H 2955 5227 50  0000 C CNN
-F 2 "" H 2950 5400 50  0001 C CNN
-F 3 "" H 2950 5400 50  0001 C CNN
-	1    2950 5400
+P 2950 5600
+F 0 "#PWR07" H 2950 5350 50  0001 C CNN
+F 1 "GND" H 2955 5427 50  0000 C CNN
+F 2 "" H 2950 5600 50  0001 C CNN
+F 3 "" H 2950 5600 50  0001 C CNN
+	1    2950 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5BDA222F
-P 3100 5400
-F 0 "#PWR08" H 3100 5150 50  0001 C CNN
-F 1 "GND" H 3105 5227 50  0000 C CNN
-F 2 "" H 3100 5400 50  0001 C CNN
-F 3 "" H 3100 5400 50  0001 C CNN
-	1    3100 5400
+P 3100 5600
+F 0 "#PWR08" H 3100 5350 50  0001 C CNN
+F 1 "GND" H 3105 5427 50  0000 C CNN
+F 2 "" H 3100 5600 50  0001 C CNN
+F 3 "" H 3100 5600 50  0001 C CNN
+	1    3100 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 4750 3100 4750
+	2700 4950 3100 4950
 Wire Wire Line
-	3100 4750 3100 5400
+	3100 4950 3100 5600
 Wire Wire Line
-	2950 4950 2950 5400
+	2950 5150 2950 5600
 Wire Wire Line
-	2800 5050 2800 5400
+	2800 5250 2800 5600
 Wire Wire Line
-	2700 5050 2800 5050
+	2700 5250 2800 5250
 Wire Wire Line
-	2700 4950 2950 4950
+	2700 5150 2950 5150
 $Comp
 L formula:Ultrafit_5(IMD) U1
 U 1 1 5BD9E82D
-P 2600 4800
-F 0 "U1" H 2350 5100 50  0000 C CNN
-F 1 "Ultrafit_5(IMD)" H 2500 4350 50  0000 C CNN
-F 2 "footprints:Ultrafit_5" H 2600 4800 50  0001 C CNN
-F 3 "http://www.bender-emobility.com/fileadmin/products/doc/IR155-32xx-V004_D00115_D_XXEN.pdf" H 2600 4800 50  0001 C CNN
-	1    2600 4800
+P 2600 5000
+F 0 "U1" H 2350 5300 50  0000 C CNN
+F 1 "Ultrafit_5(IMD)" H 2500 4550 50  0000 C CNN
+F 2 "footprints:Ultrafit_5" H 2600 5000 50  0001 C CNN
+F 3 "http://www.bender-emobility.com/fileadmin/products/doc/IR155-32xx-V004_D00115_D_XXEN.pdf" H 2600 5000 50  0001 C CNN
+	1    2600 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 4650 2700 4650
+	3200 4850 2700 4850
 $Comp
 L power:GND #PWR09
 U 1 1 5BD97454
-P 3200 5000
-F 0 "#PWR09" H 3200 4750 50  0001 C CNN
-F 1 "GND" H 3205 4827 50  0000 C CNN
-F 2 "" H 3200 5000 50  0001 C CNN
-F 3 "" H 3200 5000 50  0001 C CNN
-	1    3200 5000
+P 3200 5200
+F 0 "#PWR09" H 3200 4950 50  0001 C CNN
+F 1 "GND" H 3205 5027 50  0000 C CNN
+F 2 "" H 3200 5200 50  0001 C CNN
+F 3 "" H 3200 5200 50  0001 C CNN
+	1    3200 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 4650 3200 4700
-Connection ~ 3200 4650
+	3200 4850 3200 4900
+Connection ~ 3200 4850
 Wire Wire Line
-	3500 4650 3200 4650
+	3500 4850 3200 4850
 Wire Wire Line
-	3500 4800 3500 4650
-Wire Wire Line
-	3700 4800 3500 4800
-Wire Wire Line
-	3750 4800 3700 4800
-Connection ~ 3700 4800
+	3500 5000 3500 4850
 $Comp
 L formula:TLV3701QDBVRG4Q1 U2
 U 1 1 5BD96F8B
 P 4000 4900
 F 0 "U2" H 4050 5100 50  0000 C CNN
-F 1 "TLV3701QDBVRG4Q1" H 4400 4650 50  0000 C CNN
+F 1 "TLV3701QDBVRG4Q1" H 4500 5050 50  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM" H 4000 5000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv3702-q1.pdf" H 4000 5100 50  0001 C CNN
 F 4 "DK" H 4350 5400 60  0001 C CNN "MFN"
@@ -1308,8 +1301,8 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/TLV3701QDBVRG4Q
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 5000 3600 5000
-Text Label 3600 5000 3    50   ~ 0
+	3750 4800 3700 4800
+Text Label 3650 4800 1    50   ~ 0
 imd_side_out
 Text Label 6200 3200 2    50   ~ 0
 imd_side_out
@@ -1349,17 +1342,24 @@ Text Notes 7350 1300 0    50   ~ 0
 LATCH and POWER RELAY\nprocesses signals from IMD and Delay and acts accordingly\n
 Text Notes 6900 5100 0    50   ~ 0
 Input, Output and Fuses the 12 V\n
+Wire Wire Line
+	3700 5000 3500 5000
+Connection ~ 3700 4800
+Wire Wire Line
+	3700 4800 3650 4800
+Wire Wire Line
+	4300 4900 4300 6100
 $Comp
-L formula:mm_2 J2
-U 1 1 5CAF7F3B
+L formula:MicroFit_V_2 J?
+U 1 1 5CB231A2
 P 10100 2200
-F 0 "J2" H 10156 2497 60  0000 C CNN
-F 1 "mm_2" H 10156 2391 60  0000 C CNN
-F 2 "footprints:mm_2" H 10000 2250 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/1723101302_sd.pdf" H 10100 2350 60  0001 C CNN
-F 4 "DK" H 10300 2550 60  0001 C CNN "MFN"
-F 5 "WM11825-ND " H 10400 2650 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex-llc/1723101302/WM11825-ND/5360290" H 10200 2450 60  0001 C CNN "PurchasingLink"
+F 0 "J?" H 10156 2475 50  0000 C CNN
+F 1 "MicroFit_V_2" H 10156 2384 50  0000 C CNN
+F 2 "footprints:MicroFit_V_2" H 10050 2400 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 10050 2400 50  0001 C CNN
+F 4 "MFN" H 10200 2450 50  0001 C CNN "DK"
+F 5 "WM10660-ND" H 10300 2550 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 10100 2350 50  0001 C CNN "PurchasingLink"
 	1    10100 2200
 	1    0    0    -1  
 $EndComp

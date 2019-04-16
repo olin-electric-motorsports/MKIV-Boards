@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:wheel_speed-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -27,73 +28,8 @@ F 6 "https://www.digikey.com/product-detail/en/analog-devices-inc/AD623ARMZ-REEL
 	1    6250 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:VCC #PWR045
-U 1 1 5BDB948A
-P 4000 1250
-F 0 "#PWR045" H 4000 1100 50  0001 C CNN
-F 1 "VCC" H 4017 1423 50  0000 C CNN
-F 2 "" H 4000 1250 50  0001 C CNN
-F 3 "" H 4000 1250 50  0001 C CNN
-	1    4000 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR048
-U 1 1 5BDB94FA
-P 5050 1150
-F 0 "#PWR048" H 5050 900 50  0001 C CNN
-F 1 "GND" H 5055 977 50  0000 C CNN
-F 2 "" H 5050 1150 50  0001 C CNN
-F 3 "" H 5050 1150 50  0001 C CNN
-	1    5050 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 1300 4500 1300
-Connection ~ 4500 1300
-Wire Wire Line
-	4500 1300 4550 1300
-Wire Wire Line
-	4500 1400 5850 1400
-Wire Wire Line
-	4500 1300 4500 1400
-Wire Wire Line
-	4850 1300 4900 1300
-Wire Wire Line
-	4900 1300 4900 1150
-Wire Wire Line
-	4900 1150 5050 1150
-Wire Wire Line
-	4000 1250 4000 1300
-Wire Wire Line
-	4850 1600 4900 1600
-Wire Wire Line
-	4900 1600 4900 1500
-Wire Wire Line
-	4900 1500 5050 1500
-$Comp
-L power:GND #PWR049
-U 1 1 5BDB9B33
-P 5050 1500
-F 0 "#PWR049" H 5050 1250 50  0001 C CNN
-F 1 "GND" H 5055 1327 50  0000 C CNN
-F 2 "" H 5050 1500 50  0001 C CNN
-F 3 "" H 5050 1500 50  0001 C CNN
-	1    5050 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 1600 4500 1600
-Wire Wire Line
-	4500 1600 4500 1800
-Wire Wire Line
-	4500 1800 5850 1800
-Text GLabel 4450 1600 0    50   Input ~ 0
+Text GLabel 5425 1375 0    50   Input ~ 0
 gauge1.1in
-Wire Wire Line
-	4500 1600 4450 1600
-Connection ~ 4500 1600
 Wire Wire Line
 	5850 1500 5850 1450
 Wire Wire Line
@@ -229,8 +165,6 @@ Wire Wire Line
 	6650 1600 6700 1600
 Text GLabel 6700 1600 2    50   Input ~ 0
 gauge1.1out
-Wire Wire Line
-	4000 1300 4100 1300
 $Comp
 L formula:R_10K R16
 U 1 1 5BEE44FC
@@ -258,62 +192,6 @@ F 5 "CRS0805-FX-1002ELFCT-ND" H 1050 1650 60  0001 C CNN "MPN"
 F 6 "https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND" H 1530 2050 60  0001 C CNN "PurchasingLink"
 	1    1050 1650
 	1    0    0    -1  
-$EndComp
-$Comp
-L formula:R_0 R18
-U 1 1 5BEE56D2
-P 4250 1300
-F 0 "R18" V 4043 1300 50  0000 C CNN
-F 1 "R_0" V 4134 1300 50  0000 C CNN
-F 2 "footprints:R_0603_1608Metric" H 4180 1300 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 4330 1300 50  0001 C CNN
-F 4 "DK" H 4250 1300 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 4250 1300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 4730 1700 60  0001 C CNN "PurchasingLink"
-	1    4250 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_0 R21
-U 1 1 5BEE5863
-P 4700 1300
-F 0 "R21" V 4493 1300 50  0000 C CNN
-F 1 "R_0" V 4584 1300 50  0000 C CNN
-F 2 "footprints:R_0603_1608Metric" H 4630 1300 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 4780 1300 50  0001 C CNN
-F 4 "DK" H 4700 1300 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 4700 1300 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 5180 1700 60  0001 C CNN "PurchasingLink"
-	1    4700 1300
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_0 R22
-U 1 1 5BEE5921
-P 4700 1600
-F 0 "R22" V 4493 1600 50  0000 C CNN
-F 1 "R_0" V 4584 1600 50  0000 C CNN
-F 2 "footprints:R_0603_1608Metric" H 4630 1600 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 4780 1600 50  0001 C CNN
-F 4 "DK" H 4700 1600 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 4700 1600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 5180 2000 60  0001 C CNN "PurchasingLink"
-	1    4700 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L formula:R_0 R27
-U 1 1 5BEEE9D6
-P 5700 1600
-F 0 "R27" H 5630 1554 50  0000 R CNN
-F 1 "R_0" H 5630 1645 50  0000 R CNN
-F 2 "footprints:R_0603_1608Metric" H 5630 1600 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEY0R00V+7+WW" H 5780 1600 50  0001 C CNN
-F 4 "DK" H 5700 1600 60  0001 C CNN "MFN"
-F 5 "P0.0GCT-ND" H 5700 1600 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEY0R00V/P0.0GCT-ND/134711" H 6180 2000 60  0001 C CNN "PurchasingLink"
-	1    5700 1600
-	-1   0    0    1   
 $EndComp
 $Comp
 L formula:AD623 U5
