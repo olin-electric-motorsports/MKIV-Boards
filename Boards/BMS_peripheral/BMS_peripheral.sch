@@ -3327,9 +3327,9 @@ F 0 "Q11" H 8491 5432 50  0000 L CNN
 F 1 "NSS1C201MZ4" H 8491 5341 50  0000 L CNN
 F 2 "footprints:SOT-223" H 8050 5350 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NSS1C201MZ4-D.PDF" H 8150 5450 50  0001 C CNN
-F 4 "NSS1C201MZ4T3GOSCT-ND " H 8491 5250 50  0000 L CNN "MPN"
-F 5 "DK" H 8491 5159 50  0000 L CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/NSS1C201MZ4T3GOSCT-ND/9087487" H 8491 5068 50  0000 L CNN "PurchasingLink"
+F 4 "NSS1C201MZ4T3GOSCT-ND " H 8491 5250 50  0001 L CNN "MPN"
+F 5 "DK" H 8491 5159 50  0001 L CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/NSS1C201MZ4T3G/NSS1C201MZ4T3GOSCT-ND/9087487" H 8491 5068 50  0001 L CNN "PurchasingLink"
 	1    8250 5250
 	1    0    0    -1  
 $EndComp
@@ -3345,7 +3345,7 @@ F 2 "footprints:PWR163" H 2350 1950 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 1900 50  0001 C CNN
 F 4 "DK" H 2550 2150 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 2250 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 1822 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 1822 50  0001 R CNN "PurchasingLink"
 	1    2600 1900
 	0    1    1    0   
 $EndComp
@@ -3380,7 +3380,7 @@ F 2 "footprints:PWR163" H 2350 2800 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 2750 50  0001 C CNN
 F 4 "DK" H 2550 3000 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 3100 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 2672 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 2672 50  0001 R CNN "PurchasingLink"
 	1    2600 2750
 	0    1    1    0   
 $EndComp
@@ -3397,7 +3397,7 @@ F 2 "footprints:PWR163" H 2350 3650 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 3600 50  0001 C CNN
 F 4 "DK" H 2550 3850 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 3950 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 3522 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 3522 50  0001 R CNN "PurchasingLink"
 	1    2600 3600
 	0    1    1    0   
 $EndComp
@@ -3414,7 +3414,7 @@ F 2 "footprints:PWR163" H 2350 4500 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 4450 50  0001 C CNN
 F 4 "DK" H 2550 4700 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 4800 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 4372 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 4372 50  0001 R CNN "PurchasingLink"
 	1    2600 4450
 	0    1    1    0   
 $EndComp
@@ -3431,7 +3431,7 @@ F 2 "footprints:PWR163" H 2350 5350 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 5300 50  0001 C CNN
 F 4 "DK" H 2550 5550 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 5650 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 5222 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 5222 50  0001 R CNN "PurchasingLink"
 	1    2600 5300
 	0    1    1    0   
 $EndComp
@@ -3448,7 +3448,7 @@ F 2 "footprints:PWR163" H 2350 6200 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 6150 50  0001 C CNN
 F 4 "DK" H 2550 6400 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 6500 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 6072 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 6072 50  0001 R CNN "PurchasingLink"
 	1    2600 6150
 	0    1    1    0   
 $EndComp
@@ -3465,7 +3465,7 @@ F 2 "footprints:PWR163" H 2350 7050 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7000 50  0001 C CNN
 F 4 "DK" H 2550 7250 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 7350 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 6922 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 6922 50  0001 R CNN "PurchasingLink"
 	1    2600 7000
 	0    1    1    0   
 $EndComp
@@ -3482,7 +3482,7 @@ F 2 "footprints:PWR163" H 2350 7900 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 7850 50  0001 C CNN
 F 4 "DK" H 2550 8100 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 8200 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 7772 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 7772 50  0001 R CNN "PurchasingLink"
 	1    2600 7850
 	0    1    1    0   
 $EndComp
@@ -3499,7 +3499,7 @@ F 2 "footprints:PWR163" H 2350 8750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 8700 50  0001 C CNN
 F 4 "DK" H 2550 8950 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 9050 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 8622 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 8622 50  0001 R CNN "PurchasingLink"
 	1    2600 8700
 	0    1    1    0   
 $EndComp
@@ -3516,7 +3516,7 @@ F 2 "footprints:PWR163" H 2350 9600 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/PWR163.pdf" H 2600 9550 50  0001 C CNN
 F 4 "DK" H 2550 9800 50  0001 C CNN "MFN"
 F 5 "PWR163S-25-3R30F-ND" H 2650 9900 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 9472 50  0000 R CNN "PurchasingLink"
+F 6 "https://www.digikey.com/products/en?keywords=PWR163S-25-3R30F-ND" V 2691 9472 50  0001 R CNN "PurchasingLink"
 	1    2600 9550
 	0    1    1    0   
 $EndComp
@@ -3531,9 +3531,9 @@ F 0 "U2" H 7575 7963 50  0000 C CNN
 F 1 "24AA01" H 7575 8054 50  0000 C CNN
 F 2 "footprints:SOT-23-5_OEM_24AA01" H 7500 8650 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21711J.pdf" H 7600 8750 50  0001 C CNN
-F 4 "CAT24AA01TDI-GT3OSCT-ND " H 7575 8145 50  0000 C CNN "MPN"
-F 5 "DK" H 7575 8236 50  0000 C CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/CAT24AA01TDI-GT3/CAT24AA01TDI-GT3OSCT-ND/3487510" H 7575 8327 50  0000 C CNN "PurchasingLink"
+F 4 "CAT24AA01TDI-GT3OSCT-ND " H 7575 8145 50  0001 C CNN "MPN"
+F 5 "DK" H 7575 8236 50  0001 C CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/CAT24AA01TDI-GT3/CAT24AA01TDI-GT3OSCT-ND/3487510" H 7575 8327 50  0001 C CNN "PurchasingLink"
 	1    7600 8550
 	-1   0    0    1   
 $EndComp
@@ -3545,9 +3545,9 @@ F 0 "U1" H 7050 6947 50  0000 C CNN
 F 1 "LTC6811-1" H 7050 6856 50  0000 C CNN
 F 2 "footprints:TSSOP-48_LTC6811-1" H 6450 6600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/68111fb.pdf" H 6450 6600 50  0001 C CNN
-F 4 "DK" H 7050 6765 50  0000 C CNN "MFN"
-F 5 "LTC6811IG-1-PBF-ND" H 7050 6674 50  0000 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6811IG-1-3ZZTRPBF/LTC6811IG-1-3ZZTRPBFCT-ND/9841747" H 7050 6583 50  0000 C CNN "PurchasingLink"
+F 4 "DK" H 7050 6765 50  0001 C CNN "MFN"
+F 5 "LTC6811IG-1-PBF-ND" H 7050 6674 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/LTC6811IG-1-3ZZTRPBF/LTC6811IG-1-3ZZTRPBFCT-ND/9841747" H 7050 6583 50  0001 C CNN "PurchasingLink"
 	1    7100 5350
 	1    0    0    -1  
 $EndComp
@@ -3559,9 +3559,9 @@ F 0 "R45" H 8220 8332 50  0000 L CNN
 F 1 "R_4.99K" H 8220 8241 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 7950 8100 50  0001 C CNN
 F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 8050 8200 50  0001 C CNN
-F 4 "RNCP0805FTD4K99CT-ND " H 8220 8150 50  0000 L CNN "MPN"
-F 5 "DK" H 8220 8059 50  0000 L CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 8220 7968 50  0000 L CNN "PurchasingLink"
+F 4 "RNCP0805FTD4K99CT-ND " H 8220 8150 50  0001 L CNN "MPN"
+F 5 "DK" H 8220 8059 50  0001 L CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 8220 7968 50  0001 L CNN "PurchasingLink"
 	1    8150 8150
 	1    0    0    -1  
 $EndComp
@@ -3573,9 +3573,9 @@ F 0 "R47" H 8570 8332 50  0000 L CNN
 F 1 "R_4.99K" H 8570 8241 50  0000 L CNN
 F 2 "footprints:R_0805_OEM" H 8300 8100 50  0001 C CNN
 F 3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 8400 8200 50  0001 C CNN
-F 4 "RNCP0805FTD4K99CT-ND " H 8570 8150 50  0000 L CNN "MPN"
-F 5 "DK" H 8570 8059 50  0000 L CNN "MFN"
-F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 8570 7968 50  0000 L CNN "PurchasingLink"
+F 4 "RNCP0805FTD4K99CT-ND " H 8570 8150 50  0001 L CNN "MPN"
+F 5 "DK" H 8570 8059 50  0001 L CNN "MFN"
+F 6 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCP0805FTD4K99/RNCP0805FTD4K99CT-ND/2240591" H 8570 7968 50  0001 L CNN "PurchasingLink"
 	1    8500 8150
 	1    0    0    -1  
 $EndComp
