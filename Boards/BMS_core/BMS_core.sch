@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "BMS Core"
 Date ""
-Rev ""
+Rev "Rev 1.1"
 Comp "Olin Electric Motorsports"
 Comment1 ""
 Comment2 ""
@@ -2403,4 +2403,44 @@ F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-42
 	1    8200 8800
 	0    1    1    0   
 $EndComp
+$Comp
+L formula:R_200 R16
+U 1 1 5CBC6C7A
+P 4150 2250
+F 0 "R16" V 4230 2250 50  0000 C CNN
+F 1 "R_200" V 4150 2250 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4080 2250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4230 2250 50  0001 C CNN
+F 4 "DK" H 4150 2250 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 4150 2250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4630 2650 60  0001 C CNN "PurchasingLink"
+	1    4150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_200 R15
+U 1 1 5CBC6D8C
+P 3950 2350
+F 0 "R15" V 4030 2350 50  0000 C CNN
+F 1 "R_200" V 3950 2350 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3880 2350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4030 2350 50  0001 C CNN
+F 4 "DK" H 3950 2350 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3950 2350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4430 2750 60  0001 C CNN "PurchasingLink"
+	1    3950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2250 4000 2250
+Wire Wire Line
+	3800 2350 3750 2350
+Wire Wire Line
+	4300 2250 4350 2250
+Wire Wire Line
+	4350 2350 4100 2350
+Text Label 4350 2250 0    50   ~ 0
+RJ45_LED1
+Text Label 4350 2350 0    50   ~ 0
+RJ45_LED2
 $EndSCHEMATC
