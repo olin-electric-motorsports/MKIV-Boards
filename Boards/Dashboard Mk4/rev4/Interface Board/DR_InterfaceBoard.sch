@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DR_InterfaceBoard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -224,11 +225,11 @@ RJ45_LED2
 Text Label 2450 2550 0    50   ~ 0
 START_LED
 Text Label 2450 2650 0    50   ~ 0
-START_BTN
-Text Label 2450 2750 0    50   ~ 0
 BMS_LED
-Text Label 2450 2850 0    50   ~ 0
+Text Label 2450 2750 0    50   ~ 0
 IMD_LED
+Text Label 2450 2850 0    50   ~ 0
+START_BTN
 Text Label 2450 2950 0    50   ~ 0
 RTD_LSD
 $Comp
