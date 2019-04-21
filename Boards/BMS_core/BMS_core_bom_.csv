@@ -25,7 +25,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 24,"Resistor, 17.4K, 0.125W, 0.1%, 0805",R_17.4K_0.1,R13,R_17.4K_0.1,R_0805_OEM,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,,P17.4KDACT-ND,DK,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB1742V/P17.4KDACT-ND/3074988
 25,"Resistor, 1K, 0.25W, 1%, 0805",R_1K,R9 R101,R_1K,R_0805_OEM,2,https://www.seielect.com/Catalog/SEI-rncp.pdf,,RNCP0805FTD1K00CT-ND,DK,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND
 26,"Resistor, 1K, 0.125W, 0.1%, 0805",R_1K_0.1,R14,R_1K_0.1,R_0805_OEM,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,,P1.0KDACT-ND,DK,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB102V/P1.0KDACT-ND/1465947
-27,"Resistor, 200, 0.125W, 5%, 0805",R_200,R3 R4 R5 R6 R106,R_200,R_0805_OEM,5,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805JT200RCT-ND,Digi-Key DK,https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND
+27,"Resistor, 200, 0.125W, 5%, 0805",R_200,R3 R4 R5 R6 R15 R16 R106,R_200,R_0805_OEM,7,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805JT200RCT-ND,Digi-Key DK,https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND
 28,"Resistor, 3.01K, 0.125W, 1%, 0805",R_3.01K,R8,R_3.01K,R_0805_OEM,1,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,,311-3.01KCRCT-ND,DK,https://www.digikey.com/products/en?keywords=311-3.01KCRCT-ND
 29,"Resistor, 54.9, 0.125W, 1%, 0805",R_54.9K,R104,R_54.9K,R_0805_OEM,1,https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf,,311-54.9KCRCT-ND,DK,https://www.digikey.com/product-detail/en/yageo/RC0805FR-0754K9L/311-54.9KCRCT-ND/730976
 30,"Resistor, 60.4, 0.1%, 0.125W, 0805",R_60.4,R10 R11,R_60.4,R_0805_OEM,2,https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf,,P60.4DACT-ND,DK,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB60R4V/P60.4DACT-ND/3075204
@@ -42,12 +42,12 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 
 
 Component Groups:,37
-Component Count:,60
-Fitted Components:,60
+Component Count:,62
+Fitted Components:,62
 Number of PCBs:,1
-Total components:,60
+Total components:,62
 Schematic Version:,
 Schematic Date:,
-BoM Date:,Tue 26 Mar 2019 11:07:48 PM EDT
+BoM Date:,Sat 20 Apr 2019 05:34:42 PM EDT
 Schematic Source:,/home/aehoppe/Documents/Formula/MKIV-Boards/Boards/BMS_core/BMS_core.sch
 KiCad Version:,Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1
