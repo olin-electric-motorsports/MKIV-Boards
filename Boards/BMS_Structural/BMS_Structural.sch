@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:BMS_Structural-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -835,74 +836,79 @@ Text Label 5950 6750 0    50   ~ 0
 GND_R
 Text Label 5950 6650 0    50   ~ 0
 VREG_R
-Text Label 5950 2450 0    50   ~ 0
-V+_R
-Text Label 5950 2350 0    50   ~ 0
-CELL10_VOLT_R
-Text Label 5950 2050 0    50   ~ 0
-CELL9_VOLT_R
-Text Label 5950 1750 0    50   ~ 0
-CELL8_VOLT_R
-Text Label 5950 1450 0    50   ~ 0
-CELL7_VOLT_R
-Text Label 5950 1150 0    50   ~ 0
-CELL6_VOLT_R
 Text Label 5950 850  0    50   ~ 0
-CELL5_VOLT_R
-Text Label 5950 2150 0    50   ~ 0
-MODULE10_TEMP1_R
-Text Label 5950 2250 0    50   ~ 0
-MODULE10_TEMP2_R
-Text Label 5950 1950 0    50   ~ 0
-MODULE9_TEMP2_R
-Text Label 5950 1850 0    50   ~ 0
-MODULE9_TEMP1_R
+V+_R
+Text Label 5950 950  0    50   ~ 0
+CELL10_VOLT_R
+Text Label 5950 1250 0    50   ~ 0
+CELL9_VOLT_R
 Text Label 5950 1550 0    50   ~ 0
+CELL8_VOLT_R
+Text Label 5950 1850 0    50   ~ 0
+CELL7_VOLT_R
+Text Label 5950 2150 0    50   ~ 0
+CELL6_VOLT_R
+Text Label 5950 2450 0    50   ~ 0
+CELL5_VOLT_R
+Text Label 5950 1150 0    50   ~ 0
+MODULE10_TEMP1_R
+Text Label 5950 1050 0    50   ~ 0
+MODULE10_TEMP2_R
+Text Label 5950 1350 0    50   ~ 0
+MODULE9_TEMP2_R
+Text Label 5950 1450 0    50   ~ 0
+MODULE9_TEMP1_R
+Text Label 5950 1750 0    50   ~ 0
 MODULE8_TEMP1_R
 Text Label 5950 1650 0    50   ~ 0
 MODULE8_TEMP2_R
-Text Label 5950 1350 0    50   ~ 0
+Text Label 5950 1950 0    50   ~ 0
 MODULE7_TEMP2_R
-Text Label 5950 1250 0    50   ~ 0
+Text Label 5950 2050 0    50   ~ 0
 MODULE7_TEMP1_R
-Text Label 5950 950  0    50   ~ 0
+Text Label 5950 2350 0    50   ~ 0
 MODULE6_TEMP1_R
-Text Label 5950 1050 0    50   ~ 0
+Text Label 5950 2250 0    50   ~ 0
 MODULE6_TEMP2_R
 Text Label 1350 2650 0    50   ~ 0
 GND_L
-Text Label 1350 2550 0    50   ~ 0
-V+_L
-Text Label 1350 2450 0    50   ~ 0
-CELL10_VOLT_L
-Text Label 1350 2150 0    50   ~ 0
-CELL9_VOLT_L
-Text Label 1350 1850 0    50   ~ 0
-CELL8_VOLT_L
-Text Label 1350 1550 0    50   ~ 0
-CELL7_VOLT_L
-Text Label 1350 1250 0    50   ~ 0
-CELL6_VOLT_L
 Text Label 1350 950  0    50   ~ 0
-CELL5_VOLT_L
-Text Label 1350 2250 0    50   ~ 0
-MODULE10_TEMP1_L
-Text Label 1350 2350 0    50   ~ 0
-MODULE10_TEMP2_L
-Text Label 1350 2050 0    50   ~ 0
-MODULE9_TEMP2_L
-Text Label 1350 1950 0    50   ~ 0
-MODULE9_TEMP1_L
+V+_L
+Text Label 1350 1050 0    50   ~ 0
+CELL10_VOLT_L
+Text Label 1350 1350 0    50   ~ 0
+CELL9_VOLT_L
 Text Label 1350 1650 0    50   ~ 0
+CELL8_VOLT_L
+Text Label 1350 1950 0    50   ~ 0
+CELL7_VOLT_L
+Text Label 1350 2250 0    50   ~ 0
+CELL6_VOLT_L
+Text Label 1350 2550 0    50   ~ 0
+CELL5_VOLT_L
+Text Label 1350 1250 0    50   ~ 0
+MODULE10_TEMP1_L
+Text Label 1350 1150 0    50   ~ 0
+MODULE10_TEMP2_L
+Text Label 1350 1450 0    50   ~ 0
+MODULE9_TEMP2_L
+Text Label 1350 1550 0    50   ~ 0
+MODULE9_TEMP1_L
+Text Label 1350 1850 0    50   ~ 0
 MODULE8_TEMP1_L
 Text Label 1350 1750 0    50   ~ 0
 MODULE8_TEMP2_L
-Text Label 1350 1450 0    50   ~ 0
+Text Label 1350 2050 0    50   ~ 0
 MODULE7_TEMP2_L
-Text Label 1350 1350 0    50   ~ 0
+Text Label 1350 2150 0    50   ~ 0
 MODULE7_TEMP1_L
-Text Label 1350 1050 0    50   ~ 0
+Text Label 1350 2450 0    50   ~ 0
 MODULE6_TEMP1_L
-Text Label 1350 1150 0    50   ~ 0
+Text Label 1350 2350 0    50   ~ 0
 MODULE6_TEMP2_L
+NoConn ~ 5950 2650
+NoConn ~ 5950 2750
+NoConn ~ 1350 2750
+NoConn ~ 5600 -250
+NoConn ~ 6250 2750
 $EndSCHEMATC
