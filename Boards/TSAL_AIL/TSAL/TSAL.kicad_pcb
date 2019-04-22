@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 18)
     (tracks 217)
     (zones 0)
     (modules 30)
@@ -1785,13 +1785,7 @@
     )
   )
 
-  (gr_text AND (at 154.75 80.75) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3) italic) (justify mirror))
-  )
-  (gr_text " BLAZE IT\n\nPRAISE IT" (at 155.25 80.75) (layer B.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3) italic) (justify mirror))
-  )
-  (gr_text "TSAL/AIL Rev. 2\nBryce Mann, Utsav Gupta\n04/20/19" (at 168.91 77.216) (layer F.SilkS)
+  (gr_text "TSAL/AIL Rev. 2\nBryce Mann, Utsav Gupta\n04/20" (at 168.91 77.216) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text LV (at 172.212 108.712) (layer F.SilkS)
