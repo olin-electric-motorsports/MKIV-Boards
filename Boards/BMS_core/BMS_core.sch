@@ -1662,11 +1662,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 3100 5500 3300
 Connection ~ 5500 3300
-Wire Wire Line
-	5600 3000 5500 3000
-Wire Wire Line
-	5500 3000 5500 3100
-Connection ~ 5500 3100
 $Comp
 L power:VCC #PWR021
 U 1 1 5C914949
@@ -2348,20 +2343,6 @@ F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-co
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MicroFit_RA_R_2 J4
-U 1 1 5CA151A5
-P 13600 3450
-F 0 "J4" H 13500 3500 50  0000 C CNN
-F 1 "MicroFit_RA_R_2" H 13600 3300 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_2" H 13550 3650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/436500201_sd.pdf" H 13550 3650 50  0001 C CNN
-F 4 "DK" H 13700 3700 50  0001 C CNN "MFN"
-F 5 "WM1865-ND" H 13800 3800 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" H 13600 3600 50  0001 C CNN "PurchasingLink"
-	1    13600 3450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L formula:C_10nF C8
 U 1 1 5CA27A1B
 P 8250 2500
@@ -2443,4 +2424,23 @@ Text Label 4350 2250 0    50   ~ 0
 RJ45_LED1
 Text Label 4350 2350 0    50   ~ 0
 RJ45_LED2
+$Comp
+L formula:MicroFit_RA_V_2 J?
+U 1 1 5CC0955D
+P 13600 3450
+F 0 "J?" H 13500 3500 50  0000 C CNN
+F 1 "MicroFit_RA_V_2" H 13600 3300 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_V_2" H 13550 3650 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 13550 3650 50  0001 C CNN
+F 4 "MFN" H 13700 3700 50  0001 C CNN "DK"
+F 5 "WM1865-ND" H 13800 3800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 13600 3600 50  0001 C CNN "PurchasingLink"
+	1    13600 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 2900
+Connection ~ 5500 2900
 $EndSCHEMATC
