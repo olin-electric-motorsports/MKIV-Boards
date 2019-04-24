@@ -124,82 +124,13 @@ Wire Notes Line
 	5050 500  5050 7050
 Wire Notes Line
 	6800 7050 6800 6500
-Text Label 5950 3150 0    50   ~ 0
-MODULE1_TEMP1_R
-Text Label 5950 3250 0    50   ~ 0
-volt1_R
-Text Label 5950 3350 0    50   ~ 0
-MODULE1_TEMP2_R
-Text Label 5950 3850 0    50   ~ 0
-MODULE3_TEMP1_R
-Text Label 5950 3950 0    50   ~ 0
-volt3_R
-Text Label 5950 4050 0    50   ~ 0
-MODULE3_TEMP2_R
-Text Label 5950 3550 0    50   ~ 0
-MODULE2_TEMP1_R
-Text Label 5950 3650 0    50   ~ 0
-volt2_R
-Text Label 5950 3750 0    50   ~ 0
-MODULE2_TEMP2_R
-Text Label 5950 4150 0    50   ~ 0
-MODULE4_TEMP1_R
-Text Label 5950 4250 0    50   ~ 0
-volt4_R
-Text Label 5950 4350 0    50   ~ 0
-MODULE4_TEMP2_R
-Text Label 5950 4450 0    50   ~ 0
-MODULE5_TEMP1_R
-Text Label 5950 4550 0    50   ~ 0
-volt5_R
 Text Notes 5250 3050 0    50   ~ 0
 Right side structural to mounted peripheral PCB
-Text Label 5950 4650 0    54   ~ 0
-MODULE5_TEMP2_R
 Text Notes 600  750  0    50   ~ 0
 Transmitter for traces from left side structural PCB
-Text Notes 5150 700  0    50   ~ 0
+Text Notes 5400 700  0    50   ~ 0
 Receiver for traces from left side structural
-Text Label 5950 3450 0    50   ~ 0
-V-_R
-NoConn ~ 5950 2750
-Text Label 5950 6750 0    50   ~ 0
-GND_R
 NoConn ~ 5950 6850
-Text Label 1350 2550 0    50   ~ 0
-MODULE7_TEMP1_L
-Text Label 1350 1650 0    50   ~ 0
-volt7_L
-Text Label 1450 2250 0    50   ~ 0
-MODULE7_TEMP2_L
-Text Label 1350 1450 0    50   ~ 0
-MODULE9_TEMP1_L
-Text Label 1350 1250 0    50   ~ 0
-MODULE9_TEMP2_L
-Text Label 1350 2650 0    50   ~ 0
-MODULE6_TEMP1_L
-Text Label 1350 2150 0    50   ~ 0
-volt6_L
-Text Label 1350 2450 0    50   ~ 0
-MODULE6_TEMP2_L
-Text Label 1350 2050 0    50   ~ 0
-MODULE8_TEMP1_L
-Text Label 1350 1850 0    50   ~ 0
-volt8_L
-Text Label 1350 1950 0    50   ~ 0
-MODULE8_TEMP2_L
-Text Label 1350 1750 0    50   ~ 0
-MODULE10_TEMP1_L
-Text Label 1350 1350 0    50   ~ 0
-volt10_L
-Text Label 1350 1550 0    50   ~ 0
-MODULE10_TEMP2_L
-Text Label 1350 2350 0    50   ~ 0
-GND_L
-Text Label 1350 950  0    50   ~ 0
-volt11_L
-Text Label 1350 1050 0    50   ~ 0
-V+_L
 Text Notes 600  2700 1    50   ~ 0
 name all labels left to differentiate (L_)
 $Comp
@@ -216,7 +147,6 @@ F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 5800 3250 60  0001 C
 	1    5800 1950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5950 2650
 $Comp
 L formula:MM_F_VT_16 J2
 U 1 1 5C979277
@@ -245,7 +175,6 @@ F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 5800 7350 60  0001 C
 	1    5800 6050
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5950 6650
 $Comp
 L formula:Thermistor RT102
 U 1 1 5C980E11
@@ -556,11 +485,11 @@ F 3 "" H 1950 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1150 4700 2    50   ~ 0
-volt10_L
+CELL9_VOLT_L
 Text Label 1150 5000 2    50   ~ 0
-volt8_L
+CELL7_VOLT_L
 Text Label 1150 5300 2    50   ~ 0
-volt7_L
+CELL6_VOLT_L
 $Comp
 L formula:Bolt_connect_4-40 B6
 U 1 1 5C98E525
@@ -573,7 +502,7 @@ F 3 "" H 1950 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1150 5600 2    50   ~ 0
-volt6_L
+CELL5_VOLT_L
 $Comp
 L formula:Bolt_connect_4-40 B1
 U 1 1 5C98EE8D
@@ -641,17 +570,17 @@ F 3 "" H 8600 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7800 2700 2    50   ~ 0
-volt1_R
+CELL0_VOLT_R
 Text Label 7800 3150 2    50   ~ 0
 V-_R
 Text Label 7800 3800 2    50   ~ 0
-volt3_R
+CELL2_VOLT_R
 Text Label 7800 4100 2    50   ~ 0
-volt5_R
+CELL4_VOLT_R
 Text Label 7800 4400 2    50   ~ 0
-volt2_R
+CELL1_VOLT_R
 Text Label 7800 4700 2    50   ~ 0
-volt4_R
+CELL3_VOLT_R
 $Comp
 L formula:MM_F_VT_20 J1
 U 1 1 5C99357F
@@ -666,46 +595,6 @@ F 6 "http://www.te.com/global-en/product-2-338068-0.html" H 1200 3350 60  0001 C
 	1    1200 2050
 	1    0    0    -1  
 $EndComp
-Text Label 1350 1150 0    50   ~ 0
-volt9_L
-Wire Wire Line
-	1350 2250 1450 2250
-Text Label 6050 5850 0    50   ~ 0
-MODULE7_TEMP1_R
-Text Label 5950 5350 0    50   ~ 0
-volt7_R
-Text Label 5950 5750 0    50   ~ 0
-MODULE7_TEMP2_R
-Text Label 5950 5150 0    50   ~ 0
-MODULE9_TEMP1_R
-Text Label 5950 4950 0    50   ~ 0
-MODULE9_TEMP2_R
-Text Label 5950 6150 0    50   ~ 0
-MODULE6_TEMP1_R
-Text Label 5950 5650 0    50   ~ 0
-volt6_R
-Text Label 5950 6050 0    50   ~ 0
-MODULE6_TEMP2_R
-Text Label 5950 5550 0    50   ~ 0
-MODULE8_TEMP1_R
-Text Label 5950 5950 0    50   ~ 0
-volt8_R
-Text Label 5950 5450 0    50   ~ 0
-MODULE8_TEMP2_R
-Text Label 5950 6350 0    50   ~ 0
-MODULE10_TEMP1_R
-Text Label 5950 6250 0    50   ~ 0
-volt10_R
-Text Label 5950 5250 0    50   ~ 0
-MODULE10_TEMP2_R
-Text Label 5950 6450 0    50   ~ 0
-volt11_R
-Text Label 5950 6550 0    50   ~ 0
-V+_R
-Text Label 5950 5050 0    50   ~ 0
-volt9_R
-Wire Wire Line
-	5950 5850 6050 5850
 $Comp
 L formula:Bolt_connect_4-40 B9
 U 1 1 5C9A9AD0
@@ -718,53 +607,14 @@ F 3 "" H 1950 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1150 5900 2    50   ~ 0
-volt9_L
+CELL8_VOLT_L
 Text Label 7750 3500 2    50   ~ 0
 V+_L
 Wire Wire Line
 	7750 3500 7800 3500
 Text Label 7800 2400 2    50   ~ 0
-volt11_L
-NoConn ~ 1350 2750
+CELL10_VOLT_L
 NoConn ~ 1350 2850
-Text Label 5950 2450 0    50   ~ 0
-MODULE7_TEMP1_R
-Text Label 5950 1550 0    50   ~ 0
-volt7_R
-Text Label 6050 2150 0    50   ~ 0
-MODULE7_TEMP2_R
-Text Label 5950 1350 0    50   ~ 0
-MODULE9_TEMP1_R
-Text Label 5950 1150 0    50   ~ 0
-MODULE9_TEMP2_R
-Text Label 5950 2550 0    50   ~ 0
-MODULE6_TEMP1_R
-Text Label 5950 2050 0    50   ~ 0
-volt6_R
-Text Label 5950 2350 0    50   ~ 0
-MODULE6_TEMP2_R
-Text Label 5950 1950 0    50   ~ 0
-MODULE8_TEMP1_R
-Text Label 5950 1750 0    50   ~ 0
-volt8_R
-Text Label 5950 1850 0    50   ~ 0
-MODULE8_TEMP2_R
-Text Label 5950 1650 0    50   ~ 0
-MODULE10_TEMP1_R
-Text Label 5950 1250 0    50   ~ 0
-volt10_R
-Text Label 5950 1450 0    50   ~ 0
-MODULE10_TEMP2_R
-Text Label 5950 2250 0    50   ~ 0
-GND_R
-Text Label 5950 850  0    50   ~ 0
-volt11_R
-Text Label 5950 950  0    50   ~ 0
-V+_R
-Text Label 5950 1050 0    50   ~ 0
-volt9_R
-Wire Wire Line
-	5950 2150 6050 2150
 $Comp
 L formula:200mA_Fuse F10
 U 1 1 5C96F1D5
@@ -914,4 +764,151 @@ $EndComp
 Wire Wire Line
 	8400 3150 8400 3500
 Connection ~ 8400 3500
+Text Label 5950 2550 0    50   ~ 0
+GND_R
+Text Label 5950 3250 0    50   ~ 0
+CELL10_VOLT_R
+Text Label 5950 3650 0    50   ~ 0
+CELL9_VOLT_R
+Text Label 5950 3950 0    50   ~ 0
+CELL8_VOLT_R
+Text Label 5950 4250 0    50   ~ 0
+CELL7_VOLT_R
+Text Label 5950 4550 0    50   ~ 0
+CELL6_VOLT_R
+Text Label 5950 3150 0    50   ~ 0
+MODULE10_TEMP1_R
+Text Label 5950 3350 0    50   ~ 0
+MODULE10_TEMP2_R
+Text Label 5950 3550 0    50   ~ 0
+MODULE9_TEMP1_R
+Text Label 5950 3750 0    50   ~ 0
+MODULE9_TEMP2_R
+Text Label 5950 3850 0    50   ~ 0
+MODULE8_TEMP1_R
+Text Label 5950 4050 0    50   ~ 0
+MODULE8_TEMP2_R
+Text Label 5950 4150 0    50   ~ 0
+MODULE7_TEMP1_R
+Text Label 5950 4350 0    50   ~ 0
+MODULE7_TEMP2_R
+Text Label 5950 4450 0    50   ~ 0
+MODULE6_TEMP1_R
+Text Label 5950 4650 0    50   ~ 0
+MODULE6_TEMP2_R
+Text Label 5950 3450 0    50   ~ 0
+V+_R
+Text Label 5950 5650 0    50   ~ 0
+CELL5_VOLT_R
+Text Label 5950 5350 0    50   ~ 0
+CELL4_VOLT_R
+Text Label 5950 5950 0    50   ~ 0
+CELL3_VOLT_R
+Text Label 5950 5050 0    50   ~ 0
+CELL2_VOLT_R
+Text Label 5950 6150 0    50   ~ 0
+MODULE5_TEMP1_R
+Text Label 5950 6050 0    50   ~ 0
+MODULE5_TEMP2_R
+Text Label 5950 5850 0    50   ~ 0
+MODULE4_TEMP1_R
+Text Label 5950 5750 0    50   ~ 0
+MODULE4_TEMP2_R
+Text Label 5950 5550 0    50   ~ 0
+MODULE3_TEMP1_R
+Text Label 5950 5450 0    50   ~ 0
+MODULE3_TEMP2_R
+Text Label 5950 5150 0    50   ~ 0
+MODULE2_TEMP1_R
+Text Label 5950 4950 0    50   ~ 0
+MODULE2_TEMP2_R
+Text Label 5950 6350 0    50   ~ 0
+MODULE1_TEMP1_R
+Text Label 5950 5250 0    50   ~ 0
+MODULE1_TEMP2_R
+Text Label 5950 6550 0    50   ~ 0
+V-_R
+Text Label 5950 6250 0    50   ~ 0
+CELL1_VOLT_R
+Text Label 5950 6450 0    50   ~ 0
+CELL0_VOLT_R
+Text Label 5950 6750 0    50   ~ 0
+GND_R
+Text Label 5950 6650 0    50   ~ 0
+VREG_R
+Text Label 5950 850  0    50   ~ 0
+V+_R
+Text Label 5950 950  0    50   ~ 0
+CELL10_VOLT_R
+Text Label 5950 1250 0    50   ~ 0
+CELL9_VOLT_R
+Text Label 5950 1550 0    50   ~ 0
+CELL8_VOLT_R
+Text Label 5950 1850 0    50   ~ 0
+CELL7_VOLT_R
+Text Label 5950 2150 0    50   ~ 0
+CELL6_VOLT_R
+Text Label 5950 2450 0    50   ~ 0
+CELL5_VOLT_R
+Text Label 5950 1150 0    50   ~ 0
+MODULE10_TEMP1_R
+Text Label 5950 1050 0    50   ~ 0
+MODULE10_TEMP2_R
+Text Label 5950 1350 0    50   ~ 0
+MODULE9_TEMP2_R
+Text Label 5950 1450 0    50   ~ 0
+MODULE9_TEMP1_R
+Text Label 5950 1750 0    50   ~ 0
+MODULE8_TEMP1_R
+Text Label 5950 1650 0    50   ~ 0
+MODULE8_TEMP2_R
+Text Label 5950 1950 0    50   ~ 0
+MODULE7_TEMP2_R
+Text Label 5950 2050 0    50   ~ 0
+MODULE7_TEMP1_R
+Text Label 5950 2350 0    50   ~ 0
+MODULE6_TEMP1_R
+Text Label 5950 2250 0    50   ~ 0
+MODULE6_TEMP2_R
+Text Label 1350 2650 0    50   ~ 0
+GND_L
+Text Label 1350 950  0    50   ~ 0
+V+_L
+Text Label 1350 1050 0    50   ~ 0
+CELL10_VOLT_L
+Text Label 1350 1350 0    50   ~ 0
+CELL9_VOLT_L
+Text Label 1350 1650 0    50   ~ 0
+CELL8_VOLT_L
+Text Label 1350 1950 0    50   ~ 0
+CELL7_VOLT_L
+Text Label 1350 2250 0    50   ~ 0
+CELL6_VOLT_L
+Text Label 1350 2550 0    50   ~ 0
+CELL5_VOLT_L
+Text Label 1350 1250 0    50   ~ 0
+MODULE10_TEMP1_L
+Text Label 1350 1150 0    50   ~ 0
+MODULE10_TEMP2_L
+Text Label 1350 1450 0    50   ~ 0
+MODULE9_TEMP2_L
+Text Label 1350 1550 0    50   ~ 0
+MODULE9_TEMP1_L
+Text Label 1350 1850 0    50   ~ 0
+MODULE8_TEMP1_L
+Text Label 1350 1750 0    50   ~ 0
+MODULE8_TEMP2_L
+Text Label 1350 2050 0    50   ~ 0
+MODULE7_TEMP2_L
+Text Label 1350 2150 0    50   ~ 0
+MODULE7_TEMP1_L
+Text Label 1350 2450 0    50   ~ 0
+MODULE6_TEMP1_L
+Text Label 1350 2350 0    50   ~ 0
+MODULE6_TEMP2_L
+NoConn ~ 5950 2650
+NoConn ~ 5950 2750
+NoConn ~ 1350 2750
+NoConn ~ 5600 -250
+NoConn ~ 6250 2750
 $EndSCHEMATC
