@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "BMS Core"
 Date ""
-Rev ""
+Rev "Rev 1.1"
 Comp "Olin Electric Motorsports"
 Comment1 ""
 Comment2 ""
@@ -1662,11 +1662,6 @@ Wire Wire Line
 Wire Wire Line
 	5500 3100 5500 3300
 Connection ~ 5500 3300
-Wire Wire Line
-	5600 3000 5500 3000
-Wire Wire Line
-	5500 3000 5500 3100
-Connection ~ 5500 3100
 $Comp
 L power:VCC #PWR021
 U 1 1 5C914949
@@ -2348,20 +2343,6 @@ F 6 "https://www.digikey.com/products/en/connectors-interconnects/rectangular-co
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:MicroFit_RA_R_2 J4
-U 1 1 5CA151A5
-P 13600 3450
-F 0 "J4" H 13500 3500 50  0000 C CNN
-F 1 "MicroFit_RA_R_2" H 13600 3300 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_2" H 13550 3650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/436500201_sd.pdf" H 13550 3650 50  0001 C CNN
-F 4 "DK" H 13700 3700 50  0001 C CNN "MFN"
-F 5 "WM1865-ND" H 13800 3800 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0436500201/WM1865-ND/268994" H 13600 3600 50  0001 C CNN "PurchasingLink"
-	1    13600 3450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L formula:C_10nF C8
 U 1 1 5CA27A1B
 P 8250 2500
@@ -2403,4 +2384,63 @@ F 6 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAS40215/1727-42
 	1    8200 8800
 	0    1    1    0   
 $EndComp
+$Comp
+L formula:R_200 R16
+U 1 1 5CBC6C7A
+P 4150 2250
+F 0 "R16" V 4230 2250 50  0000 C CNN
+F 1 "R_200" V 4150 2250 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 4080 2250 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4230 2250 50  0001 C CNN
+F 4 "DK" H 4150 2250 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 4150 2250 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4630 2650 60  0001 C CNN "PurchasingLink"
+	1    4150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L formula:R_200 R15
+U 1 1 5CBC6D8C
+P 3950 2350
+F 0 "R15" V 4030 2350 50  0000 C CNN
+F 1 "R_200" V 3950 2350 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 3880 2350 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4030 2350 50  0001 C CNN
+F 4 "DK" H 3950 2350 60  0001 C CNN "MFN"
+F 5 "RMCF0805JT200RCT-ND" H 3950 2350 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND" H 4430 2750 60  0001 C CNN "PurchasingLink"
+	1    3950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2250 4000 2250
+Wire Wire Line
+	3800 2350 3750 2350
+Wire Wire Line
+	4300 2250 4350 2250
+Wire Wire Line
+	4350 2350 4100 2350
+Text Label 4350 2250 0    50   ~ 0
+RJ45_LED1
+Text Label 4350 2350 0    50   ~ 0
+RJ45_LED2
+$Comp
+L formula:MicroFit_RA_V_2 J4
+U 1 1 5CC0955D
+P 13600 3450
+F 0 "J4" H 13500 3500 50  0000 C CNN
+F 1 "MicroFit_RA_V_2" H 13600 3300 50  0000 C CNN
+F 2 "footprints:MicroFit_RA_V_2" H 13550 3650 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 13550 3650 50  0001 C CNN
+F 4 "MFN" H 13700 3700 50  0001 C CNN "DK"
+F 5 "WM1865-ND" H 13800 3800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 13600 3600 50  0001 C CNN "PurchasingLink"
+	1    13600 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 2900
+Connection ~ 5500 2900
 $EndSCHEMATC
