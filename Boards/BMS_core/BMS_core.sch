@@ -2425,10 +2425,10 @@ RJ45_LED1
 Text Label 4350 2350 0    50   ~ 0
 RJ45_LED2
 $Comp
-L formula:MicroFit_RA_V_2 J?
+L formula:MicroFit_RA_V_2 J4
 U 1 1 5CC0955D
 P 13600 3450
-F 0 "J?" H 13500 3500 50  0000 C CNN
+F 0 "J4" H 13500 3500 50  0000 C CNN
 F 1 "MicroFit_RA_V_2" H 13600 3300 50  0000 C CNN
 F 2 "footprints:MicroFit_RA_V_2" H 13550 3650 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 13550 3650 50  0001 C CNN
