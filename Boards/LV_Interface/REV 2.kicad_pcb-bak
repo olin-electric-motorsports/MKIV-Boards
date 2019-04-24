@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.762)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.762)
@@ -334,7 +334,7 @@
     )
   )
 
-  (module footprints:Ampseal_35 (layer B.Cu) (tedit 5A824A5B) (tstamp 5C662FED)
+  (module footprints:Ampseal_35 (layer B.Cu) (tedit 5C8B01DC) (tstamp 5C662FED)
     (at 87.3633 32.7914 180)
     (path /5C58759B)
     (fp_text reference J1 (at -3.81 -10.16 180) (layer B.SilkS)
@@ -423,9 +423,14 @@
     (pad "" np_thru_hole circle (at -4.7 -6.8 180) (size 2 2) (drill 2) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 61.7 -6.8 180) (size 2 2) (drill 2) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 57 0 180) (size 2.85 2.85) (drill 2.85) (layers *.Cu *.Mask))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/Ampseal-35/C-1-776231-4.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module footprints:RJ45-Vertical (layer B.Cu) (tedit 5A6A89D8) (tstamp 5C663162)
+  (module footprints:RJ45-Vertical (layer B.Cu) (tedit 5C8B020C) (tstamp 5C663162)
     (at 145.1737 32.8549 180)
     (path /5C588B16)
     (fp_text reference U1 (at 7.366 -3.81 180) (layer B.SilkS)
@@ -467,9 +472,14 @@
       (net 4 GND))
     (pad 12 thru_hole circle (at 0 0 180) (size 1.5 1.5) (drill 0.95) (layers *.Cu *.Mask)
       (net 29 "/RJ45 LED2"))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/rj45-vert/rj45-vert.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module footprints:micromatch_female_vert_6 (layer F.Cu) (tedit 5A7727E1) (tstamp 5C6E69F4)
+  (module footprints:micromatch_female_vert_6 (layer F.Cu) (tedit 5C8B0EAA) (tstamp 5C6E69F4)
     (at 161.2011 39.5351 270)
     (path /5C58912B)
     (fp_text reference J2 (at 5.08 5.08 270) (layer F.SilkS)
@@ -501,6 +511,11 @@
       (net 16 "/BSPD -> IS"))
     (pad 5 thru_hole circle (at 0 0 270) (size 1.3 1.3) (drill 0.8) (layers *.Cu *.Mask)
       (net 6 "/BSPD Current Sense"))
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/MicroMatch_Female_VT_6/MM_F_VT_6.stp
+      (offset (xyz 1.269999980926514 1.904999971389771 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (module footprints:Fuse_Block_Holder (layer F.Cu) (tedit 5C870CA7) (tstamp 5C6E6B8C)
@@ -866,7 +881,7 @@
       (net 4 GND))
   )
 
-  (module footprints:Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 59F2AABB) (tstamp 5C6E6AAB)
+  (module footprints:Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 5C8B0DD2) (tstamp 5C6E6AAB)
     (at 84.65312 60.7695 180)
     (descr "Relay SPST-NO Omron Serie G5Q")
     (tags "Relay SPST-NO Omron Serie G5Q")
@@ -917,14 +932,14 @@
       (net 4 GND))
     (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.3) (layers *.Cu *.Mask)
       (net 80 "Net-(K1-Pad1)"))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.wrl
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprints:Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 59F2AABB) (tstamp 5C6B60D6)
+  (module footprints:Relay_SPST_OMRON-G5Q-1A4_OEM (layer F.Cu) (tedit 5C8B0DD2) (tstamp 5C6B60D6)
     (at 84.48548 44.77766 180)
     (descr "Relay SPST-NO Omron Serie G5Q")
     (tags "Relay SPST-NO Omron Serie G5Q")
@@ -975,7 +990,7 @@
       (net 16 "/BSPD -> IS"))
     (pad 1 thru_hole circle (at 0 0) (size 1.8 1.8) (drill 1.3) (layers *.Cu *.Mask)
       (net 2 "/BSPD Relay"))
-    (model /home/josh/Formula/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.wrl
+    (model ${LOCAL_DIR}/OEM_Preferred_Parts/3DModels/G5Q_OEM/G5Q.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
