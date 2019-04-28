@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/corey/Desktop/Formula/MKIV-Boards/Boards/AIR_Mount/AIR_Mount_Minus/AIR_Mount_Minus.sch)
-    (date "Sat 13 Apr 2019 04:26:55 PM EDT")
+    (date "Sun 28 Apr 2019 05:43:00 PM EDT")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

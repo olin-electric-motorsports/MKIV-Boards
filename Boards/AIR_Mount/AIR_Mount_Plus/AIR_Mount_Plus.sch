@@ -132,10 +132,10 @@ F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov20
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:R_10K_Ohmite R?
+L formula:R_10K_Ohmite R1
 U 1 1 5CB63871
 P 2700 1725
-F 0 "R?" H 2950 1963 60  0000 C CNN
+F 0 "R1" H 2950 1963 60  0000 C CNN
 F 1 "R_10K_Ohmite" H 2950 1857 60  0000 C CNN
 F 2 "footprints:RES_5S0" H 2950 1390 60  0001 C CNN
 F 3 "https://www.ohmite.com/assets/docs/res_rw.pdf?r=false" H 2925 1875 60  0001 C CNN
@@ -145,10 +145,10 @@ F 5 "RW5S0FA10K0JE-ND" H 3125 2075 50  0001 C CNN "MFN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:SS110LW D?
+L formula:SS110LW D1
 U 1 1 5CB63B5B
 P 5225 1825
-F 0 "D?" H 5225 2041 50  0000 C CNN
+F 0 "D1" H 5225 2041 50  0000 C CNN
 F 1 "SS110LW" H 5225 1950 50  0000 C CNN
 F 2 "footprints:D_SOD-123W_OEM" H 5125 1825 50  0001 C CNN
 F 3 "http://www.taiwansemi.com/products/datasheet/SS14LW%20SERIES_A1511.pdf" H 5225 1925 50  0001 C CNN
@@ -159,23 +159,23 @@ F 6 "https://www.digikey.com/product-detail/en/taiwan-semiconductor-corporation/
 	1    0    0    -1  
 $EndComp
 $Comp
-L formula:Redcube_7461166 J?
+L formula:Redcube_7461166 J4
 U 1 1 5CB63C23
 P 1200 675
-F 0 "J?" H 1144 410 50  0000 C CNN
+F 0 "J4" H 1144 410 50  0000 C CNN
 F 1 "Redcube_7461166" H 1144 501 50  0000 C CNN
-F 2 "" H 1150 925 50  0001 C CNN
+F 2 "footprints:Redcube_7461166" H 1150 925 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/7461166.pdf" H 1200 825 50  0001 C CNN
 	1    1200 675 
 	-1   0    0    1   
 $EndComp
 $Comp
-L formula:Redcube_7461166 J?
+L formula:Redcube_7461166 J5
 U 1 1 5CB63CEF
 P 1225 1100
-F 0 "J?" H 1169 835 50  0000 C CNN
+F 0 "J5" H 1169 835 50  0000 C CNN
 F 1 "Redcube_7461166" H 1169 926 50  0000 C CNN
-F 2 "" H 1175 1350 50  0001 C CNN
+F 2 "footprints:Redcube_7461166" H 1175 1350 50  0001 C CNN
 F 3 "https://katalog.we-online.de/em/datasheet/7461166.pdf" H 1225 1250 50  0001 C CNN
 	1    1225 1100
 	-1   0    0    1   
