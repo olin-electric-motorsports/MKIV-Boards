@@ -14,109 +14,109 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3750 5850 3850 5850
+	10900 5800 11000 5800
 Wire Wire Line
-	3750 5300 3850 5300
+	10900 5250 11000 5250
 Wire Wire Line
-	3850 5300 3850 5850
+	11000 5250 11000 5800
 Wire Wire Line
-	3750 4750 3850 4750
+	10900 4700 11000 4700
 Wire Wire Line
-	3850 4750 3850 5300
-Connection ~ 3850 5300
+	11000 4700 11000 5250
+Connection ~ 11000 5250
 Wire Wire Line
-	3750 4200 3850 4200
+	10900 4150 11000 4150
 Wire Wire Line
-	3850 4200 3850 4750
-Connection ~ 3850 4750
+	11000 4150 11000 4700
+Connection ~ 11000 4700
 Wire Wire Line
-	3750 3650 3850 3650
+	10900 3600 11000 3600
 Wire Wire Line
-	3850 3650 3850 4200
-Connection ~ 3850 4200
+	11000 3600 11000 4150
+Connection ~ 11000 4150
 Wire Wire Line
-	3750 3100 3850 3100
+	10900 3050 11000 3050
 Wire Wire Line
-	3850 3100 3850 3650
-Connection ~ 3850 3650
+	11000 3050 11000 3600
+Connection ~ 11000 3600
 Wire Wire Line
-	3750 2550 3850 2550
+	10900 2500 11000 2500
 Wire Wire Line
-	3850 2550 3850 3100
-Connection ~ 3850 3100
+	11000 2500 11000 3050
+Connection ~ 11000 3050
 Wire Wire Line
-	3750 2000 3850 2000
+	10900 1950 11000 1950
 Wire Wire Line
-	3850 2000 3850 2550
-Connection ~ 3850 2550
+	11000 1950 11000 2500
+Connection ~ 11000 2500
 Wire Wire Line
-	3750 1450 3850 1450
+	10900 1400 11000 1400
 Wire Wire Line
-	3850 1450 3850 2000
-Connection ~ 3850 2000
+	11000 1400 11000 1950
+Connection ~ 11000 1950
 Wire Wire Line
-	3750 900  3850 900 
+	10900 850  11000 850 
 Wire Wire Line
-	3850 900  3850 1450
-Connection ~ 3850 1450
+	11000 850  11000 1400
+Connection ~ 11000 1400
 Text Notes 1450 6250 2    54   ~ 11
 Left Side Structural
 Wire Wire Line
-	10750 5700 10850 5700
+	4450 6150 4550 6150
 Wire Wire Line
-	10750 5150 10850 5150
+	4450 5600 4550 5600
 Wire Wire Line
-	10850 5150 10850 5700
+	4550 5600 4550 6150
 Wire Wire Line
-	10750 4600 10850 4600
+	4450 5050 4550 5050
 Wire Wire Line
-	10850 4600 10850 5150
-Connection ~ 10850 5150
+	4550 5050 4550 5600
+Connection ~ 4550 5600
 Wire Wire Line
-	10750 4050 10850 4050
+	4450 4500 4550 4500
 Wire Wire Line
-	10850 4050 10850 4600
-Connection ~ 10850 4600
+	4550 4500 4550 5050
+Connection ~ 4550 5050
 Wire Wire Line
-	10750 3500 10850 3500
+	4450 3950 4550 3950
 Wire Wire Line
-	10850 3500 10850 4050
-Connection ~ 10850 4050
+	4550 3950 4550 4500
+Connection ~ 4550 4500
 Wire Wire Line
-	10750 2950 10850 2950
+	4450 3400 4550 3400
 Wire Wire Line
-	10850 2950 10850 3500
-Connection ~ 10850 3500
+	4550 3400 4550 3950
+Connection ~ 4550 3950
 Wire Wire Line
-	10750 2400 10850 2400
+	4450 2850 4550 2850
 Wire Wire Line
-	10850 2400 10850 2950
-Connection ~ 10850 2950
+	4550 2850 4550 3400
+Connection ~ 4550 3400
 Wire Wire Line
-	10750 1850 10850 1850
+	4450 2300 4550 2300
 Wire Wire Line
-	10850 1850 10850 2400
-Connection ~ 10850 2400
+	4550 2300 4550 2850
+Connection ~ 4550 2850
 Wire Wire Line
-	10750 1300 10850 1300
+	4450 1750 4550 1750
 Wire Wire Line
-	10850 1300 10850 1850
-Connection ~ 10850 1850
+	4550 1750 4550 2300
+Connection ~ 4550 2300
 Wire Wire Line
-	10750 750  10850 750 
+	4450 1200 4550 1200
 Wire Wire Line
-	10850 750  10850 1300
-Connection ~ 10850 1300
+	4550 1200 4550 1750
+Connection ~ 4550 1750
 Text Notes 7100 6450 0    54   ~ 11
 Right Side Structural
 Wire Wire Line
-	10850 6000 10850 5700
-Connection ~ 10850 5700
-Connection ~ 3850 5850
-Text Label 3850 6300 0    50   ~ 0
-GND_L
+	4550 6450 4550 6150
+Connection ~ 4550 6150
+Connection ~ 11000 5800
+Text Label 11000 6250 0    50   ~ 0
+GND_R
 Wire Wire Line
-	3850 5850 3850 6300
+	11000 5800 11000 6250
 Wire Notes Line
 	5050 7050 6800 7050
 Wire Notes Line
@@ -125,13 +125,13 @@ Wire Notes Line
 	6800 7050 6800 6500
 Text Notes 5250 3050 0    50   ~ 0
 Right side structural to mounted peripheral PCB
-Text Notes 600  750  0    50   ~ 0
+Text Notes 850  700  0    50   ~ 0
 Transmitter for traces from left side structural PCB
 Text Notes 5400 700  0    50   ~ 0
 Receiver for traces from left side structural
 NoConn ~ 5950 6850
 Text Notes 600  2700 1    50   ~ 0
-name all labels left to differentiate (L_)
+name all labels left to differentiate (L)
 $Comp
 L formula:MM_F_VT_20 J3
 U 1 1 5C977021
@@ -177,408 +177,398 @@ $EndComp
 $Comp
 L formula:Thermistor RT102
 U 1 1 5C980E11
-P 3450 900
-F 0 "RT102" H 3700 1050 50  0000 C CNN
-F 1 "Thermistor" H 3450 1150 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 560 50  0001 C CNN
-F 3 "" H 3450 900 50  0001 C CNN
-	1    3450 900 
+P 10600 850
+F 0 "RT102" H 10850 1000 50  0000 C CNN
+F 1 "Thermistor" H 10600 1100 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 510 50  0001 C CNN
+F 3 "" H 10600 850 50  0001 C CNN
+	1    10600 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT101
 U 1 1 5C980EF5
-P 3450 1450
-F 0 "RT101" H 3700 1600 50  0000 C CNN
-F 1 "Thermistor" H 3450 1700 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 1110 50  0001 C CNN
-F 3 "" H 3450 1450 50  0001 C CNN
-	1    3450 1450
+P 10600 1400
+F 0 "RT101" H 10850 1550 50  0000 C CNN
+F 1 "Thermistor" H 10600 1650 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 1060 50  0001 C CNN
+F 3 "" H 10600 1400 50  0001 C CNN
+	1    10600 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT82
 U 1 1 5C980F2B
-P 3450 2000
-F 0 "RT82" H 3700 2150 50  0000 C CNN
-F 1 "Thermistor" H 3450 2250 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 1660 50  0001 C CNN
-F 3 "" H 3450 2000 50  0001 C CNN
-	1    3450 2000
+P 10600 1950
+F 0 "RT82" H 10850 2100 50  0000 C CNN
+F 1 "Thermistor" H 10600 2200 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 1610 50  0001 C CNN
+F 3 "" H 10600 1950 50  0001 C CNN
+	1    10600 1950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT81
 U 1 1 5C980F71
-P 3450 2550
-F 0 "RT81" H 3700 2700 50  0000 C CNN
-F 1 "Thermistor" H 3450 2800 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 2210 50  0001 C CNN
-F 3 "" H 3450 2550 50  0001 C CNN
-	1    3450 2550
+P 10600 2500
+F 0 "RT81" H 10850 2650 50  0000 C CNN
+F 1 "Thermistor" H 10600 2750 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 2160 50  0001 C CNN
+F 3 "" H 10600 2500 50  0001 C CNN
+	1    10600 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT92
 U 1 1 5C980FB5
-P 3450 3100
-F 0 "RT92" H 3700 3250 50  0000 C CNN
-F 1 "Thermistor" H 3450 3350 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 2760 50  0001 C CNN
-F 3 "" H 3450 3100 50  0001 C CNN
-	1    3450 3100
+P 10600 3050
+F 0 "RT92" H 10850 3200 50  0000 C CNN
+F 1 "Thermistor" H 10600 3300 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 2710 50  0001 C CNN
+F 3 "" H 10600 3050 50  0001 C CNN
+	1    10600 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT91
 U 1 1 5C98103D
-P 3450 3650
-F 0 "RT91" H 3700 3800 50  0000 C CNN
-F 1 "Thermistor" H 3450 3900 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 3310 50  0001 C CNN
-F 3 "" H 3450 3650 50  0001 C CNN
-	1    3450 3650
+P 10600 3600
+F 0 "RT91" H 10850 3750 50  0000 C CNN
+F 1 "Thermistor" H 10600 3850 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 3260 50  0001 C CNN
+F 3 "" H 10600 3600 50  0001 C CNN
+	1    10600 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT72
 U 1 1 5C981079
-P 3450 4200
-F 0 "RT72" H 3700 4350 50  0000 C CNN
-F 1 "Thermistor" H 3450 4450 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 3860 50  0001 C CNN
-F 3 "" H 3450 4200 50  0001 C CNN
-	1    3450 4200
+P 10600 4150
+F 0 "RT72" H 10850 4300 50  0000 C CNN
+F 1 "Thermistor" H 10600 4400 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 3810 50  0001 C CNN
+F 3 "" H 10600 4150 50  0001 C CNN
+	1    10600 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT71
 U 1 1 5C9810B5
-P 3450 4750
-F 0 "RT71" H 3700 4900 50  0000 C CNN
-F 1 "Thermistor" H 3450 5000 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 4410 50  0001 C CNN
-F 3 "" H 3450 4750 50  0001 C CNN
-	1    3450 4750
+P 10600 4700
+F 0 "RT71" H 10850 4850 50  0000 C CNN
+F 1 "Thermistor" H 10600 4950 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 4360 50  0001 C CNN
+F 3 "" H 10600 4700 50  0001 C CNN
+	1    10600 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT61
 U 1 1 5C98116F
-P 3450 5300
-F 0 "RT61" H 3700 5450 50  0000 C CNN
-F 1 "Thermistor" H 3450 5550 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 4960 50  0001 C CNN
-F 3 "" H 3450 5300 50  0001 C CNN
-	1    3450 5300
+P 10600 5250
+F 0 "RT61" H 10850 5400 50  0000 C CNN
+F 1 "Thermistor" H 10600 5500 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 4910 50  0001 C CNN
+F 3 "" H 10600 5250 50  0001 C CNN
+	1    10600 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT62
 U 1 1 5C9811FF
-P 3450 5850
-F 0 "RT62" H 3700 6000 50  0000 C CNN
-F 1 "Thermistor" H 3450 6100 50  0000 C CNN
-F 2 "footprints:Thermistor" H 3470 5510 50  0001 C CNN
-F 3 "" H 3450 5850 50  0001 C CNN
-	1    3450 5850
+P 10600 5800
+F 0 "RT62" H 10850 5950 50  0000 C CNN
+F 1 "Thermistor" H 10600 6050 50  0000 C CNN
+F 2 "footprints:Thermistor" H 10620 5460 50  0001 C CNN
+F 3 "" H 10600 5800 50  0001 C CNN
+	1    10600 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT52
 U 1 1 5C981362
-P 10450 5700
-F 0 "RT52" H 10700 5850 50  0000 C CNN
-F 1 "Thermistor" H 10450 5950 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 5360 50  0001 C CNN
-F 3 "" H 10450 5700 50  0001 C CNN
-	1    10450 5700
+P 4150 6150
+F 0 "RT52" H 4400 6300 50  0000 C CNN
+F 1 "Thermistor" H 4150 6400 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 5810 50  0001 C CNN
+F 3 "" H 4150 6150 50  0001 C CNN
+	1    4150 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT42
 U 1 1 5C9814C6
-P 10450 5150
-F 0 "RT42" H 10700 5300 50  0000 C CNN
-F 1 "Thermistor" H 10450 5400 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 4810 50  0001 C CNN
-F 3 "" H 10450 5150 50  0001 C CNN
-	1    10450 5150
+P 4150 5600
+F 0 "RT42" H 4400 5750 50  0000 C CNN
+F 1 "Thermistor" H 4150 5850 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 5260 50  0001 C CNN
+F 3 "" H 4150 5600 50  0001 C CNN
+	1    4150 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT41
 U 1 1 5C98150C
-P 10450 4600
-F 0 "RT41" H 10700 4750 50  0000 C CNN
-F 1 "Thermistor" H 10450 4850 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 4260 50  0001 C CNN
-F 3 "" H 10450 4600 50  0001 C CNN
-	1    10450 4600
+P 4150 5050
+F 0 "RT41" H 4400 5200 50  0000 C CNN
+F 1 "Thermistor" H 4150 5300 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 4710 50  0001 C CNN
+F 3 "" H 4150 5050 50  0001 C CNN
+	1    4150 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT22
 U 1 1 5C98176B
-P 10450 4050
-F 0 "RT22" H 10700 4200 50  0000 C CNN
-F 1 "Thermistor" H 10450 4300 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 3710 50  0001 C CNN
-F 3 "" H 10450 4050 50  0001 C CNN
-	1    10450 4050
+P 4150 4500
+F 0 "RT22" H 4400 4650 50  0000 C CNN
+F 1 "Thermistor" H 4150 4750 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 4160 50  0001 C CNN
+F 3 "" H 4150 4500 50  0001 C CNN
+	1    4150 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT21
 U 1 1 5C9817D9
-P 10450 3500
-F 0 "RT21" H 10700 3650 50  0000 C CNN
-F 1 "Thermistor" H 10450 3750 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 3160 50  0001 C CNN
-F 3 "" H 10450 3500 50  0001 C CNN
-	1    10450 3500
+P 4150 3950
+F 0 "RT21" H 4400 4100 50  0000 C CNN
+F 1 "Thermistor" H 4150 4200 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 3610 50  0001 C CNN
+F 3 "" H 4150 3950 50  0001 C CNN
+	1    4150 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT51
 U 1 1 5C98182B
-P 10450 2950
-F 0 "RT51" H 10700 3100 50  0000 C CNN
-F 1 "Thermistor" H 10450 3200 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 2610 50  0001 C CNN
-F 3 "" H 10450 2950 50  0001 C CNN
-	1    10450 2950
+P 4150 3400
+F 0 "RT51" H 4400 3550 50  0000 C CNN
+F 1 "Thermistor" H 4150 3650 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 3060 50  0001 C CNN
+F 3 "" H 4150 3400 50  0001 C CNN
+	1    4150 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT32
 U 1 1 5C981877
-P 10450 2400
-F 0 "RT32" H 10700 2550 50  0000 C CNN
-F 1 "Thermistor" H 10450 2650 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 2060 50  0001 C CNN
-F 3 "" H 10450 2400 50  0001 C CNN
-	1    10450 2400
+P 4150 2850
+F 0 "RT32" H 4400 3000 50  0000 C CNN
+F 1 "Thermistor" H 4150 3100 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 2510 50  0001 C CNN
+F 3 "" H 4150 2850 50  0001 C CNN
+	1    4150 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT31
 U 1 1 5C981A17
-P 10450 1850
-F 0 "RT31" H 10700 2000 50  0000 C CNN
-F 1 "Thermistor" H 10450 2100 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 1510 50  0001 C CNN
-F 3 "" H 10450 1850 50  0001 C CNN
-	1    10450 1850
+P 4150 2300
+F 0 "RT31" H 4400 2450 50  0000 C CNN
+F 1 "Thermistor" H 4150 2550 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 1960 50  0001 C CNN
+F 3 "" H 4150 2300 50  0001 C CNN
+	1    4150 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT12
 U 1 1 5C981A65
-P 10450 1300
-F 0 "RT12" H 10700 1450 50  0000 C CNN
-F 1 "Thermistor" H 10450 1550 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 960 50  0001 C CNN
-F 3 "" H 10450 1300 50  0001 C CNN
-	1    10450 1300
+P 4150 1750
+F 0 "RT12" H 4400 1900 50  0000 C CNN
+F 1 "Thermistor" H 4150 2000 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 1410 50  0001 C CNN
+F 3 "" H 4150 1750 50  0001 C CNN
+	1    4150 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Thermistor RT11
 U 1 1 5C981AEB
-P 10450 750
-F 0 "RT11" H 10700 900 50  0000 C CNN
-F 1 "Thermistor" H 10450 1000 50  0000 C CNN
-F 2 "footprints:Thermistor" H 10470 410 50  0001 C CNN
-F 3 "" H 10450 750 50  0001 C CNN
-	1    10450 750 
+P 4150 1200
+F 0 "RT11" H 4400 1350 50  0000 C CNN
+F 1 "Thermistor" H 4150 1450 50  0000 C CNN
+F 2 "footprints:Thermistor" H 4170 860 50  0001 C CNN
+F 3 "" H 4150 1200 50  0001 C CNN
+	1    4150 1200
 	1    0    0    -1  
 $EndComp
-Text Label 3150 900  2    50   ~ 0
+Text Label 10300 850  2    50   ~ 0
 MODULE10_TEMP2_R
-Text Label 3150 1450 2    50   ~ 0
+Text Label 10300 1400 2    50   ~ 0
 MODULE10_TEMP1_R
-Text Label 3150 2000 2    50   ~ 0
+Text Label 10300 1950 2    50   ~ 0
 MODULE8_TEMP2_R
-Text Label 3150 2550 2    50   ~ 0
+Text Label 10300 2500 2    50   ~ 0
 MODULE8_TEMP1_R
-Text Label 3150 3100 2    50   ~ 0
+Text Label 10300 3050 2    50   ~ 0
 MODULE9_TEMP2_R
-Text Label 3150 3650 2    50   ~ 0
+Text Label 10300 3600 2    50   ~ 0
 MODULE9_TEMP1_R
-Text Label 3150 4200 2    50   ~ 0
+Text Label 10300 4150 2    50   ~ 0
 MODULE7_TEMP2_R
-Text Label 3150 4750 2    50   ~ 0
+Text Label 10300 4700 2    50   ~ 0
 MODULE7_TEMP1_R
-Text Label 3150 5300 2    50   ~ 0
+Text Label 10300 5250 2    50   ~ 0
 MODULE6_TEMP1_R
-Text Label 3150 5850 2    50   ~ 0
+Text Label 10300 5800 2    50   ~ 0
 MODULE6_TEMP2_R
-Text Label 10150 750  2    50   ~ 0
+Text Label 3850 1200 2    50   ~ 0
 MODULE1_TEMP1_L
-Text Label 10150 1300 2    50   ~ 0
+Text Label 3850 1750 2    50   ~ 0
 MODULE1_TEMP2_L
-Text Label 10150 1850 2    50   ~ 0
+Text Label 3850 2300 2    50   ~ 0
 MODULE3_TEMP1_L
-Text Label 10150 2400 2    50   ~ 0
+Text Label 3850 2850 2    50   ~ 0
 MODULE3_TEMP2_L
-Text Label 10150 2950 2    50   ~ 0
+Text Label 3850 3400 2    50   ~ 0
 MODULE5_TEMP1_L
-Text Label 10150 3500 2    50   ~ 0
+Text Label 3850 3950 2    50   ~ 0
 MODULE2_TEMP1_L
-Text Label 10150 4050 2    50   ~ 0
+Text Label 3850 4500 2    50   ~ 0
 MODULE2_TEMP2_L
-Text Label 10150 4600 2    50   ~ 0
+Text Label 3850 5050 2    50   ~ 0
 MODULE4_TEMP1_L
-Text Label 10150 5150 2    50   ~ 0
+Text Label 3850 5600 2    50   ~ 0
 MODULE4_TEMP2_L
-Text Label 10150 5700 2    54   ~ 0
+Text Label 3850 6150 2    54   ~ 0
 MODULE5_TEMP2_L
-Text Label 10850 6000 0    50   ~ 0
-GND_R
-Wire Notes Line
-	4250 500  4250 6400
-Wire Notes Line
-	5050 500  10000 500 
+Text Label 4550 6450 0    50   ~ 0
+GND_L
 Wire Notes Line
 	6800 6500 10000 6500
-Wire Notes Line
-	500  6400 500  500 
-Wire Notes Line
-	500  6400 4250 6400
-Wire Notes Line
-	500  500  4250 500 
 Text Notes 5150 7000 0    50   ~ 0
 Traces from left structural to peripheral
 $Comp
 L formula:Bolt_connect_4-40 B10
 U 1 1 5C98DD24
-P 1950 4700
-F 0 "B10" H 2169 4746 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 2169 4655 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1850 4750 50  0001 C CNN
-F 3 "" H 1950 4850 50  0001 C CNN
-	1    1950 4700
-	1    0    0    -1  
+P 8250 4750
+F 0 "B10" H 8469 4796 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8469 4705 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8150 4800 50  0001 C CNN
+F 3 "" H 8250 4900 50  0001 C CNN
+	1    8250 4750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B8
 U 1 1 5C98DDCC
-P 1950 5000
-F 0 "B8" H 2169 5046 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 2169 4955 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1850 5050 50  0001 C CNN
-F 3 "" H 1950 5150 50  0001 C CNN
-	1    1950 5000
-	1    0    0    -1  
+P 8250 5050
+F 0 "B8" H 8469 5096 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8469 5005 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8150 5100 50  0001 C CNN
+F 3 "" H 8250 5200 50  0001 C CNN
+	1    8250 5050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B7
 U 1 1 5C98DF3A
-P 1950 5300
-F 0 "B7" H 2169 5346 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 2169 5255 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1850 5350 50  0001 C CNN
-F 3 "" H 1950 5450 50  0001 C CNN
-	1    1950 5300
-	1    0    0    -1  
+P 8250 5350
+F 0 "B7" H 8469 5396 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8469 5305 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8150 5400 50  0001 C CNN
+F 3 "" H 8250 5500 50  0001 C CNN
+	1    8250 5350
+	-1   0    0    -1  
 $EndComp
-Text Label 1150 4700 2    50   ~ 0
+Text Label 9050 4750 0    50   ~ 0
 CELL9_VOLT_R
-Text Label 1150 5000 2    50   ~ 0
+Text Label 9050 5050 0    50   ~ 0
 CELL7_VOLT_R
-Text Label 1150 5300 2    50   ~ 0
+Text Label 9050 5350 0    50   ~ 0
 CELL6_VOLT_R
 $Comp
 L formula:Bolt_connect_4-40 B6
 U 1 1 5C98E525
-P 1950 5600
-F 0 "B6" H 2169 5646 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 2169 5555 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1850 5650 50  0001 C CNN
-F 3 "" H 1950 5750 50  0001 C CNN
-	1    1950 5600
-	1    0    0    -1  
+P 8250 5650
+F 0 "B6" H 8469 5696 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8469 5605 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8150 5700 50  0001 C CNN
+F 3 "" H 8250 5800 50  0001 C CNN
+	1    8250 5650
+	-1   0    0    -1  
 $EndComp
-Text Label 1150 5600 2    50   ~ 0
+Text Label 9050 5650 0    50   ~ 0
 CELL5_VOLT_R
 $Comp
 L formula:Bolt_connect_4-40 B1
 U 1 1 5C98EE8D
-P 8600 2700
-F 0 "B1" H 8819 2746 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8819 2655 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 8500 2750 50  0001 C CNN
-F 3 "" H 8600 2850 50  0001 C CNN
-	1    8600 2700
+P 1900 3950
+F 0 "B1" H 2119 3996 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2119 3905 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 4000 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+	1    1900 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B12
 U 1 1 5C98EE93
-P 8600 3500
-F 0 "B12" H 8819 3546 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8819 3455 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 8500 3550 50  0001 C CNN
-F 3 "" H 8600 3650 50  0001 C CNN
-	1    8600 3500
+P 1900 4750
+F 0 "B12" H 2119 4796 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2119 4705 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 4800 50  0001 C CNN
+F 3 "" H 1900 4900 50  0001 C CNN
+	1    1900 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B3
 U 1 1 5C98EE99
-P 8600 3800
-F 0 "B3" H 8819 3846 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8819 3755 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 8500 3850 50  0001 C CNN
-F 3 "" H 8600 3950 50  0001 C CNN
-	1    8600 3800
+P 1900 5050
+F 0 "B3" H 2119 5096 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2119 5005 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 5100 50  0001 C CNN
+F 3 "" H 1900 5200 50  0001 C CNN
+	1    1900 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B5
 U 1 1 5C98EE9F
-P 8600 4100
-F 0 "B5" H 8819 4146 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8819 4055 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 8500 4150 50  0001 C CNN
-F 3 "" H 8600 4250 50  0001 C CNN
-	1    8600 4100
+P 1900 5350
+F 0 "B5" H 2119 5396 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2119 5305 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 5400 50  0001 C CNN
+F 3 "" H 1900 5500 50  0001 C CNN
+	1    1900 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B2
 U 1 1 5C98EEA5
-P 8600 4400
-F 0 "B2" H 8819 4446 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8819 4355 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 8500 4450 50  0001 C CNN
-F 3 "" H 8600 4550 50  0001 C CNN
-	1    8600 4400
+P 1900 5650
+F 0 "B2" H 2119 5696 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2119 5605 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 5700 50  0001 C CNN
+F 3 "" H 1900 5800 50  0001 C CNN
+	1    1900 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B4
 U 1 1 5C98EEAB
-P 8600 4700
-F 0 "B4" H 8819 4746 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 8819 4655 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 8500 4750 50  0001 C CNN
-F 3 "" H 8600 4850 50  0001 C CNN
-	1    8600 4700
+P 1900 5950
+F 0 "B4" H 2119 5996 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 2119 5905 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 1800 6000 50  0001 C CNN
+F 3 "" H 1900 6100 50  0001 C CNN
+	1    1900 5950
 	1    0    0    -1  
 $EndComp
-Text Label 7800 2700 2    50   ~ 0
+Text Label 1100 3950 2    50   ~ 0
 CELL0_VOLT_L
-Text Label 7800 3150 2    50   ~ 0
+Text Label 1100 4400 2    50   ~ 0
 V-_L
-Text Label 7800 3800 2    50   ~ 0
+Text Label 1100 5050 2    50   ~ 0
 CELL2_VOLT_L
-Text Label 7800 4100 2    50   ~ 0
+Text Label 1100 5350 2    50   ~ 0
 CELL4_VOLT_L
-Text Label 7800 4400 2    50   ~ 0
+Text Label 1100 5650 2    50   ~ 0
 CELL1_VOLT_L
-Text Label 7800 4700 2    50   ~ 0
+Text Label 1100 5950 2    50   ~ 0
 CELL3_VOLT_L
 $Comp
 L formula:MM_F_VT_20 J1
@@ -597,174 +587,172 @@ $EndComp
 $Comp
 L formula:Bolt_connect_4-40 B9
 U 1 1 5C9A9AD0
-P 1950 5900
-F 0 "B9" H 2169 5946 50  0000 L CNN
-F 1 "Bolt_connect_4-40" H 2169 5855 50  0000 L CNN
-F 2 "footprints:Bolt_connect_4-40_round" H 1850 5950 50  0001 C CNN
-F 3 "" H 1950 6050 50  0001 C CNN
-	1    1950 5900
-	1    0    0    -1  
+P 8250 5950
+F 0 "B9" H 8469 5996 50  0000 L CNN
+F 1 "Bolt_connect_4-40" H 8469 5905 50  0000 L CNN
+F 2 "footprints:Bolt_connect_4-40_round" H 8150 6000 50  0001 C CNN
+F 3 "" H 8250 6100 50  0001 C CNN
+	1    8250 5950
+	-1   0    0    -1  
 $EndComp
-Text Label 1150 5900 2    50   ~ 0
+Text Label 9050 5950 0    50   ~ 0
 CELL8_VOLT_R
-Text Label 7750 3500 2    50   ~ 0
+Text Label 1050 4750 2    50   ~ 0
 V+_R
 Wire Wire Line
-	7750 3500 7800 3500
-Text Label 7800 2400 2    50   ~ 0
+	1050 4750 1100 4750
+Text Label 1100 3650 2    50   ~ 0
 CELL10_VOLT_R
 NoConn ~ 1350 2850
 $Comp
 L formula:200mA_Fuse F10
 U 1 1 5C96F1D5
-P 1450 4700
-F 0 "F10" H 1450 4925 50  0000 C CNN
-F 1 "200mA_Fuse" H 1450 4834 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 1400 4700 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 4700 50  0001 C CNN
-	1    1450 4700
-	1    0    0    -1  
+P 8750 4750
+F 0 "F10" H 8750 4975 50  0000 C CNN
+F 1 "200mA_Fuse" H 8750 4884 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8700 4750 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8700 4750 50  0001 C CNN
+	1    8750 4750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F8
 U 1 1 5C9719C1
-P 1450 5000
-F 0 "F8" H 1450 5225 50  0000 C CNN
-F 1 "200mA_Fuse" H 1450 5134 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 1400 5000 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5000 50  0001 C CNN
-	1    1450 5000
-	1    0    0    -1  
+P 8750 5050
+F 0 "F8" H 8750 5275 50  0000 C CNN
+F 1 "200mA_Fuse" H 8750 5184 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8700 5050 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8700 5050 50  0001 C CNN
+	1    8750 5050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F7
 U 1 1 5C971A27
-P 1450 5300
-F 0 "F7" H 1450 5525 50  0000 C CNN
-F 1 "200mA_Fuse" H 1450 5434 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 1400 5300 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5300 50  0001 C CNN
-	1    1450 5300
-	1    0    0    -1  
+P 8750 5350
+F 0 "F7" H 8750 5575 50  0000 C CNN
+F 1 "200mA_Fuse" H 8750 5484 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8700 5350 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8700 5350 50  0001 C CNN
+	1    8750 5350
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F6
 U 1 1 5C971A8B
-P 1450 5600
-F 0 "F6" H 1450 5825 50  0000 C CNN
-F 1 "200mA_Fuse" H 1450 5734 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 1400 5600 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5600 50  0001 C CNN
-	1    1450 5600
-	1    0    0    -1  
+P 8750 5650
+F 0 "F6" H 8750 5875 50  0000 C CNN
+F 1 "200mA_Fuse" H 8750 5784 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8700 5650 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8700 5650 50  0001 C CNN
+	1    8750 5650
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F9
 U 1 1 5C971AF5
-P 1450 5900
-F 0 "F9" H 1450 6125 50  0000 C CNN
-F 1 "200mA_Fuse" H 1450 6034 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 1400 5900 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1400 5900 50  0001 C CNN
-	1    1450 5900
-	1    0    0    -1  
+P 8750 5950
+F 0 "F9" H 8750 6175 50  0000 C CNN
+F 1 "200mA_Fuse" H 8750 6084 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 8700 5950 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8700 5950 50  0001 C CNN
+	1    8750 5950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F1
 U 1 1 5C972F6A
-P 8100 2700
-F 0 "F1" H 8100 2925 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 2834 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 2700 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 2700 50  0001 C CNN
-	1    8100 2700
+P 1400 3950
+F 0 "F1" H 1400 4175 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 4084 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 3950 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 3950 50  0001 C CNN
+	1    1400 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F12
 U 1 1 5C973FDD
-P 8100 3500
-F 0 "F12" H 8100 3725 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 3634 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 3500 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 3500 50  0001 C CNN
-	1    8100 3500
+P 1400 4750
+F 0 "F12" H 1400 4975 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 4884 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 4750 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 4750 50  0001 C CNN
+	1    1400 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F3
 U 1 1 5C97404D
-P 8100 3800
-F 0 "F3" H 8100 4025 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 3934 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 3800 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 3800 50  0001 C CNN
-	1    8100 3800
+P 1400 5050
+F 0 "F3" H 1400 5275 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 5184 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 5050 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 5050 50  0001 C CNN
+	1    1400 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F5
 U 1 1 5C9740BD
-P 8100 4100
-F 0 "F5" H 8100 4325 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 4234 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 4100 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 4100 50  0001 C CNN
-	1    8100 4100
+P 1400 5350
+F 0 "F5" H 1400 5575 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 5484 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 5350 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 5350 50  0001 C CNN
+	1    1400 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F2
 U 1 1 5C974135
-P 8100 4400
-F 0 "F2" H 8100 4625 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 4534 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 4400 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 4400 50  0001 C CNN
-	1    8100 4400
+P 1400 5650
+F 0 "F2" H 1400 5875 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 5784 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 5650 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 5650 50  0001 C CNN
+	1    1400 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F4
 U 1 1 5C9741D4
-P 8100 4700
-F 0 "F4" H 8100 4925 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 4834 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 4700 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 4700 50  0001 C CNN
-	1    8100 4700
+P 1400 5950
+F 0 "F4" H 1400 6175 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 6084 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 5950 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 5950 50  0001 C CNN
+	1    1400 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L formula:200mA_Fuse F11
 U 1 1 5C9759A0
-P 8100 2400
-F 0 "F11" H 8100 2625 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 2534 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 2400 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 2400 50  0001 C CNN
-	1    8100 2400
+P 1400 3650
+F 0 "F11" H 1400 3875 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 3784 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 3650 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 3650 50  0001 C CNN
+	1    1400 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 2400 8400 2700
-Connection ~ 8400 2700
+	1700 3650 1700 3950
+Connection ~ 1700 3950
 $Comp
 L formula:200mA_Fuse F13
 U 1 1 5C97756F
-P 8100 3150
-F 0 "F13" H 8100 3375 50  0000 C CNN
-F 1 "200mA_Fuse" H 8100 3284 50  0000 C CNN
-F 2 "footprints:Fuse_1812" H 8050 3150 50  0001 C CNN
-F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 8050 3150 50  0001 C CNN
-	1    8100 3150
+P 1400 4400
+F 0 "F13" H 1400 4625 50  0000 C CNN
+F 1 "200mA_Fuse" H 1400 4534 50  0000 C CNN
+F 2 "footprints:Fuse_1812" H 1350 4400 50  0001 C CNN
+F 3 "https://www.belfuse.com/resources/CircuitProtection/datasheets/0ZCG%20Nov2016.pdf" H 1350 4400 50  0001 C CNN
+	1    1400 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 3150 8400 3500
-Connection ~ 8400 3500
-Text Label 5950 2550 0    50   ~ 0
-GND_R
+	1700 4400 1700 4750
+Connection ~ 1700 4750
 Text Label 5950 3250 0    50   ~ 0
 CELL10_VOLT_R
 Text Label 5950 3650 0    50   ~ 0
@@ -796,7 +784,7 @@ MODULE6_TEMP1_R
 Text Label 5950 4650 0    50   ~ 0
 MODULE6_TEMP2_R
 Text Label 5950 3450 0    50   ~ 0
-V+_R
+V-_R
 Text Label 5950 5650 0    50   ~ 0
 CELL5_VOLT_R
 Text Label 5950 5350 0    50   ~ 0
@@ -826,7 +814,7 @@ MODULE1_TEMP1_R
 Text Label 5950 5250 0    50   ~ 0
 MODULE1_TEMP2_R
 Text Label 5950 6550 0    50   ~ 0
-V-_R
+V+_R
 Text Label 5950 6250 0    50   ~ 0
 CELL1_VOLT_R
 Text Label 5950 6450 0    50   ~ 0
@@ -835,76 +823,40 @@ Text Label 5950 6750 0    50   ~ 0
 GND_R
 Text Label 5950 6650 0    50   ~ 0
 VREG_R
-Text Label 5950 850  0    50   ~ 0
-V+_R
-Text Label 5950 950  0    50   ~ 0
-CELL10_VOLT_R
-Text Label 5950 1250 0    50   ~ 0
-CELL9_VOLT_R
-Text Label 5950 1550 0    50   ~ 0
-CELL8_VOLT_R
-Text Label 5950 1850 0    50   ~ 0
-CELL7_VOLT_R
-Text Label 5950 2150 0    50   ~ 0
-CELL6_VOLT_R
-Text Label 5950 2450 0    50   ~ 0
-CELL5_VOLT_R
-Text Label 5950 1150 0    50   ~ 0
-MODULE10_TEMP1_R
-Text Label 5950 1050 0    50   ~ 0
-MODULE10_TEMP2_R
-Text Label 5950 1350 0    50   ~ 0
-MODULE9_TEMP2_R
-Text Label 5950 1450 0    50   ~ 0
-MODULE9_TEMP1_R
-Text Label 5950 1750 0    50   ~ 0
-MODULE8_TEMP1_R
-Text Label 5950 1650 0    50   ~ 0
-MODULE8_TEMP2_R
-Text Label 5950 1950 0    50   ~ 0
-MODULE7_TEMP2_R
-Text Label 5950 2050 0    50   ~ 0
-MODULE7_TEMP1_R
-Text Label 5950 2350 0    50   ~ 0
-MODULE6_TEMP1_R
-Text Label 5950 2250 0    50   ~ 0
-MODULE6_TEMP2_R
-Text Label 1350 2650 0    50   ~ 0
+Text Label 1350 2550 0    50   ~ 0
 GND_L
 Text Label 1350 950  0    50   ~ 0
-V+_L
+V-_L
 Text Label 1350 1050 0    50   ~ 0
-CELL10_VOLT_L
+CELL0_VOLT_L
 Text Label 1350 1350 0    50   ~ 0
-CELL9_VOLT_L
+CELL1_VOLT_L
 Text Label 1350 1650 0    50   ~ 0
-CELL8_VOLT_L
+CELL2_VOLT_L
 Text Label 1350 1950 0    50   ~ 0
-CELL7_VOLT_L
+CELL3_VOLT_L
 Text Label 1350 2250 0    50   ~ 0
-CELL6_VOLT_L
-Text Label 1350 2550 0    50   ~ 0
-CELL5_VOLT_L
+CELL4_VOLT_L
 Text Label 1350 1250 0    50   ~ 0
-MODULE10_TEMP1_L
+MODULE1_TEMP1_L
 Text Label 1350 1150 0    50   ~ 0
-MODULE10_TEMP2_L
+MODULE1_TEMP2_L
 Text Label 1350 1450 0    50   ~ 0
-MODULE9_TEMP2_L
+MODULE2_TEMP2_L
 Text Label 1350 1550 0    50   ~ 0
-MODULE9_TEMP1_L
+MODULE2_TEMP1_L
 Text Label 1350 1850 0    50   ~ 0
-MODULE8_TEMP1_L
+MODULE3_TEMP1_L
 Text Label 1350 1750 0    50   ~ 0
-MODULE8_TEMP2_L
+MODULE3_TEMP2_L
 Text Label 1350 2050 0    50   ~ 0
-MODULE7_TEMP2_L
+MODULE4_TEMP2_L
 Text Label 1350 2150 0    50   ~ 0
-MODULE7_TEMP1_L
+MODULE4_TEMP1_L
 Text Label 1350 2450 0    50   ~ 0
-MODULE6_TEMP1_L
+MODULE5_TEMP1_L
 Text Label 1350 2350 0    50   ~ 0
-MODULE6_TEMP2_L
+MODULE5_TEMP2_L
 NoConn ~ 5950 2650
 NoConn ~ 5950 2750
 NoConn ~ 1350 2750
@@ -923,4 +875,44 @@ Wire Notes Line
 	5150 2900 7200 2900
 Text Notes 7150 6250 1    50   ~ 0
 These are locked to BMS Peripheral
+NoConn ~ 1350 2650
+Text Label 5950 2450 0    50   ~ 0
+GND_R
+Text Label 5950 850  0    50   ~ 0
+V-_R
+Text Label 5950 950  0    50   ~ 0
+CELL0_VOLT_R
+Text Label 5950 1250 0    50   ~ 0
+CELL1_VOLT_R
+Text Label 5950 1550 0    50   ~ 0
+CELL2_VOLT_R
+Text Label 5950 1850 0    50   ~ 0
+CELL3_VOLT_R
+Text Label 5950 2150 0    50   ~ 0
+CELL4_VOLT_R
+Text Label 5950 1150 0    50   ~ 0
+MODULE1_TEMP1_R
+Text Label 5950 1050 0    50   ~ 0
+MODULE1_TEMP2_R
+Text Label 5950 1350 0    50   ~ 0
+MODULE2_TEMP2_R
+Text Label 5950 1450 0    50   ~ 0
+MODULE2_TEMP1_R
+Text Label 5950 1750 0    50   ~ 0
+MODULE3_TEMP1_R
+Text Label 5950 1650 0    50   ~ 0
+MODULE3_TEMP2_R
+Text Label 5950 1950 0    50   ~ 0
+MODULE4_TEMP2_R
+Text Label 5950 2050 0    50   ~ 0
+MODULE4_TEMP1_R
+Text Label 5950 2350 0    50   ~ 0
+MODULE5_TEMP1_R
+Text Label 5950 2250 0    50   ~ 0
+MODULE5_TEMP2_R
+NoConn ~ 5950 2550
+Text Notes 1650 3650 0    50   ~ 0
+Actually on right side
+Text Notes 1650 4400 0    50   ~ 0
+Actually on right side
 $EndSCHEMATC
