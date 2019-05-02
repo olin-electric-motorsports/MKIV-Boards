@@ -78,15 +78,15 @@ Text Label 6669 1918 0    50   ~ 0
 TSAL+_G
 Text Label 6669 1818 0    50   ~ 0
 TSAL-_G
-Text Label 4277 1754 0    50   ~ 0
+Text Label 4275 1755 0    50   ~ 0
 12V
-Text Label 4277 2054 0    50   ~ 0
+Text Label 4275 2055 0    50   ~ 0
 CAN_LOW
-Text Label 4277 1954 0    50   ~ 0
+Text Label 4275 1955 0    50   ~ 0
 CAN_HIGH
-Text Label 4277 1254 0    50   ~ 0
+Text Label 4275 1255 0    50   ~ 0
 FAN_PWM
-Text Label 4277 1354 0    50   ~ 0
+Text Label 4275 1355 0    50   ~ 0
 BSPD_Current_sense
 Text Label 6669 1718 0    50   ~ 0
 CAN_LOW
@@ -102,17 +102,6 @@ Text Label 6669 2918 0    50   ~ 0
 MOSI_BMS
 Text Label 6669 3418 0    50   ~ 0
 5V_BMS
-$Comp
-L power:GND #PWR0101
-U 1 1 5C781E66
-P 5022 2214
-F 0 "#PWR0101" H 5022 1964 50  0001 C CNN
-F 1 "GND" H 5027 2041 50  0000 C CNN
-F 2 "" H 5022 2214 50  0001 C CNN
-F 3 "" H 5022 2214 50  0001 C CNN
-	1    5022 2214
-	1    0    0    -1  
-$EndComp
 Text Label 6669 2818 0    50   ~ 0
 LED1_BMS
 Text Label 6669 3118 0    50   ~ 0
@@ -319,31 +308,6 @@ Text Notes 5265 5340 0    50   ~ 0
 (out, HVD -> MP)
 Text Notes 5260 5435 0    50   ~ 0
 (in, HVD -> MP)
-Wire Wire Line
-	5007 2754 5007 2814
-$Comp
-L power:GND #PWR0109
-U 1 1 5C786AEC
-P 5007 2814
-F 0 "#PWR0109" H 5007 2564 50  0001 C CNN
-F 1 "GND" H 5012 2641 50  0000 C CNN
-F 2 "" H 5007 2814 50  0001 C CNN
-F 3 "" H 5007 2814 50  0001 C CNN
-	1    5007 2814
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5022 1054 5022 1654
-Connection ~ 5022 1654
-Wire Wire Line
-	4277 1854 5022 1854
-Wire Wire Line
-	5022 1654 5022 1854
-Connection ~ 5022 1854
-Wire Wire Line
-	4277 1054 5022 1054
-Wire Wire Line
-	4277 1654 5022 1654
 Text Notes 5092 1879 0    50   ~ 0
 pin 9, CAN GND
 Text Notes 3520 5895 0    50   ~ 0
@@ -358,15 +322,15 @@ Text Label 2955 6005 0    50   ~ 0
 Shutdown_HVD
 Text Label 2955 6105 0    50   ~ 0
 Shutdown_MP
-Text Label 4277 3154 0    50   ~ 0
+Text Label 4275 3155 0    50   ~ 0
 Shutdown_E-STOP
-Text Label 4277 2554 0    50   ~ 0
+Text Label 4275 2555 0    50   ~ 0
 5V_AIR
 Text Notes 5172 2714 0    50   ~ 0
 cooling pressure +\n\ncooling pressure -
-Text Label 4277 3554 0    50   ~ 0
+Text Label 4275 3555 0    50   ~ 0
 Cooling_pressure_sense
-Text Label 4277 2254 0    50   ~ 0
+Text Label 4275 2255 0    50   ~ 0
 12V
 Wire Wire Line
 	2955 6405 3720 6405
@@ -383,19 +347,10 @@ F 3 "" H 3720 6500 50  0001 C CNN
 	1    3720 6500
 	1    0    0    -1  
 $EndComp
-Text Label 4277 2954 0    50   ~ 0
+Text Label 4275 2955 0    50   ~ 0
 Shutdown_Final
-Text Label 4277 3354 0    50   ~ 0
+Text Label 4275 3355 0    50   ~ 0
 Shutdown_IMD
-Wire Wire Line
-	4277 2754 5007 2754
-Wire Wire Line
-	4277 2154 5022 2154
-Wire Wire Line
-	5022 1854 5022 2154
-Wire Wire Line
-	5022 2154 5022 2214
-Connection ~ 5022 2154
 $Comp
 L formula:SS-126-G-2 J7
 U 1 1 5C9AF490
@@ -413,18 +368,18 @@ $EndComp
 $Comp
 L formula:SS-126-G-2 J8
 U 1 1 5C9B15E7
-P 4127 2154
-F 0 "J8" H 4083 3501 60  0000 C CNN
-F 1 "SS-126-G-2" H 4083 3395 60  0000 C CNN
-F 2 "footprints:26pos_screwsocket_.1in" H 3927 3254 60  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/ss.pdf" H 4027 3354 60  0001 C CNN
-F 4 "SAMTEC" H 4227 3554 60  0001 C CNN "MFN"
-F 5 "SS-126-G-2" H 4327 3654 60  0001 C CNN "MPN"
-F 6 "https://www.samtec.com/products/ss-126-g-2" H 4127 3454 60  0001 C CNN "PurchasingLink"
-	1    4127 2154
+P 4125 2155
+F 0 "J8" H 4081 3502 60  0000 C CNN
+F 1 "SS-126-G-2" H 4081 3396 60  0000 C CNN
+F 2 "footprints:26pos_screwsocket_.1in" H 3925 3255 60  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ss.pdf" H 4025 3355 60  0001 C CNN
+F 4 "SAMTEC" H 4225 3555 60  0001 C CNN "MFN"
+F 5 "SS-126-G-2" H 4325 3655 60  0001 C CNN "MPN"
+F 6 "https://www.samtec.com/products/ss-126-g-2" H 4125 3455 60  0001 C CNN "PurchasingLink"
+	1    4125 2155
 	1    0    0    -1  
 $EndComp
-Text Label 4277 1154 0    50   ~ 0
+Text Label 4275 1155 0    50   ~ 0
 12V
 Wire Wire Line
 	4710 4945 6300 4945
@@ -442,4 +397,101 @@ F 6 "https://www.digikey.com/product-detail/en/molex/0430451012/WM1793-ND/252506
 	1    4460 5195
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4275 1055 5010 1055
+Wire Wire Line
+	5010 1020 5010 1055
+Connection ~ 5010 1055
+Wire Wire Line
+	4275 1655 5010 1655
+Wire Wire Line
+	5010 1055 5010 1655
+Connection ~ 5010 1655
+Wire Wire Line
+	5010 1655 5010 1855
+Wire Wire Line
+	4275 1855 5010 1855
+Connection ~ 5010 1855
+Wire Wire Line
+	4275 2155 5010 2155
+$Comp
+L power:GND #PWR0101
+U 1 1 5C781E66
+P 5010 2215
+F 0 "#PWR0101" H 5010 1965 50  0001 C CNN
+F 1 "GND" H 5015 2042 50  0000 C CNN
+F 2 "" H 5010 2215 50  0001 C CNN
+F 3 "" H 5010 2215 50  0001 C CNN
+	1    5010 2215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5010 1855 5010 2155
+Connection ~ 5010 2155
+Wire Wire Line
+	5010 2155 5010 2215
+$Comp
+L power:GND #PWR0102
+U 1 1 5CCA8A2E
+P 4995 2860
+F 0 "#PWR0102" H 4995 2610 50  0001 C CNN
+F 1 "GND" H 5000 2687 50  0000 C CNN
+F 2 "" H 4995 2860 50  0001 C CNN
+F 3 "" H 4995 2860 50  0001 C CNN
+	1    4995 2860
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 2755 4995 2755
+Wire Wire Line
+	4995 2755 4995 2860
+$Comp
+L formula:MicroFit_V_2 J6
+U 1 1 5CCA9351
+P 2390 2575
+F 0 "J6" H 2446 2850 50  0000 C CNN
+F 1 "MicroFit_V_2" H 2446 2759 50  0000 C CNN
+F 2 "footprints:MicroFit_V_2" H 2340 2775 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 2340 2775 50  0001 C CNN
+F 4 "MFN" H 2490 2825 50  0001 C CNN "DK"
+F 5 "WM10660-ND" H 2590 2925 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 2390 2725 50  0001 C CNN "PurchasingLink"
+	1    2390 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L formula:MicroFit_V_2 J9
+U 1 1 5CCA94D5
+P 2380 3115
+F 0 "J9" H 2436 3390 50  0000 C CNN
+F 1 "MicroFit_V_2" H 2436 3299 50  0000 C CNN
+F 2 "footprints:MicroFit_V_2" H 2330 3315 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 2330 3315 50  0001 C CNN
+F 4 "MFN" H 2480 3365 50  0001 C CNN "DK"
+F 5 "WM10660-ND" H 2580 3465 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 2380 3265 50  0001 C CNN "PurchasingLink"
+	1    2380 3115
+	1    0    0    -1  
+$EndComp
+Text Label 2630 3065 0    50   ~ 0
+12V
+$Comp
+L power:GND #PWR0104
+U 1 1 5CCA9626
+P 2630 3165
+F 0 "#PWR0104" H 2630 2915 50  0001 C CNN
+F 1 "GND" H 2635 2992 50  0000 C CNN
+F 2 "" H 2630 3165 50  0001 C CNN
+F 3 "" H 2630 3165 50  0001 C CNN
+	1    2630 3165
+	1    0    0    -1  
+$EndComp
+Text Label 4275 2655 0    50   ~ 0
+emeter_CAN_HIGH
+Text Label 4275 2855 0    50   ~ 0
+emeter_CAN_LOW
+Text Label 2640 2525 0    50   ~ 0
+emeter_CAN_HIGH
+Text Label 2640 2625 0    50   ~ 0
+emeter_CAN_LOW
 $EndSCHEMATC

@@ -1,6 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:external_board-cache
-LIBS:internal_board-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -195,8 +193,6 @@ Text Notes 3045 2760 0    50   ~ 0
 cooling pressure +\n\ncooling pressure -
 Text Label 2150 2700 0    50   ~ 0
 Cooling_pressure_sense
-Text Label 2150 2300 0    50   ~ 0
-12V
 Wire Wire Line
 	5715 2275 5715 2665
 Wire Wire Line
@@ -263,13 +259,6 @@ Text Label 2150 2900 0    50   ~ 0
 Shutdown_IMD
 Wire Wire Line
 	2150 2800 2880 2800
-Wire Wire Line
-	2150 2200 2895 2200
-Wire Wire Line
-	2895 1900 2895 2200
-Wire Wire Line
-	2895 2200 2895 2260
-Connection ~ 2895 2200
 Text Label 6119 5048 0    50   ~ 0
 TSAL+_R
 Text Label 6119 4948 0    50   ~ 0
@@ -278,15 +267,15 @@ Text Label 6119 4848 0    50   ~ 0
 TSAL+_G
 Text Label 6119 4748 0    50   ~ 0
 TSAL-_G
-Text Label 3727 4684 0    50   ~ 0
+Text Label 3720 4685 0    50   ~ 0
 12V
-Text Label 3727 4984 0    50   ~ 0
+Text Label 3720 4985 0    50   ~ 0
 CAN_LOW
-Text Label 3727 4884 0    50   ~ 0
+Text Label 3720 4885 0    50   ~ 0
 CAN_HIGH
-Text Label 3727 4184 0    50   ~ 0
+Text Label 3720 4185 0    50   ~ 0
 FAN_PWM
-Text Label 3727 4284 0    50   ~ 0
+Text Label 3720 4285 0    50   ~ 0
 BSPD_Current_sense
 Text Label 6119 4648 0    50   ~ 0
 CAN_LOW
@@ -302,17 +291,6 @@ Text Label 6119 5848 0    50   ~ 0
 MOSI_BMS
 Text Label 6119 6348 0    50   ~ 0
 5V_BMS
-$Comp
-L power:GND #PWR02
-U 1 1 5C9AC58E
-P 4472 5144
-F 0 "#PWR02" H 4472 4894 50  0001 C CNN
-F 1 "GND" H 4477 4971 50  0000 C CNN
-F 2 "" H 4472 5144 50  0001 C CNN
-F 3 "" H 4472 5144 50  0001 C CNN
-	1    4472 5144
-	1    0    0    -1  
-$EndComp
 Text Label 6119 5748 0    50   ~ 0
 LED1_BMS
 Text Label 6119 6048 0    50   ~ 0
@@ -333,56 +311,22 @@ Text Label 6119 4448 0    50   ~ 0
 LED2_AIR
 Text Notes 4447 6074 0    50   ~ 0
 (out, E-stop -> HVD)
-Wire Wire Line
-	4457 5684 4457 5744
-$Comp
-L power:GND #PWR01
-U 1 1 5C9AC59F
-P 4457 5744
-F 0 "#PWR01" H 4457 5494 50  0001 C CNN
-F 1 "GND" H 4462 5571 50  0000 C CNN
-F 2 "" H 4457 5744 50  0001 C CNN
-F 3 "" H 4457 5744 50  0001 C CNN
-	1    4457 5744
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4472 3984 4472 4584
-Connection ~ 4472 4584
-Wire Wire Line
-	3727 4784 4472 4784
-Wire Wire Line
-	4472 4584 4472 4784
-Connection ~ 4472 4784
-Wire Wire Line
-	3727 3984 4472 3984
-Wire Wire Line
-	3727 4584 4472 4584
 Text Notes 4542 4809 0    50   ~ 0
 pin 9, CAN GND
-Text Label 3727 6084 0    50   ~ 0
+Text Label 3720 6085 0    50   ~ 0
 Shutdown_E-STOP
-Text Label 3727 5484 0    50   ~ 0
+Text Label 3720 5485 0    50   ~ 0
 5V_AIR
 Text Notes 4622 5644 0    50   ~ 0
 cooling pressure +\n\ncooling pressure -
-Text Label 3727 6484 0    50   ~ 0
+Text Label 3720 6485 0    50   ~ 0
 Cooling_pressure_sense
-Text Label 3727 5184 0    50   ~ 0
+Text Label 3720 5185 0    50   ~ 0
 12V
-Text Label 3727 5884 0    50   ~ 0
+Text Label 3720 5885 0    50   ~ 0
 Shutdown_Final
-Text Label 3727 6284 0    50   ~ 0
+Text Label 3720 6285 0    50   ~ 0
 Shutdown_IMD
-Wire Wire Line
-	3727 5684 4457 5684
-Wire Wire Line
-	3727 5084 4472 5084
-Wire Wire Line
-	4472 4784 4472 5084
-Wire Wire Line
-	4472 5084 4472 5144
-Connection ~ 4472 5084
 $Comp
 L formula:SS-126-G-2 J10
 U 1 1 5C9AC5BC
@@ -400,17 +344,70 @@ $EndComp
 $Comp
 L formula:SS-126-G-2 J9
 U 1 1 5C9AC5C6
-P 3577 5084
-F 0 "J9" H 3533 6431 60  0000 C CNN
-F 1 "SS-126-G-2" H 3533 6325 60  0000 C CNN
-F 2 "footprints:26pos_screwsocket_.1in" H 3377 6184 60  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/ss.pdf" H 3477 6284 60  0001 C CNN
-F 4 "SAMTEC" H 3677 6484 60  0001 C CNN "MFN"
-F 5 "SS-126-G-2" H 3777 6584 60  0001 C CNN "MPN"
-F 6 "https://www.samtec.com/products/ss-126-g-2" H 3577 6384 60  0001 C CNN "PurchasingLink"
-	1    3577 5084
+P 3570 5085
+F 0 "J9" H 3526 6432 60  0000 C CNN
+F 1 "SS-126-G-2" H 3526 6326 60  0000 C CNN
+F 2 "footprints:26pos_screwsocket_.1in" H 3370 6185 60  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ss.pdf" H 3470 6285 60  0001 C CNN
+F 4 "SAMTEC" H 3670 6485 60  0001 C CNN "MFN"
+F 5 "SS-126-G-2" H 3770 6585 60  0001 C CNN "MPN"
+F 6 "https://www.samtec.com/products/ss-126-g-2" H 3570 6385 60  0001 C CNN "PurchasingLink"
+	1    3570 5085
 	1    0    0    -1  
 $EndComp
-Text Label 3727 4084 0    50   ~ 0
+Text Label 3720 4085 0    50   ~ 0
 12V
+Wire Wire Line
+	2895 1900 2895 2260
+Text Label 2150 2200 0    50   ~ 0
+emeter_CAN_HIGH
+Text Label 2150 2300 0    50   ~ 0
+emeter_CAN_LOW
+Text Label 3720 5785 0    50   ~ 0
+emeter_CAN_LOW
+Text Label 3720 5585 0    50   ~ 0
+emeter_CAN_HIGH
+Wire Wire Line
+	3720 3985 4470 3985
+$Comp
+L power:GND #PWR0103
+U 1 1 5CCAB62C
+P 4500 4975
+F 0 "#PWR0103" H 4500 4725 50  0001 C CNN
+F 1 "GND" H 4505 4802 50  0000 C CNN
+F 2 "" H 4500 4975 50  0001 C CNN
+F 3 "" H 4500 4975 50  0001 C CNN
+	1    4500 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4470 4975 4500 4975
+Wire Wire Line
+	3720 4585 4470 4585
+Wire Wire Line
+	4470 3985 4470 4585
+Connection ~ 4470 4585
+Wire Wire Line
+	3720 4785 4470 4785
+Wire Wire Line
+	4470 4585 4470 4785
+Connection ~ 4470 4785
+Wire Wire Line
+	4470 4785 4470 4900
+Wire Wire Line
+	3720 5085 4235 5085
+Wire Wire Line
+	4235 5085 4235 4900
+Wire Wire Line
+	4235 4900 4395 4900
+Connection ~ 4470 4900
+Wire Wire Line
+	4470 4900 4470 4975
+Wire Wire Line
+	3720 5685 4395 5685
+Wire Wire Line
+	4395 5685 4395 4900
+Connection ~ 4395 4900
+Wire Wire Line
+	4395 4900 4470 4900
 $EndSCHEMATC

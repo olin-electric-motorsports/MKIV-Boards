@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/corey/Desktop/Formula/MKIV-Boards/Boards/AIR_Mount/AIR_Mount_Plus/AIR_Mount_Plus.sch)
-    (date "Sun 28 Apr 2019 04:56:26 PM EDT")
+    (date "Mon 29 Apr 2019 11:36:02 PM EDT")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -81,7 +81,7 @@
       (tstamp 5C7DD862))
     (comp (ref R1)
       (value R_10K_Ohmite)
-      (footprint footprints:RES_5S0)
+      (footprint footprints:10k_1000V)
       (datasheet https://www.ohmite.com/assets/docs/res_rw.pdf?r=false)
       (fields
         (field (name MFN) RW5S0FA10K0JE-ND)

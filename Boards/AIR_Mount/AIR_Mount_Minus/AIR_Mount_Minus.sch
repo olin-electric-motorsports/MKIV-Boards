@@ -133,7 +133,7 @@ U 1 1 5CB50A22
 P 3525 2225
 F 0 "R2" H 3775 1987 60  0000 C CNN
 F 1 "R_10K_Ohmite" H 3775 2093 60  0000 C CNN
-F 2 "footprints:RES_5S0" H 3775 1890 60  0001 C CNN
+F 2 "footprints:10k_1000V" H 3775 1890 60  0001 C CNN
 F 3 "https://www.ohmite.com/assets/docs/res_rw.pdf?r=false" H 3750 2375 60  0001 C CNN
 F 4 "https://www.digikey.bg/product-detail/en/ohmite/RW5S0FA10K0JE/RW5S0FA10K0JE-ND/3830231" H 3850 2475 50  0001 C CNN "PurchasingLink"
 F 5 "RW5S0FA10K0JE-ND" H 3950 2575 50  0001 C CNN "MFN"
