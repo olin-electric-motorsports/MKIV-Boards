@@ -2631,7 +2631,7 @@ MODULE6_TEMP1
 Text Label 6500 2850 0    50   ~ 0
 MODULE6_TEMP2
 Text Label 6500 1650 0    50   ~ 0
-V+
+V-
 Text Label 8600 1650 0    50   ~ 0
 CELL5_VOLT
 Text Label 8600 1350 0    50   ~ 0
@@ -2661,7 +2661,7 @@ MODULE1_TEMP1
 Text Label 8600 1250 0    50   ~ 0
 MODULE1_TEMP2
 Text Label 8600 2550 0    50   ~ 0
-V-
+V+
 Text Label 8600 2250 0    50   ~ 0
 CELL1_VOLT
 Text Label 8600 2450 0    50   ~ 0
