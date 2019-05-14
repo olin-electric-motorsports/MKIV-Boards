@@ -2122,7 +2122,7 @@ F 3 "" H 2090 3590 50  0001 C CNN
 	1    2090 3590
 	1    0    0    -1  
 $EndComp
-Text Label 4720 7750 0    50   ~ 0
+Text Label 4570 7750 0    50   ~ 0
 Cooling_Pump_LSD
 Text Label 3450 8350 0    50   ~ 0
 Brake_Pressure_Sense
@@ -2395,25 +2395,6 @@ F 6 "https://www.digikey.com/products/en?keywords=475-1410-1-ND" H 4970 8700 60 
 	1    4570 8200
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Brakelight_Shutdown_BSPD-rescue:R_1K-formula R36
-U 1 1 5C6DDBDA
-P 4570 7900
-F 0 "R36" H 4640 7946 50  0000 L CNN
-F 1 "R_1K-formula" H 4640 7855 50  0000 L CNN
-F 2 "footprints:R_0805_OEM" H 4500 7900 50  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4650 7900 50  0001 C CNN
-F 4 "DK" H 4570 7900 60  0001 C CNN "MFN"
-F 5 "RNCP0805FTD1K00CT-ND" H 4570 7900 60  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5050 8300 60  0001 C CNN "PurchasingLink"
-	1    4570 7900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 7750 4570 7750
-Wire Wire Line
-	4570 7750 4720 7750
-Connection ~ 4570 7750
 $Comp
 L power:GND #PWR041
 U 1 1 5C703C76
@@ -2971,4 +2952,20 @@ Wire Wire Line
 	8710 9480 8810 9480
 Text Label 5310 8380 0    50   ~ 0
 +12V
+Wire Wire Line
+	3450 7750 4570 7750
+$Comp
+L formula:R_1K R36
+U 1 1 5CE005EC
+P 4570 7900
+F 0 "R36" H 4640 7946 50  0000 L CNN
+F 1 "R_1K" H 4640 7855 50  0000 L CNN
+F 2 "footprints:R_0805_OEM" H 4500 7900 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 4650 7900 50  0001 C CNN
+F 4 "DK" H 4570 7900 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 4570 7900 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5050 8300 60  0001 C CNN "PurchasingLink"
+	1    4570 7900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
