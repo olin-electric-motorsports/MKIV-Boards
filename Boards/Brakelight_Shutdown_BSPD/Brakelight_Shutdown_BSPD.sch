@@ -1985,8 +1985,6 @@ Cooling_Pump_LSD
 Text Label 3450 8350 0    50   ~ 0
 Brake_Pressure_Sense
 Wire Notes Line
-	2730 990  9890 990 
-Wire Notes Line
 	2730 5640 9890 5640
 Wire Wire Line
 	1150 4770 2080 4770
@@ -2003,8 +2001,6 @@ F 3 "" H 2080 4680 50  0001 C CNN
 	1    2080 4680
 	1    0    0    -1  
 $EndComp
-Text Notes 2030 4920 0    39   ~ 0
-Brake_Pressure_Sense is an off board component \nthat measures the pressure being applied to the brakes. 
 Text Notes 3210 1580 0    98   ~ 0
 BSPD (Brake System Plausability Device)
 Wire Notes Line
@@ -2025,10 +2021,6 @@ F 3 "" H 5160 4390 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5160 4390
-Wire Notes Line
-	2730 990  2730 5640
-Wire Notes Line
-	9890 990  9890 5640
 Wire Wire Line
 	7960 3640 7960 4330
 Wire Wire Line
@@ -3042,6 +3034,12 @@ Wire Notes Line
 	10800 5150 16400 5150
 Text Notes 12100 6550 0    50   ~ 0
 OPEN CIRCUIT\nDETECTION
+Wire Notes Line
+	9890 990  9890 5640
+Wire Notes Line
+	2730 990  9890 990 
+Wire Notes Line
+	2730 990  2730 5640
 Text Notes 13600 5600 0    50   ~ 0
 GND SHORT\nDETECTION
 NoConn ~ 1150 2480
@@ -3056,4 +3054,6 @@ F 3 "" H 5310 8380 50  0001 C CNN
 	1    5310 8380
 	1    0    0    -1  
 $EndComp
+Text Notes 2030 4920 0    39   ~ 0
+Brake_Pressure_Sense is an off board component \nthat measures the pressure being applied to the brakes. 
 $EndSCHEMATC
