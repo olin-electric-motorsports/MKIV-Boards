@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:BMS_core-cache
 EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
@@ -2381,20 +2382,6 @@ Text Label 4350 2250 0    50   ~ 0
 RJ45_LED1
 Text Label 4350 2350 0    50   ~ 0
 RJ45_LED2
-$Comp
-L formula:MicroFit_RA_V_2 J4
-U 1 1 5CC0955D
-P 13600 3450
-F 0 "J4" H 13500 3500 50  0000 C CNN
-F 1 "MicroFit_RA_V_2" H 13600 3300 50  0000 C CNN
-F 2 "footprints:MicroFit_RA_V_2" H 13550 3650 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/430450200_sd.pdf" H 13550 3650 50  0001 C CNN
-F 4 "MFN" H 13700 3700 50  0001 C CNN "DK"
-F 5 "WM1865-ND" H 13800 3800 50  0001 C CNN "MPN"
-F 6 "https://www.digikey.com/product-detail/en/molex/0430450200/WM1813-ND/252526" H 13600 3600 50  0001 C CNN "PurchasingLink"
-	1    13600 3450
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 3000 5500 3000
 Wire Wire Line
@@ -2747,4 +2734,18 @@ GND SHORT\nDETECTION
 NoConn ~ 3750 2450
 NoConn ~ 3750 3750
 NoConn ~ 3750 3850
+$Comp
+L formula:MicroFit_V_2 J4
+U 1 1 5CE97BDE
+P 13600 3450
+F 0 "J4" H 13423 3501 50  0000 R CNN
+F 1 "MicroFit_V_2" H 13423 3410 50  0000 R CNN
+F 2 "footprints:MicroFit_V_2" H 13550 3650 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/430450225_sd.pdf" H 13550 3650 50  0001 C CNN
+F 4 "MFN" H 13700 3700 50  0001 C CNN "DK"
+F 5 "WM10660-ND" H 13800 3800 50  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/product-detail/en/molex/0430450225/WM10660-ND/3310180" H 13600 3600 50  0001 C CNN "PurchasingLink"
+	1    13600 3450
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
