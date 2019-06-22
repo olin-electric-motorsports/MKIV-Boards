@@ -1693,8 +1693,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 2500 5200 2500
 Wire Wire Line
-	5600 2400 5200 2400
-Wire Wire Line
 	5600 2300 5200 2300
 $Comp
 L power:VCC #PWR020
@@ -2443,4 +2441,25 @@ Wire Wire Line
 Wire Wire Line
 	5500 3000 5500 2900
 Connection ~ 5500 2900
+$Comp
+L formula:R_1K R?
+U 1 1 5CDD90D9
+P 5150 2050
+F 0 "R?" V 5230 2050 50  0000 C CNN
+F 1 "R_1K" V 5050 2050 50  0000 C CNN
+F 2 "footprints:R_0805_OEM" H 5080 2050 50  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" H 5230 2050 50  0001 C CNN
+F 4 "DK" H 5150 2050 60  0001 C CNN "MFN"
+F 5 "RNCP0805FTD1K00CT-ND" H 5150 2050 60  0001 C CNN "MPN"
+F 6 "https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND" H 5630 2450 60  0001 C CNN "PurchasingLink"
+	1    5150 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1900 5150 1900
+Connection ~ 5500 1900
+Wire Wire Line
+	5150 2400 5600 2400
+Wire Wire Line
+	5150 2200 5150 2400
 $EndSCHEMATC
